@@ -7,14 +7,12 @@ Created on Wed Jul  8 18:45:50 2020
 Beginner script template for some validations.
 """
 import json
-import numpy as np
-import pandas as pd
 from glob import glob
 import os
 
 
 def get_property_set(features_list):
-    #Check keys in each property element
+    #Check keys in each of the properties element
     prop_set = set()
     for ind, ft in enumerate(data_dict['features']):
       prop_keys = list(ft['properties'].keys())
@@ -23,7 +21,7 @@ def get_property_set(features_list):
     return prop_set
 
 def get_geometry_type_set(features_list):
-    #Get geometry type set from each element in features list
+    #Get geometry type values from features list
     geom_type_set = set()
     for ind, ft in enumerate(features_list):
       geom_type = ft['geometry']['type']
