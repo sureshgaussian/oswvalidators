@@ -1,7 +1,3 @@
-
-
-
-
 import numpy as np
 import os
 import pandas as pd
@@ -18,8 +14,7 @@ import pickle
 2 [ [1, 3], [2, 5]]
 3 [ [1, 4], [2, 6]]
 '''
-
-
+        
 def get_ways(features_list):
     '''
     Returns list of list of coordinates.
@@ -36,7 +31,7 @@ def get_coord_dict(coord_list):
     '''
     Returns dictionary of coordinate
     keys : unique coordinates
-    values : ways to which the coord belongs
+    values : all ways to which the coord belongs
     '''
     coord_dict = dict()
     for id, elem in enumerate(coord_list):
@@ -106,6 +101,40 @@ def get_way_from_subgraph(sgraph, df):
         way_set.update(s)        
     return list(way_set)
 
+def split_geojson_file(file):
+    '''
+    Splits the geojson file based on connectivity with with other ways
+    and save into two files :
+    1. file_connected.geojson (ways that are connected to atleast one other way)
+    2. file_disconnected.geojson (ways that are not connected to any other way)
+    ---
+    Args : file - .geojson file to be split 
+    Returns : None
+    '''
+    with open(file) as data_json:
+        data_dict = json.load(data_json)    
+    all_ways = get_ways(data_dict['features'])
+    
+    coord_dict = get_coord_dict(all_ways)
+    disconnected_way_ids = get_isolated_way_ids(all_ways, coord_dict)
+    connected_way_ids = set(np.arange(len(all_ways))) - set(disconnected_way_ids)   
+    
+    connected_ways = data_dict.copy()
+    connected_ways['features'] = []
+    disconnected_ways = data_dict.copy()
+    disconnected_ways['features'] = []
+    
+    disconnected_ways['features'] = [data_dict['features'][ind] for ind in isolated_way_ids]
+    connected_ways['features'] = [data_dict['features'][ind] for ind in connected_way_ids]
+    
+    with open(file.split('.')[0] + '_connected.geojson', 'w') as fp:
+        json.dump(connected_ways,fp, indent = 4)
+    with open(file.split('.')[0] + '_disconnected.geojson', 'w') as fp:
+        json.dump(disconnected_ways,fp, indent = 4) 
+    # print("Ways in connected.json : {}".format(len(connected_ways['features'])))
+    # print("Ways in disconnected.json : {}".format(len(disconnected_ways['features'])))
+
+
 if __name__ == '__main__':
     path = "E:\oswvalidators\OSW\TestData"
 #     path = "E:\MAGDEBURG\SURESH\OSW\OSW\TestData" # Change the path here to a relative one in the git folder structure
@@ -123,13 +152,16 @@ if __name__ == '__main__':
         Ways = get_ways(data_dict['features'])
         
         coord_dict = get_coord_dict(Ways)
-#         print("Coordinates Dictionary : \n", coord_dict)
+        # print("Coordinates Dictionary : \n", coord_dict)
         
         df = get_coord_df(Ways)
 #         print("DataFrame : \n{}".format(df))
         print("list : {} and df : {}".format(len(Ways), len(df.index)))
         
         isolated_way_ids = get_isolated_way_ids(Ways, coord_dict)
+        
+        split_geojson_file(file)
+        
 #         print(coord_dict.items())  
         Connected_Ways = Ways.copy()
         for x in sorted(isolated_way_ids, reverse = True):  
