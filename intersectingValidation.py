@@ -108,7 +108,7 @@ def intersectLineStringInValidFormat(dataDict,skipTag):
     '''
     
     dictToJsonID = {}
-    dictInvalidFormatID = {}
+    dictInvalidFormatID = []
     violatingWayFeatures = []
     dictSize = len(dataDict["features"])
     for iteratorI in range(dictSize):
@@ -120,7 +120,7 @@ def intersectLineStringInValidFormat(dataDict,skipTag):
         try:
             wayI = LineString(singleWayI)
         except:
-            dictInvalidFormatID[iteratorI] = iteratorI
+            dictInvalidFormatID.append(iteratorI)
             continue
         
         beginJ = iteratorI+1
@@ -141,9 +141,9 @@ def intersectLineStringInValidFormat(dataDict,skipTag):
                 if(wayI.touches(wayJ)!=True):
                     intersection = wayI.intersection(wayJ)
                     if(str(intersection) in dictToJsonID):
-                        dictToJsonID[str(intersection)].append({"way"+str(iteratorI):iteratorI,"way"+str(iteratorJ):iteratorJ})                
+                        dictToJsonID[str(intersection)].append([iteratorI,iteratorJ])                
                     else:
-                        dictToJsonID[str(intersection)] = {"way"+str(iteratorI):iteratorI,"way"+str(iteratorJ):iteratorJ}
+                        dictToJsonID[str(intersection)] = [iteratorI,iteratorJ]
                         
                     # for creating the violating way features appending to dictionary based on dictionary size
                     if(len(violatingWayFeatures)==0):
@@ -202,27 +202,27 @@ def jsonWrite(path,invalidWays):
         json.dump(invalidWays,fp, indent = 4)
         
 if __name__ == '__main__':
-    pathTest = os.path.join(os.getcwd(), "OSW\TestData")
-    os.chdir(pathTest)
-    path = pathTest + "\redmond.geojson"
-    dataDict = readJsonFile(path)
-    invalidWaysID,dictInvalidFormatID,violatingWayFeatures = intersectLineStringInValidFormat(dataDict,"brunnel")
-    pathWrite = pathTest + "\invalidWays.geojson"
-    pathWriteInvalidFormat = pathTest + "\InvalidFormat.geojson"
-    invalidGeoJsonIntersection = pathTest+ "\invalidGeoJsonIntersection.geojson"
-
-    jsonWrite(pathWrite, invalidWaysID)
-    jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
-    geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
-    
-    # path = "D:/project/oswvalidators/OSW/TestData/redmond.geojson"
+    # pathTest = os.path.join(os.getcwd(), "OSW\TestData")
+    # os.chdir(pathTest)
+    # path = pathTest + "\redmond.geojson"
     # dataDict = readJsonFile(path)
     # invalidWaysID,dictInvalidFormatID,violatingWayFeatures = intersectLineStringInValidFormat(dataDict,"brunnel")
-    # pathWrite = "D:/project/oswvalidators/OSW/TestData/invalidWays.geojson"
-    # pathWriteInvalidFormat = "D:/project/oswvalidators/OSW/TestData/InvalidFormat.geojson"
-    # invalidGeoJsonIntersection = "D:/project/oswvalidators/OSW/TestData/invalidGeoJsonIntersection.geojson"
+    # pathWrite = pathTest + "\invalidWays.geojson"
+    # pathWriteInvalidFormat = pathTest + "\InvalidFormat.geojson"
+    # invalidGeoJsonIntersection = pathTest+ "\invalidGeoJsonIntersection.geojson"
 
     # jsonWrite(pathWrite, invalidWaysID)
     # jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
     # geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
+    
+    path = "D:/project/oswvalidators/OSW/TestData/redmond.geojson"
+    dataDict = readJsonFile(path)
+    invalidWaysID,dictInvalidFormatID,violatingWayFeatures = intersectLineStringInValidFormat(dataDict,"brunnel")
+    pathWrite = "D:/project/oswvalidators/OSW/TestData/invalidWays.geojson"
+    pathWriteInvalidFormat = "D:/project/oswvalidators/OSW/TestData/InvalidFormat.geojson"
+    invalidGeoJsonIntersection = "D:/project/oswvalidators/OSW/TestData/invalidGeoJsonIntersection.geojson"
+
+    jsonWrite(pathWrite, invalidWaysID)
+    jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
+    geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
     
