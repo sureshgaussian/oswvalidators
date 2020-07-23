@@ -136,8 +136,7 @@ def split_geojson_file(file):
 
 
 if __name__ == '__main__':
-    path = "E:\oswvalidators\OSW\TestData"
-#     path = "E:\MAGDEBURG\SURESH\OSW\OSW\TestData" # Change the path here to a relative one in the git folder structure
+    path = os.path.join(os.getcwd(), "OSW\TestData")
     os.chdir(path)
     json_files = glob("*.geojson")
     json_files = [i for i in json_files if 'redmond.' in i]
@@ -152,17 +151,14 @@ if __name__ == '__main__':
         Ways = get_ways(data_dict['features'])
         
         coord_dict = get_coord_dict(Ways)
-        # print("Coordinates Dictionary : \n", coord_dict)
         
         df = get_coord_df(Ways)
-#         print("DataFrame : \n{}".format(df))
         print("list : {} and df : {}".format(len(Ways), len(df.index)))
         
         isolated_way_ids = get_isolated_way_ids(Ways, coord_dict)
         
         split_geojson_file(file)
-        
-#         print(coord_dict.items())  
+         
         Connected_Ways = Ways.copy()
         for x in sorted(isolated_way_ids, reverse = True):  
             del Connected_Ways[x] 
@@ -179,8 +175,6 @@ if __name__ == '__main__':
         print("Number of Connected Components : ", nx.number_connected_components(Connected_FG))
             
         cc = nx.connected_components(Connected_FG)
-        # for ind, x in enumerate(cc):
-        #     print('\n',ind,":", x)
             
         S = [Connected_FG.subgraph(c).copy() for c in nx.connected_components(Connected_FG)]
                 
