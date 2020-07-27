@@ -120,7 +120,6 @@ def intersectLineStringInValidFormat(dataDict,skipTag):
             wayI = LineString(singleWayI)
         except:
             dictInvalidFormatID.append(iteratorI)
-            print("shit happens")
             continue
 
         beginJ = iteratorI+1
