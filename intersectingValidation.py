@@ -201,28 +201,3 @@ def jsonWrite(path,invalidWays):
     with open(path.split('.')[0] + '.json', 'w') as fp:
         json.dump(invalidWays,fp, indent = 4)
 
-if __name__ == '__main__':
-    pathTest = os.path.join(os.getcwd(), "OSW/TestData")
-    print(pathTest)
-    os.chdir(pathTest)
-    path = pathTest + "/redmond.geojson"
-    dataDict = readJsonFile(path)
-    invalidWaysID,dictInvalidFormatID,violatingWayFeatures = intersectLineStringInValidFormat(dataDict,"brunnel")
-    pathWrite = pathTest + "/invalidWays.geojson"
-    pathWriteInvalidFormat = pathTest + "/InvalidFormat.geojson"
-    invalidGeoJsonIntersection = pathTest+ "/invalidGeoJsonIntersection.geojson"
-
-    jsonWrite(pathWrite, invalidWaysID)
-    jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
-    geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
-
-    # path = "D:/project/oswvalidators/OSW/TestData/redmond.geojson"
-    # dataDict = readJsonFile(path)
-    # invalidWaysID,dictInvalidFormatID,violatingWayFeatures = intersectLineStringInValidFormat(dataDict,"brunnel")
-    # pathWrite = "D:/project/oswvalidators/OSW/TestData/invalidWays.geojson"
-    # pathWriteInvalidFormat = "D:/project/oswvalidators/OSW/TestData/InvalidFormat.geojson"
-    # invalidGeoJsonIntersection = "D:/project/oswvalidators/OSW/TestData/invalidGeoJsonIntersection.geojson"
-
-    # jsonWrite(pathWrite, invalidWaysID)
-    # jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
-    # geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
