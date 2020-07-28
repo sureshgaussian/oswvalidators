@@ -1,19 +1,7 @@
 import numpy as np
-import os
 import pandas as pd
 import json
-from glob import glob
 import matplotlib.pylab as plt
-import networkx as nx
-import pickle
-
-
-'''
-0 [ [1, 2], [2, 3]]
-1 [ [1, 2], [2, 4]]
-2 [ [1, 3], [2, 5]]
-3 [ [1, 4], [2, 6]]
-'''
         
 def get_ways(features_list):
     '''
@@ -22,9 +10,14 @@ def get_ways(features_list):
     Inner list is the coordinates within an element
     '''
     coord_list = []
+    filter_sidewalks = False # Set True to include just sidewalks. Otherways all ways are returned
     for elem in features_list:
-        if(elem['properties']['footway'] == 'sidewalk'):
+        if(filter_sidewalks):
+            if (elem['properties']['footway'] == 'sidewalk'):
+                coord_list.append(elem['geometry']['coordinates'])
+        else:
             coord_list.append(elem['geometry']['coordinates'])
+    # print(len(coord_list))
     return coord_list
 
 def get_coord_dict(coord_list):
@@ -44,8 +37,7 @@ def get_coord_dict(coord_list):
 
 def get_coord_df(coord_list):
     '''
-    Return df with two columns: origin and dest
-    ******** Note to Rakesh : This to be used for connected components in networkx
+    Return df with two columns origin and dest for starting and ending nodes of the way
     '''
     data = {'origin':[], 'dest': []}
     df = pd.DataFrame(data)
@@ -56,22 +48,24 @@ def get_coord_df(coord_list):
 
 def plot_nodes_vs_ways(coord_list):
     '''
-    #Nodes vs #Ways
+    Plot frequency distribution of #Nodes in each way
     '''
     coord_freq_dict = dict()
     for elem in coord_list:
         if(len(elem) not in coord_freq_dict.keys()):
-            coord_freq_dict[str(len(elem))] = 1
+            coord_freq_dict[len(elem)] = 1
         else:
-            coord_freq_dict[str(len(elem))] += 1
-    x, y = zip(sorted(*coord_freq_dict.items()))
-    # print(x)
-    plt.plot(x, y)
+            coord_freq_dict[len(elem)] += 1
+    lists = sorted(coord_freq_dict.items())
+    x, y = zip(*lists)
+    plt.xlim((0, 10))
+    plt.bar(x, y)
+    plt.title("#Nodes vs #Ways")
     plt.show()
 
 def get_isolated_way_ids(coord_list, coord_dict):
     '''
-    Get way IDs to be discared (ways that are not part of any other ways)
+    Get ways to be discared (ways that are not part of any other ways)
     '''
     disc_way_ids = set()
     for id, elem in enumerate(coord_list):
@@ -124,7 +118,7 @@ def split_geojson_file(file):
     disconnected_ways = data_dict.copy()
     disconnected_ways['features'] = []
     
-    disconnected_ways['features'] = [data_dict['features'][ind] for ind in isolated_way_ids]
+    disconnected_ways['features'] = [data_dict['features'][ind] for ind in disconnected_way_ids]
     connected_ways['features'] = [data_dict['features'][ind] for ind in connected_way_ids]
     
     with open(file.split('.')[0] + '_connected.geojson', 'w') as fp:
@@ -134,65 +128,15 @@ def split_geojson_file(file):
     # print("Ways in connected.json : {}".format(len(connected_ways['features'])))
     # print("Ways in disconnected.json : {}".format(len(disconnected_ways['features'])))
 
-
-if __name__ == '__main__':
-    path = os.path.join(os.getcwd(), "OSW\TestData")
-    os.chdir(path)
-    json_files = glob("*.geojson")
-    json_files = [i for i in json_files if 'redmond.' in i]
-    print("Number of json files :", len(json_files))
-    
-    for ind, file in enumerate(json_files):
-        print('-'*10)
-        print('Processing File : {}'.format(file))
-        with open(file) as data_json:
-            data_dict = json.load(data_json)
-    
-        Ways = get_ways(data_dict['features'])
-        
-        coord_dict = get_coord_dict(Ways)
-        
-        df = get_coord_df(Ways)
-        print("list : {} and df : {}".format(len(Ways), len(df.index)))
-        
-        isolated_way_ids = get_isolated_way_ids(Ways, coord_dict)
-        
-        split_geojson_file(file)
-         
-        Connected_Ways = Ways.copy()
-        for x in sorted(isolated_way_ids, reverse = True):  
-            del Connected_Ways[x] 
-    
-        #printing modified list
-        print("Number of ways (sidewalks) in the file : ", len(Ways))
-        print("Number of isolated ways: ", len(isolated_way_ids))
-        print("Number of Connected ways in the file : ", len(Connected_Ways))
-        
-        
-        Connected_df = get_coord_df(Connected_Ways)
-        Connected_FG = nx.from_pandas_edgelist(Connected_df, source='origin', target='dest')
-        print("Is Connected ? : ", nx.is_connected(Connected_FG))
-        print("Number of Connected Components : ", nx.number_connected_components(Connected_FG))
-            
-        cc = nx.connected_components(Connected_FG)
-            
-        S = [Connected_FG.subgraph(c).copy() for c in nx.connected_components(Connected_FG)]
-                
-
-        pickle.dump(S, open('S.pkl', 'wb'))
-        S = pickle.load(open('S.pkl', 'rb'))
-        
-        pickle.dump(Connected_df, open('Connected_df.pkl', 'wb'))
-        Connected_df = pickle.load(open('Connected_df.pkl', 'rb'))
-        
-        pickle.dump(df, open('ways_df.pkl', 'wb'))
-        df = pickle.load(open('ways_df.pkl', 'rb'))
-                
-        
-        print(len(S))
-        print(S[1].edges)
-        nx.draw_networkx(S[1])
-        
-        sgraph = S[1]
-        ways_set = get_way_from_subgraph(S[1], df)
-        print("sgraph_ways {}".format(ways_set))
+def geometry_type_validation(file):
+    '''
+    Geojson Geometry type validations : https://tools.ietf.org/html/rfc7946#section-3.1.4
+    Gets number of linestrings that has just one node
+    '''
+    with open(file) as data_json:
+        data_dict = json.load(data_json)
+    Ways = get_ways(data_dict['features'])
+    Ways = np.array(Ways)
+    one_node_ls_ids = []
+    [one_node_ls_ids.append(ind) for ind, way in enumerate(Ways) if len(way) == 1]
+    # print(len(Ways[one_node_ls_ids]))
