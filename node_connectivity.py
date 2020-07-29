@@ -143,6 +143,7 @@ def get_invalidNodes(node_way_dict, node_json, node_file):
     [invalid_nodes_json['features'].append(node_json['features'][ind]) for ind in invalid_nodes]
     with open(node_file.split('.')[0] + '_invalid.geojson', 'w') as fp:
         json.dump(invalid_nodes_json,fp, indent = 4) 
+    print('Invalid Nodes dumped to {}'.format(node_file.split('.')[0] + '_invalid.geojson'))
 
 def geometry_type_validation(file):
     '''
