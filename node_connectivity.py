@@ -19,14 +19,18 @@ def get_ways(features_list):
             coord_list.append(elem['geometry']['coordinates'])
     return coord_list
 
-def get_coord_dict(coord_list):
+def get_coord_dict(nodes_list, ways_list):
     '''
     Returns dictionary of coordinate
     keys : unique coordinates
     values : all ways to which the coord belongs
     '''
     coord_dict = dict()
-    for id, elem in enumerate(coord_list):
+    for elem in nodes_list:
+        if(str(elem) not in coord_dict.keys()):
+            coord_dict[str(elem)] = list()
+    
+    for id, elem in enumerate(ways_list):
         for point in elem:
             if(str(point) not in coord_dict.keys()):
                 coord_dict[str(point)] = [id]
@@ -126,6 +130,19 @@ def split_geojson_file(file):
         json.dump(disconnected_ways,fp, indent = 4) 
     # print("Ways in connected.json : {}".format(len(connected_ways['features'])))
     # print("Ways in disconnected.json : {}".format(len(disconnected_ways['features'])))
+
+def get_invalidNodes(node_way_dict, node_json, node_file):
+    '''
+    A node is invalid if it is not part of any way.
+    Dump the invalid nodes into a {filename}_invalid.geojson
+    '''
+    vals = np.array(list(node_way_dict.values()))            
+    invalid_nodes = [ind for ind, val in enumerate(vals) if len(val) == 0]
+    invalid_nodes_json = node_json.copy()
+    invalid_nodes_json['features'] = []
+    [invalid_nodes_json['features'].append(node_json['features'][ind]) for ind in invalid_nodes]
+    with open(node_file.split('.')[0] + '_invalid.geojson', 'w') as fp:
+        json.dump(invalid_nodes_json,fp, indent = 4) 
 
 def geometry_type_validation(file):
     '''

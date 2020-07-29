@@ -1,14 +1,15 @@
 import argparse as ag
 import os
-from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
+# from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
 
 from glob import glob 
 from node_connectivity import get_ways, plot_nodes_vs_ways, get_coord_dict, split_geojson_file
 from node_connectivity import geometry_type_validation, get_coord_df, get_isolated_way_ids
-from node_connectivity import get_way_from_subgraph
+from node_connectivity import get_way_from_subgraph, get_invalidNodes
 import json
 import networkx as nx
 import pickle
+import numpy as np
 
 
 if __name__ == '__main__':
@@ -41,22 +42,37 @@ if __name__ == '__main__':
 
     if(args.validation == "eda"):
         json_files = glob(os.path.join(path,"*.geojson"))
-        json_files = [i for i in json_files if 'redmond.' in i]
+        json_files = sorted([i for i in json_files if 'ms_campus' in i])
         print("Number of json files :", len(json_files))
-        for ind, file in enumerate(json_files):  
+        print(json_files)
+        node_files = sorted([x for x in json_files if 'node' in x])
+        way_files = [x for x in json_files if 'node' not in x]
+
+        for ind, (node_file, way_file) in enumerate(zip(node_files, way_files)):  
             print('-'*10)
-            print('Processing File : {}'.format(file))
-            with open(file) as data_json:
-                data_dict = json.load(data_json)
+            print('Processing File : \n{}\n{}'.format(node_file, way_file))
+            with open(node_file) as data_json:
+                node_json = json.load(data_json)
+            with open(way_file) as data_json:
+                way_json = json.load(data_json)
         
-            ways = get_ways(data_dict['features'])
-            plot_nodes_vs_ways(ways)
-            coord_dict = get_coord_dict(ways)            
-            geometry_type_validation(file)
+            nodes_list = get_ways(node_json['features'])    
+            ways_list = get_ways(way_json['features'])
+            
+            # plot_nodes_vs_ways(ways_list)
+            
+            node_way_dict = get_coord_dict(nodes_list, ways_list)
+
+            ##Save invalidNodes.geojson
+            invalid_nodes = get_invalidNodes(node_way_dict, node_json, node_file)        
+                
+            break
+        
+            geometry_type_validation(way_file)
             
             isolated_way_ids = get_isolated_way_ids(ways, coord_dict)
             
-            split_geojson_file(file)
+            # split_geojson_file(file)
              
             Connected_Ways = ways.copy()
             for x in sorted(isolated_way_ids, reverse = True):  
