@@ -1,6 +1,6 @@
 import argparse as ag
 import os
-# from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
+from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
 
 from glob import glob 
 from node_connectivity import get_ways, plot_nodes_vs_ways, get_coord_dict, split_geojson_file
@@ -59,26 +59,23 @@ if __name__ == '__main__':
             nodes_list = get_ways(node_json['features'])    
             ways_list = get_ways(way_json['features'])
             
-            # plot_nodes_vs_ways(ways_list)
+            plot_nodes_vs_ways(ways_list)
             
             node_way_dict = get_coord_dict(nodes_list, ways_list)
 
-            ##Save invalidNodes.geojson
             invalid_nodes = get_invalidNodes(node_way_dict, node_json, node_file)        
-                
-            break
-        
+
             geometry_type_validation(way_file)
             
-            isolated_way_ids = get_isolated_way_ids(ways, coord_dict)
+            isolated_way_ids = get_isolated_way_ids(ways_list, node_way_dict)
             
             # split_geojson_file(file)
              
-            Connected_Ways = ways.copy()
+            Connected_Ways = ways_list.copy()
             for x in sorted(isolated_way_ids, reverse = True):  
                 del Connected_Ways[x] 
         
-            print("Number of ways in the file : ", len(ways))
+            print("Number of ways in the file : ", len(ways_list))
             print("Number of isolated ways: ", len(isolated_way_ids))
             print("Number of Connected ways in the file : ", len(Connected_Ways))
             
