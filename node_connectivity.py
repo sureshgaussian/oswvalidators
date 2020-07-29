@@ -17,7 +17,6 @@ def get_ways(features_list):
                 coord_list.append(elem['geometry']['coordinates'])
         else:
             coord_list.append(elem['geometry']['coordinates'])
-    # print(len(coord_list))
     return coord_list
 
 def get_coord_dict(coord_list):
@@ -38,11 +37,11 @@ def get_coord_dict(coord_list):
 def get_coord_df(coord_list):
     '''
     Return df with two columns origin and dest for starting and ending nodes of the way
+    This is needed for connected component of networkx package
     '''
     data = {'origin':[], 'dest': []}
     df = pd.DataFrame(data)
     for elem in coord_list:
-        # df = df.append([str(elem[0]), str(elem[-1])])
         df = df.append({'origin':str(elem[0]), 'dest':str(elem[-1])}, ignore_index=True)
     return df
 
