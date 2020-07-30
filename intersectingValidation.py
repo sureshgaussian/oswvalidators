@@ -1,65 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 21 16:07:46 2020
-
-@author: Karthik
-"""
 import json
-from shapely.geometry import LineString
-from shapely.geometry import Point
-import os
-def getGeometryType(way):
-    '''
-    Returns the type of way
+import pandas as pd
+from shapely.geometry import LineString, Point, Polygon, MultiPoint
 
-    Parameters
-    ----------
-    way : TYPE
-        GeoJson file with a way extracted.
-        eg) dataDict["features"][itemNumber or wayNumber]
-
-    Returns
-    -------
-    TYPE
-        way.
-
-    '''
-    return way["geometry"]["type"]
-
-
-
-def isValidGeometryType(way):
-    '''
-    checks if the Geomerty is valid according to the geometric tag in way
-
-    Parameters
-    ----------
-    way : TYPE
-        GeoJson file with a way extracted.
-        eg) dataDict["features"][itemNumber or wayNumber].
-
-    Returns
-    -------
-    bool
-
-    '''
-
-    wayType = getGeometryType(way)
-    if(wayType == "LineString"):
-        try:
-            LineString(way["geometry"]["coordinates"])
-            return True
-        except:
-            # print("invalid way ",way)
-            return False
-
-    if(wayType == "Point"):
-        try:
-            Point(way["geometry"]["coordinates"])
-            print("point")
-            return True
-        except:
-            print("invalid way ",way)
 
 def readJsonFile(path):
     '''
@@ -80,84 +22,39 @@ def readJsonFile(path):
         dataDict = json.load(data_json)
         return dataDict
 
-
-def intersectLineStringInValidFormat(dataDict,skipTag):
-    '''
-
-    Returns the LineStrings which are intersecting but doesnt have a intersecting,
-    Point between them. If Brunnel field isnt null/none, we dont consider it as a intersection.
-
-    Parameters
-    ----------
-    dataDict : TYPE
-        Dictionary which chich contains GeoJson file
-
-    skipTag : Type
-        Tog to skip checking the validation. Example brunnel
-
-    Returns
-    -------
-    dictToJson : Dictionary
-        Returns the LineStrings which are intersecting but doesnt have a intersecting,
-        Point between them. If Brunnel field isnt null/none, we dont consider it as a intersection.
-    dictInvalidFormatID : List
-        Returns the ID for the ways with invalid dataformat
-    violatingWayFeatures : Dictionary
-
-
-    '''
-
-    dictToJsonID = {}
-    dictInvalidFormatID = []
-    violatingWayFeatures = []
-    dictSize = len(dataDict["features"])
-    for iteratorI in range(dictSize):
-        brunnel = dataDict["features"][iteratorI]["properties"][skipTag]
-        if(brunnel != None):
-            continue
-        singleWayI = dataDict["features"][iteratorI]["geometry"]["coordinates"]
+def geometryFormat(geometryDatarow):
+    if (geometryDatarow[0]["type"] == "LineString"):
         try:
-            wayI = LineString(singleWayI)
+            return LineString(geometryDatarow[0]["coordinates"])
         except:
-            dictInvalidFormatID.append(iteratorI)
-            continue
-
-        beginJ = iteratorI+1
-        for iteratorJ in range(beginJ,dictSize,1):
-            # Not implemented due to execution speed.
-            # if(isValidGeometryType(dataDict["features"][iteratorJ])==False):
-            #     continue
-            singleWayJ = dataDict["features"][iteratorJ]["geometry"]["coordinates"]
-            brunnel = dataDict["features"][iteratorJ]["properties"][skipTag]
-            if(brunnel != None):
-                continue
-            try:
-                wayJ = LineString(singleWayJ)
-            except:
-                continue
-
-            if(wayI.intersects(wayJ)):
-                if(wayI.touches(wayJ)!=True):
-                    intersection = wayI.intersection(wayJ)
-                    if(str(intersection) in dictToJsonID):
-                        dictToJsonID[str(intersection)].append([iteratorI,iteratorJ])
-                    else:
-                        dictToJsonID[str(intersection)] = [iteratorI,iteratorJ]
-
-                    # for creating the violating way features appending to dictionary based on dictionary size
-                    if(len(violatingWayFeatures)==0):
-                        violatingWayFeatures=[dataDict["features"][iteratorI]]
-                        violatingWayFeatures.append(dataDict["features"][iteratorJ])
-
-                    else:
-                        violatingWayFeatures.append(dataDict["features"][iteratorI])
-                        violatingWayFeatures.append(dataDict["features"][iteratorJ])
+            return "invalid"
+    if (geometryDatarow[0]["type"] == "Point"):
+        try:
+            return Point(geometryDatarow[0]["coordinates"])
+        except:
+            return "invalid"
+    if (geometryDatarow[0]["type"] == "Polygon"):
+        try:
+            return Polygon(geometryDatarow[0]["coordinates"])
+        except:
+            return "invalid"
 
 
-    return dictToJsonID,dictInvalidFormatID,violatingWayFeatures
+def indexInvalidGeometryType(geometryData):
+    dataInvalidGeoJsonFormat = geometryData.apply(geometryFormat, axis=1)
+    ind_drop = dataInvalidGeoJsonFormat[dataInvalidGeoJsonFormat.apply(lambda row: row == 'invalid')].index
+
+    return ind_drop
 
 
-def geojsonWrite(path,invalidWays,originalGeoJsonFile):
+def brunnelcheck(x, skipTag):
+    if (x[0]["brunnel"] == None):
+        return False
+    else:
+        return True
+
+
+def geojsonWrite(path, invalidWays, originalGeoJsonFile):
     '''
     To write the given invalid ways in the GeoJson format
 
@@ -178,25 +75,60 @@ def geojsonWrite(path,invalidWays,originalGeoJsonFile):
     invalidPaths = originalGeoJsonFile.copy()
     invalidPaths['features'] = invalidWays
     with open(path.split('.')[0] + '.geojson', 'w') as fp:
-        json.dump(invalidPaths,fp, indent = 4)
+        json.dump(invalidPaths, fp, indent=4)
 
 
-def jsonWrite(path,invalidWays):
-    '''
-    To write dictionary to json format
+def intersectLineStringInValidFormat(geoJSONdata, skipTag):
+    featuresData = pd.DataFrame(geoJSONdata["features"])
+    geometryData = pd.DataFrame(featuresData["geometry"])
+    propertyData = pd.DataFrame(featuresData["properties"])
+    invalidWayGeoJSONFormat = []
+    intersectingNodeGeoJSON = []
+    violatingWayFeatures = []
 
-    Parameters
-    ----------
-    path : TYPE
-        path for the json write.
-    invalidWays : TYPE
-        Invalid ways to write.
+    brunnelValid = pd.DataFrame(propertyData.apply(brunnelcheck, args=(skipTag,), axis=1))
+    invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
+    for counter in range(len(geoJSONdata["features"])):
+        if counter in invalidGeometryIndex:
+            invalidWayGeoJSONFormat.append(geoJSONdata["features"][counter])
 
-    Returns
-    -------
-    None.
+    brunnelExist = brunnelValid[brunnelValid[0].apply(lambda row: row == True)].index
+    geometryDataFormat = geometryData.apply(geometryFormat, axis=1)
+    geometryDataFormatCopy = geometryDataFormat.copy()
 
-    '''
-    with open(path.split('.')[0] + '.json', 'w') as fp:
-        json.dump(invalidWays,fp, indent = 4)
+    for rowIdI, wayI in geometryDataFormat.iteritems():
+        if(rowIdI == len(geometryDataFormat)/2):
+            print("half way through... please wait")
 
+        if (wayI == "invalid" or rowIdI in brunnelExist):
+            continue
+        for rowIdJ, wayJ in geometryDataFormatCopy.iteritems():
+            if (rowIdI >= rowIdJ or wayJ == "invalid" or rowIdJ in brunnelExist):
+                continue
+            if (wayI.intersects(wayJ)):
+                if (wayI.touches(wayJ) != True):
+                    intersection = wayI.intersection(wayJ)
+                    if type(intersection) == type(Point()):
+                        intersectingNodeGeoJSON.append(
+                            {"type": "Feature", "geometry": {"type": "Point", "coordinates": intersection.coords[0]}})
+                    elif (type(intersection) == type(MultiPoint())):
+                        appendPoints = [point.coords[0] for point in intersection]
+                        intersectingNodeGeoJSON.append(
+                            {"type": "Feature", "geometry": {"type": "MultiPoint", "coordinates": appendPoints}})
+                    elif (type(intersection) == type(LineString())):
+                        intersectingNodeGeoJSON.append(
+                            {"type": "Feature",
+                             "geometry": {"type": "LineString", "coordinates": intersection.coords[:]}})
+                    else:
+                        print("Invalid format Support not given yet")
+                        exit(0)
+
+                    if (len(violatingWayFeatures) == 0):
+                        violatingWayFeatures = [geoJSONdata["features"][rowIdI]]
+                        violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
+
+                    else:
+                        violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
+                        violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
+
+    return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures

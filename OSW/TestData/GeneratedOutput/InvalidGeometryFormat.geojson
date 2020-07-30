@@ -1,0 +1,684 @@
+{
+    "type": "FeatureCollection",
+    "name": "ccc",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1197729,
+                        47.6593085
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1193765,
+                        47.659472
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1281416,
+                        47.6351694
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "path",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.119438,
+                        47.6386653
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1426361,
+                        47.6548507
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "path",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1200033,
+                        47.6608091
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1210514,
+                        47.6606568
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429613,
+                        47.6547686
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429645,
+                        47.6546812
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1326079,
+                        47.6610866
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": "parking_aisle",
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1195803,
+                        47.6599161
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": "parking_aisle",
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.119483,
+                        47.6597481
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1195342,
+                        47.6608109
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1200033,
+                        47.6608091
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": "driveway",
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1428698,
+                        47.6523563
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "gravel",
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1411011,
+                        47.6534447
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1379689,
+                        47.635254
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1196728,
+                        47.6610468
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1195612,
+                        47.6610243
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "asphalt",
+                "footway": "crossing",
+                "incline": null,
+                "crossing": "marked",
+                "curbramps": 1,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1428748,
+                        47.636545
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "concrete",
+                "footway": "sidewalk",
+                "incline": 0.0,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429925,
+                        47.6498259
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "asphalt",
+                "footway": "crossing",
+                "incline": null,
+                "crossing": "marked",
+                "curbramps": 1,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429497,
+                        47.6484099
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429317,
+                        47.6469249
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1338753,
+                        47.6351669
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "concrete",
+                "footway": "sidewalk",
+                "incline": 0.0,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.119383,
+                        47.6461425
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "concrete",
+                "footway": "sidewalk",
+                "incline": 0.0,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1380566,
+                        47.6608643
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "service",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": null,
+                "footway": null,
+                "incline": null,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1364155,
+                        47.635244
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "subclass": "footway",
+                "length": 0.0,
+                "service": null,
+                "foot": null,
+                "surface": "concrete",
+                "footway": "sidewalk",
+                "incline": 0.0,
+                "crossing": null,
+                "curbramps": null,
+                "brunnel": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.120085,
+                        47.6460094
+                    ]
+                ]
+            }
+        }
+    ]
+}
