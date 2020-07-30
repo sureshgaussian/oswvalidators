@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 '''
 Config file
 Command line arguments overwrites these configs
@@ -18,6 +19,8 @@ class DefaultConfigs():
             if not os.path.exists(self.writePath):
                 os.mkdir(self.writePath)
 =======
+=======
+>>>>>>> Dump isolated nodes into a different file
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul 29 20:17:16 2020
@@ -33,6 +36,9 @@ class DefaultConfigs():
         self.writePath = args.writePath
         if not os.path.exists(self.writePath):
             os.mkdir(self.writePath)
+<<<<<<< HEAD
+>>>>>>> Dump isolated nodes into a different file
+=======
 >>>>>>> Dump isolated nodes into a different file
 
         self.file_filter = 'ms_campus'      #for now filter just by substring. To be extended to regex
@@ -40,8 +46,11 @@ class DefaultConfigs():
         
         self.do_all_validations = True
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.do_all_eda = True
 =======
+=======
+>>>>>>> Dump isolated nodes into a different file
         
         #Useful data structures for reuse
         self.ways = []
@@ -72,5 +81,9 @@ class DefaultConfigs():
         #Karthik
         self.path_invalidWays = ''
         self.path_InvalidFormat = ''
+<<<<<<< HEAD
+        self.path_invalidGeoJsonIntersection = ''
+>>>>>>> Dump isolated nodes into a different file
+=======
         self.path_invalidGeoJsonIntersection = ''
 >>>>>>> Dump isolated nodes into a different file
