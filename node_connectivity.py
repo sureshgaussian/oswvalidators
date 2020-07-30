@@ -2,15 +2,18 @@ import numpy as np
 import pandas as pd
 import json
 import matplotlib.pylab as plt
+import networkx as nx
+import os
+import ntpath
         
-def get_ways(features_list):
+def get_ways(features_list, cf):
     '''
     Returns list of list of coordinates.
     Outer list is the element
     Inner list is the coordinates within an element
     '''
     coord_list = []
-    filter_sidewalks = False # Set True to include just sidewalks. Otherways all ways are returned
+    filter_sidewalks = cf.filter_sidewalks # Set True to include just sidewalks. Otherways all ways are returned
     for elem in features_list:
         if(filter_sidewalks):
             if (elem['properties']['footway'] == 'sidewalk'):
@@ -98,7 +101,7 @@ def get_way_from_subgraph(sgraph, df):
         way_set.update(s)        
     return list(way_set)
 
-def split_geojson_file(file):
+def split_geojson_file(file, coord_dict, cf):
     '''
     Splits the geojson file based on connectivity with with other ways
     and save into two files :
@@ -110,9 +113,9 @@ def split_geojson_file(file):
     '''
     with open(file) as data_json:
         data_dict = json.load(data_json)    
-    all_ways = get_ways(data_dict['features'])
+    all_ways = get_ways(data_dict['features'], cf)
     
-    coord_dict = get_coord_dict(all_ways)
+    # coord_dict = get_coord_dict(all_ways)
     disconnected_way_ids = get_isolated_way_ids(all_ways, coord_dict)
     connected_way_ids = set(np.arange(len(all_ways))) - set(disconnected_way_ids)   
     
@@ -124,14 +127,16 @@ def split_geojson_file(file):
     disconnected_ways['features'] = [data_dict['features'][ind] for ind in disconnected_way_ids]
     connected_ways['features'] = [data_dict['features'][ind] for ind in connected_way_ids]
     
-    with open(file.split('.')[0] + '_connected.geojson', 'w') as fp:
-        json.dump(connected_ways,fp, indent = 4)
-    with open(file.split('.')[0] + '_disconnected.geojson', 'w') as fp:
-        json.dump(disconnected_ways,fp, indent = 4) 
-    # print("Ways in connected.json : {}".format(len(connected_ways['features'])))
-    # print("Ways in disconnected.json : {}".format(len(disconnected_ways['features'])))
+    connected_save_path = os.path.join(cf.writePath, (ntpath.basename(file).split('.')[0] + '_connected.geojson'))
+    disconnected_save_path = os.path.join(cf.writePath, (ntpath.basename(file).split('.')[0] + '_disconnected.geojson'))
 
-def get_invalidNodes(node_way_dict, node_json, node_file):
+    with open(connected_save_path, 'w') as fp:
+        json.dump(connected_ways,fp, indent = 4)
+    with open(disconnected_save_path, 'w') as fp:
+        json.dump(disconnected_ways,fp, indent = 4) 
+    print("ways_file split into {} and {}".format(connected_save_path,disconnected_save_path))
+
+def get_invalidNodes(node_way_dict, node_json, node_file, cf):
     '''
     A node is invalid if it is not part of any way.
     Dump the invalid nodes into a {filename}_invalid.geojson
@@ -141,19 +146,41 @@ def get_invalidNodes(node_way_dict, node_json, node_file):
     invalid_nodes_json = node_json.copy()
     invalid_nodes_json['features'] = []
     [invalid_nodes_json['features'].append(node_json['features'][ind]) for ind in invalid_nodes]
-    with open(node_file.split('.')[0] + '_invalid.geojson', 'w') as fp:
+    
+    invalid_save_path = os.path.join(cf.writePath, (ntpath.basename(node_file).split('.')[0] + '_invalid.geojson'))
+    with open(invalid_save_path, 'w') as fp:
         json.dump(invalid_nodes_json,fp, indent = 4) 
     print('Invalid Nodes dumped to {}'.format(node_file.split('.')[0] + '_invalid.geojson'))
 
-def geometry_type_validation(file):
+def subgraph_eda(ways_list, isolated_way_ids):
+    '''
+    Calculates the number of subgraphs from the given ways_list
+    Plots a subraph and it's edges
+    '''
+    Connected_Ways = ways_list.copy()
+    for x in sorted(isolated_way_ids, reverse = True):  
+        del Connected_Ways[x] 
+    print("Number of ways in the file : ", len(ways_list))
+    print("Number of isolated ways: ", len(isolated_way_ids))
+    print("Number of Connected ways in the file : ", len(Connected_Ways))
+    
+    Connected_df = get_coord_df(Connected_Ways)
+    Connected_FG = nx.from_pandas_edgelist(Connected_df, source='origin', target='dest')
+    print("Number of Connected Components : ", nx.number_connected_components(Connected_FG))    
+    subgraphs = [Connected_FG.subgraph(c).copy() for c in nx.connected_components(Connected_FG)]
+    #Plot the 2nd subgraph as a sample
+    nx.draw_networkx(subgraphs[1])
+    ways_set = get_way_from_subgraph(subgraphs[1], Connected_df)
+    print("sgraph[{}]_ways {}".format(1,ways_set))  
+
+def geometry_type_validation(file, cf):
     '''
     Geojson Geometry type validations : https://tools.ietf.org/html/rfc7946#section-3.1.4
     Gets number of linestrings that has just one node
     '''
     with open(file) as data_json:
         data_dict = json.load(data_json)
-    Ways = get_ways(data_dict['features'])
+    Ways = get_ways(data_dict['features'], cf)
     Ways = np.array(Ways)
     one_node_ls_ids = []
     [one_node_ls_ids.append(ind) for ind, way in enumerate(Ways) if len(way) == 1]
-    # print(len(Ways[one_node_ls_ids]))
