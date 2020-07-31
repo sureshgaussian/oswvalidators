@@ -17,7 +17,7 @@ if __name__ == '__main__':
     parser = ag.ArgumentParser()
     parser.add_argument("--GeoJSON", help="GeoJSON filepath absolute path ", default = os.path.join(os.getcwd(), "OSW\TestData"))
     parser.add_argument("--validation", help="type of validation", default = 'eda')
-    parser.add_argument("--writePath",help="output directory to write the validation errors", default = os.path.join(os.getcwd(), "OSW\TestData\Outputfiles"))
+    parser.add_argument("--writePath",help="output directory to write the validation errors", default = os.path.join(os.getcwd(), "OSW\TestData\Output"))
     args = parser.parse_args()
     cf = DefaultConfigs(args)
     path = args.GeoJSON
