@@ -3,28 +3,26 @@ import os
 # from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
 
 from glob import glob 
-from node_connectivity import get_ways, plot_nodes_vs_ways, get_coord_dict, split_geojson_file
-from node_connectivity import geometry_type_validation, get_coord_df, get_isolated_way_ids
-from node_connectivity import get_way_from_subgraph, get_invalidNodes, subgraph_eda
+from node_connectivity import plot_nodes_vs_ways, subgraph_eda, get_coord_df
+from node_connectivity import get_way_from_subgraph, get_invalidNodes
 import json
 import networkx as nx
 import pickle
 import numpy as np
 import sys
 from config import DefaultConfigs
+from util_data import UtilData
 
 
 if __name__ == '__main__':
-
     parser = ag.ArgumentParser()
     parser.add_argument("--GeoJSON", help="GeoJSON filepath absolute path ", default = os.path.join(os.getcwd(), "OSW\TestData"))
     parser.add_argument("--validation", help="type of validation", default = 'eda')
     parser.add_argument("--writePath",help="output directory to write the validation errors", default = os.path.join(os.getcwd(), "OSW\TestData\Outputfiles"))
     args = parser.parse_args()
+    cf = DefaultConfigs(args)
     path = args.GeoJSON
     outputDirectory = args.writePath
-    
-    cf = DefaultConfigs(args)
     
     if(args.validation=="intersectingvalidation"):
         dataDict = readJsonFile(path)
@@ -42,22 +40,20 @@ if __name__ == '__main__':
         json_files = sorted([i for i in json_files if cf.file_filter in i])
         print("Number of json files :", len(json_files))
         print(json_files)
-        node_files = sorted([x for x in json_files if 'node' in x])
-        way_files = sorted([x for x in json_files if 'node' not in x])
+        nodes_files = sorted([x for x in json_files if 'node' in x])
+        ways_files = sorted([x for x in json_files if 'node' not in x])
 
-        for ind, (node_file, way_file) in enumerate(zip(node_files, way_files)):  
+        for ind, (nodes_file, ways_file) in enumerate(zip(nodes_files, ways_files)):  
             print('-'*10)
-            print('Processing File : \n{}\n{}'.format(node_file, way_file))
-            with open(node_file) as data_json:
+            print('Processing File : \n{}\n{}'.format(nodes_file, ways_file))
+            with open(nodes_file) as data_json:
                 node_json = json.load(data_json)
-            with open(way_file) as data_json:
-                way_json = json.load(data_json)       
-            nodes_list = get_ways(node_json['features'], cf)    
-            ways_list = get_ways(way_json['features'], cf)          
-            plot_nodes_vs_ways(ways_list)          
-            node_way_dict = get_coord_dict(nodes_list, ways_list)
-            invalid_nodes = get_invalidNodes(node_way_dict, node_json, node_file, cf)        
-            geometry_type_validation(way_file, cf)         
-            isolated_way_ids = get_isolated_way_ids(ways_list, node_way_dict)         
-            split_geojson_file(way_file, node_way_dict, cf)         
-            subgraph_eda(ways_list, isolated_way_ids)
+            with open(ways_file) as data_json:
+                way_json = json.load(data_json)    
+                
+            dutil = UtilData(nodes_file, ways_file, cf)
+            if cf.do_all_validations:
+                dutil.all_validations(cf)
+            if cf.do_all_eda:
+                plot_nodes_vs_ways(dutil)
+                subgraph_eda(dutil)
