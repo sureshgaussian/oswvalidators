@@ -1,4 +1,2 @@
 *.pkl
-*scribble*
 __pycache__/
-Outputfiles
