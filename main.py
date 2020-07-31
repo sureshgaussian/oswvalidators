@@ -1,10 +1,9 @@
 import argparse as ag
 import os
-# from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
+from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
 
 from glob import glob 
-from node_connectivity import plot_nodes_vs_ways, subgraph_eda, get_coord_df
-from node_connectivity import get_way_from_subgraph, get_invalidNodes
+from node_connectivity import plot_nodes_vs_ways, subgraph_eda
 import json
 import networkx as nx
 import pickle
