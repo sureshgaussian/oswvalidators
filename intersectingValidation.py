@@ -18,9 +18,10 @@ def readJsonFile(path):
         Json file.
 
     '''
-    with open(path,'r') as data_json:
+    with open(path, 'r') as data_json:
         dataDict = json.load(data_json)
         return dataDict
+
 
 def geometryFormat(geometryDatarow):
     if (geometryDatarow[0]["type"] == "LineString"):
@@ -97,7 +98,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag):
     geometryDataFormatCopy = geometryDataFormat.copy()
 
     for rowIdI, wayI in geometryDataFormat.iteritems():
-        if(rowIdI == len(geometryDataFormat)/2):
+        if (rowIdI == len(geometryDataFormat) / 2):
             print("half way through... please wait")
 
         if (wayI == "invalid" or rowIdI in brunnelExist):
@@ -105,30 +106,42 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag):
         for rowIdJ, wayJ in geometryDataFormatCopy.iteritems():
             if (rowIdI >= rowIdJ or wayJ == "invalid" or rowIdJ in brunnelExist):
                 continue
-            if (wayI.intersects(wayJ)):
-                if (wayI.touches(wayJ) != True):
-                    intersection = wayI.intersection(wayJ)
-                    if type(intersection) == type(Point()):
-                        intersectingNodeGeoJSON.append(
-                            {"type": "Feature", "geometry": {"type": "Point", "coordinates": intersection.coords[0]}})
-                    elif (type(intersection) == type(MultiPoint())):
-                        appendPoints = [point.coords[0] for point in intersection]
+            if (wayI.intersects(wayJ) and wayI.touches(wayJ) != True):
+                intersection = wayI.intersection(wayJ)
+                if (type(intersection) == type(LineString())):
+                    continue
+                elif type(intersection) == type(Point()):
+                    roundedIntersection = tuple(round(dimension, 7) for dimension in intersection.coords[0])
+                    if (roundedIntersection in wayI.coords[:]) or (roundedIntersection in wayJ.coords[:]):
+                        continue
+                    intersectingNodeGeoJSON.append(
+                        {"type": "Feature", "geometry": {"type": "Point", "coordinates": roundedIntersection}})
+
+                elif (type(intersection) == type(MultiPoint())):
+                    appendPoints = []
+                    for point in intersection:
+                        roundedIntersection = tuple(round(dimension, 7) for dimension in point.coords[0])
+                        if (roundedIntersection in wayI.coords[:]) or (roundedIntersection in wayJ.coords[:]):
+                            continue
+                        appendPoints.append(roundedIntersection)
+
+                    if (len(appendPoints) > 1):
                         intersectingNodeGeoJSON.append(
                             {"type": "Feature", "geometry": {"type": "MultiPoint", "coordinates": appendPoints}})
-                    elif (type(intersection) == type(LineString())):
+                    else:
                         intersectingNodeGeoJSON.append(
-                            {"type": "Feature",
-                             "geometry": {"type": "LineString", "coordinates": intersection.coords[:]}})
-                    else:
-                        print("Invalid format Support not given yet")
-                        exit(0)
+                            {"type": "Feature", "geometry": {"type": "Point", "coordinates": appendPoints[0]}})
 
-                    if (len(violatingWayFeatures) == 0):
-                        violatingWayFeatures = [geoJSONdata["features"][rowIdI]]
-                        violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
+                else:
+                    print("Invalid format Support not given yet")
+                    exit(0)
 
-                    else:
-                        violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
-                        violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
+                if (len(violatingWayFeatures) == 0):
+                    violatingWayFeatures = [geoJSONdata["features"][rowIdI]]
+                    violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
+
+                else:
+                    violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
+                    violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
 
     return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
