@@ -1,6 +1,6 @@
 import argparse as ag
 import os
-from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,jsonWrite,geojsonWrite
+from intersectingValidation import readJsonFile,intersectLineStringInValidFormat,geojsonWrite
 
 from glob import glob 
 from node_connectivity import plot_nodes_vs_ways, subgraph_eda
@@ -11,7 +11,7 @@ import numpy as np
 import sys
 from config import DefaultConfigs
 from util_data import UtilData
-
+import time
 
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
@@ -22,17 +22,20 @@ if __name__ == '__main__':
     cf = DefaultConfigs(args)
     path = args.GeoJSON
     outputDirectory = args.writePath
-    
-    if(args.validation=="intersectingvalidation"):
-        dataDict = readJsonFile(path)
-        invalidWaysID, dictInvalidFormatID, violatingWayFeatures = intersectLineStringInValidFormat(dataDict, "brunnel")
-        pathWrite = outputDirectory + "/invalidWays.geojson"
-        pathWriteInvalidFormat = outputDirectory + "/InvalidFormat.geojson"
-        invalidGeoJsonIntersection = outputDirectory + "/invalidGeoJsonIntersection.geojson"
 
-        jsonWrite(pathWrite, invalidWaysID)
-        jsonWrite(pathWriteInvalidFormat, dictInvalidFormatID)
-        geojsonWrite(invalidGeoJsonIntersection, violatingWayFeatures, dataDict)
+    if(args.validation=="intersectingvalidation"):
+        start_time = time.time()
+
+        data = readJsonFile(path)
+        intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures = intersectLineStringInValidFormat(data,"brunnel")
+        pathWrite = outputDirectory + "/recommendedIntersections.geojson"
+        pathWriteInvalidFormat = outputDirectory + "/InvalidGeometryFormat.geojson"
+        pathInvalidGeoJsonIntersection = outputDirectory + "/WaysMissingIntersection.geojson"
+
+        geojsonWrite(pathWriteInvalidFormat, invalidWayGeoJSONFormat, data)
+        geojsonWrite(pathInvalidGeoJsonIntersection, violatingWayFeatures, data)
+        geojsonWrite(pathWrite, intersectingNodeGeoJSON, data)
+        print("--- %s seconds ---" % (time.time() - start_time))
 
     if(args.validation == "eda"):
         json_files = glob(os.path.join(path,"*.geojson"))
