@@ -1,6 +1,30 @@
 # -*- coding: utf-8 -*-
 """
 Utility Data Class to store intermediate data structures for reuse.
+Idea : All the data related to json files should be in the object of this class.
+Any validations that need to READ-ONLY this data can be defined as members outside the class.
+Any validations that needs to UPDATE the data shoulb be defined as members of the class UtilData.
+
+Tentative Sequence of operations : 
+    
+#Build the Utildata
+0. Read the nodes and ways files as json objects
+1. Build nodes and ways list
+2. Build Coord dict
+    
+#EDA
+'''
+01. Plot #Nodes vs #Ways
+02. Plot a random subgraph
+'''
+
+#Sequence of validations
+'''
+01. Geometry type validation (Linestring should have atleast 2 nodes)
+02. Check if each node is part of the ways (from coord_dict)
+03. Lineintersection
+'''
+
 """
 
 import os
@@ -9,6 +33,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import ntpath
+import time
 import networkx as nx
 
 class UtilData():
@@ -19,6 +44,9 @@ class UtilData():
         
         self.nodes_list = []
         self.ways_list = []
+        
+        self.connected_ways = dict()  #Add connected and disconnected data
+        self.disconnected_ways = dict()
         
         self.coord_dict = dict()
         self.one_node_ls_ids = []
@@ -35,14 +63,8 @@ class UtilData():
         #Construct the utility data
         self.nodes_list = self.get_coords_list(self.nodes_json['features'], cf)    
         self.ways_list = self.get_coords_list(self.ways_json['features'], cf)
-        self.get_coord_dict() 
-        
-    def all_validations(self, cf):
-                            
-        self.get_invalidNodes(cf)        
-        self.geometry_type_validation()         
-        self.get_isolated_ways()         
-        self.split_geojson_file(cf)
+        self.get_coord_dict()
+        self.get_coord_df()
         
     def get_coords_list(self, features_list, cf):
         '''
@@ -115,6 +137,10 @@ class UtilData():
         disconnected_ways['features'] = [self.ways_json['features'][ind] for ind in self.isolated_way_ids]
         connected_ways['features'] = [self.ways_json['features'][ind] for ind in connected_way_ids]
         
+        
+        self.connected_ways = connected_ways
+        self.disconnected_ways = disconnected_ways
+        
         connected_save_path = os.path.join(cf.writePath, (ntpath.basename(self.ways_file).split('.')[0] + '_connected.geojson'))
         disconnected_save_path = os.path.join(cf.writePath, (ntpath.basename(self.ways_file).split('.')[0] + '_disconnected.geojson'))
     
@@ -123,39 +149,15 @@ class UtilData():
         with open(disconnected_save_path, 'w') as fp:
             json.dump(disconnected_ways,fp, indent = 4) 
         print("ways_file split into {} and {}".format(connected_save_path,disconnected_save_path))
-    
-    def get_invalidNodes(self, cf):
-        '''
-        A node is invalid if it is not part of any way.
-        Dump the invalid nodes into a {filename}_invalid.geojson
-        '''
-        vals = np.array(list(self.coord_dict.values()))            
-        invalid_nodes = [ind for ind, val in enumerate(vals) if len(val) == 0]
-        invalid_nodes_json = self.nodes_json.copy()
-        invalid_nodes_json['features'] = []
-        [invalid_nodes_json['features'].append(self.nodes_json['features'][ind]) for ind in invalid_nodes]
-        
-        invalid_save_path = os.path.join(cf.writePath, (ntpath.basename(self.nodes_file).split('.')[0] + '_invalid.geojson'))
-        with open(invalid_save_path, 'w') as fp:
-            json.dump(invalid_nodes_json,fp, indent = 4) 
-        print('Invalid Nodes dumped to {}'.format(self.nodes_file.split('.')[0] + '_invalid.geojson'))
 
 
-    def get_coord_df(self, coords_list):
+    def get_coord_df(self):
         '''
         Return df with two columns origin and dest for starting and ending nodes of the way
         This is needed for connected component of networkx package
         '''
         data = {'origin':[], 'dest': []}
         df = pd.DataFrame(data)
-        for elem in coords_list:
+        for elem in self.ways_list:
             df = df.append({'origin':str(elem[0]), 'dest':str(elem[-1])}, ignore_index=True)
-        return df 
-    
-    def geometry_type_validation(self):
-        '''
-        Geojson Geometry type validations : https://tools.ietf.org/html/rfc7946#section-3.1.4
-        Gets number of linestrings that has only one node
-        '''
-        one_node_ls_ids = []
-        [one_node_ls_ids.append(ind) for ind, way in enumerate(self.ways_list) if len(way) == 1]
+        self.ways_df = df

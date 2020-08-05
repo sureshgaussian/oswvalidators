@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 from shapely.geometry import LineString, Point, Polygon, MultiPoint
-
+import time
 
 def readJsonFile(path):
     '''
@@ -49,11 +49,13 @@ def indexInvalidGeometryType(geometryData):
 
 
 def brunnelcheck(x, skipTag):
-    if (x[0]["brunnel"] == None):
-        return False
+    if (skipTag in x[0].keys()):
+        if (x[0]["brunnel"] == None):
+            return False
+        else:
+            return True
     else:
-        return True
-
+        return False
 
 def geojsonWrite(path, invalidWays, originalGeoJsonFile):
     '''
@@ -79,7 +81,7 @@ def geojsonWrite(path, invalidWays, originalGeoJsonFile):
         json.dump(invalidPaths, fp, indent=4)
 
 
-def intersectLineStringInValidFormat(geoJSONdata, skipTag):
+def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
     featuresData = pd.DataFrame(geoJSONdata["features"])
     geometryData = pd.DataFrame(featuresData["geometry"])
     propertyData = pd.DataFrame(featuresData["properties"])
@@ -88,7 +90,11 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag):
     violatingWayFeatures = []
 
     brunnelValid = pd.DataFrame(propertyData.apply(brunnelcheck, args=(skipTag,), axis=1))
+    start_time = time.time()
+
     invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
+    print("--- %s seconds ---" % (time.time() - start_time))
+
     for counter in range(len(geoJSONdata["features"])):
         if counter in invalidGeometryIndex:
             invalidWayGeoJSONFormat.append(geoJSONdata["features"][counter])
@@ -144,4 +150,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag):
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
 
-    return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
+    geojsonWrite(cf.path_invalidFormat, invalidWayGeoJSONFormat, geoJSONdata)
+    geojsonWrite(cf.path_suggestedIntersectingWays, violatingWayFeatures, geoJSONdata)
+    geojsonWrite(cf.path_recommendedIntersections, intersectingNodeGeoJSON, geoJSONdata)
+    # return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
