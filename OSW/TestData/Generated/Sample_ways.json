@@ -1,0 +1,7 @@
+{"type": "FeatureCollection","features": [
+{"type": "Feature","geometry": {"type": "LineString", "coordinates": [[108.6884343,-11.2976275],[38.8964744,25.0016122],[134.0332021,24.7529114],[41.5728837,-46.4822351],[128.8417722,-85.9313293]]}, "properties": {"service": "driveway", "troubles": "karthik", "marked": "yes"}},
+{"type": "Feature","geometry": {"type": "LineString", "coordinates": [[41.5728837,-46.4822351]]}, "properties": {"highway": "steps", "indoor": 0, "foot": 1}},
+{"type": "Feature","geometry": {"type": "LineString", "coordinates": [[108.6884343,-11.2976275],[-113.9107079,63.3661889],[175.0255379,-86.3797575]]}, "properties": {"width": 74, "marked": "no", "kerb_raised": 1}},
+{"type": "Feature","geometry": {"type": "LineString", "coordinates": [[134.9391229,-65.0674238],[41.5728837,-46.4822351],[-37.4668382,22.9510853],[-37.4668382,22.9510853]]}, "properties": {"foot": 1, "service": "alley", "troubles": "rakesh"}},
+{"type": "Feature","geometry": {"type": "LineString", "coordinates": [[128.8417722,-85.9313293]]}, "properties": {"footway": "sidewalk", "width": 89, "crossing": "unmarked"}}
+]}

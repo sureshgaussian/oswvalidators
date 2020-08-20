@@ -1,0 +1,12 @@
+{"type": "FeatureCollection","features": [
+{"type": "Feature", "id": "ab1", "geometry": {"type": "Point", "coordinates": [175.0255379,-86.3797575]}},
+{"type": "Feature", "id": "ab2", "geometry": {"type": "Point", "coordinates": [134.0332021,24.7529114]}},
+{"type": "Feature", "id": "ab3", "geometry": {"type": "Point", "coordinates": [164.5541011,20.8283841]}},
+{"type": "Feature", "id": "ab4", "geometry": {"type": "Point", "coordinates": [129.4063204,53.8822514]}},
+{"type": "Feature", "id": "ab5", "geometry": {"type": "Point", "coordinates": [175.0255379,-86.3797575]}},
+{"type": "Feature", "id": "ab6", "geometry": {"type": "Point", "coordinates": [-37.4668382,22.9510853]},"properties": {"tactile_paving":0}},
+{"type": "Feature", "id": "ab7", "geometry": {"type": "Point", "coordinates": [115.0613176,57.1676769]},"properties": {"sound":"no"}},
+{"type": "Feature", "id": "ab8", "geometry": {"type": "Point", "coordinates": [128.8417722,-85.9313293]},"properties": {"button_operated":"yes"}},
+{"type": "Feature", "id": "ab9", "geometry": {"type": "Point", "coordinates": [-37.4668382,22.9510853]},"properties": {"junction":"roundabout"}},
+{"type": "Feature", "id": "ab10", "geometry": {"type": "Point", "coordinates": [38.8964744,25.0016122]},"properties": {"manhole":"tactile_paving"}}
+]}
