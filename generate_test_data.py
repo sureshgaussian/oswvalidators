@@ -33,14 +33,14 @@ def generate_test_nodes(num_entries, Dictionary, Coordinates):
 	for keys in Dictionary.keys():
 		Tags.append(keys)
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature", "id": "ab' + str(i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '}},'
+		test_string = '\n' + '{"type": "Feature", "id": "Node' + str(i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '}},'
 		i = i + 1
 		header_string = header_string + test_string
 	
 	#header_string = header_string[0:len(header_string)-1]	
 	i = 1
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature", "id": "ab' + str(num_entries+i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '},"properties": {'
+		test_string = '\n' + '{"type": "Feature", "id": "Node' + str(num_entries+i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '},"properties": {'
 		tag = random.choice(Tags)
 		values = Dictionary[tag]
 		value = random.choice(values)
@@ -58,7 +58,7 @@ def generate_test_ways(num_entries, Dictionary, Coordinates):
 	for keys in Dictionary.keys():
 		Tags.append(keys)
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature","geometry": {"type": "LineString", "coordinates": ['
+		test_string = '\n' + '{"type": "Feature", "id": "Way' + str(i) + '", "geometry": {"type": "LineString", "coordinates": ['
 		# Assign a random number of coordinates to the way
 		for j in range(2,random.randint(3,10)):
 			test_string = test_string + random.choice(Coordinates) + ','
