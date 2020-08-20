@@ -1,0 +1,121 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "type",
+        "features"
+    ],
+    "properties": {
+        "type": {
+            "$id": "#/properties/type",
+            "type": "string",
+            "title": "The type schema",
+            "description": "An explanation about the purpose of this instance."
+        },
+        "features": {
+            "$id": "#/properties/features",
+            "type": "array",
+            "title": "The features schema",
+            "description": "An explanation about the purpose of this instance.",
+            "uniqueItems": false,
+            "additionalItems": false,
+            "items": {
+                "$id": "#/properties/features/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/features/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "required": [
+                            "type",
+                            "geometry",
+                            "properties"
+                        ],
+                        "properties": {
+                            "type": {
+                                "$id": "#/properties/features/items/anyOf/0/properties/type",
+                                "type": "string",
+                                "title": "The type schema",
+                                "description": "An explanation about the purpose of this instance."
+                            },
+                            "geometry": {
+                                "$id": "#/properties/features/items/anyOf/0/properties/geometry",
+                                "type": "object",
+                                "title": "The geometry schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "required": [
+                                    "type",
+                                    "coordinates"
+                                ],
+                                "properties": {
+                                    "type": {
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "The type schema",
+                                        "enum": [
+                                            "Point",
+                                            "LineString"
+                                        ]
+                                    },
+                                    "coordinates": {
+                                        "$id": "#/properties/features/items/anyOf/0/properties/geometry/properties/coordinates",
+                                        "type": "array",
+                                        "title": "The coordinates schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "uniqueItems": false,
+                                        "additionalItems": false,
+                                        "items": {
+                                            "$id": "#/properties/features/items/anyOf/0/properties/geometry/properties/coordinates/items",
+                                            "anyOf": [
+                                                {
+                                                    "$id": "#/properties/features/items/anyOf/0/properties/geometry/properties/coordinates/items/anyOf/0",
+                                                    "type": "number",
+                                                    "title": "The first anyOf schema",
+                                                    "description": "An explanation about the purpose of this instance."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "additionalProperties": false
+                            },
+                            "properties": {
+                                "$id": "#/properties/features/items/anyOf/0/properties/properties",
+                                "type": "object",
+                                "title": "The properties schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "required": [
+                                    "tactile_paving",
+                                    "kerb"
+                                ],
+                                "properties": {
+                                    "tactile_paving": {
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "The tactile_paving schema",
+                                        "maximum": 10,
+                                        "minimum": 0
+                                    },
+                                    "kerb": {
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "title": "The kerb schema",
+                                        "enum": [
+                                            "lowered",
+                                            "flat",
+                                            "raised"
+                                        ]
+                                    }
+                                },
+                                "additionalProperties": false
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": false
+}

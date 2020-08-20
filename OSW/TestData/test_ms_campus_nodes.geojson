@@ -1,0 +1,9 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        { "type": "Feature","geometry": {"type": "Point","coordinates": [-122.1441955, 47.6356145]},"properties": {"tactile_paving": 4,"kerb": "lowered"}},
+        { "type": "Feature","geometry": {"type": "Something","coordinates": [-122.1431969, 47.6365165]},"properties": {"tactile_paving": 20,"kerb": "wrong0"}},
+        { "type": "Feature","geometry": {"type": "Point","coordinates": [-122.1431977, 47.6345115]},"properties": {"tactile_paving": 30,"kerb": "wrong1"}},
+        { "type": "Feature","geometry": {"type": "Point","coordinates": [-122.1431955, 47.6365145]},"properties": {"tactile_paving": 4,"kerb": "wrong2"}}
+    ]
+}
