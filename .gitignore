@@ -1,2 +1,3 @@
 *.pkl
 __pycache__/
+OSW/TestData/Generated/
