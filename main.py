@@ -9,19 +9,21 @@ import ntpath
 
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
-    parser.add_argument("--GeoJSON", help="Relative path to geoJSON files",
-                        default=os.path.join(os.getcwd(), "OSW\TestData"))
+    parser.add_argument("--inputPath", help="Relative input path to GeoJSON files",
+                        default=os.path.join(os.getcwd(), "OSW\TestData\input"))
     parser.add_argument("--validation", help="Type of validation", default='intersectingvalidation')
-    parser.add_argument("--writePath", help="output directory to write the validation errors",
+    parser.add_argument("--writePath", help="Relative output path to write the validation errors",
                         default=os.path.join(os.getcwd(), "OSW\TestData\Output"))
     args = parser.parse_args()
     cf = DefaultConfigs(args)
-    path = args.GeoJSON
-    outputDirectory = args.writePath
+    inputPath = args.inputPath
+    writePath = args.writePath
 
-    json_files = glob(os.path.join(path, "*.geojson"))
-    json_files = sorted([i for i in json_files if cf.file_filter in i])
-    print("Number of json files :", len(json_files))
+    json_files = glob(os.path.join(inputPath, "*.geojson"))
+    if cf.file_filter:
+        print("Filtering")
+        json_files = sorted([i for i in json_files if cf.file_filter in i])
+    print("Number of geojson files :", len(json_files))
     nodes_files = sorted([x for x in json_files if 'node' in x])
     ways_files = sorted([x for x in json_files if 'node' not in x])
 

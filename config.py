@@ -11,11 +11,11 @@ class DefaultConfigs:
 
     def __init__(self, args=None):
         if args:
-            self.GeoJSON = args.GeoJSON
+            self.inputPath = args.inputPath
             self.validation = args.validation
             self.writePath = args.writePath
         else:
-            self.GeoJSON = os.path.join(os.getcwd(), "OSW\TestData")
+            self.GeoJSON = os.path.join(os.getcwd(), "OSW\TestData\input")
             self.validation = "intersectingvalidation"
             self.writePath = os.path.join(os.getcwd(), "OSW\TestData\Output")
 
@@ -24,7 +24,7 @@ class DefaultConfigs:
 
         self.test_geojson = os.path.join(os.getcwd(), "OSW\TestData", "test_ms_campus_nodes.geojson")
         self.test_schema = os.path.join(os.getcwd(), "OSW\TestData", "test_schema.json")
-        self.file_filter = 'ms_campus'  # for now filter just by substring. TODO :  extended to regex
+        self.file_filter = 'ms_campus_'  # for now filter just by substring. TODO :  extended to regex
         self.filter_sidewalks = False  # Filter only side walks for further processing
         self.validation = 'intersectingvalidation'
         self.do_all_validations = True
