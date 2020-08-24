@@ -18,10 +18,10 @@ General steps to run:
 
 ##### How to run the code:
 
-    python main.py --GeoJSON <<input file>> --validation <<Validation to Perform> --writePath <<Output Directory to Write To>>
+    python main.py --inputPath <<input folder>> --validation <<Validation to Perform> --writePath <<Output Directory to Write To>>
 
 eg) If you want to check the intersecting validation
 
 
 
-    python main.py --GeoJSON OSW/TestData/redmond.geojson --validation intersectingvalidation --writePath OSW/TestData/
+    python main.py --inputPath OSW/TestData/input --validation intersectingvalidation --writePath OSW/TestData/Output
