@@ -33,14 +33,16 @@ def generate_test_nodes(num_entries, Dictionary, Coordinates):
 	for keys in Dictionary.keys():
 		Tags.append(keys)
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature", "id": "Node' + str(i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '}},'
+		test_string = '\n' + '{"type": "Feature", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '},'
+		test_string = test_string + ' "properties": {"id": "node' + str(i) + '"}},'
 		i = i + 1
 		header_string = header_string + test_string
 	
 	#header_string = header_string[0:len(header_string)-1]	
 	i = 1
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature", "id": "Node' + str(num_entries+i) + '", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '},"properties": {'
+		test_string = '\n' + '{"type": "Feature", "geometry": {"type": "Point", "coordinates": ' + random.choice(Coordinates) + '},'
+		test_string = test_string + ' "properties": {"id": "node' + str(num_entries+i) + '",'
 		tag = random.choice(Tags)
 		values = Dictionary[tag]
 		value = random.choice(values)
@@ -58,12 +60,12 @@ def generate_test_ways(num_entries, Dictionary, Coordinates):
 	for keys in Dictionary.keys():
 		Tags.append(keys)
 	while i <= num_entries:
-		test_string = '\n' + '{"type": "Feature", "id": "Way' + str(i) + '", "geometry": {"type": "LineString", "coordinates": ['
+		test_string = '\n' + '{"type": "Feature","geometry": {"type": "LineString", "coordinates": ['
 		# Assign a random number of coordinates to the way
 		for j in range(2,random.randint(3,10)):
 			test_string = test_string + random.choice(Coordinates) + ','
 		
-		test_string = test_string[0:len(test_string)-1] + ']}, "properties": {'
+		test_string = test_string[0:len(test_string)-1] + ']}, "properties": {"id": "way' + str(i) + '", '
 		
 		for x in range(1,4):
 			tag = random.choice(Tags)
@@ -81,11 +83,12 @@ def generate_test_ways(num_entries, Dictionary, Coordinates):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Run Pipeline')
+	#parser.add_argument('--generate', help="Nodes: Generate Test nodes, \n Ways: Generate Test Ways",type=str, required=True)
 	parser.add_argument('--number', help="Number of nodes / ways to generate", type=int, required=True)
 	args = parser.parse_args()
     
 	print("Reading the input file")
-	df = pd.read_excel('OSW/OSW_Tags.xlsx') # read the file into a dataframe
+	df = pd.read_excel('OSW_Tags.xlsx') # read the file into a dataframe
 	
 	Pointsdf = df[df['Geometry']=='Point'] 
 	Pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use
@@ -112,16 +115,16 @@ if __name__ == '__main__':
 	
 	if json.loads(Nodes):
 		print('Generated Nodes Successfully \n')
-		Nodes_file = open("OSW/TestData/Generated/Sample_nodes.json", "w")
+		Nodes_file = open("Sample_nodes.json", "w")
 		Nodes_file.write(Nodes)
 		Nodes_file.close()
 	else:
 		print('Error Generating Nodes data')
 	
-
+	#print(Ways)
 	if json.loads(Ways):
 		print('Generated Ways Successfully \n')
-		Ways_file = open("OSW/TestData/Generated/Sample_ways.json", "w")
+		Ways_file = open("Sample_ways.json", "w")
 		Ways_file.write(Ways)
 		Ways_file.close()
 	else:
