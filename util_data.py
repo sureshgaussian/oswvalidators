@@ -5,8 +5,8 @@ Idea : All the data related to json files should be in the object of this class.
 Any validations that need to READ-ONLY this data can be defined as members outside the class.
 Any validations that needs to UPDATE the data shoulb be defined as members of the class UtilData.
 
-Tentative Sequence of operations : 
-    
+Tentative Sequence of operations :
+
 #Build the Utildata
 0. Read the nodes and ways files as json objects
 1. Build nodes and ways list
@@ -15,7 +15,7 @@ Tentative Sequence of operations :
 4. Build coordinate df (for subgraps)
 5. Get isolated ways
 6. Split json file into connected and disconnected
-    
+
 #EDA
 '''
 01. Plot #Nodes vs #Ways
@@ -29,14 +29,19 @@ Tentative Sequence of operations :
 '''
 
 """
+import logging
 import os
 import json
+from logging.config import fileConfig
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import ntpath
 import time
 import networkx as nx
+
+from timerLog import timecall
 
 
 class UtilData:
@@ -71,6 +76,7 @@ class UtilData:
         self.split_ways_geojson_file(cf)
         self.get_coord_df()
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step6")
     def get_coords_list(self, features_list, cf):
         """
         Returns list of list of coordinates.
@@ -88,6 +94,7 @@ class UtilData:
                 coord_list.append(elem['geometry']['coordinates'])
         return coord_list
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step5")
     def get_coord_dict(self):
         """
         Returns dictionary of coordinates
@@ -107,6 +114,7 @@ class UtilData:
                     coord_dict[str(point)].append(id)
         self.coord_dict = coord_dict
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step4")
     def get_isolated_ways(self):
         """
         A way is isolated if none of it's nodes are part of any other way
@@ -124,6 +132,7 @@ class UtilData:
                 isolated_way_ids.update([id])
         self.isolated_way_ids = isolated_way_ids
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step3")
     def split_ways_geojson_file(self, cf):
         """
         Splits the geojson file based on connectivity with with other ways
@@ -153,9 +162,10 @@ class UtilData:
             json.dump(connected_ways, fp, indent=4)
         with open(disconnected_save_path, 'w') as fp:
             json.dump(disconnected_ways, fp, indent=4)
-        print("ways_file split into \n{} and \n{}".format(ntpath.basename(connected_save_path),
-                                                          ntpath.basename(disconnected_save_path)))
+        print("\n The ways_file split into: \n {} and {}".format(ntpath.basename(connected_save_path),
+                                                                 ntpath.basename(disconnected_save_path)))
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step2")
     def get_coord_df(self):
         """
         Return df with two columns origin and dest for starting and ending nodes of the way
@@ -167,6 +177,7 @@ class UtilData:
             df = df.append({'origin': str(elem[0]), 'dest': str(elem[-1])}, ignore_index=True)
         self.ways_df = df
 
+    @timecall(log_name='utildata', log_level=logging.INFO, immediate=False, messages="step1")
     def get_one_node_ways(self):
         """
         Geojson Geometry type validations : https://tools.ietf.org/html/rfc7946#section-3.1.4
