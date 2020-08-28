@@ -1,0 +1,22 @@
+2020-08-28 23:34:26,176,  main, INFO    , function:main, step 0, 0 calls, 0 seconds, 0.000 seconds per call, Number of geojson files read : 2
+2020-08-28 23:34:26,176,  main, INFO    , function:main, step 0, 0 calls, 0 seconds, 0.000 seconds per call,Processing File : ms_campus_nodes.geojson  ms_campus_ts.geojson
+2020-08-28 23:34:34,075,  main, INFO    , function:main, step 0, 0 calls, 0 seconds, 0.000 seconds per call, Running intersectingvalidation to see if any ways which are intersecting have a missing intersecting node
+2020-08-28 23:34:58,265,  IntersectingValidation, INFO    , function:intersectLineStringInValidFormat, step1, 0 calls, 0 seconds, 0.000 seconds per call,half way through... please wait
+2020-08-28 23:35:08,069,  main, INFO    , function:main, step 1,  1 calls, 0 seconds, 0.000 seconds per call, Performing Exploratory Data Analysis
+2020-08-28 23:35:08,256,  EDA, INFO    , function: subgraph_eda, step 3, 1 calls, 0.00878 seconds, 0.00878 seconds per call, Number of ways in the file : 4189 Number of isolated ways: 17 Number of Connected ways: 4172 Number of Connected Components : 52
+2020-08-28 23:35:08,518,  main, INFO    , function:main, step 1, 1 calls, 0 seconds, 0.000 seconds per call, Performing all validations
+2020-08-28 23:35:08,522,  utildata, INFO    , function: get_one_node_ways, step1, 1 calls, 0.000 seconds, 0.000 seconds per call, No Comments
+2020-08-28 23:35:08,522,  utildata, INFO    , function: get_coord_df, step2, 1 calls, 7.702 seconds, 7.702 seconds per call, No Comments
+2020-08-28 23:35:08,522,  utildata, INFO    , function: split_ways_geojson_file, step3, 1 calls, 0.142 seconds, 0.142 seconds per call, No Comments
+2020-08-28 23:35:08,522,  utildata, INFO    , function: get_isolated_ways, step4, 1 calls, 0.006 seconds, 0.006 seconds per call, No Comments
+2020-08-28 23:35:08,522,  utildata, INFO    , function: get_coord_dict, step5, 1 calls, 0.031 seconds, 0.031 seconds per call, No Comments
+2020-08-28 23:35:08,522,  utildata, INFO    , function: get_coords_list, step6, 2 calls, 0.001 seconds, 0.000 seconds per call, No Comments
+2020-08-28 23:35:08,522,  EDA, INFO    , function: get_invalidNodes, step1, 1 calls, 0.003 seconds, 0.003 seconds per call, No Comments
+2020-08-28 23:35:08,522,  EDA, INFO    , function: get_way_from_subgraph, step2, 1 calls, 0.007 seconds, 0.007 seconds per call, No Comments
+2020-08-28 23:35:08,522,  EDA, INFO    , function: subgraph_eda, step3, 1 calls, 0.275 seconds, 0.275 seconds per call, No Comments
+2020-08-28 23:35:08,522,  EDA, INFO    , function: plot_nodes_vs_ways, step4, 1 calls, 0.174 seconds, 0.174 seconds per call, No Comments
+2020-08-28 23:35:08,522,  IntersectingValidation, INFO    , function: intersectLineStringInValidFormat, step1, 1 calls, 33.994 seconds, 33.994 seconds per call, No Comments
+2020-08-28 23:35:08,522,  IntersectingValidation, INFO    , function: geojsonWrite, step2, 3 calls, 0.003 seconds, 0.001 seconds per call, No Comments
+2020-08-28 23:35:08,522,  IntersectingValidation, INFO    , function: brunnelcheck, step3, 4189 calls, 0.010 seconds, 0.000 seconds per call, No Comments
+2020-08-28 23:35:08,522,  IntersectingValidation, INFO    , function: indexInvalidGeometryType, step4, 1 calls, 0.058 seconds, 0.058 seconds per call, No Comments
+2020-08-28 23:35:08,522,  IntersectingValidation, INFO    , function: geometryFormat, step5, 8378 calls, 0.069 seconds, 0.000 seconds per call, No Comments
