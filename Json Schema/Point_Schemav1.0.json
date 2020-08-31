@@ -1,0 +1,163 @@
+{
+  "title": "root",
+  "type": "object",
+  "required": 
+  [
+    "type",
+    "features"
+  ],
+  "additionalProperties": false,
+  "properties": 
+  {
+    "type": 
+    {
+      "title": "Feature Collection",
+      "type": "string",
+      "default": "FeatureCollection",
+      "enum": ["FeatureCollection"]
+    },
+    "features": 
+    {
+      "title": "features array",
+      "type": "array",
+      "minItems": 1,
+      "additionalItems": false,
+      "items": 
+      {
+        "title": "FeatureObject",
+        "type": "object",
+        "required": ["type","geometry","properties"],
+        "additionalProperties": false,
+        "properties": 
+        {
+          "type": 
+          {
+            "title": "FeatureType",
+            "type": "string",
+            "default": "Feature",
+            "enum": ["Feature"]
+          },
+          "geometry": 
+          {
+            "title": "geometryObject",
+            "type": "object",
+            "required": ["type","coordinates"],
+            "additionalProperties": false,
+            "properties": 
+            {
+              "type": 
+              {
+                "title": "GeometryType",
+                "type": "string",
+                "default": "Point",
+                "enum": ["Point"]
+              },
+              "coordinates": 
+              {
+                "title": "coordinates",
+                "type": "array",
+                 "minItems": 2,
+                 "maxItems": 2,
+      			"additionalItems": false,
+                "items": 
+                {
+                  "type": "number"
+                }
+               }
+            }
+          },
+          "properties":
+          {
+            "title": "propertiesObject",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": 
+            {
+              "barrier":
+              {
+                "type": "string",
+                "enum": ["hedge","wall","fence","kerb"]
+              },
+              "tactile_paving": 
+              {
+                "type": "integer",
+                "enum": [0,1]
+              },
+              "amenity":
+              {
+                "type": "string",
+                "enum": ["bench","waste_basket","telephone"]
+              },
+              "power":
+              {
+                "type": "string",
+                "enum": ["pole"]
+              },
+              "emergency":
+              {
+                "type": "string",
+                "enum": ["fire_hydrant"]
+              },
+              "junction":
+              {
+                "type": "string",
+                "enum": ["roundabout"]
+              },
+              "manhole":
+              {
+                "type": "string",
+                "enum": ["shape","material","tactile_paving"]
+              },
+              "shape":
+              {
+                "type": "string",
+                "enum": ["rectangular","circular"]
+              },
+              "material":
+              {
+                "type": "string",
+                "enum": ["wood", "steel", "concrete", "stone", "reinforced_concrete"]
+              },
+              "public_transport":
+              {
+                "type": "string",
+                "enum": ["stop_position"]
+              },
+              "traffic_signals":
+              {
+                "type": "string",
+                "enum": ["sound","vibration","button_operated", "timing", "foot"]
+              },
+              "foot":
+              {
+                "type": "string",
+                "enum": ["yes","no","unknown"]
+              },
+              "sound":
+              {
+                "type": "string",
+                "enum": ["yes","no","unknown"]
+              },
+              "vibration":
+              {
+                "type": "string",
+                "enum": ["yes","no","unknown"]
+              },
+              "button_operated":
+              {
+                "type": "string",
+                "enum": ["yes","no","unknown"]
+              },
+              "timing":
+              {
+                "type": "number"
+                ,"minimum": 0
+                ,"maximum": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

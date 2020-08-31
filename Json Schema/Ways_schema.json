@@ -1,0 +1,88 @@
+{
+  "title": "root",
+  "type": "object",
+  "required": 
+  [
+    "type",
+    "features"
+  ],
+  "additionalProperties": false,
+  "properties": 
+  {
+    "type": 
+    {
+      "title": "Feature Collection",
+      "type": "string",
+      "default": "FeatureCollection",
+      "enum": ["FeatureCollection"]
+    },
+    "features": 
+    {
+      "title": "features array",
+      "type": "array",
+      "minItems": 1,
+      "additionalItems": false,
+      "items": 
+      {
+        "title": "FeatureObject",
+        "type": "object",
+        "required": ["type","geometry"],
+        "additionalProperties": false,
+        "properties": 
+        {
+          "type": 
+          {
+            "title": "FeatureType",
+            "type": "string",
+            "default": "Feature",
+            "enum": ["Feature"]
+          },
+          "geometry": 
+          {
+            "title": "geometryObject",
+            "type": "object",
+            "required": ["type","coordinates"],
+            "additionalProperties": false,
+            "properties": 
+            {
+              "type": 
+              {
+                "title": "GeometryType",
+                "type": "string",
+                "default": "Point",
+                "enum": ["Point"]
+              },
+              "coordinates": 
+              {
+                "title": "coordinates",
+                "type": "array",
+                 "minItems": 2,
+      			"additionalItems": false,
+                "items": 
+                {
+                  "title":"coordinate",
+				  "type": "array",
+				  "items":
+				  {
+					"type": "number",
+					"minItems": 2,
+					"maxItems": 2,
+					"additionalItems": false
+				  }
+				 }
+               }
+            }
+          },
+          "properties":
+          {
+            "title": "propertiesObject",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {"indoor": {"type":"integer","minimum" :0,"maximum":1},"kerb_raised": {"type":"integer","minimum" :0,"maximum":1},"width": {"type":"number","minimum" :0},"incline": {"type":"number","minimum" :-90,"maximum":90},"length": {"type":"number","minimum" :0},"smoothness": {"type":"string","enum":["excellent","good","intermediate","bad"]},"service": {"type":"string","enum":["alley","crossover","driveway","parking_aisle"]},"bicycle:backward": {"type":"string","enum":["yes","no","unknown"]},"foot:backward": {"type":"string","enum":["yes","no","unknown"]},"highway": {"type":"string","enum":["footway","cycleway","path","pedestrian","steps","secondary","tertiary","residential","service"]},"traffic_signals": {"type":"string","enum":["yes","no"]},"island": {"type":"string","enum":["yes","no"]},"unmarked": {"type":"string","enum":["yes","no"]},"marked": {"type":"string","enum":["yes","no"]},"crossing": {"type":"string","enum":["marked","unmarked","island","traffic_signals"]},"footway": {"type":"string","enum":["crossing","sidewalk","kerb_raised"]},"brunnel": {"type":"string","enum":["bridge","ford","tunnel"]},"surface": {"type":"string","enum":["asphalt","concrete","gravel","grass","paved","paving_stones","unpaved"]}},
+			"dependencies": {"footway":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "footway"}}},"surface":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "surface"}}},"length":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "length"}}},"incline":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "incline"}}},"width":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "width"}}},"foot":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "foot"}}},"service":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "service"}}},"foot":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "foot"}}},"timing":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "timing"}}},"sound":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "sound"}}},"vibration":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "vibration"}}},"button_operated":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "button_operated"}}},"marked":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "marked"}}},"unmarked":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "unmarked"}}},"island":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "island"}}},"traffic_signals":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "traffic_signals"}}},"crossing":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "crossing"}}},"kerb_raised":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "kerb_raised"}}}}
+          }
+        }
+      }
+    }
+  }
+}
