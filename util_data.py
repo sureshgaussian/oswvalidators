@@ -5,8 +5,8 @@ Idea : All the data related to json files should be in the object of this class.
 Any validations that need to READ-ONLY this data can be defined as members outside the class.
 Any validations that needs to UPDATE the data shoulb be defined as members of the class UtilData.
 
-Tentative Sequence of operations : 
-    
+Tentative Sequence of operations :
+
 #Build the Utildata
 0. Read the nodes and ways files as json objects
 1. Build nodes and ways list
@@ -15,7 +15,7 @@ Tentative Sequence of operations :
 4. Build coordinate df (for subgraps)
 5. Get isolated ways
 6. Split json file into connected and disconnected
-    
+
 #EDA
 '''
 01. Plot #Nodes vs #Ways
@@ -153,7 +153,7 @@ class UtilData:
             json.dump(connected_ways, fp, indent=4)
         with open(disconnected_save_path, 'w') as fp:
             json.dump(disconnected_ways, fp, indent=4)
-        print("ways_file split into \n{} and \n{}".format(ntpath.basename(connected_save_path),
+        print("ways_file split into {} and {}".format(ntpath.basename(connected_save_path),
                                                           ntpath.basename(disconnected_save_path)))
 
     def get_coord_df(self):

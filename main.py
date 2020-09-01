@@ -8,6 +8,7 @@ from util_data import UtilData
 import ntpath
 
 if __name__ == '__main__':
+
     parser = ag.ArgumentParser()
     parser.add_argument("--inputPath", help="Relative input path to GeoJSON files",
                         default=os.path.join(os.getcwd(), "OSW\TestData\input"))
@@ -21,20 +22,19 @@ if __name__ == '__main__':
 
     json_files = glob(os.path.join(inputPath, "*.geojson"))
     if cf.file_filter:
-        print("Filtering")
         json_files = sorted([i for i in json_files if cf.file_filter in i])
     print("Number of geojson files :", len(json_files))
     nodes_files = sorted([x for x in json_files if 'node' in x])
     ways_files = sorted([x for x in json_files if 'node' not in x])
 
     for ind, (nodes_file, ways_file) in enumerate(zip(nodes_files, ways_files)):
-        print('Processing File : \n{}\n{}'.format(ntpath.basename(nodes_file), ntpath.basename(ways_file)))
+        print('Processing the following files : \n{} , {}'.format(ntpath.basename(nodes_file), ntpath.basename(ways_file)))
         utild = UtilData(nodes_file, ways_file, cf)
         if cf.validation == 'intersectingvalidation':
             print("--" * 10)
-            print("intersectingvalidation")
+            print("performing checks to see if any Ways which are intersecting have a missing intersecting node")
             print("--" * 10)
-            intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf)
+            intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf,ntpath.basename(ways_file))
 
         if cf.do_eda:
             print("--" * 10)

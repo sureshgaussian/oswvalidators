@@ -1,7 +1,10 @@
 import json
+import os
+
 import pandas as pd
+import pyprog
 from shapely.geometry import LineString, Point, Polygon, MultiPoint
-import time
+
 
 def readJsonFile(path):
     '''
@@ -57,7 +60,8 @@ def brunnelcheck(x, skipTag):
     else:
         return False
 
-def geojsonWrite(path, invalidWays, originalGeoJsonFile):
+
+def geojsonWrite(path, invalidWays, originalGeoJsonFile,fileName):
     '''
     To write the given invalid ways in the GeoJson format
 
@@ -77,24 +81,22 @@ def geojsonWrite(path, invalidWays, originalGeoJsonFile):
     '''
     invalidPaths = originalGeoJsonFile.copy()
     invalidPaths['features'] = invalidWays
-    with open(path.split('.')[0] + '.geojson', 'w') as fp:
+    path = os.path.join(path.split('.')[0],fileName)
+    with open(path+ '.geojson', 'w') as fp:
         json.dump(invalidPaths, fp, indent=4)
 
 
-def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
+def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
     featuresData = pd.DataFrame(geoJSONdata["features"])
     geometryData = pd.DataFrame(featuresData["geometry"])
     propertyData = pd.DataFrame(featuresData["properties"])
     invalidWayGeoJSONFormat = []
     intersectingNodeGeoJSON = []
     violatingWayFeatures = []
+    print("number of ways in the currrent file : ", len(geoJSONdata["features"]))
 
     brunnelValid = pd.DataFrame(propertyData.apply(brunnelcheck, args=(skipTag,), axis=1))
-    start_time = time.time()
-
     invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
-    print("--- %s seconds ---" % (time.time() - start_time))
-
     for counter in range(len(geoJSONdata["features"])):
         if counter in invalidGeometryIndex:
             invalidWayGeoJSONFormat.append(geoJSONdata["features"][counter])
@@ -103,10 +105,16 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
     geometryDataFormat = geometryData.apply(geometryFormat, axis=1)
     geometryDataFormatCopy = geometryDataFormat.copy()
 
-    for rowIdI, wayI in geometryDataFormat.iteritems():
-        if (rowIdI == len(geometryDataFormat) / 2):
-            print("half way through... please wait")
+    prog = pyprog.ProgressBar(" ", " ", total=len(geometryDataFormat), bar_length=26, complete_symbol="=",
+                              not_complete_symbol=" ",
+                              wrap_bar_prefix=" [", wrap_bar_suffix="] ", progress_explain="",
+                              progress_loc=pyprog.ProgressBar.PROGRESS_LOC_END)
+    prog.update()
 
+    for rowIdI, wayI in geometryDataFormat.iteritems():
+        prog.set_stat(rowIdI)
+        # Update Progress Bar again
+        prog.update()
         if (wayI == "invalid" or rowIdI in brunnelExist):
             continue
         for rowIdJ, wayJ in geometryDataFormatCopy.iteritems():
@@ -150,7 +158,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
 
-    geojsonWrite(cf.path_invalidFormat, invalidWayGeoJSONFormat, geoJSONdata)
-    geojsonWrite(cf.path_suggestedIntersectingWays, violatingWayFeatures, geoJSONdata)
-    geojsonWrite(cf.path_recommendedIntersections, intersectingNodeGeoJSON, geoJSONdata)
-    # return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
+    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"Ways_Missing_Intersection")
+    geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata,fileName+"recommended_Intersections")
+    prog.end()
+# return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
