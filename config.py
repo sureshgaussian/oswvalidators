@@ -22,8 +22,12 @@ class DefaultConfigs:
         if not os.path.exists(self.writePath):
             os.mkdir(self.writePath)
 
-        self.test_geojson = os.path.join(os.getcwd(), "OSW\TestData", "test_ms_campus_nodes.geojson")
-        self.test_schema = os.path.join(os.getcwd(), "OSW\TestData", "test_schema.json")
+        self.test_nodes_json = os.path.join(os.getcwd(), "TestData\input", "ms_campus_nodes.geojson")
+        self.test_ways_json = os.path.join(os.getcwd(), "TestData\input", "ms_campus_ts.geojson")
+
+        self.node_schema = os.path.join(os.getcwd(), "Json Schema", "Nodes_schema.json")
+        self.ways_schema = os.path.join(os.getcwd(), "Json SChema", "Ways_schema.json")
+
         self.file_filter = 'ms_campus_'  # for now filter just by substring. TODO :  extended to regex
         self.filter_sidewalks = False  # Filter only side walks for further processing
         self.validation = 'intersectingvalidation'
