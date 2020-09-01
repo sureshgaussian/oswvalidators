@@ -42,6 +42,4 @@ class DefaultConfigs:
         self.path_plot_random_subgraph = os.path.join(self.writePath, 'RandomSubgraph.jpg')
         # Karthik
         self.path_invalidWays = ''
-        self.path_invalidFormat = os.path.join(self.writePath, 'InvalidGeometryFormat.geojson')
-        self.path_suggestedIntersectingWays = os.path.join(self.writePath, 'WaysMissingIntersection.geojson')
-        self.path_recommendedIntersections = os.path.join(self.writePath, 'recommendedIntersections.geojson')
+
