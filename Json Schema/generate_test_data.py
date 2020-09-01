@@ -88,7 +88,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
     
 	print("Reading the input file")
-	df = pd.read_excel('OSW_Tags.xlsx') # read the file into a dataframe
+	df = pd.read_excel('OSW_Tags.xlsx',sheet_name='Tags') # read the file into a dataframe
 	
 	Pointsdf = df[df['Geometry']=='Point'] 
 	Pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use

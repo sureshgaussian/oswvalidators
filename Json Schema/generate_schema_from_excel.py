@@ -36,20 +36,22 @@ def build_properties(Tags, Types, df):
 
 def build_dependecies(dependencies):
 
-	Parents = dependencies["Tag"].values.tolist()
-	Children = dependencies["ChildTag"].values.tolist()
+	Children = dependencies["Tags"].values.tolist()
+	Parent_key = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
+	Parent_value = [dependencies['Prereqs'].str.split('=').values[i][1] for i in range(dependencies.shape[0])]
 	
 	String = ''
 	
-	for i in range(0,len(Parents)):
-		child_string = '"' + Children[i] + '":{"required" : ["' + Parents[i] + '"], "properties": {"' + Parents[i] + '":'
-		child_string = child_string + '{"type": "string", "const": "' + Children[i] + '"}}},'
+	for i in range(0,len(Children)):
+		child_string = '"' + Children[i] + '":{"required" : ["' + Parent_key[i] + '"], "properties": {"' + Parent_key[i] + '":'
+		child_string = child_string + '{"type": "string", "const": "' + Parent_value[i] + '"}}},'
 		String = String + child_string
 	String = String[0:len(String)-1]
 	return String
 
 def generate_nodes_schema(Tags, Types, df, dependencies):
-
+	
+	print("Generating Nodes Schema")
 	Point_Properties = build_properties(Tags, Types, df)
 	Point_dependencies = build_dependecies(dependencies)
 	
@@ -146,10 +148,11 @@ def generate_nodes_schema(Tags, Types, df, dependencies):
 	
 
 def generate_ways_schema(Tags, Types, df, dependencies):
-
+	
+	print("Generating Ways Schema")
 	Line_Properties = build_properties(Tags, Types, df)
 	Line_dependencies = build_dependecies(dependencies)
-	
+
 	
 	String = '''{
   "title": "root",
@@ -250,6 +253,10 @@ if __name__ == '__main__':
 	df = pd.read_excel('OSW_Tags.xlsx', sheet_name='Tags') 
 	dependencies = pd.read_excel('OSW_Tags.xlsx', sheet_name='Parents')
 	
+	# Remove all those lines which do not have a dependency
+	dependencies = dependencies[dependencies['Prereqs'] != 'None']
+	dependencies['Tag'] = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
+	
 	Pointsdf = df[df['Geometry'] == 'Point'].sort_values(by=['type'])
 	Pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use
 	
@@ -266,7 +273,7 @@ if __name__ == '__main__':
 	Linesdp = pd.merge(Linesdf.Tag, dependencies, on='Tag', how='inner')
 	Linesdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
 	
-	Nodes_schema = generate_nodes_schema(Point_Tags, Point_Types, Pointsdf,Pointsdp)
+	Nodes_schema = generate_nodes_schema(Point_Tags, Point_Types, Pointsdf, Pointsdp)
 	Ways_schema = generate_ways_schema(Line_Tags, Line_Types, Linesdf, Linesdp)
 	
 	
