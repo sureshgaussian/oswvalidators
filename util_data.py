@@ -62,6 +62,10 @@ class UtilData:
         with open(ways_file) as data_json:
             self.ways_json = json.load(data_json)
 
+        if cf.do_eda:
+            if not os.path.exists(os.path.join(cf.writePath, "EDA")):
+                os.mkdir(os.path.join(cf.writePath, "EDA"))
+
         # Construct the utility data
         self.nodes_list = self.get_coords_list(self.nodes_json['features'], cf)
         self.ways_list = self.get_coords_list(self.ways_json['features'], cf)
@@ -144,16 +148,17 @@ class UtilData:
         self.connected_ways = connected_ways
         self.disconnected_ways = disconnected_ways
 
-        connected_save_path = os.path.join(cf.writePath,
+        connected_save_path = os.path.join(cf.writePath, "EDA",
                                            (ntpath.basename(self.ways_file).split('.')[0] + '_connected.geojson'))
-        disconnected_save_path = os.path.join(cf.writePath,
+        disconnected_save_path = os.path.join(cf.writePath, "EDA",
                                               (ntpath.basename(self.ways_file).split('.')[0] + '_disconnected.geojson'))
 
-        with open(connected_save_path, 'w') as fp:
-            json.dump(connected_ways, fp, indent=4)
-        with open(disconnected_save_path, 'w') as fp:
-            json.dump(disconnected_ways, fp, indent=4)
-        print("ways_file split into {} and {}".format(ntpath.basename(connected_save_path),
+        if cf.do_eda:
+            with open(connected_save_path, 'w') as fp:
+                json.dump(connected_ways, fp, indent=4)
+            with open(disconnected_save_path, 'w') as fp:
+                json.dump(disconnected_ways, fp, indent=4)
+            print("ways_file split into {} and {}".format(ntpath.basename(connected_save_path),
                                                           ntpath.basename(disconnected_save_path)))
 
     def get_coord_df(self):
@@ -172,7 +177,6 @@ class UtilData:
         Geojson Geometry type validations : https://tools.ietf.org/html/rfc7946#section-3.1.4
         Gets number of linestrings that has only one node
         """
-        # start_time = time.time()
         one_node_ls_ids = []
         self.one_node_ls_ids = [one_node_ls_ids.append(ind) for ind, way in enumerate(self.ways_list) if len(way) == 1]
-        # print("--- %s seconds ---" % (time.time() - start_time))
+

@@ -29,7 +29,9 @@ def plot_nodes_vs_ways(utild, cf):
     plt.xlabel("Number of Nodes")
     plt.ylabel("Number of Ways")
     # plt.show(block=False)
-    plt.savefig(os.path.join(cf.writePath, "NodesVsWays.PNG"), format="PNG")
+    save_path = os.path.join(cf.writePath, "EDA",
+                             (ntpath.basename(utild.ways_file).split('.')[0] + "_NodesVsWays.PNG"))
+    plt.savefig(save_path, format="PNG")
     plt.clf()
 
 
@@ -46,16 +48,18 @@ def subgraph_eda(utild, cf):
     connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
     print("Number of Connected Components : ", nx.number_connected_components(connected_FG))
     subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
-
+    save_path = os.path.join(cf.writePath, "EDA",
+                             (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
     for i in range(len(subgraphs)):
         if 2 < len(subgraphs[i]) < 10:
             print("Printing subgraph{} edges : \n{}".format(i, subgraphs[i].edges))
             nx.draw_networkx(subgraphs[i])
             ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
-            plt.savefig(os.path.join(cf.writePath, "SampleSubgraph.PNG"), format="PNG")
+            plt.savefig(save_path, format="PNG")
             plt.clf()
             print("sgraph[{}]_ways {}".format(i, ways_set))
             break
+
 
 def get_way_from_subgraph(sgraph, df):
     """
