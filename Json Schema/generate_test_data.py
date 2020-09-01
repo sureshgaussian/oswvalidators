@@ -99,9 +99,9 @@ if __name__ == '__main__':
 	Coordinates = generate_coordinates(args.number*3) # Generate a list of input*3 coordinates to pick from
 	
 	Point_Tags = Pointsdf.Tag.values.tolist()
-	Pointsdf.drop(columns=['Tag','Geometry'], inplace=True)
+	Pointsdf.drop(columns=['Tag','type', 'Geometry'], inplace=True)
 	Line_Tags = Linesdf.Tag.values.tolist()
-	Linesdf.drop(columns=['Tag','Geometry'], inplace=True)
+	Linesdf.drop(columns=['Tag','type','Geometry'], inplace=True)
 	
 	PointsDictionary = build_dictionary(Pointsdf, Point_Tags)
 	PointsDictionary.update(timing = [1,2,3,4,5,6,7,8])
