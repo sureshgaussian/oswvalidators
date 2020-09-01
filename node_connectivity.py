@@ -1,3 +1,7 @@
+import logging
+import time
+from logging.config import fileConfig
+
 import numpy as np
 import pandas as pd
 import json
@@ -5,11 +9,13 @@ import matplotlib.pylab as plt
 import networkx as nx
 import os
 import ntpath
-import time
-
 
 #####EDA Plots
 
+from timerLog import timecall
+
+
+@timecall(log_name='EDA', log_level=logging.INFO, immediate=False, messages="step4")
 def plot_nodes_vs_ways(utild, cf):
     """
     Plot frequency distribution of #Nodes in each way
@@ -33,18 +39,29 @@ def plot_nodes_vs_ways(utild, cf):
     plt.clf()
 
 
+@timecall(log_name='EDA', log_level=logging.INFO, immediate=False, messages="step3")
 def subgraph_eda(utild, cf):
     """
     Calculates the number of subgraphs from the given ways_list
     Plots a subraph and it's edges
     """
+    starting = time.monotonic()
     print("Number of ways in the file : ", len(utild.ways_list))
     print("Number of isolated ways: ", len(utild.disconnected_ways['features']))
     print("Number of Connected ways: ", len(utild.connected_ways['features']))
+    fileConfig('logging_config.ini')
+    log = logging.getLogger("EDA")
 
     connected_df = utild.ways_df
     connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
-    print("Number of Connected Components : ", nx.number_connected_components(connected_FG))
+    print("", )
+
+    log.info(
+        "function: subgraph_eda, step 3, 1 calls, {:.3} seconds, {:.3} seconds per call, Number of ways in the file : {} Number of isolated ways: {} Number of Connected ways: {} Number of Connected Components : {}".format(
+            time.monotonic() - starting, time.monotonic() - starting, len(utild.ways_list),
+            len(utild.disconnected_ways['features']),
+            len(utild.connected_ways['features']), nx.number_connected_components(connected_FG)))
+
     subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
 
     for i in range(len(subgraphs)):
@@ -57,6 +74,8 @@ def subgraph_eda(utild, cf):
             print("sgraph[{}]_ways {}".format(i, ways_set))
             break
 
+
+@timecall(log_name='EDA', log_level=logging.INFO, immediate=False, messages="step2")
 def get_way_from_subgraph(sgraph, df):
     """
     Networkx gives subgraphs. This function is to infer the 'way id' from the given subgraph.
@@ -75,7 +94,7 @@ def get_way_from_subgraph(sgraph, df):
 
 
 #### Validations
-
+@timecall(log_name='EDA', log_level=logging.INFO, immediate=False, messages="step1")
 def get_invalidNodes(utild, cf):
     """
     A node is invalid if it is not part of any way and has no property assigned to it.

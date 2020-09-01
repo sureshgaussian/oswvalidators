@@ -1,7 +1,12 @@
 import json
+import logging
+from logging.config import fileConfig
+
 import pandas as pd
 from shapely.geometry import LineString, Point, Polygon, MultiPoint
 import time
+
+from timerLog import timecall
 
 def readJsonFile(path):
     '''
@@ -22,7 +27,7 @@ def readJsonFile(path):
         dataDict = json.load(data_json)
         return dataDict
 
-
+@timecall(log_name='IntersectingValidation',log_level=logging.INFO,immediate=False,messages="step5")
 def geometryFormat(geometryDatarow):
     if (geometryDatarow[0]["type"] == "LineString"):
         try:
@@ -41,13 +46,14 @@ def geometryFormat(geometryDatarow):
             return "invalid"
 
 
+@timecall(log_name='IntersectingValidation',log_level=logging.INFO,immediate=False,messages="step4")
 def indexInvalidGeometryType(geometryData):
     dataInvalidGeoJsonFormat = geometryData.apply(geometryFormat, axis=1)
     ind_drop = dataInvalidGeoJsonFormat[dataInvalidGeoJsonFormat.apply(lambda row: row == 'invalid')].index
 
     return ind_drop
 
-
+@timecall(log_name='IntersectingValidation',log_level=logging.INFO,immediate=False,messages="step3")
 def brunnelcheck(x, skipTag):
     if (skipTag in x[0].keys()):
         if (x[0]["brunnel"] == None):
@@ -57,6 +63,7 @@ def brunnelcheck(x, skipTag):
     else:
         return False
 
+@timecall(log_name='IntersectingValidation',log_level=logging.INFO,immediate=False,messages="step2")
 def geojsonWrite(path, invalidWays, originalGeoJsonFile):
     '''
     To write the given invalid ways in the GeoJson format
@@ -80,8 +87,11 @@ def geojsonWrite(path, invalidWays, originalGeoJsonFile):
     with open(path.split('.')[0] + '.geojson', 'w') as fp:
         json.dump(invalidPaths, fp, indent=4)
 
-
+@timecall(log_name='IntersectingValidation',log_level=logging.INFO,immediate=False,messages="step1")
 def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
+    fileConfig('logging_config.ini')
+    IntersectingValidationLogger = logging.getLogger("IntersectingValidation")
+
     featuresData = pd.DataFrame(geoJSONdata["features"])
     geometryData = pd.DataFrame(featuresData["geometry"])
     propertyData = pd.DataFrame(featuresData["properties"])
@@ -93,7 +103,6 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
     start_time = time.time()
 
     invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
-    print("--- %s seconds ---" % (time.time() - start_time))
 
     for counter in range(len(geoJSONdata["features"])):
         if counter in invalidGeometryIndex:
@@ -104,7 +113,8 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
     geometryDataFormatCopy = geometryDataFormat.copy()
 
     for rowIdI, wayI in geometryDataFormat.iteritems():
-        if (rowIdI == len(geometryDataFormat) / 2):
+        if (rowIdI == int(len(geometryDataFormat) / 2)):
+            IntersectingValidationLogger.info("function:intersectLineStringInValidFormat, step1, 0 calls, 0 seconds, 0.000 seconds per call,half way through... please wait")
             print("half way through... please wait")
 
         if (wayI == "invalid" or rowIdI in brunnelExist):
@@ -139,7 +149,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf):
                             {"type": "Feature", "geometry": {"type": "Point", "coordinates": appendPoints[0]}})
 
                 else:
-                    print("Invalid format Support not given yet")
+                    IntersectingValidationLogger.error("Invalid format Support not given yet")
                     exit(0)
 
                 if (len(violatingWayFeatures) == 0):
