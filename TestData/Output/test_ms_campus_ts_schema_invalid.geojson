@@ -1,0 +1,91 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429074,
+                        47.6443656
+                    ],
+                    [
+                        -122.1428099,
+                        47.6443612
+                    ]
+                ]
+            },
+            "properties": {
+                "subclass": "service",
+                "length": 7.3,
+                "incline": 0.0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('subclass' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1428099,
+                        47.6443612
+                    ],
+                    [
+                        -122.1426181,
+                        47.6443567
+                    ],
+                    [
+                        -122.1425224,
+                        47.6443392
+                    ],
+                    [
+                        -122.1424519,
+                        47.6443185
+                    ]
+                ]
+            },
+            "properties": {
+                "subclass": "service",
+                "length": 27.6,
+                "incline": 0.0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('subclass' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1424519,
+                        47.6443185
+                    ],
+                    [
+                        -122.1423115,
+                        47.6442863
+                    ]
+                ]
+            },
+            "properties": {
+                "subclass": "service",
+                "length": 11.1,
+                "incline": 0.0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('subclass' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        }
+    ]
+}

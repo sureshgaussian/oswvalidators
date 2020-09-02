@@ -1,0 +1,381 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        94.3291931,
+                        -68.9990546
+                    ],
+                    [
+                        6.1336271,
+                        58.416539
+                    ],
+                    [
+                        -170.1919688,
+                        -2.9936407
+                    ],
+                    [
+                        -106.9034651,
+                        60.3043303
+                    ],
+                    [
+                        108.5878336,
+                        63.3127631
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way10",
+                "indoor": 1,
+                "bicycle:backward": "unknown",
+                "foot:backward": "unknown"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -172.5483884,
+                        -82.787672
+                    ],
+                    [
+                        -49.3845052,
+                        -85.8882016
+                    ],
+                    [
+                        151.8556677,
+                        -30.4145768
+                    ],
+                    [
+                        -30.589414,
+                        67.8245381
+                    ],
+                    [
+                        -111.9750698,
+                        -40.0379226
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way24",
+                "indoor": 1,
+                "highway": "secondary",
+                "brunnel": "tunnel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.9034651,
+                        60.3043303
+                    ],
+                    [
+                        -67.9441951,
+                        34.5301873
+                    ],
+                    [
+                        131.4804747,
+                        27.9249548
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way70",
+                "smoothness": "bad",
+                "foot:backward": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        87.2309075,
+                        67.8014475
+                    ],
+                    [
+                        81.1032845,
+                        -77.5960785
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way71",
+                "highway": "footway",
+                "brunnel": "ford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -51.709347,
+                        18.5808541
+                    ],
+                    [
+                        76.8199641,
+                        20.0686312
+                    ],
+                    [
+                        15.7128602,
+                        68.2275817
+                    ],
+                    [
+                        -111.4227095,
+                        -42.7713876
+                    ],
+                    [
+                        126.8534701,
+                        -16.225744
+                    ],
+                    [
+                        28.6722134,
+                        82.8885322
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ],
+                    [
+                        -120.7651982,
+                        33.564581
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way81",
+                "indoor": 1,
+                "brunnel": "bridge",
+                "highway": "pedestrian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        -161.7820873,
+                        2.8907309
+                    ],
+                    [
+                        -21.8450638,
+                        -61.7075714
+                    ],
+                    [
+                        7.9909194,
+                        -77.7802844
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way87",
+                "traffic_signals": "no",
+                "smoothness": "bad",
+                "indoor": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -111.3562676,
+                        -55.4853743
+                    ],
+                    [
+                        -67.1916599,
+                        -20.1345432
+                    ],
+                    [
+                        126.8534701,
+                        -16.225744
+                    ],
+                    [
+                        -111.3562676,
+                        -55.4853743
+                    ],
+                    [
+                        -93.4675688,
+                        -76.7348271
+                    ],
+                    [
+                        150.5744426,
+                        19.3124868
+                    ],
+                    [
+                        21.9097096,
+                        72.3539118
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way96",
+                "smoothness": "bad",
+                "traffic_signals": "no",
+                "foot:backward": "unknown"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        67.0321141,
+                        -62.963719
+                    ],
+                    [
+                        155.4876089,
+                        75.7836724
+                    ],
+                    [
+                        -71.497877,
+                        75.495873
+                    ],
+                    [
+                        -64.5530677,
+                        32.6934413
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way98",
+                "highway": "cycleway",
+                "traffic_signals": "yes",
+                "smoothness": "good"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        178.0466543,
+                        89.007385
+                    ],
+                    [
+                        -7.4912671,
+                        71.0115293
+                    ],
+                    [
+                        80.7758653,
+                        87.2184317
+                    ],
+                    [
+                        157.6278007,
+                        -62.1821998
+                    ],
+                    [
+                        -33.3623277,
+                        -35.8018655
+                    ],
+                    [
+                        89.0370412,
+                        -48.6450366
+                    ],
+                    [
+                        74.8772123,
+                        31.0419358
+                    ],
+                    [
+                        -110.3412609,
+                        56.1177293
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way118",
+                "traffic_signals": "no",
+                "indoor": 0,
+                "bicycle:backward": "unknown"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -33.8317011,
+                        -72.8727918
+                    ],
+                    [
+                        -109.493298,
+                        -61.942448
+                    ],
+                    [
+                        51.8237417,
+                        -62.6055345
+                    ],
+                    [
+                        -164.0953785,
+                        -53.9102541
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ],
+                    [
+                        69.3126562,
+                        -36.6097757
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way133",
+                "traffic_signals": "yes",
+                "brunnel": "tunnel",
+                "foot:backward": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.1916599,
+                        -20.1345432
+                    ],
+                    [
+                        -150.2274134,
+                        -63.9906394
+                    ],
+                    [
+                        67.0321141,
+                        -62.963719
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way141",
+                "bicycle:backward": "unknown",
+                "brunnel": "bridge",
+                "indoor": 1
+            }
+        }
+    ]
+}

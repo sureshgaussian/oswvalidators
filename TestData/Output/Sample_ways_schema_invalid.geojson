@@ -1,0 +1,5045 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -153.7124014,
+                        -2.2124561
+                    ],
+                    [
+                        -141.3890253,
+                        85.0249141
+                    ],
+                    [
+                        -35.7095125,
+                        15.5722225
+                    ],
+                    [
+                        159.7598957,
+                        -44.6837189
+                    ],
+                    [
+                        75.2118086,
+                        -42.7227234
+                    ],
+                    [
+                        -111.4227095,
+                        -42.7713876
+                    ],
+                    [
+                        -150.2829528,
+                        55.8658277
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way1",
+                "brunnel": "tunnel",
+                "incline": 7,
+                "length": 49
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -78.2780631,
+                        -84.7087884
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way2",
+                "crossing": "traffic_signals",
+                "unmarked": "no",
+                "incline": 0
+            },
+            "fixme": [
+                "Error Message : [[-78.2780631, -84.7087884]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.4684902,
+                        -32.1157661
+                    ],
+                    [
+                        22.0745393,
+                        -7.2354387
+                    ],
+                    [
+                        -120.7651982,
+                        33.564581
+                    ],
+                    [
+                        -158.7534303,
+                        26.0849542
+                    ],
+                    [
+                        -38.7261701,
+                        -48.5904948
+                    ],
+                    [
+                        -131.821915,
+                        -59.0499042
+                    ],
+                    [
+                        159.7598957,
+                        -44.6837189
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way3",
+                "surface": "paving_stones",
+                "service": "alley",
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.5689239,
+                        66.2189751
+                    ],
+                    [
+                        -51.709347,
+                        18.5808541
+                    ],
+                    [
+                        -168.3494768,
+                        -55.7340562
+                    ],
+                    [
+                        43.3611319,
+                        -73.1877731
+                    ],
+                    [
+                        -46.78892,
+                        43.7826462
+                    ],
+                    [
+                        108.5878336,
+                        63.3127631
+                    ],
+                    [
+                        16.118926,
+                        45.997165
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way4",
+                "unmarked": "yes",
+                "crossing": "unmarked",
+                "service": "parking_aisle"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        129.2444984,
+                        -69.0403798
+                    ],
+                    [
+                        134.8602032,
+                        -85.8057359
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way5",
+                "unmarked": "yes",
+                "crossing": "island"
+            },
+            "fixme": [
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        138.1533332,
+                        -73.3237855
+                    ],
+                    [
+                        -141.7569492,
+                        65.9385102
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way6",
+                "smoothness": "excellent",
+                "traffic_signals": "no",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -15.5706527,
+                        -23.9289136
+                    ],
+                    [
+                        87.2309075,
+                        67.8014475
+                    ],
+                    [
+                        -67.9441951,
+                        34.5301873
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        -120.0311189,
+                        77.1257603
+                    ],
+                    [
+                        23.1189589,
+                        15.1739143
+                    ],
+                    [
+                        159.7598957,
+                        -44.6837189
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way7",
+                "surface": "grass",
+                "island": "no",
+                "incline": 5
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -150.2829528,
+                        55.8658277
+                    ],
+                    [
+                        -21.8450638,
+                        -61.7075714
+                    ],
+                    [
+                        -71.3210547,
+                        -81.7759145
+                    ],
+                    [
+                        74.8772123,
+                        31.0419358
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way8",
+                "indoor": 0,
+                "crossing": "unmarked",
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        44.6047682,
+                        66.1217349
+                    ],
+                    [
+                        42.3477939,
+                        -52.3665539
+                    ],
+                    [
+                        130.5303565,
+                        -23.8014802
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way9",
+                "bicycle:backward": "yes",
+                "service": "alley",
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -50.6234645,
+                        -49.2735172
+                    ],
+                    [
+                        -155.2305527,
+                        66.1095471
+                    ],
+                    [
+                        -59.5275931,
+                        83.098265
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way11",
+                "indoor": 1,
+                "bicycle:backward": "yes",
+                "surface": "paved"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.8900323,
+                        -53.6880018
+                    ],
+                    [
+                        -96.4689667,
+                        -6.0140429
+                    ],
+                    [
+                        -145.7705283,
+                        -28.8894688
+                    ],
+                    [
+                        -90.3133665,
+                        35.4893169
+                    ],
+                    [
+                        95.2435763,
+                        -27.4401458
+                    ],
+                    [
+                        -27.1437128,
+                        26.4456847
+                    ],
+                    [
+                        15.7128602,
+                        68.2275817
+                    ],
+                    [
+                        -67.5689239,
+                        66.2189751
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way12",
+                "marked": "yes",
+                "troubles": "karthik"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        163.6379175,
+                        -49.6009161
+                    ],
+                    [
+                        86.0556862,
+                        -42.1377094
+                    ],
+                    [
+                        128.582212,
+                        -46.1682834
+                    ],
+                    [
+                        -25.9741469,
+                        81.454746
+                    ],
+                    [
+                        165.2226049,
+                        -18.6918065
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way13",
+                "surface": "gravel",
+                "brunnel": "bridge",
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        145.8817406,
+                        6.1927684
+                    ],
+                    [
+                        -7.08751,
+                        23.4474549
+                    ],
+                    [
+                        -123.7227129,
+                        -87.0348772
+                    ],
+                    [
+                        -150.2489592,
+                        -58.8254959
+                    ],
+                    [
+                        68.0678017,
+                        -9.7021141
+                    ],
+                    [
+                        33.843675,
+                        -58.818698
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way14",
+                "length": 2,
+                "smoothness": "bad",
+                "footway": "kerb_raised"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/length/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        19.0158873,
+                        -46.2696226
+                    ],
+                    [
+                        5.5314498,
+                        73.0121404
+                    ],
+                    [
+                        130.5303565,
+                        -23.8014802
+                    ],
+                    [
+                        7.3150938,
+                        57.9617913
+                    ],
+                    [
+                        -74.7571035,
+                        7.5924159
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way15",
+                "traffic_signals": "yes",
+                "indoor": 1,
+                "footway": "crossing"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.8900323,
+                        -53.6880018
+                    ],
+                    [
+                        -79.4191886,
+                        3.9156542
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way16",
+                "highway": "path",
+                "troubles": "ravi",
+                "traffic_signals": "no"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.3934146,
+                        80.3925126
+                    ],
+                    [
+                        67.0321141,
+                        -62.963719
+                    ],
+                    [
+                        -78.2780631,
+                        -84.7087884
+                    ],
+                    [
+                        157.6278007,
+                        -62.1821998
+                    ],
+                    [
+                        127.830404,
+                        -52.3360169
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way17",
+                "length": 69,
+                "traffic_signals": "yes",
+                "unmarked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.1747135,
+                        15.8685916
+                    ],
+                    [
+                        62.954703,
+                        89.0907928
+                    ],
+                    [
+                        124.8639789,
+                        30.1481531
+                    ],
+                    [
+                        -97.4684902,
+                        -32.1157661
+                    ],
+                    [
+                        130.0111026,
+                        -74.0108881
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way18",
+                "width": 80,
+                "smoothness": "excellent",
+                "crossing": "unmarked"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.8928563,
+                        80.9916755
+                    ],
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ],
+                    [
+                        94.3291931,
+                        -68.9990546
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way19",
+                "troubles": "ravi",
+                "width": 8,
+                "footway": "crossing"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/width/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        125.7975606,
+                        21.9094381
+                    ],
+                    [
+                        114.1687895,
+                        48.1258422
+                    ],
+                    [
+                        107.9690948,
+                        76.6229903
+                    ],
+                    [
+                        -112.4786938,
+                        -51.9422933
+                    ],
+                    [
+                        -99.7386176,
+                        81.7004951
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way20",
+                "kerb_raised": 1,
+                "bicycle:backward": "unknown",
+                "smoothness": "intermediate"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        96.1630005,
+                        -88.6250445
+                    ],
+                    [
+                        -67.5689239,
+                        66.2189751
+                    ],
+                    [
+                        124.8639789,
+                        30.1481531
+                    ],
+                    [
+                        64.8787115,
+                        -36.1869066
+                    ],
+                    [
+                        -120.7651982,
+                        33.564581
+                    ],
+                    [
+                        90.7249525,
+                        46.5892859
+                    ],
+                    [
+                        -82.1701373,
+                        -67.0357234
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way21",
+                "unmarked": "yes",
+                "brunnel": "tunnel",
+                "bicycle:backward": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -101.2787209,
+                        67.6177637
+                    ],
+                    [
+                        -88.6406065,
+                        60.6600265
+                    ],
+                    [
+                        -25.9741469,
+                        81.454746
+                    ],
+                    [
+                        -113.2011385,
+                        33.6018436
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way22",
+                "troubles": "ravi",
+                "surface": "asphalt",
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.3179878,
+                        20.1629147
+                    ],
+                    [
+                        -65.7076184,
+                        76.1948571
+                    ],
+                    [
+                        -7.4912671,
+                        71.0115293
+                    ],
+                    [
+                        163.6379175,
+                        -49.6009161
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way23",
+                "footway": "kerb_raised",
+                "length": 66,
+                "smoothness": "good"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/length/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        74.8772123,
+                        31.0419358
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ],
+                    [
+                        94.3291931,
+                        -68.9990546
+                    ],
+                    [
+                        33.843675,
+                        -58.818698
+                    ],
+                    [
+                        -145.7033757,
+                        -66.261842
+                    ],
+                    [
+                        -46.78892,
+                        43.7826462
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way25",
+                "crossing": "island"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -38.240225,
+                        31.580533
+                    ],
+                    [
+                        149.8436961,
+                        40.1814733
+                    ],
+                    [
+                        -0.696337,
+                        -11.9733614
+                    ],
+                    [
+                        68.0678017,
+                        -9.7021141
+                    ],
+                    [
+                        0.5562889,
+                        74.8105218
+                    ],
+                    [
+                        64.0619745,
+                        4.6469712
+                    ],
+                    [
+                        -115.4028974,
+                        16.894237
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way26",
+                "smoothness": "excellent",
+                "traffic_signals": "yes",
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        122.0104425,
+                        -12.5730584
+                    ],
+                    [
+                        -3.7688267,
+                        78.9186889
+                    ],
+                    [
+                        -158.1862462,
+                        46.3392456
+                    ],
+                    [
+                        15.9420673,
+                        -8.3306207
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way27",
+                "brunnel": "ford",
+                "highway": "tertiary",
+                "surface": "concrete"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        114.1687895,
+                        48.1258422
+                    ],
+                    [
+                        -82.1747135,
+                        15.8685916
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way28",
+                "kerb_raised": 0,
+                "foot:backward": "no",
+                "width": 89
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        95.2435763,
+                        -27.4401458
+                    ],
+                    [
+                        7.3150938,
+                        57.9617913
+                    ],
+                    [
+                        22.0745393,
+                        -7.2354387
+                    ],
+                    [
+                        64.8787115,
+                        -36.1869066
+                    ],
+                    [
+                        143.4877001,
+                        85.1444005
+                    ],
+                    [
+                        -128.5123411,
+                        -64.4855122
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way29",
+                "foot:backward": "yes",
+                "footway": "crossing",
+                "service": "alley"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/service/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        98.3548771,
+                        -25.6451754
+                    ],
+                    [
+                        36.9723756,
+                        71.8446687
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way30",
+                "traffic_signals": "yes",
+                "marked": "yes",
+                "crossing": "traffic_signals"
+            },
+            "fixme": [
+                "Error Message : 'marked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/marked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        129.2444984,
+                        -69.0403798
+                    ],
+                    [
+                        -103.7922471,
+                        -22.7454306
+                    ],
+                    [
+                        -42.3142286,
+                        42.4018629
+                    ],
+                    [
+                        -122.376618,
+                        19.1540356
+                    ],
+                    [
+                        -80.7401293,
+                        -59.0325678
+                    ],
+                    [
+                        -35.7095125,
+                        15.5722225
+                    ],
+                    [
+                        6.9150823,
+                        75.5847179
+                    ],
+                    [
+                        69.3126562,
+                        -36.6097757
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way31",
+                "troubles": "ravi",
+                "kerb_raised": 1,
+                "indoor": 0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        80.7758653,
+                        87.2184317
+                    ],
+                    [
+                        -42.5203769,
+                        -11.8279002
+                    ],
+                    [
+                        -65.7076184,
+                        76.1948571
+                    ],
+                    [
+                        159.4695206,
+                        75.814067
+                    ],
+                    [
+                        43.3611319,
+                        -73.1877731
+                    ],
+                    [
+                        53.4961058,
+                        29.8706413
+                    ],
+                    [
+                        154.1885772,
+                        -1.3455627
+                    ],
+                    [
+                        -99.7386176,
+                        81.7004951
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way32",
+                "width": 69,
+                "kerb_raised": 0,
+                "indoor": 1
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        126.1363229,
+                        -29.223414
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way33",
+                "crossing": "unmarked",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : [[126.1363229, -29.223414]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        76.8199641,
+                        20.0686312
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way34",
+                "highway": "path",
+                "width": 8,
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.3732008,
+                        -86.5168937
+                    ],
+                    [
+                        36.8584646,
+                        -26.4076438
+                    ],
+                    [
+                        69.3126562,
+                        -36.6097757
+                    ],
+                    [
+                        174.6336333,
+                        88.4201193
+                    ],
+                    [
+                        150.5744426,
+                        19.3124868
+                    ],
+                    [
+                        -110.1055646,
+                        84.8594859
+                    ],
+                    [
+                        -170.7953733,
+                        34.9721716
+                    ],
+                    [
+                        -42.5203769,
+                        -11.8279002
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way35",
+                "unmarked": "no",
+                "traffic_signals": "yes",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -94.8493923,
+                        -35.5138877
+                    ],
+                    [
+                        131.4899571,
+                        -16.3197457
+                    ],
+                    [
+                        -145.7033757,
+                        -66.261842
+                    ],
+                    [
+                        -82.1701373,
+                        -67.0357234
+                    ],
+                    [
+                        -163.42264,
+                        -73.8670731
+                    ],
+                    [
+                        107.9690948,
+                        76.6229903
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way36",
+                "brunnel": "ford",
+                "service": "driveway",
+                "troubles": "rakesh"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.1237647,
+                        -45.6672418
+                    ],
+                    [
+                        143.3398921,
+                        -75.6860352
+                    ],
+                    [
+                        -137.2881574,
+                        -26.8378699
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ],
+                    [
+                        -128.5935346,
+                        47.9435098
+                    ],
+                    [
+                        82.2193854,
+                        -55.1935128
+                    ],
+                    [
+                        -124.3732008,
+                        -86.5168937
+                    ],
+                    [
+                        -166.5290046,
+                        65.816275
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way37",
+                "length": 43,
+                "incline": 6,
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.1336271,
+                        58.416539
+                    ],
+                    [
+                        -96.4689667,
+                        -6.0140429
+                    ],
+                    [
+                        172.9488091,
+                        -56.4726109
+                    ],
+                    [
+                        145.8817406,
+                        6.1927684
+                    ],
+                    [
+                        -141.3890253,
+                        85.0249141
+                    ],
+                    [
+                        -36.9346268,
+                        12.2232273
+                    ],
+                    [
+                        98.63905,
+                        -21.8211688
+                    ],
+                    [
+                        -50.6184569,
+                        -83.9785245
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way38",
+                "bicycle:backward": "unknown",
+                "island": "yes",
+                "brunnel": "bridge"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        63.9645142,
+                        -17.5385348
+                    ],
+                    [
+                        151.8556677,
+                        -30.4145768
+                    ],
+                    [
+                        -9.9001729,
+                        -85.3311594
+                    ],
+                    [
+                        43.3611319,
+                        -73.1877731
+                    ],
+                    [
+                        94.3291931,
+                        -68.9990546
+                    ],
+                    [
+                        138.1533332,
+                        -73.3237855
+                    ],
+                    [
+                        -111.4227095,
+                        -42.7713876
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way39",
+                "footway": "crossing",
+                "foot:backward": "no",
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.4786938,
+                        -51.9422933
+                    ],
+                    [
+                        63.9645142,
+                        -17.5385348
+                    ],
+                    [
+                        -38.240225,
+                        31.580533
+                    ],
+                    [
+                        -59.5174651,
+                        17.1714759
+                    ],
+                    [
+                        -150.2274134,
+                        -63.9906394
+                    ],
+                    [
+                        130.365881,
+                        -82.3676184
+                    ],
+                    [
+                        -92.5190244,
+                        -0.4309119
+                    ],
+                    [
+                        26.2848924,
+                        63.9382103
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way40",
+                "brunnel": "tunnel",
+                "smoothness": "intermediate",
+                "marked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        124.8639789,
+                        30.1481531
+                    ],
+                    [
+                        -16.5090335,
+                        -12.8295432
+                    ],
+                    [
+                        -158.7534303,
+                        26.0849542
+                    ],
+                    [
+                        -164.0091329,
+                        -37.3488833
+                    ],
+                    [
+                        -27.1143612,
+                        -28.4265403
+                    ],
+                    [
+                        -74.7761488,
+                        -80.9477326
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way41",
+                "crossing": "unmarked",
+                "incline": 9,
+                "bicycle:backward": "yes"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        64.8787115,
+                        -36.1869066
+                    ],
+                    [
+                        152.7916257,
+                        56.8128965
+                    ],
+                    [
+                        50.2278239,
+                        -17.6351046
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way42",
+                "indoor": 0,
+                "service": "alley",
+                "highway": "secondary"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        154.8977112,
+                        53.8232612
+                    ],
+                    [
+                        -74.8273862,
+                        28.7078174
+                    ],
+                    [
+                        -67.5799121,
+                        -77.7625539
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way43",
+                "troubles": "rakesh",
+                "bicycle:backward": "no"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        96.2614722,
+                        68.7742184
+                    ],
+                    [
+                        51.2694952,
+                        -57.8216598
+                    ],
+                    [
+                        -42.0084567,
+                        51.2267272
+                    ],
+                    [
+                        9.2328519,
+                        31.2752691
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way44",
+                "service": "driveway",
+                "highway": "secondary"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -146.6295213,
+                        59.5259071
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way45",
+                "highway": "steps",
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : [[-146.6295213, 59.5259071]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.1412966,
+                        -83.6397665
+                    ],
+                    [
+                        -97.4684902,
+                        -32.1157661
+                    ],
+                    [
+                        -22.447933,
+                        33.4931872
+                    ],
+                    [
+                        -59.5174651,
+                        17.1714759
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way46",
+                "traffic_signals": "no",
+                "footway": "sidewalk"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -7.08751,
+                        23.4474549
+                    ],
+                    [
+                        -57.0233827,
+                        33.0524858
+                    ],
+                    [
+                        51.8237417,
+                        -62.6055345
+                    ],
+                    [
+                        6.9150823,
+                        75.5847179
+                    ],
+                    [
+                        38.7897355,
+                        -78.9221703
+                    ],
+                    [
+                        115.4402208,
+                        35.5479912
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way47",
+                "incline": 8,
+                "footway": "crossing",
+                "crossing": "marked"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/incline/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        19.0158873,
+                        -46.2696226
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ],
+                    [
+                        -27.1143612,
+                        -28.4265403
+                    ],
+                    [
+                        172.7355477,
+                        81.4919157
+                    ],
+                    [
+                        0.5562889,
+                        74.8105218
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way48",
+                "unmarked": "no",
+                "footway": "kerb_raised",
+                "bicycle:backward": "yes"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        21.3422391,
+                        12.4867631
+                    ],
+                    [
+                        -145.7705283,
+                        -28.8894688
+                    ],
+                    [
+                        109.9506703,
+                        45.2222739
+                    ],
+                    [
+                        52.916767,
+                        -42.1520569
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way49",
+                "unmarked": "yes",
+                "width": 33,
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -50.6234645,
+                        -49.2735172
+                    ],
+                    [
+                        -122.376618,
+                        19.1540356
+                    ],
+                    [
+                        -111.3562676,
+                        -55.4853743
+                    ],
+                    [
+                        -74.8678879,
+                        -46.2899471
+                    ],
+                    [
+                        -161.7820873,
+                        2.8907309
+                    ],
+                    [
+                        147.531455,
+                        -51.0760482
+                    ],
+                    [
+                        -82.1747135,
+                        15.8685916
+                    ],
+                    [
+                        -50.6234645,
+                        -49.2735172
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way50",
+                "width": 6,
+                "foot:backward": "unknown",
+                "marked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.1862462,
+                        46.3392456
+                    ],
+                    [
+                        49.0988271,
+                        -52.9005939
+                    ],
+                    [
+                        -16.5090335,
+                        -12.8295432
+                    ],
+                    [
+                        150.5744426,
+                        19.3124868
+                    ],
+                    [
+                        -150.2274134,
+                        -63.9906394
+                    ],
+                    [
+                        10.0108613,
+                        86.6405061
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way51",
+                "unmarked": "no",
+                "smoothness": "intermediate",
+                "crossing": "marked"
+            },
+            "fixme": [
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        42.3477939,
+                        -52.3665539
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way52",
+                "incline": 3,
+                "length": 69,
+                "indoor": 0
+            },
+            "fixme": [
+                "Error Message : [[42.3477939, -52.3665539]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -151.5785351,
+                        -18.6210193
+                    ],
+                    [
+                        9.2328519,
+                        31.2752691
+                    ],
+                    [
+                        -71.2167843,
+                        -13.975205
+                    ],
+                    [
+                        -74.8273862,
+                        28.7078174
+                    ],
+                    [
+                        -35.1409325,
+                        29.2953134
+                    ],
+                    [
+                        -7.1192135,
+                        5.711108
+                    ],
+                    [
+                        -22.447933,
+                        33.4931872
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way53",
+                "length": 44,
+                "traffic_signals": "no",
+                "marked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        49.0988271,
+                        -52.9005939
+                    ],
+                    [
+                        155.4876089,
+                        75.7836724
+                    ],
+                    [
+                        -74.8678879,
+                        -46.2899471
+                    ],
+                    [
+                        94.3291931,
+                        -68.9990546
+                    ],
+                    [
+                        -161.9996659,
+                        30.3218211
+                    ],
+                    [
+                        150.2983664,
+                        72.7172963
+                    ],
+                    [
+                        -110.3412609,
+                        56.1177293
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way54",
+                "smoothness": "excellent",
+                "crossing": "island",
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -38.0947374,
+                        -71.701763
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way55",
+                "island": "yes",
+                "footway": "crossing",
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        134.8602032,
+                        -85.8057359
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way56",
+                "service": "parking_aisle",
+                "footway": "sidewalk",
+                "traffic_signals": "no"
+            },
+            "fixme": [
+                "Error Message : [[134.8602032, -85.8057359]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -150.2489592,
+                        -58.8254959
+                    ],
+                    [
+                        36.9723756,
+                        71.8446687
+                    ],
+                    [
+                        -124.3732008,
+                        -86.5168937
+                    ],
+                    [
+                        108.5878336,
+                        63.3127631
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ],
+                    [
+                        -158.1862462,
+                        46.3392456
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way57",
+                "width": 17,
+                "smoothness": "intermediate",
+                "incline": 8
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        125.0869481,
+                        -75.8799263
+                    ],
+                    [
+                        96.1630005,
+                        -88.6250445
+                    ],
+                    [
+                        -72.9246475,
+                        -58.9713577
+                    ],
+                    [
+                        41.3929622,
+                        -81.3593293
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ],
+                    [
+                        178.0086198,
+                        41.5109171
+                    ],
+                    [
+                        14.1412966,
+                        -83.6397665
+                    ],
+                    [
+                        -164.0091329,
+                        -37.3488833
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way58",
+                "incline": 2,
+                "indoor": 1,
+                "traffic_signals": "yes"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        179.8989706,
+                        59.1224058
+                    ],
+                    [
+                        174.6336333,
+                        88.4201193
+                    ],
+                    [
+                        80.7758653,
+                        87.2184317
+                    ],
+                    [
+                        -55.4414322,
+                        -85.3205749
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        152.8983691,
+                        -4.7229588
+                    ],
+                    [
+                        57.4393565,
+                        55.3738298
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way59",
+                "traffic_signals": "yes",
+                "bicycle:backward": "yes",
+                "length": 41
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -16.5090335,
+                        -12.8295432
+                    ],
+                    [
+                        68.3898078,
+                        -55.0086711
+                    ],
+                    [
+                        92.034449,
+                        -0.9596081
+                    ],
+                    [
+                        -122.376618,
+                        19.1540356
+                    ],
+                    [
+                        49.0988271,
+                        -52.9005939
+                    ],
+                    [
+                        51.8237417,
+                        -62.6055345
+                    ],
+                    [
+                        129.2444984,
+                        -69.0403798
+                    ],
+                    [
+                        -164.6249525,
+                        0.3943761
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way60",
+                "surface": "gravel",
+                "foot:backward": "yes",
+                "marked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        149.8436961,
+                        40.1814733
+                    ],
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        -99.1282805,
+                        -81.0662677
+                    ],
+                    [
+                        178.0466543,
+                        89.007385
+                    ],
+                    [
+                        100.0870587,
+                        -30.2166902
+                    ],
+                    [
+                        -131.821915,
+                        -59.0499042
+                    ],
+                    [
+                        -0.696337,
+                        -11.9733614
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way61",
+                "highway": "cycleway",
+                "marked": "no",
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.9224611,
+                        -66.5229346
+                    ],
+                    [
+                        -80.7401293,
+                        -59.0325678
+                    ],
+                    [
+                        -109.493298,
+                        -61.942448
+                    ],
+                    [
+                        16.9300953,
+                        63.6111106
+                    ],
+                    [
+                        75.2118086,
+                        -42.7227234
+                    ],
+                    [
+                        -153.7124014,
+                        -2.2124561
+                    ],
+                    [
+                        -168.3494768,
+                        -55.7340562
+                    ],
+                    [
+                        -94.8493923,
+                        -35.5138877
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way62",
+                "service": "alley",
+                "foot:backward": "no",
+                "traffic_signals": "no"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        157.2170455,
+                        3.7069495
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way63",
+                "length": 40,
+                "bicycle:backward": "yes",
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : [[157.2170455, 3.7069495]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        73.4789994,
+                        -46.4049756
+                    ],
+                    [
+                        29.1538756,
+                        -75.6941782
+                    ],
+                    [
+                        -74.8678879,
+                        -46.2899471
+                    ],
+                    [
+                        14.1412966,
+                        -83.6397665
+                    ],
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ],
+                    [
+                        -81.1237647,
+                        -45.6672418
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way64",
+                "incline": 2,
+                "service": "alley",
+                "bicycle:backward": "unknown"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        172.9488091,
+                        -56.4726109
+                    ],
+                    [
+                        101.0166654,
+                        21.1475138
+                    ],
+                    [
+                        -103.7922471,
+                        -22.7454306
+                    ],
+                    [
+                        23.3265868,
+                        47.1302963
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way65",
+                "footway": "kerb_raised",
+                "crossing": "island",
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' was expected. Schema Path : properties/features/items/properties/properties/dependencies/crossing/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -141.7569492,
+                        65.9385102
+                    ],
+                    [
+                        -166.5290046,
+                        65.816275
+                    ],
+                    [
+                        -57.5765393,
+                        61.16014
+                    ],
+                    [
+                        -35.1409325,
+                        29.2953134
+                    ],
+                    [
+                        -57.5765393,
+                        61.16014
+                    ],
+                    [
+                        53.4557312,
+                        20.394942
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way66",
+                "incline": 6,
+                "indoor": 1,
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        130.0111026,
+                        -74.0108881
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way67",
+                "brunnel": "ford",
+                "traffic_signals": "yes",
+                "bicycle:backward": "yes"
+            },
+            "fixme": [
+                "Error Message : [[130.0111026, -74.0108881]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.1916599,
+                        -20.1345432
+                    ],
+                    [
+                        -82.1701373,
+                        -67.0357234
+                    ],
+                    [
+                        44.6047682,
+                        66.1217349
+                    ],
+                    [
+                        -122.4126417,
+                        66.1813406
+                    ],
+                    [
+                        -175.6337653,
+                        -74.6527319
+                    ],
+                    [
+                        125.0869481,
+                        -75.8799263
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way68",
+                "incline": 0,
+                "bicycle:backward": "yes"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -27.1437128,
+                        26.4456847
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way69",
+                "width": 34,
+                "marked": "yes",
+                "highway": "cycleway"
+            },
+            "fixme": [
+                "Error Message : [[-27.1437128, 26.4456847]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        129.2444984,
+                        -69.0403798
+                    ],
+                    [
+                        -170.7953733,
+                        34.9721716
+                    ],
+                    [
+                        99.9091613,
+                        58.5848327
+                    ],
+                    [
+                        -50.6184569,
+                        -83.9785245
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way72",
+                "highway": "pedestrian",
+                "troubles": "rakesh",
+                "footway": "crossing"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' was expected. Schema Path : properties/features/items/properties/properties/dependencies/footway/properties/highway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        75.2118086,
+                        -42.7227234
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way73",
+                "footway": "crossing",
+                "brunnel": "tunnel",
+                "smoothness": "bad"
+            },
+            "fixme": [
+                "Error Message : [[75.2118086, -42.7227234]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        87.2309075,
+                        67.8014475
+                    ],
+                    [
+                        -74.8273862,
+                        28.7078174
+                    ],
+                    [
+                        48.6064374,
+                        -47.8166186
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way74",
+                "highway": "secondary",
+                "kerb_raised": 0,
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.9420673,
+                        -8.3306207
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way75",
+                "island": "no",
+                "unmarked": "no",
+                "troubles": "karthik"
+            },
+            "fixme": [
+                "Error Message : [[15.9420673, -8.3306207]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -27.4160329,
+                        -83.7376261
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way76",
+                "foot:backward": "unknown",
+                "island": "yes",
+                "marked": "yes"
+            },
+            "fixme": [
+                "Error Message : [[-27.4160329, -83.7376261]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        162.1619582,
+                        50.4400305
+                    ],
+                    [
+                        37.9326206,
+                        -33.3328968
+                    ],
+                    [
+                        -159.261864,
+                        8.7301984
+                    ],
+                    [
+                        -79.4191886,
+                        3.9156542
+                    ],
+                    [
+                        138.1533332,
+                        -73.3237855
+                    ],
+                    [
+                        -89.0451171,
+                        -30.5702473
+                    ],
+                    [
+                        -31.8976009,
+                        -51.8831935
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way77",
+                "foot:backward": "yes",
+                "marked": "yes",
+                "crossing": "unmarked"
+            },
+            "fixme": [
+                "Error Message : 'marked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/marked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -42.3142286,
+                        42.4018629
+                    ],
+                    [
+                        64.8787115,
+                        -36.1869066
+                    ],
+                    [
+                        33.843675,
+                        -58.818698
+                    ],
+                    [
+                        51.2694952,
+                        -57.8216598
+                    ],
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        -10.8501283,
+                        -28.4320461
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way78",
+                "unmarked": "yes",
+                "island": "no",
+                "smoothness": "good"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.9298363,
+                        -17.6903979
+                    ],
+                    [
+                        -31.8976009,
+                        -51.8831935
+                    ],
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ],
+                    [
+                        144.7305554,
+                        47.5232832
+                    ],
+                    [
+                        114.1687895,
+                        48.1258422
+                    ],
+                    [
+                        91.6594396,
+                        48.208572
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way79",
+                "marked": "yes",
+                "foot:backward": "no",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.7128602,
+                        68.2275817
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way80",
+                "length": 65,
+                "service": "crossover"
+            },
+            "fixme": [
+                "Error Message : [[15.7128602, 68.2275817]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        80.7758653,
+                        87.2184317
+                    ],
+                    [
+                        -85.9224611,
+                        -66.5229346
+                    ],
+                    [
+                        72.1954941,
+                        52.0441345
+                    ],
+                    [
+                        29.9640897,
+                        -25.5673116
+                    ],
+                    [
+                        -74.8678879,
+                        -46.2899471
+                    ],
+                    [
+                        34.3066331,
+                        26.0928432
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way82",
+                "length": 96,
+                "surface": "gravel",
+                "marked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        155.8259286,
+                        47.2168554
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way83",
+                "width": 1,
+                "crossing": "unmarked",
+                "incline": 2
+            },
+            "fixme": [
+                "Error Message : [[155.8259286, 47.2168554]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        98.63905,
+                        -21.8211688
+                    ],
+                    [
+                        24.0353002,
+                        65.9745347
+                    ],
+                    [
+                        32.2786425,
+                        -44.1771891
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way84",
+                "unmarked": "yes",
+                "highway": "steps"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.1863024,
+                        -89.8458242
+                    ],
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        -30.1345503,
+                        -58.1895866
+                    ],
+                    [
+                        98.63905,
+                        -21.8211688
+                    ],
+                    [
+                        -104.9586483,
+                        58.193194
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way85",
+                "incline": 2,
+                "brunnel": "bridge"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -91.3468733,
+                        46.8185919
+                    ],
+                    [
+                        97.9640301,
+                        -70.0278346
+                    ],
+                    [
+                        50.2278239,
+                        -17.6351046
+                    ],
+                    [
+                        70.0353657,
+                        49.1167065
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way86",
+                "footway": "kerb_raised",
+                "indoor": 1,
+                "length": 20
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/length/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.696337,
+                        -11.9733614
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way88",
+                "troubles": "rakesh",
+                "length": 79,
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : [[-0.696337, -11.9733614]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -52.7071894,
+                        23.8658795
+                    ],
+                    [
+                        -154.8388108,
+                        -67.4630039
+                    ],
+                    [
+                        -106.9034651,
+                        60.3043303
+                    ],
+                    [
+                        -30.589414,
+                        67.8245381
+                    ],
+                    [
+                        163.6379175,
+                        -49.6009161
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way89",
+                "width": 90,
+                "island": "no",
+                "indoor": 0
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -144.6068545,
+                        -17.9195413
+                    ],
+                    [
+                        32.2786425,
+                        -44.1771891
+                    ],
+                    [
+                        41.3929622,
+                        -81.3593293
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way90",
+                "indoor": 1,
+                "bicycle:backward": "yes",
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.9150823,
+                        75.5847179
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        157.3849916,
+                        54.7481033
+                    ],
+                    [
+                        -78.6174923,
+                        -3.1736388
+                    ],
+                    [
+                        -111.3562676,
+                        -55.4853743
+                    ],
+                    [
+                        152.7916257,
+                        56.8128965
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way91",
+                "highway": "cycleway",
+                "brunnel": "tunnel",
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.5688861,
+                        -69.6325509
+                    ],
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ],
+                    [
+                        -122.376618,
+                        19.1540356
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way92",
+                "unmarked": "no",
+                "smoothness": "bad",
+                "marked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.2167843,
+                        -13.975205
+                    ],
+                    [
+                        130.0111026,
+                        -74.0108881
+                    ],
+                    [
+                        -96.4689667,
+                        -6.0140429
+                    ],
+                    [
+                        12.2012244,
+                        20.1708682
+                    ],
+                    [
+                        6.1336271,
+                        58.416539
+                    ],
+                    [
+                        33.843675,
+                        -58.818698
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way93",
+                "highway": "secondary",
+                "bicycle:backward": "yes",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.6769152,
+                        47.2936315
+                    ],
+                    [
+                        -99.1282805,
+                        -81.0662677
+                    ],
+                    [
+                        127.8949754,
+                        -16.7092744
+                    ],
+                    [
+                        -168.3494768,
+                        -55.7340562
+                    ],
+                    [
+                        108.317828,
+                        -62.378509
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way94",
+                "foot:backward": "unknown",
+                "footway": "crossing",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.9300953,
+                        63.6111106
+                    ],
+                    [
+                        154.2553693,
+                        27.6666764
+                    ],
+                    [
+                        -19.7945207,
+                        85.5998347
+                    ],
+                    [
+                        29.5437245,
+                        -48.2944682
+                    ],
+                    [
+                        75.2118086,
+                        -42.7227234
+                    ],
+                    [
+                        44.6047682,
+                        66.1217349
+                    ],
+                    [
+                        93.1023314,
+                        46.137918
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way95",
+                "marked": "no",
+                "length": 25,
+                "indoor": 1
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -151.5785351,
+                        -18.6210193
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way97",
+                "width": 47,
+                "service": "alley",
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : [[-151.5785351, -18.6210193]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -161.9996659,
+                        30.3218211
+                    ],
+                    [
+                        -46.78892,
+                        43.7826462
+                    ],
+                    [
+                        149.8690699,
+                        -36.8635612
+                    ],
+                    [
+                        -35.1409325,
+                        29.2953134
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way99",
+                "footway": "kerb_raised",
+                "bicycle:backward": "no",
+                "unmarked": "no"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        59.4955368,
+                        20.1884806
+                    ],
+                    [
+                        -171.1987817,
+                        22.7787374
+                    ],
+                    [
+                        162.1619582,
+                        50.4400305
+                    ],
+                    [
+                        -81.4731205,
+                        23.6405293
+                    ],
+                    [
+                        148.865861,
+                        39.425499
+                    ],
+                    [
+                        135.4472266,
+                        -79.6174294
+                    ],
+                    [
+                        130.4408007,
+                        34.7868655
+                    ],
+                    [
+                        -90.0275713,
+                        -60.0147343
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way100",
+                "surface": "concrete",
+                "highway": "tertiary",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        101.0166654,
+                        21.1475138
+                    ],
+                    [
+                        -57.5765393,
+                        61.16014
+                    ],
+                    [
+                        150.2983664,
+                        72.7172963
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way101",
+                "traffic_signals": "yes",
+                "length": 65,
+                "brunnel": "bridge"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        86.0556862,
+                        -42.1377094
+                    ],
+                    [
+                        -158.7534303,
+                        26.0849542
+                    ],
+                    [
+                        -14.8685842,
+                        -50.6359313
+                    ],
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        108.317828,
+                        -62.378509
+                    ],
+                    [
+                        67.0321141,
+                        -62.963719
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way102",
+                "marked": "no",
+                "incline": 8,
+                "service": "alley"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -7.4522194,
+                        19.5417053
+                    ],
+                    [
+                        -30.1345503,
+                        -58.1895866
+                    ],
+                    [
+                        16.8928563,
+                        80.9916755
+                    ],
+                    [
+                        109.9506703,
+                        45.2222739
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way103",
+                "incline": 9,
+                "foot:backward": "no",
+                "footway": "kerb_raised"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/incline/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.5523524,
+                        -0.3275793
+                    ],
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way104",
+                "bicycle:backward": "yes",
+                "traffic_signals": "yes",
+                "troubles": "ravi"
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -170.7953733,
+                        34.9721716
+                    ],
+                    [
+                        159.4695206,
+                        75.814067
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way105",
+                "brunnel": "bridge",
+                "width": 28,
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -109.493298,
+                        -61.942448
+                    ],
+                    [
+                        24.0353002,
+                        65.9745347
+                    ],
+                    [
+                        177.4497298,
+                        27.2664564
+                    ],
+                    [
+                        8.1838337,
+                        14.5842139
+                    ],
+                    [
+                        28.6722134,
+                        82.8885322
+                    ],
+                    [
+                        108.317828,
+                        -62.378509
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way106",
+                "indoor": 1,
+                "surface": "grass",
+                "unmarked": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        3.3012454,
+                        74.7694294
+                    ],
+                    [
+                        151.8556677,
+                        -30.4145768
+                    ],
+                    [
+                        -145.7033757,
+                        -66.261842
+                    ],
+                    [
+                        -85.4725732,
+                        -86.3928056
+                    ],
+                    [
+                        -164.0091329,
+                        -37.3488833
+                    ],
+                    [
+                        108.8668698,
+                        -13.3865535
+                    ],
+                    [
+                        -99.7386176,
+                        81.7004951
+                    ],
+                    [
+                        35.2350112,
+                        13.8657784
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way107",
+                "indoor": 1,
+                "marked": "no",
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.4427551,
+                        -73.1220326
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way108",
+                "width": 37,
+                "foot:backward": "yes",
+                "highway": "residential"
+            },
+            "fixme": [
+                "Error Message : [[6.4427551, -73.1220326]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.4668501,
+                        50.576875
+                    ],
+                    [
+                        -128.4548496,
+                        -37.4543677
+                    ],
+                    [
+                        -22.447933,
+                        33.4931872
+                    ],
+                    [
+                        -96.4689667,
+                        -6.0140429
+                    ],
+                    [
+                        -166.2950363,
+                        -73.1576477
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way109",
+                "crossing": "traffic_signals",
+                "traffic_signals": "no"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.8746135,
+                        7.8916988
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way110",
+                "crossing": "marked",
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : [[-2.8746135, 7.8916988]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.9224611,
+                        -66.5229346
+                    ],
+                    [
+                        36.8584646,
+                        -26.4076438
+                    ],
+                    [
+                        152.7916257,
+                        56.8128965
+                    ],
+                    [
+                        166.4832043,
+                        64.2801903
+                    ],
+                    [
+                        14.1412966,
+                        -83.6397665
+                    ],
+                    [
+                        -83.7036251,
+                        -1.1571828
+                    ],
+                    [
+                        130.4408007,
+                        34.7868655
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way111",
+                "surface": "gravel",
+                "service": "driveway",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        58.9468572,
+                        -87.0136511
+                    ],
+                    [
+                        70.0353657,
+                        49.1167065
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way112",
+                "island": "yes",
+                "traffic_signals": "no",
+                "length": 56
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        157.2148033,
+                        36.8745349
+                    ],
+                    [
+                        -58.5697227,
+                        -45.1718441
+                    ],
+                    [
+                        19.0158873,
+                        -46.2696226
+                    ],
+                    [
+                        -63.5765012,
+                        51.6518916
+                    ],
+                    [
+                        -106.9034651,
+                        60.3043303
+                    ],
+                    [
+                        81.1032845,
+                        -77.5960785
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way113",
+                "traffic_signals": "yes",
+                "width": 75,
+                "highway": "footway"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.9790806,
+                        -12.7051311
+                    ],
+                    [
+                        -132.3753213,
+                        53.7689909
+                    ],
+                    [
+                        -71.2167843,
+                        -13.975205
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way114",
+                "unmarked": "yes",
+                "kerb_raised": 1,
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        155.4876089,
+                        75.7836724
+                    ],
+                    [
+                        -62.9714809,
+                        16.3561049
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way115",
+                "incline": 9,
+                "brunnel": "tunnel",
+                "unmarked": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        50.6788584,
+                        -48.25437
+                    ],
+                    [
+                        -96.5523524,
+                        -0.3275793
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way116",
+                "length": 83,
+                "highway": "tertiary",
+                "kerb_raised": 0
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -145.7033757,
+                        -66.261842
+                    ],
+                    [
+                        127.830404,
+                        -52.3360169
+                    ],
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ],
+                    [
+                        127.830404,
+                        -52.3360169
+                    ],
+                    [
+                        52.916767,
+                        -42.1520569
+                    ],
+                    [
+                        143.3398921,
+                        -75.6860352
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way117",
+                "bicycle:backward": "yes",
+                "kerb_raised": 1,
+                "traffic_signals": "no"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -33.8317011,
+                        -72.8727918
+                    ],
+                    [
+                        149.8436961,
+                        40.1814733
+                    ],
+                    [
+                        -145.7705283,
+                        -28.8894688
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way119",
+                "kerb_raised": 1,
+                "traffic_signals": "yes",
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        177.4497298,
+                        27.2664564
+                    ],
+                    [
+                        -63.5765012,
+                        51.6518916
+                    ],
+                    [
+                        -74.8678879,
+                        -46.2899471
+                    ],
+                    [
+                        147.531455,
+                        -51.0760482
+                    ],
+                    [
+                        6.9150823,
+                        75.5847179
+                    ],
+                    [
+                        -35.3453018,
+                        64.0189274
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way120",
+                "kerb_raised": 0,
+                "traffic_signals": "no",
+                "surface": "grass"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.9034651,
+                        60.3043303
+                    ],
+                    [
+                        53.4557312,
+                        20.394942
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way121",
+                "brunnel": "tunnel",
+                "width": 41,
+                "surface": "paving_stones"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -171.8574754,
+                        -39.8098759
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ],
+                    [
+                        99.9091613,
+                        58.5848327
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way122",
+                "crossing": "marked",
+                "surface": "concrete"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        43.3611319,
+                        -73.1877731
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way123",
+                "unmarked": "yes",
+                "crossing": "island",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : [[43.3611319, -73.1877731]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        3.3012454,
+                        74.7694294
+                    ],
+                    [
+                        0.4668501,
+                        50.576875
+                    ],
+                    [
+                        29.9640897,
+                        -25.5673116
+                    ],
+                    [
+                        98.3548771,
+                        -25.6451754
+                    ],
+                    [
+                        -79.4191886,
+                        3.9156542
+                    ],
+                    [
+                        -58.5697227,
+                        -45.1718441
+                    ],
+                    [
+                        -2.0818586,
+                        57.0640536
+                    ],
+                    [
+                        -22.447933,
+                        33.4931872
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way124",
+                "crossing": "island",
+                "smoothness": "excellent",
+                "length": 96
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.4684902,
+                        -32.1157661
+                    ],
+                    [
+                        -7.08751,
+                        23.4474549
+                    ],
+                    [
+                        -27.1437128,
+                        26.4456847
+                    ],
+                    [
+                        -38.7261701,
+                        -48.5904948
+                    ],
+                    [
+                        -106.916724,
+                        -4.222333
+                    ],
+                    [
+                        -110.8491172,
+                        82.1369692
+                    ],
+                    [
+                        7.9909194,
+                        -77.7802844
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way125",
+                "highway": "pedestrian",
+                "kerb_raised": 1,
+                "width": 57
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        139.7454361,
+                        -14.0544189
+                    ],
+                    [
+                        172.9488091,
+                        -56.4726109
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way126",
+                "indoor": 0,
+                "unmarked": "yes",
+                "crossing": "marked"
+            },
+            "fixme": [
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -113.4213508,
+                        24.698612
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way127",
+                "highway": "footway",
+                "island": "no",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "Error Message : [[-113.4213508, 24.698612]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -83.7036251,
+                        -1.1571828
+                    ],
+                    [
+                        32.3972297,
+                        42.7419068
+                    ],
+                    [
+                        172.7355477,
+                        81.4919157
+                    ],
+                    [
+                        78.1343569,
+                        46.0403041
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way128",
+                "width": 51,
+                "length": 82,
+                "island": "yes"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -153.6571719,
+                        -6.8658877
+                    ],
+                    [
+                        70.0353657,
+                        49.1167065
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way129",
+                "crossing": "unmarked",
+                "surface": "paving_stones",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : 'island' was expected. Schema Path : properties/features/items/properties/properties/dependencies/island/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        68.0678017,
+                        -9.7021141
+                    ],
+                    [
+                        -81.329816,
+                        -74.6073817
+                    ],
+                    [
+                        6.4427551,
+                        -73.1220326
+                    ],
+                    [
+                        -26.2316689,
+                        -73.2064525
+                    ],
+                    [
+                        149.8690699,
+                        -36.8635612
+                    ],
+                    [
+                        64.6292377,
+                        -39.8313278
+                    ],
+                    [
+                        -10.6935985,
+                        -37.9926395
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way130",
+                "marked": "yes",
+                "footway": "kerb_raised"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        90.7249525,
+                        46.5892859
+                    ],
+                    [
+                        -31.8976009,
+                        -51.8831935
+                    ],
+                    [
+                        -101.2787209,
+                        67.6177637
+                    ],
+                    [
+                        -168.3494768,
+                        -55.7340562
+                    ],
+                    [
+                        -50.6234645,
+                        -49.2735172
+                    ],
+                    [
+                        143.4877001,
+                        85.1444005
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way131",
+                "unmarked": "yes",
+                "island": "yes",
+                "footway": "kerb_raised"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.9474684,
+                        -69.7915096
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way132",
+                "brunnel": "tunnel",
+                "service": "driveway",
+                "length": 22
+            },
+            "fixme": [
+                "Error Message : [[-2.9474684, -69.7915096]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -136.035703,
+                        64.6875895
+                    ],
+                    [
+                        -166.2950363,
+                        -73.1576477
+                    ],
+                    [
+                        -124.3732008,
+                        -86.5168937
+                    ],
+                    [
+                        130.5303565,
+                        -23.8014802
+                    ],
+                    [
+                        -76.8480902,
+                        1.9364198
+                    ],
+                    [
+                        152.7916257,
+                        56.8128965
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way134",
+                "island": "yes",
+                "surface": "concrete",
+                "crossing": "unmarked"
+            },
+            "fixme": [
+                "Error Message : 'island' was expected. Schema Path : properties/features/items/properties/properties/dependencies/island/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/surface/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        175.5128384,
+                        -23.5589509
+                    ],
+                    [
+                        -82.1747135,
+                        15.8685916
+                    ],
+                    [
+                        13.2916886,
+                        -54.7185531
+                    ],
+                    [
+                        0.5562889,
+                        74.8105218
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way135",
+                "unmarked": "no",
+                "length": 61,
+                "crossing": "traffic_signals"
+            },
+            "fixme": [
+                "Error Message : 'unmarked' was expected. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/properties/crossing/const",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.9300953,
+                        63.6111106
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way136",
+                "unmarked": "yes",
+                "bicycle:backward": "no",
+                "crossing": "unmarked"
+            },
+            "fixme": [
+                "Error Message : [[16.9300953, 63.6111106]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -83.7036251,
+                        -1.1571828
+                    ],
+                    [
+                        -2.8746135,
+                        7.8916988
+                    ],
+                    [
+                        134.8602032,
+                        -85.8057359
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way137",
+                "island": "no",
+                "length": 98,
+                "incline": 1
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -50.6234645,
+                        -49.2735172
+                    ],
+                    [
+                        -117.6497718,
+                        14.7826715
+                    ],
+                    [
+                        -40.1985332,
+                        74.9019916
+                    ],
+                    [
+                        122.8529721,
+                        -51.3986072
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way138",
+                "highway": "cycleway",
+                "footway": "sidewalk",
+                "unmarked": "no"
+            },
+            "fixme": [
+                "Error Message : 'footway' was expected. Schema Path : properties/features/items/properties/properties/dependencies/footway/properties/highway/const",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.532062,
+                        3.8014706
+                    ],
+                    [
+                        6.4427551,
+                        -73.1220326
+                    ],
+                    [
+                        162.1352938,
+                        -80.473261
+                    ],
+                    [
+                        15.7128602,
+                        68.2275817
+                    ],
+                    [
+                        -132.3753213,
+                        53.7689909
+                    ],
+                    [
+                        166.4832043,
+                        64.2801903
+                    ],
+                    [
+                        -51.6482948,
+                        43.8029482
+                    ],
+                    [
+                        -59.5174651,
+                        17.1714759
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way139",
+                "foot:backward": "no",
+                "crossing": "unmarked",
+                "highway": "steps"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        114.8531353,
+                        -52.3241687
+                    ],
+                    [
+                        -22.1675798,
+                        66.9819222
+                    ],
+                    [
+                        72.7636968,
+                        -36.2748663
+                    ],
+                    [
+                        -16.0174278,
+                        -9.463346
+                    ],
+                    [
+                        134.2776119,
+                        1.0770222
+                    ],
+                    [
+                        96.2614722,
+                        68.7742184
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way140",
+                "footway": "sidewalk",
+                "bicycle:backward": "yes",
+                "surface": "paved"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0456694,
+                        24.4191583
+                    ],
+                    [
+                        15.7128602,
+                        68.2275817
+                    ],
+                    [
+                        -177.3428294,
+                        -57.9362882
+                    ],
+                    [
+                        157.091279,
+                        41.965854
+                    ],
+                    [
+                        152.8983691,
+                        -4.7229588
+                    ],
+                    [
+                        41.3929622,
+                        -81.3593293
+                    ],
+                    [
+                        -58.4346891,
+                        53.3633726
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way142",
+                "marked": "yes",
+                "troubles": "karthik",
+                "indoor": 0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -68.2579624,
+                        80.0957573
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way143",
+                "foot:backward": "yes",
+                "service": "driveway",
+                "island": "no"
+            },
+            "fixme": [
+                "Error Message : [[-68.2579624, 80.0957573]] is too short. Schema Path : properties/features/items/properties/geometry/properties/coordinates/minItems",
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        150.5744426,
+                        19.3124868
+                    ],
+                    [
+                        -35.1409325,
+                        29.2953134
+                    ],
+                    [
+                        -63.5765012,
+                        51.6518916
+                    ],
+                    [
+                        51.2694952,
+                        -57.8216598
+                    ],
+                    [
+                        -112.1232341,
+                        45.9455252
+                    ],
+                    [
+                        -166.5290046,
+                        65.816275
+                    ],
+                    [
+                        128.9956206,
+                        37.0896537
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way144",
+                "incline": 6,
+                "brunnel": "ford",
+                "footway": "kerb_raised"
+            },
+            "fixme": [
+                "Error Message : 'highway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/footway/required",
+                "Error Message : 'sidewalk' was expected. Schema Path : properties/features/items/properties/properties/dependencies/incline/properties/footway/const"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -57.5765393,
+                        61.16014
+                    ],
+                    [
+                        -162.4062905,
+                        31.1160852
+                    ],
+                    [
+                        98.63905,
+                        -21.8211688
+                    ],
+                    [
+                        24.7868934,
+                        -36.1131442
+                    ],
+                    [
+                        -16.7733214,
+                        -36.0809775
+                    ],
+                    [
+                        45.8137475,
+                        77.3241405
+                    ],
+                    [
+                        -58.4346891,
+                        53.3633726
+                    ],
+                    [
+                        80.9862912,
+                        43.6082379
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way145",
+                "bicycle:backward": "yes",
+                "troubles": "karthik",
+                "width": 54
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/width/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        67.0321141,
+                        -62.963719
+                    ],
+                    [
+                        -96.4689667,
+                        -6.0140429
+                    ],
+                    [
+                        -101.7532459,
+                        74.7264869
+                    ],
+                    [
+                        -3.7688267,
+                        78.9186889
+                    ],
+                    [
+                        -161.7820873,
+                        2.8907309
+                    ],
+                    [
+                        -139.3807814,
+                        -4.326667
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way146",
+                "marked": "no",
+                "brunnel": "bridge",
+                "length": 18
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/marked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/length/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.0063276,
+                        -83.7026724
+                    ],
+                    [
+                        -103.7922471,
+                        -22.7454306
+                    ],
+                    [
+                        46.7843065,
+                        83.5863524
+                    ],
+                    [
+                        -85.9224611,
+                        -66.5229346
+                    ],
+                    [
+                        126.8534701,
+                        -16.225744
+                    ],
+                    [
+                        3.3012454,
+                        74.7694294
+                    ],
+                    [
+                        -40.1985332,
+                        74.9019916
+                    ],
+                    [
+                        16.9300953,
+                        63.6111106
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way147",
+                "kerb_raised": 1,
+                "island": "no",
+                "foot:backward": "no"
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/island/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.1862462,
+                        46.3392456
+                    ],
+                    [
+                        134.2776119,
+                        1.0770222
+                    ],
+                    [
+                        146.492357,
+                        -28.1601926
+                    ],
+                    [
+                        -100.768815,
+                        66.1094967
+                    ],
+                    [
+                        77.771168,
+                        24.7399619
+                    ],
+                    [
+                        112.8759293,
+                        36.0714852
+                    ],
+                    [
+                        -153.7124014,
+                        -2.2124561
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way148",
+                "troubles": "rakesh",
+                "kerb_raised": 1,
+                "indoor": 0
+            },
+            "fixme": [
+                "Error Message : Additional properties are not allowed ('troubles' was unexpected). Schema Path : properties/features/items/properties/properties/additionalProperties",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb_raised/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -16.5090335,
+                        -12.8295432
+                    ],
+                    [
+                        -83.4008015,
+                        13.4292259
+                    ],
+                    [
+                        172.7355477,
+                        81.4919157
+                    ],
+                    [
+                        107.9690948,
+                        76.6229903
+                    ],
+                    [
+                        -38.9651708,
+                        -83.9865356
+                    ],
+                    [
+                        -59.5174651,
+                        17.1714759
+                    ],
+                    [
+                        51.2694952,
+                        -57.8216598
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way149",
+                "unmarked": "yes",
+                "incline": 4
+            },
+            "fixme": [
+                "Error Message : 'crossing' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/unmarked/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/incline/required"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        157.091279,
+                        41.965854
+                    ],
+                    [
+                        65.4442789,
+                        -23.295413
+                    ],
+                    [
+                        150.2983664,
+                        72.7172963
+                    ],
+                    [
+                        -38.7261701,
+                        -48.5904948
+                    ],
+                    [
+                        -33.3623277,
+                        -35.8018655
+                    ],
+                    [
+                        -113.4213508,
+                        24.698612
+                    ],
+                    [
+                        86.0556862,
+                        -42.1377094
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way150",
+                "smoothness": "excellent",
+                "service": "driveway",
+                "crossing": "unmarked"
+            },
+            "fixme": [
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/crossing/required",
+                "Error Message : 'footway' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/service/required"
+            ]
+        }
+    ]
+}
