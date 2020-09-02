@@ -30,8 +30,8 @@ class DefaultConfigs:
 
         self.file_filter = 'ms_campus_'  # for now filter just by substring. TODO :  extended to regex
         self.filter_sidewalks = False  # Filter only side walks for further processing
-        self.validation = 'intersectingvalidation'
-        self.do_all_validations = True
+        self.validation = ''
+        self.do_all_validations = False
         self.do_eda = False
-        self.do_schema_validations = True
+        self.do_schema_validations = False
 

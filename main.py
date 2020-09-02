@@ -27,14 +27,14 @@ if __name__ == '__main__':
     ways_files = sorted([x for x in json_files if 'node' not in x])
 
     for ind, (nodes_file, ways_file) in enumerate(zip(nodes_files, ways_files)):
-        print('Processing the following files : \n{}\n {}'.format(ntpath.basename(nodes_file),
+        print('Processing the following files : \n{}\n{}'.format(ntpath.basename(nodes_file),
                                                                   ntpath.basename(ways_file)))
         if cf.do_all_validations or cf.do_schema_validations:
             validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
             validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
 
         utild = UtilData(nodes_file, ways_file, cf)
-        # get_invalidNodes(utild, cf)
+        get_invalidNodes(utild, cf)
         if cf.do_all_validations or cf.validation == 'intersectingvalidation':
             print("--" * 10)
             print("performing checks to see if any Ways which are intersecting have a missing intersecting node")

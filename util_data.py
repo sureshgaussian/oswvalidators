@@ -98,18 +98,21 @@ class UtilData:
         keys : unique coordinates
         values : all ways to which the coordinate belongs
         """
-        coord_dict = dict()
-        for elem in self.nodes_list:
-            if str(elem) not in coord_dict.keys():
-                coord_dict[str(elem)] = list()
-
+        nodes_coord_dict = dict()
+        for id, elem in enumerate(self.nodes_list):
+            if str(elem) not in nodes_coord_dict.keys():
+                # nodes_coord_dict[str(elem)] = 0 if not len(self.nodes_json['features'][id]['properties']) else 1
+                nodes_coord_dict[str(elem)] = id
+        ways_coord_dict = dict()
         for id, elem in enumerate(self.ways_list):
             for point in elem:
-                if str(point) not in coord_dict.keys():
-                    coord_dict[str(point)] = [id]
+                if str(point) not in ways_coord_dict.keys():
+                    ways_coord_dict[str(point)] = [id]
                 else:
-                    coord_dict[str(point)].append(id)
-        self.coord_dict = coord_dict
+                    ways_coord_dict[str(point)].append(id)
+
+        self.nodes_coord_dict = nodes_coord_dict
+        self.ways_coord_dict = ways_coord_dict
 
     def get_isolated_ways(self):
         """
@@ -120,7 +123,7 @@ class UtilData:
         for id, elem in enumerate(self.ways_list):
             ctr = 0
             for point in elem:
-                if len(self.coord_dict[str(point)]) > 1:
+                if len(self.ways_coord_dict[str(point)]) > 1:
                     break
                 else:
                     ctr += 1
