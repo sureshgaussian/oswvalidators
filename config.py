@@ -26,7 +26,7 @@ class DefaultConfigs:
         self.test_ways_json = os.path.join(os.getcwd(), "TestData\input", "ms_campus_ts.geojson")
 
         self.node_schema = os.path.join(os.getcwd(), "Json Schema", "Nodes_schema_id.json")
-        self.ways_schema = os.path.join(os.getcwd(), "Json SChema", "Ways_schema_id.json")
+        self.ways_schema = os.path.join(os.getcwd(), "Json Schema", "Ways_schema_id.json")
 
         self.file_filter = 'ms_campus_'  # for now filter just by substring. TODO :  extended to regex
         self.filter_sidewalks = False  # Filter only side walks for further processing
