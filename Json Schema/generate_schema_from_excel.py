@@ -4,14 +4,14 @@ import json
 import warnings
 warnings.filterwarnings("ignore")
 
-def build_properties(Tags, Types, df):
+def build_properties(tags, types, df):
 	integer_types = ''
 	string_types = ''
 	
 	for index, row in df.iterrows():
-		if Types[index] == 'integer' or Types[index] == 'number':
+		if types[index] == 'integer' or types[index] == 'number':
 			i = 0
-			int_string = '"' + Tags[index] + '": {"type":"' + Types[index] + '"'
+			int_string = '"' + tags[index] + '": {"type":"' + types[index] + '"'
 			for column in df.columns:
 				if not (pd.isna(row[column])):
 					if i==0:
@@ -22,40 +22,40 @@ def build_properties(Tags, Types, df):
 			int_string = int_string + '}'
 			integer_types = integer_types + int_string + ','
 			
-		if Types[index] == 'string':
-			string_enum = '"' + Tags[index] + '": {"type":"string","enum":['
+		if types[index] == 'string':
+			string_enum = '"' + tags[index] + '": {"type":"string","enum":['
 			for column in df.columns:
 				if not (pd.isna(row[column])):
 					string_enum = string_enum + '"' + row[column] + '",'
 			string_enum = string_enum[0:len(string_enum)-1] + ']}'
 			string_types = string_types + string_enum + ','
 
-	String = integer_types + string_types[0:len(string_types)-1]
-	return String
+	properties_string = integer_types + string_types[0:len(string_types)-1]
+	return properties_string
 
 
 def build_dependecies(dependencies):
 
-	Children = dependencies["Tags"].values.tolist()
-	Parent_key = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
-	Parent_value = [dependencies['Prereqs'].str.split('=').values[i][1] for i in range(dependencies.shape[0])]
+	children = dependencies["Tags"].values.tolist()
+	parent_key = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
+	parent_value = [dependencies['Prereqs'].str.split('=').values[i][1] for i in range(dependencies.shape[0])]
 	
-	String = ''
+	dependency_string = ''
 	
-	for i in range(0,len(Children)):
-		child_string = '"' + Children[i] + '":{"required" : ["' + Parent_key[i] + '"], "properties": {"' + Parent_key[i] + '":'
-		child_string = child_string + '{"type": "string", "const": "' + Parent_value[i] + '"}}},'
-		String = String + child_string
-	String = String[0:len(String)-1]
-	return String
+	for i in range(0,len(children)):
+		child_string = '"' + children[i] + '":{"required" : ["' + parent_key[i] + '"], "properties": {"' + parent_key[i] + '":'
+		child_string = child_string + '{"type": "string", "const": "' + parent_value[i] + '"}}},'
+		dependency_string = dependency_string + child_string
+	dependency_string = dependency_string[0:len(dependency_string)-1]
+	return dependency_string
 
-def generate_nodes_schema(Tags, Types, df, dependencies):
+def generate_nodes_schema(tags, types, df, dependencies):
 	
 	print("Generating Nodes Schema")
-	Point_Properties = build_properties(Tags, Types, df)
-	Point_dependencies = build_dependecies(dependencies)
+	point_properties = build_properties(tags, types, df)
+	point_dependencies = build_dependecies(dependencies)
 	
-	String = '''{
+	nodes_schema_string = '''{
   "title": "root",
   "type": "object",
   "required": 
@@ -135,8 +135,8 @@ def generate_nodes_schema(Tags, Types, df, dependencies):
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties": {''' + Point_Properties + '''},
-			"dependencies": {''' + Point_dependencies + '''}
+            "properties": {"id": {"type": "string"},''' + point_properties + '''},
+			"dependencies": {''' + point_dependencies + '''}
           }
         }
       }
@@ -144,17 +144,17 @@ def generate_nodes_schema(Tags, Types, df, dependencies):
   }
 }'''
 
-	return String
+	return nodes_schema_string
 	
 
-def generate_ways_schema(Tags, Types, df, dependencies):
+def generate_ways_schema(tags, types, df, dependencies):
 	
 	print("Generating Ways Schema")
-	Line_Properties = build_properties(Tags, Types, df)
-	Line_dependencies = build_dependecies(dependencies)
+	line_properties = build_properties(tags, types, df)
+	line_dependencies = build_dependecies(dependencies)
 
 	
-	String = '''{
+	ways_schema_string = '''{
   "title": "root",
   "type": "object",
   "required": 
@@ -236,8 +236,8 @@ def generate_ways_schema(Tags, Types, df, dependencies):
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties": {''' + Line_Properties + '''},
-			"dependencies": {''' + Line_dependencies + '''}
+            "properties": {"id": {"type":"string"},''' + line_properties + '''},
+			"dependencies": {''' + line_dependencies + '''}
           }
         }
       }
@@ -245,7 +245,7 @@ def generate_ways_schema(Tags, Types, df, dependencies):
   }
 }'''
 
-	return String
+	return ways_schema_string
 	
 	
 if __name__ == '__main__':
@@ -257,38 +257,38 @@ if __name__ == '__main__':
 	dependencies = dependencies[dependencies['Prereqs'] != 'None']
 	dependencies['Tag'] = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
 	
-	Pointsdf = df[df['Geometry'] == 'Point'].sort_values(by=['type'])
-	Pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use
+	pointsdf = df[df['Geometry'] == 'Point'].sort_values(by=['type'])
+	pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use
 	
-	Linesdf = df[df['Geometry'] == 'LineString'].sort_values(by=['type'])
-	Linesdf.reset_index(drop=True, inplace=True) # reset the index for future use
+	linesdf = df[df['Geometry'] == 'LineString'].sort_values(by=['type'])
+	linesdf.reset_index(drop=True, inplace=True) # reset the index for future use
 	
-	Point_Tags = Pointsdf.Tag.values.tolist()
-	Point_Types = Pointsdf.type.values.tolist()
-	Pointsdp = pd.merge(Pointsdf.Tag, dependencies, on='Tag', how='inner')
-	Pointsdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
+	point_tags = pointsdf.Tag.values.tolist()
+	point_types = pointsdf.type.values.tolist()
+	pointsdp = pd.merge(pointsdf.Tag, dependencies, on='Tag', how='inner')
+	pointsdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
 	
-	Line_Tags = Linesdf.Tag.values.tolist()
-	Line_Types = Linesdf.type.values.tolist()
-	Linesdp = pd.merge(Linesdf.Tag, dependencies, on='Tag', how='inner')
-	Linesdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
+	line_tags = linesdf.Tag.values.tolist()
+	line_types = linesdf.type.values.tolist()
+	linesdp = pd.merge(linesdf.Tag, dependencies, on='Tag', how='inner')
+	linesdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
 	
-	Nodes_schema = generate_nodes_schema(Point_Tags, Point_Types, Pointsdf, Pointsdp)
-	Ways_schema = generate_ways_schema(Line_Tags, Line_Types, Linesdf, Linesdp)
+	nodes_schema = generate_nodes_schema(point_tags, point_types, pointsdf, pointsdp)
+	ways_schema = generate_ways_schema(line_tags, line_types, linesdf, linesdp)
 	
 	
-	if json.loads(Nodes_schema):
+	if json.loads(nodes_schema):
 		print('Generated Nodes schema Successfully \n')
-		Nodes_file = open("Nodes_schema.json", "w")
-		Nodes_file.write(Nodes_schema)
-		Nodes_file.close()
+		nodes_file = open("Nodes_schema.json", "w")
+		nodes_file.write(nodes_schema)
+		nodes_file.close()
 	else:
 		print('Error Generating Nodes Schema')
 	
-	if json.loads(Ways_schema):
+	if json.loads(ways_schema):
 		print('Generated Ways schema Successfully \n')
-		Ways_file = open("Ways_schema.json", "w")
-		Ways_file.write(Ways_schema)
-		Ways_file.close()
+		ways_file = open("Ways_schema.json", "w")
+		ways_file.write(ways_schema)
+		ways_file.close()
 	else:
 		print('Error Generating Ways Schema')
