@@ -5,6 +5,20 @@ import os
 import ntpath
 
 
+def error_capture(key,errors,index):
+
+    errordict = {
+        "required":errors.message + " for " + errors.schema_path[index-1],
+        "maxItems": errors.message + " for " + errors.schema_path[index-1],
+        "minItems": errors.message + " for " + errors.schema_path[index-1],
+        "maximum":  errors.message + " allowed for property " + errors.schema_path[index-1],
+        "minimum": errors.message + " allowed for property " + errors.schema_path[index-1],
+        "additionalProperties":errors.message,
+        "const": "'" + errors.schema_path[index-1] + "':" + errors.message
+    }
+    return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
+
+
 def validate_json_schema(geojson_path = None, schema_path = None, writePath = None):
     # Read schema and json files
 
@@ -25,19 +39,8 @@ def validate_json_schema(geojson_path = None, schema_path = None, writePath = No
         if error.path[1] not in invalid_ids.keys():
             invalid_ids.update({error.path[1]: list()})
         index = len(error.schema_path)-1
-		
-        if(error.schema_path[index] == 'required'):
-            invalid_ids[error.path[1]].append(error.message + " for " + error.schema_path[index-1])
-        elif (error.schema_path[index] == 'maxItems' or error.schema_path[index] == 'minItems'):
-            invalid_ids[error.path[1]].append(error.message + " for " + error.schema_path[index-1])
-        elif (error.schema_path[index] == 'maximum' or error.schema_path[index] == 'minimum'):
-            invalid_ids[error.path[1]].append(error.message + " allowed for property " + error.schema_path[index-1])
-        elif(error.schema_path[index] == 'additionalProperties'):
-            invalid_ids[error.path[1]].append(error.message)
-        elif(error.schema_path[index] == 'const'):
-            invalid_ids[error.path[1]].append("'" + error.schema_path[index-1] + "':" + error.message)
-        else:
-            invalid_ids[error.path[1]].append(error.message + " MISSED CAPTURING THIS " + error.schema_path[index])
+        error_message = error_capture(error.schema_path[index],error,index)
+        invalid_ids[error.path[1]].append(error_message)
 
     invalid_json = geojson.copy()
     valid_json = geojson.copy()

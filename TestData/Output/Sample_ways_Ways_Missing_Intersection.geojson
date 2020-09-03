@@ -43,12 +43,12 @@
                 "kerb_raised": 0
             },
             "fixme": [
-                "Point [159.7598957, -44.6837189] is not present in Nodes file",
-                "Point [-131.821915, -59.0499042] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
                 "Point [-120.7651982, 33.564581] is not present in Nodes file",
-                "Point [22.0745393, -7.2354387] is not present in Nodes file",
-                "Point [-97.4684902, -32.1157661] is not present in Nodes file"
+                "Point [159.7598957, -44.6837189] is not present in Nodes file",
+                "Point [-131.821915, -59.0499042] is not present in Nodes file",
+                "Point [-97.4684902, -32.1157661] is not present in Nodes file",
+                "Point [22.0745393, -7.2354387] is not present in Nodes file"
             ]
         },
         {
@@ -97,14 +97,14 @@
                 "width": 54
             },
             "fixme": [
+                "Point [45.8137475, 77.3241405] is not present in Nodes file",
+                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
+                "Point [24.7868934, -36.1131442] is not present in Nodes file",
+                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
+                "Point [80.9862912, 43.6082379] is not present in Nodes file",
                 "Point [-162.4062905, 31.1160852] is not present in Nodes file",
                 "Point [-57.5765393, 61.16014] is not present in Nodes file",
-                "Point [45.8137475, 77.3241405] is not present in Nodes file",
-                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
-                "Point [98.63905, -21.8211688] is not present in Nodes file",
-                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
-                "Point [80.9862912, 43.6082379] is not present in Nodes file",
-                "Point [24.7868934, -36.1131442] is not present in Nodes file"
+                "Point [98.63905, -21.8211688] is not present in Nodes file"
             ]
         },
         {
@@ -149,12 +149,12 @@
                 "kerb_raised": 0
             },
             "fixme": [
-                "Point [159.7598957, -44.6837189] is not present in Nodes file",
-                "Point [-131.821915, -59.0499042] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
                 "Point [-120.7651982, 33.564581] is not present in Nodes file",
-                "Point [22.0745393, -7.2354387] is not present in Nodes file",
-                "Point [-97.4684902, -32.1157661] is not present in Nodes file"
+                "Point [159.7598957, -44.6837189] is not present in Nodes file",
+                "Point [-131.821915, -59.0499042] is not present in Nodes file",
+                "Point [-97.4684902, -32.1157661] is not present in Nodes file",
+                "Point [22.0745393, -7.2354387] is not present in Nodes file"
             ]
         },
         {
@@ -203,13 +203,13 @@
                 "foot:backward": "no"
             },
             "fixme": [
-                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
-                "Point [126.8534701, -16.225744] is not present in Nodes file",
-                "Point [46.7843065, 83.5863524] is not present in Nodes file",
-                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [3.3012454, 74.7694294] is not present in Nodes file",
+                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [-40.1985332, 74.9019916] is not present in Nodes file",
-                "Point [16.9300953, 63.6111106] is not present in Nodes file"
+                "Point [16.9300953, 63.6111106] is not present in Nodes file",
+                "Point [46.7843065, 83.5863524] is not present in Nodes file",
+                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
+                "Point [126.8534701, -16.225744] is not present in Nodes file"
             ]
         },
         {
@@ -254,12 +254,12 @@
                 "kerb_raised": 0
             },
             "fixme": [
-                "Point [159.7598957, -44.6837189] is not present in Nodes file",
-                "Point [-131.821915, -59.0499042] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
                 "Point [-120.7651982, 33.564581] is not present in Nodes file",
-                "Point [22.0745393, -7.2354387] is not present in Nodes file",
-                "Point [-97.4684902, -32.1157661] is not present in Nodes file"
+                "Point [159.7598957, -44.6837189] is not present in Nodes file",
+                "Point [-131.821915, -59.0499042] is not present in Nodes file",
+                "Point [-97.4684902, -32.1157661] is not present in Nodes file",
+                "Point [22.0745393, -7.2354387] is not present in Nodes file"
             ]
         },
         {
@@ -304,13 +304,13 @@
                 "indoor": 0
             },
             "fixme": [
-                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [-158.1862462, 46.3392456] is not present in Nodes file",
-                "Point [112.8759293, 36.0714852] is not present in Nodes file",
+                "Point [-153.7124014, -2.2124561] is not present in Nodes file",
+                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [77.771168, 24.7399619] is not present in Nodes file",
-                "Point [146.492357, -28.1601926] is not present in Nodes file",
                 "Point [-100.768815, 66.1094967] is not present in Nodes file",
-                "Point [-153.7124014, -2.2124561] is not present in Nodes file"
+                "Point [146.492357, -28.1601926] is not present in Nodes file",
+                "Point [112.8759293, 36.0714852] is not present in Nodes file"
             ]
         },
         {
@@ -355,12 +355,12 @@
                 "kerb_raised": 0
             },
             "fixme": [
-                "Point [159.7598957, -44.6837189] is not present in Nodes file",
-                "Point [-131.821915, -59.0499042] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
                 "Point [-120.7651982, 33.564581] is not present in Nodes file",
-                "Point [22.0745393, -7.2354387] is not present in Nodes file",
-                "Point [-97.4684902, -32.1157661] is not present in Nodes file"
+                "Point [159.7598957, -44.6837189] is not present in Nodes file",
+                "Point [-131.821915, -59.0499042] is not present in Nodes file",
+                "Point [-97.4684902, -32.1157661] is not present in Nodes file",
+                "Point [22.0745393, -7.2354387] is not present in Nodes file"
             ]
         },
         {
@@ -404,12 +404,12 @@
                 "incline": 4
             },
             "fixme": [
-                "Point [107.9690948, 76.6229903] is not present in Nodes file",
-                "Point [51.2694952, -57.8216598] is not present in Nodes file",
-                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
                 "Point [-16.5090335, -12.8295432] is not present in Nodes file",
+                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
+                "Point [-83.4008015, 13.4292259] is not present in Nodes file",
+                "Point [107.9690948, 76.6229903] is not present in Nodes file",
                 "Point [-59.5174651, 17.1714759] is not present in Nodes file",
-                "Point [-83.4008015, 13.4292259] is not present in Nodes file"
+                "Point [51.2694952, -57.8216598] is not present in Nodes file"
             ]
         },
         {
@@ -454,12 +454,12 @@
                 "kerb_raised": 0
             },
             "fixme": [
-                "Point [159.7598957, -44.6837189] is not present in Nodes file",
-                "Point [-131.821915, -59.0499042] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
                 "Point [-120.7651982, 33.564581] is not present in Nodes file",
-                "Point [22.0745393, -7.2354387] is not present in Nodes file",
-                "Point [-97.4684902, -32.1157661] is not present in Nodes file"
+                "Point [159.7598957, -44.6837189] is not present in Nodes file",
+                "Point [-131.821915, -59.0499042] is not present in Nodes file",
+                "Point [-97.4684902, -32.1157661] is not present in Nodes file",
+                "Point [22.0745393, -7.2354387] is not present in Nodes file"
             ]
         },
         {
@@ -504,13 +504,13 @@
                 "crossing": "unmarked"
             },
             "fixme": [
-                "Point [65.4442789, -23.295413] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
+                "Point [65.4442789, -23.295413] is not present in Nodes file",
+                "Point [86.0556862, -42.1377094] is not present in Nodes file",
+                "Point [157.091279, 41.965854] is not present in Nodes file",
                 "Point [-33.3623277, -35.8018655] is not present in Nodes file",
                 "Point [150.2983664, 72.7172963] is not present in Nodes file",
-                "Point [157.091279, 41.965854] is not present in Nodes file",
-                "Point [-113.4213508, 24.698612] is not present in Nodes file",
-                "Point [86.0556862, -42.1377094] is not present in Nodes file"
+                "Point [-113.4213508, 24.698612] is not present in Nodes file"
             ]
         },
         {
@@ -559,14 +559,14 @@
                 "width": 54
             },
             "fixme": [
+                "Point [45.8137475, 77.3241405] is not present in Nodes file",
+                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
+                "Point [24.7868934, -36.1131442] is not present in Nodes file",
+                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
+                "Point [80.9862912, 43.6082379] is not present in Nodes file",
                 "Point [-162.4062905, 31.1160852] is not present in Nodes file",
                 "Point [-57.5765393, 61.16014] is not present in Nodes file",
-                "Point [45.8137475, 77.3241405] is not present in Nodes file",
-                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
-                "Point [98.63905, -21.8211688] is not present in Nodes file",
-                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
-                "Point [80.9862912, 43.6082379] is not present in Nodes file",
-                "Point [24.7868934, -36.1131442] is not present in Nodes file"
+                "Point [98.63905, -21.8211688] is not present in Nodes file"
             ]
         },
         {
@@ -615,13 +615,13 @@
                 "foot:backward": "no"
             },
             "fixme": [
-                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
-                "Point [126.8534701, -16.225744] is not present in Nodes file",
-                "Point [46.7843065, 83.5863524] is not present in Nodes file",
-                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [3.3012454, 74.7694294] is not present in Nodes file",
+                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [-40.1985332, 74.9019916] is not present in Nodes file",
-                "Point [16.9300953, 63.6111106] is not present in Nodes file"
+                "Point [16.9300953, 63.6111106] is not present in Nodes file",
+                "Point [46.7843065, 83.5863524] is not present in Nodes file",
+                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
+                "Point [126.8534701, -16.225744] is not present in Nodes file"
             ]
         },
         {
@@ -670,14 +670,14 @@
                 "width": 54
             },
             "fixme": [
+                "Point [45.8137475, 77.3241405] is not present in Nodes file",
+                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
+                "Point [24.7868934, -36.1131442] is not present in Nodes file",
+                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
+                "Point [80.9862912, 43.6082379] is not present in Nodes file",
                 "Point [-162.4062905, 31.1160852] is not present in Nodes file",
                 "Point [-57.5765393, 61.16014] is not present in Nodes file",
-                "Point [45.8137475, 77.3241405] is not present in Nodes file",
-                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
-                "Point [98.63905, -21.8211688] is not present in Nodes file",
-                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
-                "Point [80.9862912, 43.6082379] is not present in Nodes file",
-                "Point [24.7868934, -36.1131442] is not present in Nodes file"
+                "Point [98.63905, -21.8211688] is not present in Nodes file"
             ]
         },
         {
@@ -722,13 +722,13 @@
                 "indoor": 0
             },
             "fixme": [
-                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [-158.1862462, 46.3392456] is not present in Nodes file",
-                "Point [112.8759293, 36.0714852] is not present in Nodes file",
+                "Point [-153.7124014, -2.2124561] is not present in Nodes file",
+                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [77.771168, 24.7399619] is not present in Nodes file",
-                "Point [146.492357, -28.1601926] is not present in Nodes file",
                 "Point [-100.768815, 66.1094967] is not present in Nodes file",
-                "Point [-153.7124014, -2.2124561] is not present in Nodes file"
+                "Point [146.492357, -28.1601926] is not present in Nodes file",
+                "Point [112.8759293, 36.0714852] is not present in Nodes file"
             ]
         },
         {
@@ -777,14 +777,14 @@
                 "width": 54
             },
             "fixme": [
+                "Point [45.8137475, 77.3241405] is not present in Nodes file",
+                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
+                "Point [24.7868934, -36.1131442] is not present in Nodes file",
+                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
+                "Point [80.9862912, 43.6082379] is not present in Nodes file",
                 "Point [-162.4062905, 31.1160852] is not present in Nodes file",
                 "Point [-57.5765393, 61.16014] is not present in Nodes file",
-                "Point [45.8137475, 77.3241405] is not present in Nodes file",
-                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
-                "Point [98.63905, -21.8211688] is not present in Nodes file",
-                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
-                "Point [80.9862912, 43.6082379] is not present in Nodes file",
-                "Point [24.7868934, -36.1131442] is not present in Nodes file"
+                "Point [98.63905, -21.8211688] is not present in Nodes file"
             ]
         },
         {
@@ -828,12 +828,12 @@
                 "incline": 4
             },
             "fixme": [
-                "Point [107.9690948, 76.6229903] is not present in Nodes file",
-                "Point [51.2694952, -57.8216598] is not present in Nodes file",
-                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
                 "Point [-16.5090335, -12.8295432] is not present in Nodes file",
+                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
+                "Point [-83.4008015, 13.4292259] is not present in Nodes file",
+                "Point [107.9690948, 76.6229903] is not present in Nodes file",
                 "Point [-59.5174651, 17.1714759] is not present in Nodes file",
-                "Point [-83.4008015, 13.4292259] is not present in Nodes file"
+                "Point [51.2694952, -57.8216598] is not present in Nodes file"
             ]
         },
         {
@@ -882,14 +882,14 @@
                 "width": 54
             },
             "fixme": [
+                "Point [45.8137475, 77.3241405] is not present in Nodes file",
+                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
+                "Point [24.7868934, -36.1131442] is not present in Nodes file",
+                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
+                "Point [80.9862912, 43.6082379] is not present in Nodes file",
                 "Point [-162.4062905, 31.1160852] is not present in Nodes file",
                 "Point [-57.5765393, 61.16014] is not present in Nodes file",
-                "Point [45.8137475, 77.3241405] is not present in Nodes file",
-                "Point [-58.4346891, 53.3633726] is not present in Nodes file",
-                "Point [98.63905, -21.8211688] is not present in Nodes file",
-                "Point [-16.7733214, -36.0809775] is not present in Nodes file",
-                "Point [80.9862912, 43.6082379] is not present in Nodes file",
-                "Point [24.7868934, -36.1131442] is not present in Nodes file"
+                "Point [98.63905, -21.8211688] is not present in Nodes file"
             ]
         },
         {
@@ -934,13 +934,13 @@
                 "crossing": "unmarked"
             },
             "fixme": [
-                "Point [65.4442789, -23.295413] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
+                "Point [65.4442789, -23.295413] is not present in Nodes file",
+                "Point [86.0556862, -42.1377094] is not present in Nodes file",
+                "Point [157.091279, 41.965854] is not present in Nodes file",
                 "Point [-33.3623277, -35.8018655] is not present in Nodes file",
                 "Point [150.2983664, 72.7172963] is not present in Nodes file",
-                "Point [157.091279, 41.965854] is not present in Nodes file",
-                "Point [-113.4213508, 24.698612] is not present in Nodes file",
-                "Point [86.0556862, -42.1377094] is not present in Nodes file"
+                "Point [-113.4213508, 24.698612] is not present in Nodes file"
             ]
         },
         {
@@ -989,13 +989,13 @@
                 "foot:backward": "no"
             },
             "fixme": [
-                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
-                "Point [126.8534701, -16.225744] is not present in Nodes file",
-                "Point [46.7843065, 83.5863524] is not present in Nodes file",
-                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [3.3012454, 74.7694294] is not present in Nodes file",
+                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [-40.1985332, 74.9019916] is not present in Nodes file",
-                "Point [16.9300953, 63.6111106] is not present in Nodes file"
+                "Point [16.9300953, 63.6111106] is not present in Nodes file",
+                "Point [46.7843065, 83.5863524] is not present in Nodes file",
+                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
+                "Point [126.8534701, -16.225744] is not present in Nodes file"
             ]
         },
         {
@@ -1040,13 +1040,13 @@
                 "indoor": 0
             },
             "fixme": [
-                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [-158.1862462, 46.3392456] is not present in Nodes file",
-                "Point [112.8759293, 36.0714852] is not present in Nodes file",
+                "Point [-153.7124014, -2.2124561] is not present in Nodes file",
+                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [77.771168, 24.7399619] is not present in Nodes file",
-                "Point [146.492357, -28.1601926] is not present in Nodes file",
                 "Point [-100.768815, 66.1094967] is not present in Nodes file",
-                "Point [-153.7124014, -2.2124561] is not present in Nodes file"
+                "Point [146.492357, -28.1601926] is not present in Nodes file",
+                "Point [112.8759293, 36.0714852] is not present in Nodes file"
             ]
         },
         {
@@ -1095,13 +1095,13 @@
                 "foot:backward": "no"
             },
             "fixme": [
-                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
-                "Point [126.8534701, -16.225744] is not present in Nodes file",
-                "Point [46.7843065, 83.5863524] is not present in Nodes file",
-                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [3.3012454, 74.7694294] is not present in Nodes file",
+                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [-40.1985332, 74.9019916] is not present in Nodes file",
-                "Point [16.9300953, 63.6111106] is not present in Nodes file"
+                "Point [16.9300953, 63.6111106] is not present in Nodes file",
+                "Point [46.7843065, 83.5863524] is not present in Nodes file",
+                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
+                "Point [126.8534701, -16.225744] is not present in Nodes file"
             ]
         },
         {
@@ -1145,12 +1145,12 @@
                 "incline": 4
             },
             "fixme": [
-                "Point [107.9690948, 76.6229903] is not present in Nodes file",
-                "Point [51.2694952, -57.8216598] is not present in Nodes file",
-                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
                 "Point [-16.5090335, -12.8295432] is not present in Nodes file",
+                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
+                "Point [-83.4008015, 13.4292259] is not present in Nodes file",
+                "Point [107.9690948, 76.6229903] is not present in Nodes file",
                 "Point [-59.5174651, 17.1714759] is not present in Nodes file",
-                "Point [-83.4008015, 13.4292259] is not present in Nodes file"
+                "Point [51.2694952, -57.8216598] is not present in Nodes file"
             ]
         },
         {
@@ -1199,13 +1199,13 @@
                 "foot:backward": "no"
             },
             "fixme": [
-                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
-                "Point [126.8534701, -16.225744] is not present in Nodes file",
-                "Point [46.7843065, 83.5863524] is not present in Nodes file",
-                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [3.3012454, 74.7694294] is not present in Nodes file",
+                "Point [17.0063276, -83.7026724] is not present in Nodes file",
                 "Point [-40.1985332, 74.9019916] is not present in Nodes file",
-                "Point [16.9300953, 63.6111106] is not present in Nodes file"
+                "Point [16.9300953, 63.6111106] is not present in Nodes file",
+                "Point [46.7843065, 83.5863524] is not present in Nodes file",
+                "Point [-85.9224611, -66.5229346] is not present in Nodes file",
+                "Point [126.8534701, -16.225744] is not present in Nodes file"
             ]
         },
         {
@@ -1250,13 +1250,13 @@
                 "crossing": "unmarked"
             },
             "fixme": [
-                "Point [65.4442789, -23.295413] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
+                "Point [65.4442789, -23.295413] is not present in Nodes file",
+                "Point [86.0556862, -42.1377094] is not present in Nodes file",
+                "Point [157.091279, 41.965854] is not present in Nodes file",
                 "Point [-33.3623277, -35.8018655] is not present in Nodes file",
                 "Point [150.2983664, 72.7172963] is not present in Nodes file",
-                "Point [157.091279, 41.965854] is not present in Nodes file",
-                "Point [-113.4213508, 24.698612] is not present in Nodes file",
-                "Point [86.0556862, -42.1377094] is not present in Nodes file"
+                "Point [-113.4213508, 24.698612] is not present in Nodes file"
             ]
         },
         {
@@ -1301,13 +1301,13 @@
                 "indoor": 0
             },
             "fixme": [
-                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [-158.1862462, 46.3392456] is not present in Nodes file",
-                "Point [112.8759293, 36.0714852] is not present in Nodes file",
+                "Point [-153.7124014, -2.2124561] is not present in Nodes file",
+                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [77.771168, 24.7399619] is not present in Nodes file",
-                "Point [146.492357, -28.1601926] is not present in Nodes file",
                 "Point [-100.768815, 66.1094967] is not present in Nodes file",
-                "Point [-153.7124014, -2.2124561] is not present in Nodes file"
+                "Point [146.492357, -28.1601926] is not present in Nodes file",
+                "Point [112.8759293, 36.0714852] is not present in Nodes file"
             ]
         },
         {
@@ -1351,12 +1351,12 @@
                 "incline": 4
             },
             "fixme": [
-                "Point [107.9690948, 76.6229903] is not present in Nodes file",
-                "Point [51.2694952, -57.8216598] is not present in Nodes file",
-                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
                 "Point [-16.5090335, -12.8295432] is not present in Nodes file",
+                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
+                "Point [-83.4008015, 13.4292259] is not present in Nodes file",
+                "Point [107.9690948, 76.6229903] is not present in Nodes file",
                 "Point [-59.5174651, 17.1714759] is not present in Nodes file",
-                "Point [-83.4008015, 13.4292259] is not present in Nodes file"
+                "Point [51.2694952, -57.8216598] is not present in Nodes file"
             ]
         },
         {
@@ -1401,13 +1401,13 @@
                 "indoor": 0
             },
             "fixme": [
-                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [-158.1862462, 46.3392456] is not present in Nodes file",
-                "Point [112.8759293, 36.0714852] is not present in Nodes file",
+                "Point [-153.7124014, -2.2124561] is not present in Nodes file",
+                "Point [134.2776119, 1.0770222] is not present in Nodes file",
                 "Point [77.771168, 24.7399619] is not present in Nodes file",
-                "Point [146.492357, -28.1601926] is not present in Nodes file",
                 "Point [-100.768815, 66.1094967] is not present in Nodes file",
-                "Point [-153.7124014, -2.2124561] is not present in Nodes file"
+                "Point [146.492357, -28.1601926] is not present in Nodes file",
+                "Point [112.8759293, 36.0714852] is not present in Nodes file"
             ]
         },
         {
@@ -1452,13 +1452,13 @@
                 "crossing": "unmarked"
             },
             "fixme": [
-                "Point [65.4442789, -23.295413] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
+                "Point [65.4442789, -23.295413] is not present in Nodes file",
+                "Point [86.0556862, -42.1377094] is not present in Nodes file",
+                "Point [157.091279, 41.965854] is not present in Nodes file",
                 "Point [-33.3623277, -35.8018655] is not present in Nodes file",
                 "Point [150.2983664, 72.7172963] is not present in Nodes file",
-                "Point [157.091279, 41.965854] is not present in Nodes file",
-                "Point [-113.4213508, 24.698612] is not present in Nodes file",
-                "Point [86.0556862, -42.1377094] is not present in Nodes file"
+                "Point [-113.4213508, 24.698612] is not present in Nodes file"
             ]
         },
         {
@@ -1502,12 +1502,12 @@
                 "incline": 4
             },
             "fixme": [
-                "Point [107.9690948, 76.6229903] is not present in Nodes file",
-                "Point [51.2694952, -57.8216598] is not present in Nodes file",
-                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
                 "Point [-16.5090335, -12.8295432] is not present in Nodes file",
+                "Point [-38.9651708, -83.9865356] is not present in Nodes file",
+                "Point [-83.4008015, 13.4292259] is not present in Nodes file",
+                "Point [107.9690948, 76.6229903] is not present in Nodes file",
                 "Point [-59.5174651, 17.1714759] is not present in Nodes file",
-                "Point [-83.4008015, 13.4292259] is not present in Nodes file"
+                "Point [51.2694952, -57.8216598] is not present in Nodes file"
             ]
         },
         {
@@ -1552,13 +1552,13 @@
                 "crossing": "unmarked"
             },
             "fixme": [
-                "Point [65.4442789, -23.295413] is not present in Nodes file",
                 "Point [-38.7261701, -48.5904948] is not present in Nodes file",
+                "Point [65.4442789, -23.295413] is not present in Nodes file",
+                "Point [86.0556862, -42.1377094] is not present in Nodes file",
+                "Point [157.091279, 41.965854] is not present in Nodes file",
                 "Point [-33.3623277, -35.8018655] is not present in Nodes file",
                 "Point [150.2983664, 72.7172963] is not present in Nodes file",
-                "Point [157.091279, 41.965854] is not present in Nodes file",
-                "Point [-113.4213508, 24.698612] is not present in Nodes file",
-                "Point [86.0556862, -42.1377094] is not present in Nodes file"
+                "Point [-113.4213508, 24.698612] is not present in Nodes file"
             ]
         }
     ]
