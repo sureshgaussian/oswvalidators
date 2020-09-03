@@ -143,3 +143,5 @@ def get_invalidNodes(utild, cf):
     invalid_ways_save_path = os.path.join(cf.writePath,
                                      (ntpath.basename(utild.ways_file).split('.')[0] + '_invalid.geojson'))
     save_file(invalid_ways_save_path, invalid_ways_json)
+
+    return error_nodes_dict, error_ways_dict

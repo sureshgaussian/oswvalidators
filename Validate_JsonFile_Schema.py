@@ -22,9 +22,9 @@ def error_capture(key,errors,index):
 def validate_json_schema(geojson_path = None, schema_path = None, writePath = None):
     # Read schema and json files
 
-    valid_save_path = os.path.join(writePath,
+    valid_save_path = os.path.join(cf.writePath,
                                        (ntpath.basename(geojson_path).split('.')[0].split("\\")[-1] + '_schema_valid.geojson'))
-    invalid_save_path = os.path.join(writePath,
+    invalid_save_path = os.path.join(cf.writePath,
                                        (ntpath.basename(geojson_path).split('.')[0].split("\\")[-1] + '_schema_invalid.geojson'))
     with open(geojson_path) as fp:
         geojson = json.load(fp)
@@ -52,7 +52,6 @@ def validate_json_schema(geojson_path = None, schema_path = None, writePath = No
         invalid_json['features'].append(geojson['features'][invalid_id])
         invalid_json['features'][-1].update({"fixme": msg})
 
-
     # Dump the json to valid and invalid files
     with open(invalid_save_path, 'w') as fp:
         json.dump(invalid_json, fp, indent=4)
@@ -62,6 +61,7 @@ def validate_json_schema(geojson_path = None, schema_path = None, writePath = No
     with open(valid_save_path, 'w') as fp:
         json.dump(valid_json, fp, indent=4)
 
+    return  invalid_ids
 
 if __name__ == '__main__':
     cf = DefaultConfigs()

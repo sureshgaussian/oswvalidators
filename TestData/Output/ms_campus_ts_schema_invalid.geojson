@@ -30428,7 +30428,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -35640,7 +35640,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -35674,7 +35674,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -35735,7 +35735,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -35769,7 +35769,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -37182,7 +37182,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -37216,7 +37216,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -44739,7 +44739,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
@@ -44773,7 +44773,7 @@
                 "incline": 0.0
             },
             "fixme": [
-                "Additional properties are not allowed ('curbramps', 'tactile_paving', 'foot' were unexpected)",
+                "Additional properties are not allowed ('foot', 'tactile_paving', 'curbramps' were unexpected)",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
                 "'footway':'sidewalk' was expected",
