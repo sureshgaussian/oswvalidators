@@ -67,5 +67,3 @@ def validate_json_schema(geojson_path=None, schema_path=None, writePath=None):
 
 if __name__ == '__main__':
     cf = DefaultConfigs()
-    validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
-    validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
