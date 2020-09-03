@@ -94,7 +94,9 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
     intersectingNodeGeoJSON = []
     violatingWayFeatures = []
     print("number of ways in the currrent file : ", len(geoJSONdata["features"]))
-
+    print("--" * 30)
+    print("Checking whether there are any Ways without an intersecting node")
+    print("--" * 30)
     brunnelValid = pd.DataFrame(propertyData.apply(brunnelcheck, args=(skipTag,), axis=1))
     invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
     for counter in range(len(geoJSONdata["features"])):

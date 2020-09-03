@@ -115,9 +115,9 @@ def get_invalidNodes(utild, cf):
     for node in diff_ways:
         for way_id in utild.ways_coord_dict[node]:
             if way_id not in error_ways_dict.keys():
-                error_ways_dict[way_id] = [str(node + " is not present in Nodes file")]
+                error_ways_dict[way_id] = [str("Point " + node + " is not present in Nodes file")]
             else:
-                error_ways_dict[way_id].append(str(node + " is not present in Nodes file"))
+                error_ways_dict[way_id].append(str("Point " + node + " is not present in Nodes file"))
 
     for id, msg in sorted(error_nodes_dict.items(), reverse=True):
         valid_nodes_json['features'].pop(id)

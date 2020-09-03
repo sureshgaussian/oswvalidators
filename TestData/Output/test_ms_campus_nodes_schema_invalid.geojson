@@ -15,9 +15,9 @@
                 "kerb": "lowered"
             },
             "fixme": [
-                "Error Message : 4 is greater than the maximum of 1. Schema Path : properties/features/items/properties/properties/properties/tactile_paving/maximum",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb/required",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/tactile_paving/required"
+                "4 is greater than the maximum of 1 allowed for property tactile_paving",
+                "'barrier' is a required property for kerb",
+                "'barrier' is a required property for tactile_paving"
             ]
         },
         {
@@ -34,11 +34,11 @@
                 "kerb": "wrong0"
             },
             "fixme": [
-                "Error Message : 'Something' is not one of ['Point']. Schema Path : properties/features/items/properties/geometry/properties/type/enum",
-                "Error Message : 20 is greater than the maximum of 1. Schema Path : properties/features/items/properties/properties/properties/tactile_paving/maximum",
-                "Error Message : 'wrong0' is not one of ['flush', 'lowered', 'raised', 'rolled']. Schema Path : properties/features/items/properties/properties/properties/kerb/enum",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb/required",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/tactile_paving/required"
+                "'Something' is not one of ['Point'] MISSED CAPTURING THIS enum",
+                "20 is greater than the maximum of 1 allowed for property tactile_paving",
+                "'wrong0' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
+                "'barrier' is a required property for kerb",
+                "'barrier' is a required property for tactile_paving"
             ]
         },
         {
@@ -55,10 +55,10 @@
                 "kerb": "wrong1"
             },
             "fixme": [
-                "Error Message : 30 is greater than the maximum of 1. Schema Path : properties/features/items/properties/properties/properties/tactile_paving/maximum",
-                "Error Message : 'wrong1' is not one of ['flush', 'lowered', 'raised', 'rolled']. Schema Path : properties/features/items/properties/properties/properties/kerb/enum",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb/required",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/tactile_paving/required"
+                "30 is greater than the maximum of 1 allowed for property tactile_paving",
+                "'wrong1' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
+                "'barrier' is a required property for kerb",
+                "'barrier' is a required property for tactile_paving"
             ]
         },
         {
@@ -75,10 +75,10 @@
                 "kerb": "wrong2"
             },
             "fixme": [
-                "Error Message : 4 is greater than the maximum of 1. Schema Path : properties/features/items/properties/properties/properties/tactile_paving/maximum",
-                "Error Message : 'wrong2' is not one of ['flush', 'lowered', 'raised', 'rolled']. Schema Path : properties/features/items/properties/properties/properties/kerb/enum",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/kerb/required",
-                "Error Message : 'barrier' is a required property. Schema Path : properties/features/items/properties/properties/dependencies/tactile_paving/required"
+                "4 is greater than the maximum of 1 allowed for property tactile_paving",
+                "'wrong2' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
+                "'barrier' is a required property for kerb",
+                "'barrier' is a required property for tactile_paving"
             ]
         }
     ]

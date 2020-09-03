@@ -24,11 +24,20 @@ def validate_json_schema(geojson_path = None, schema_path = None, writePath = No
     for error in errors:
         if error.path[1] not in invalid_ids.keys():
             invalid_ids.update({error.path[1]: list()})
-        schema_path = str()
-        for i in error.schema_path:
-            schema_path += i + '/'
-        invalid_ids[error.path[1]].append(
-            "Error Message : " + error.message + ". Schema Path : " + schema_path[:-1])
+        index = len(error.schema_path)-1
+		
+        if(error.schema_path[index] == 'required'):
+            invalid_ids[error.path[1]].append(error.message + " for " + error.schema_path[index-1])
+        elif (error.schema_path[index] == 'maxItems' or error.schema_path[index] == 'minItems'):
+            invalid_ids[error.path[1]].append(error.message + " for " + error.schema_path[index-1])
+        elif (error.schema_path[index] == 'maximum' or error.schema_path[index] == 'minimum'):
+            invalid_ids[error.path[1]].append(error.message + " allowed for property " + error.schema_path[index-1])
+        elif(error.schema_path[index] == 'additionalProperties'):
+            invalid_ids[error.path[1]].append(error.message)
+        elif(error.schema_path[index] == 'const'):
+            invalid_ids[error.path[1]].append("'" + error.schema_path[index-1] + "':" + error.message)
+        else:
+            invalid_ids[error.path[1]].append(error.message + " MISSED CAPTURING THIS " + error.schema_path[index])
 
     invalid_json = geojson.copy()
     valid_json = geojson.copy()

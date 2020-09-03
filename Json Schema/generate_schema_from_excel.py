@@ -135,7 +135,7 @@ def generate_nodes_schema(Tags, Types, df, dependencies):
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties": {''' + Point_Properties + '''},
+            "properties": {"id": {"type": "string"},''' + Point_Properties + '''},
 			"dependencies": {''' + Point_dependencies + '''}
           }
         }
@@ -236,7 +236,7 @@ def generate_ways_schema(Tags, Types, df, dependencies):
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties": {''' + Line_Properties + '''},
+            "properties":  {"id": {"type": "string"},''' + Line_Properties + '''},
 			"dependencies": {''' + Line_dependencies + '''}
           }
         }

@@ -11,10 +11,10 @@ import ntpath
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
     parser.add_argument("--inputPath", help="Relative input path to GeoJSON files",
-                        default=os.path.join(os.getcwd(), "OSW\TestData\input"))
+                        default=os.path.join(os.getcwd(), "TestData\input"))
     parser.add_argument("--validation", help="Type of validation", default='intersectingvalidation')
     parser.add_argument("--writePath", help="Relative output path to write the validation errors",
-                        default=os.path.join(os.getcwd(), "OSW\TestData\Output"))
+                        default=os.path.join(os.getcwd(), "TestData\Output"))
     args = parser.parse_args()
     cf = DefaultConfigs(args)
     inputPath = args.inputPath
@@ -36,9 +36,6 @@ if __name__ == '__main__':
         utild = UtilData(nodes_file, ways_file, cf)
         get_invalidNodes(utild, cf)
         if cf.do_all_validations or cf.validation == 'intersectingvalidation':
-            print("--" * 10)
-            print("performing checks to see if any Ways which are intersecting have a missing intersecting node")
-            print("--" * 10)
             intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf, ntpath.basename(ways_file))
 
         if cf.do_eda:
@@ -47,4 +44,4 @@ if __name__ == '__main__':
             print("--" * 10)
             plot_nodes_vs_ways(utild, cf)
             subgraph_eda(utild, cf)
-    print("\n Output files written at the following location",cf.writePath)
+    print("\n Output files written at the following location ",cf.writePath)

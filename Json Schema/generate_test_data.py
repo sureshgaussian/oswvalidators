@@ -12,7 +12,7 @@ def build_dictionary(df, Tags):
             if not (pd.isna(row[column])):
                 Tags_values.append(row[column])
         Dictionary.update({Tags[index] : Tags_values})
-    Dictionary.update({"troubles" : ['rakesh', 'ravi' , 'karthik']})
+    Dictionary.update({"troubles" : ['trouble1', 'trouble2' , 'trouble3']})
     return Dictionary
 
 def generate_coordinates(num_entries):
