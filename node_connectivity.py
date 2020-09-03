@@ -5,6 +5,7 @@ import matplotlib.pylab as plt
 import networkx as nx
 import os
 import ntpath
+import copy
 import time
 
 
@@ -29,7 +30,9 @@ def plot_nodes_vs_ways(utild, cf):
     plt.xlabel("Number of Nodes")
     plt.ylabel("Number of Ways")
     # plt.show(block=False)
-    plt.savefig(os.path.join(cf.writePath, "NodesVsWays.PNG"), format="PNG")
+    save_path = os.path.join(cf.writePath, "EDA",
+                             (ntpath.basename(utild.ways_file).split('.')[0] + "_NodesVsWays.PNG"))
+    plt.savefig(save_path, format="PNG")
     plt.clf()
 
 
@@ -46,16 +49,18 @@ def subgraph_eda(utild, cf):
     connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
     print("Number of Connected Components : ", nx.number_connected_components(connected_FG))
     subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
-
+    save_path = os.path.join(cf.writePath, "EDA",
+                             (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
     for i in range(len(subgraphs)):
         if 2 < len(subgraphs[i]) < 10:
             print("Printing subgraph{} edges : \n{}".format(i, subgraphs[i].edges))
             nx.draw_networkx(subgraphs[i])
             ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
-            plt.savefig(os.path.join(cf.writePath, "SampleSubgraph.PNG"), format="PNG")
+            plt.savefig(save_path, format="PNG")
             plt.clf()
             print("sgraph[{}]_ways {}".format(i, ways_set))
             break
+
 
 def get_way_from_subgraph(sgraph, df):
     """
@@ -73,23 +78,68 @@ def get_way_from_subgraph(sgraph, df):
         ways_set.update(s)
     return list(ways_set)
 
+def save_file(path, json_file):
+    with open(path, 'w') as fp:
+        json.dump(json_file, fp, indent=4)
 
 #### Validations
 
 def get_invalidNodes(utild, cf):
     """
-    A node is invalid if it is not part of any way and has no property assigned to it.
-    Dump the invalid nodes into a {filename}_invalid.geojson
-    """
-    vals = np.array(list(utild.coord_dict.values()), dtype=object)
-    invalid_nodes = [ind for ind, val in enumerate(vals) if
-                     (len(val) == 0 and len(utild.ways_json['features'][ind]['properties']) == 0)]
-    invalid_nodes_json = utild.nodes_json.copy()
-    invalid_nodes_json['features'] = []
-    [invalid_nodes_json['features'].append(utild.nodes_json['features'][ind]) for ind in invalid_nodes]
+    From nodes_dict(N) and ways_dict(W),
+    1. N ^ W : ?? only for optimization
+    2. N - W : Remaining nodes are invalid if they don't have at least one property
+    3. W - N : Ways contain points that are not listed in the nodes file
 
-    invalid_save_path = os.path.join(cf.writePath,
+    """
+
+    error_nodes_dict = dict()
+    error_ways_dict = dict()
+    invalid_nodes_json = copy.deepcopy(utild.nodes_json)
+    invalid_nodes_json['features'] = []
+    invalid_ways_json = copy.deepcopy(utild.ways_json)
+    invalid_ways_json['features'] = []
+    valid_nodes_json = copy.deepcopy(utild.nodes_json)
+    valid_ways_json = copy.deepcopy(utild.ways_json)
+
+    # Nodes - Ways : The remaining nodes should have properties
+    diff_nodes = set(utild.nodes_coord_dict.keys()) - set(utild.ways_coord_dict.keys())
+    for node in diff_nodes:
+        node_id = utild.nodes_coord_dict[node]
+        if 'properties' not in utild.nodes_json['features'][node_id].keys() or not len(utild.nodes_json['features'][node_id]['properties']):
+            if node_id not in error_nodes_dict.keys():
+                error_nodes_dict[node_id] = ["Point properties cannot be empty unless it is part of a way"]
+
+    # Ways - Nodes : Ways containing the remaining nodes are invalid. The nodes should be present in nodes file
+    diff_ways = set(utild.ways_coord_dict.keys()) - set(utild.nodes_coord_dict.keys())
+    for node in diff_ways:
+        for way_id in utild.ways_coord_dict[node]:
+            if way_id not in error_ways_dict.keys():
+                error_ways_dict[way_id] = [str("Point " + node + " is not present in Nodes file")]
+            else:
+                error_ways_dict[way_id].append(str("Point " + node + " is not present in Nodes file"))
+
+    for id, msg in sorted(error_nodes_dict.items(), reverse=True):
+        valid_nodes_json['features'].pop(id)
+        invalid_nodes_json['features'].append(utild.nodes_json['features'][id])
+        invalid_nodes_json['features'][-1].update({"fixme": msg})
+
+    for id, msg in sorted(error_ways_dict.items(), reverse=True):
+        valid_ways_json['features'].pop(id)
+        invalid_ways_json['features'].append(utild.ways_json['features'][id])
+        invalid_ways_json['features'][-1].update({"fixme": msg})
+
+    valid_nodes_save_path = os.path.join(cf.writePath,
+                                     (ntpath.basename(utild.nodes_file).split('.')[0] + '_valid.geojson'))
+    save_file(valid_nodes_save_path, valid_nodes_json)
+
+    invalid_nodes_save_path = os.path.join(cf.writePath,
                                      (ntpath.basename(utild.nodes_file).split('.')[0] + '_invalid.geojson'))
-    with open(invalid_save_path, 'w') as fp:
-        json.dump(invalid_nodes_json, fp, indent=4)
-    print('Invalid Nodes dumped to {}'.format(ntpath.basename(invalid_save_path)))
+    save_file(invalid_nodes_save_path, invalid_nodes_json)
+
+    valid_ways_save_path = os.path.join(cf.writePath,
+                                     (ntpath.basename(utild.ways_file).split('.')[0] + '_valid.geojson'))
+    save_file(valid_ways_save_path, valid_ways_json)
+    invalid_ways_save_path = os.path.join(cf.writePath,
+                                     (ntpath.basename(utild.ways_file).split('.')[0] + '_invalid.geojson'))
+    save_file(invalid_ways_save_path, invalid_ways_json)

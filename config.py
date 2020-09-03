@@ -15,31 +15,23 @@ class DefaultConfigs:
             self.validation = args.validation
             self.writePath = args.writePath
         else:
-            self.GeoJSON = os.path.join(os.getcwd(), "OSW\TestData\input")
+            self.GeoJSON = os.path.join(os.getcwd(), "TestData\input")
             self.validation = "intersectingvalidation"
-            self.writePath = os.path.join(os.getcwd(), "OSW\TestData\Output")
-
+            self.writePath = os.path.join(os.getcwd(), "TestData\Output")
+        
         if not os.path.exists(self.writePath):
             os.mkdir(self.writePath)
 
-        self.test_geojson = os.path.join(os.getcwd(), "OSW\TestData", "test_ms_campus_nodes.geojson")
-        self.test_schema = os.path.join(os.getcwd(), "OSW\TestData", "test_schema.json")
+        self.test_nodes_json = os.path.join(os.getcwd(), "TestData\input", "ms_campus_nodes.geojson")
+        self.test_ways_json = os.path.join(os.getcwd(), "TestData\input", "ms_campus_ts.geojson")
+
+        self.node_schema = os.path.join(os.getcwd(), "Json Schema", "Nodes_schema.json")
+        self.ways_schema = os.path.join(os.getcwd(), "Json Schema", "Ways_schema.json")
+
         self.file_filter = 'ms_campus_'  # for now filter just by substring. TODO :  extended to regex
         self.filter_sidewalks = False  # Filter only side walks for further processing
-        self.validation = 'intersectingvalidation'
+        self.validation = ''
         self.do_all_validations = True
-        self.do_eda = True
-        self.generate_output_paths()
-
-    def generate_output_paths(self):
-        ##paths for Output files to be generated
-        # Ravi
-        self.path_invalid_nodes = os.path.join(self.writePath, 'test_nodes_invalid.geojson')
-        self.path_valid_nodes = os.path.join(self.writePath, 'test_nodes_valid.geojson')
-        self.path_connected_json = ''
-        self.path_disconnected_json = ''
-        self.path_plot_nodes_vs_ways = os.path.join(self.writePath, 'NodesVsWays.jpg')
-        self.path_plot_random_subgraph = os.path.join(self.writePath, 'RandomSubgraph.jpg')
-        # Karthik
-        self.path_invalidWays = ''
+        self.do_eda = False
+        self.do_schema_validations = True
 

@@ -80,8 +80,334 @@
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties": {"id": {"type":"string"},"indoor": {"type":"integer","minimum" :0,"maximum":1},"kerb_raised": {"type":"integer","minimum" :0,"maximum":1},"width": {"type":"number","minimum" :0},"incline": {"type":"number","minimum" :-90,"maximum":90},"length": {"type":"number","minimum" :0},"smoothness": {"type":"string","enum":["excellent","good","intermediate","bad"]},"service": {"type":"string","enum":["alley","crossover","driveway","parking_aisle"]},"bicycle:backward": {"type":"string","enum":["yes","no","unknown"]},"foot:backward": {"type":"string","enum":["yes","no","unknown"]},"highway": {"type":"string","enum":["footway","cycleway","path","pedestrian","steps","secondary","tertiary","residential","service"]},"traffic_signals": {"type":"string","enum":["yes","no"]},"island": {"type":"string","enum":["yes","no"]},"unmarked": {"type":"string","enum":["yes","no"]},"marked": {"type":"string","enum":["yes","no"]},"crossing": {"type":"string","enum":["marked","unmarked","island","traffic_signals"]},"footway": {"type":"string","enum":["crossing","sidewalk","kerb_raised"]},"brunnel": {"type":"string","enum":["bridge","ford","tunnel"]},"surface": {"type":"string","enum":["asphalt","concrete","gravel","grass","paved","paving_stones","unpaved"]}},
-			"dependencies": {"footway":{"required" : ["highway"], "properties": {"highway":{"type": "string", "const": "footway"}}},"foot":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "foot"}}},"timing":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "timing"}}},"sound":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "sound"}}},"vibration":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "vibration"}}},"button_operated":{"required" : ["traffic_signals"], "properties": {"traffic_signals":{"type": "string", "const": "button_operated"}}},"marked":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "marked"}}},"unmarked":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "unmarked"}}},"island":{"required" : ["crossing"], "properties": {"crossing":{"type": "string", "const": "island"}}},"sidewalk":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"crossing":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "crossing"}}},"kerb_raised":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "kerb_raised"}}},"surface":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"length":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"incline":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"width":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"foot":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}},"service":{"required" : ["footway"], "properties": {"footway":{"type": "string", "const": "sidewalk"}}}}
+            "properties": {
+              "indoor": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "kerb_raised": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "width": {
+                "type": "number",
+                "minimum": 0
+              },
+              "id": {"type":"string"},
+              "incline": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "length": {
+                "type": "number",
+                "minimum": 0
+              },
+              "smoothness": {
+                "type": "string",
+                "enum": [
+                  "excellent",
+                  "good",
+                  "intermediate",
+                  "bad"
+                ]
+              },
+              "service": {
+                "type": "string",
+                "enum": [
+                  "alley",
+                  "crossover",
+                  "driveway",
+                  "parking_aisle"
+                ]
+              },
+              "bicycle:backward": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no",
+                  "unknown"
+                ]
+              },
+              "foot:backward": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no",
+                  "unknown"
+                ]
+              },
+              "highway": {
+                "type": "string",
+                "enum": [
+                  "footway",
+                  "cycleway",
+                  "path",
+                  "pedestrian",
+                  "steps",
+                  "secondary",
+                  "tertiary",
+                  "residential",
+                  "service"
+                ]
+              },
+              "traffic_signals": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no"
+                ]
+              },
+              "island": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no"
+                ]
+              },
+              "unmarked": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no"
+                ]
+              },
+              "marked": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no"
+                ]
+              },
+              "crossing": {
+                "type": "string",
+                "enum": [
+                  "marked",
+                  "unmarked",
+                  "island",
+                  "traffic_signals"
+                ]
+              },
+              "footway": {
+                "type": "string",
+                "enum": [
+                  "crossing",
+                  "sidewalk",
+                  "kerb_raised"
+                ]
+              },
+              "brunnel": {
+                "type": "string",
+                "enum": [
+                  "bridge",
+                  "ford",
+                  "tunnel"
+                ]
+              },
+              "surface": {
+                "type": "string",
+                "enum": [
+                  "asphalt",
+                  "concrete",
+                  "gravel",
+                  "grass",
+                  "paved",
+                  "paving_stones",
+                  "unpaved"
+                ]
+              }
+            },
+            "dependencies": {
+              "footway": {
+                "required": [
+                  "highway"
+                ],
+                "properties": {
+                  "highway": {
+                    "type": "string",
+                    "const": "footway"
+                  }
+                }
+              },
+              "foot": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "timing": {
+                "required": [
+                  "traffic_signals"
+                ],
+                "properties": {
+                  "traffic_signals": {
+                    "type": "string",
+                    "const": "timing"
+                  }
+                }
+              },
+              "sound": {
+                "required": [
+                  "traffic_signals"
+                ],
+                "properties": {
+                  "traffic_signals": {
+                    "type": "string",
+                    "const": "sound"
+                  }
+                }
+              },
+              "vibration": {
+                "required": [
+                  "traffic_signals"
+                ],
+                "properties": {
+                  "traffic_signals": {
+                    "type": "string",
+                    "const": "vibration"
+                  }
+                }
+              },
+              "button_operated": {
+                "required": [
+                  "traffic_signals"
+                ],
+                "properties": {
+                  "traffic_signals": {
+                    "type": "string",
+                    "const": "button_operated"
+                  }
+                }
+              },
+              "marked": {
+                "required": [
+                  "crossing"
+                ],
+                "properties": {
+                  "crossing": {
+                    "type": "string",
+                    "const": "marked"
+                  }
+                }
+              },
+              "unmarked": {
+                "required": [
+                  "crossing"
+                ],
+                "properties": {
+                  "crossing": {
+                    "type": "string",
+                    "const": "unmarked"
+                  }
+                }
+              },
+              "island": {
+                "required": [
+                  "crossing"
+                ],
+                "properties": {
+                  "crossing": {
+                    "type": "string",
+                    "const": "island"
+                  }
+                }
+              },
+              "sidewalk": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "crossing": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "crossing"
+                  }
+                }
+              },
+              "kerb_raised": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "kerb_raised"
+                  }
+                }
+              },
+              "surface": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "length": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "incline": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "width": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              },
+              "service": {
+                "required": [
+                  "footway"
+                ],
+                "properties": {
+                  "footway": {
+                    "type": "string",
+                    "const": "sidewalk"
+                  }
+                }
+              }
+            }
           }
         }
       }

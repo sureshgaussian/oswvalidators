@@ -1,0 +1,221 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -55.2642044,
+                    7.0018576
+                ]
+            },
+            "properties": {
+                "id": "node1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.7036251,
+                    -1.1571828
+                ]
+            },
+            "properties": {
+                "id": "node2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.6935985,
+                    -37.9926395
+                ]
+            },
+            "properties": {
+                "id": "node3"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -170.7953733,
+                    34.9721716
+                ]
+            },
+            "properties": {
+                "id": "node4"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -128.5123411,
+                    -64.4855122
+                ]
+            },
+            "properties": {
+                "id": "node5"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4668501,
+                    50.576875
+                ]
+            },
+            "properties": {
+                "id": "node6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.493298,
+                    -61.942448
+                ]
+            },
+            "properties": {
+                "id": "node7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.5530677,
+                    32.6934413
+                ]
+            },
+            "properties": {
+                "id": "node8"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.8556677,
+                    -30.4145768
+                ]
+            },
+            "properties": {
+                "id": "node293",
+                "timing": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -158.7534303,
+                    26.0849542
+                ]
+            },
+            "properties": {
+                "id": "node294",
+                "manhole": "shape"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.7922471,
+                    -22.7454306
+                ]
+            },
+            "properties": {
+                "id": "node295",
+                "traffic_signals": "vibration"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    64.0619745,
+                    4.6469712
+                ]
+            },
+            "properties": {
+                "id": "node296",
+                "public_transportation": "stop_position"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.8237417,
+                    -62.6055345
+                ]
+            },
+            "properties": {
+                "id": "node297",
+                "foot": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.7355477,
+                    81.4919157
+                ]
+            },
+            "properties": {
+                "id": "node298",
+                "kerb": "raised"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.4557312,
+                    20.394942
+                ]
+            },
+            "properties": {
+                "id": "node299",
+                "foot": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    157.6278007,
+                    -62.1821998
+                ]
+            },
+            "properties": {
+                "id": "node300",
+                "barrier": "kerb"
+            }
+        }
+    ]
+}

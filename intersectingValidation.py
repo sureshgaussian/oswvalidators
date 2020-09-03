@@ -81,8 +81,8 @@ def geojsonWrite(path, invalidWays, originalGeoJsonFile,fileName):
     '''
     invalidPaths = originalGeoJsonFile.copy()
     invalidPaths['features'] = invalidWays
-    path = os.path.join(path.split('.')[0],fileName)
-    with open(path+ '.geojson', 'w') as fp:
+    path = os.path.join(path,fileName)
+    with open(path+'.geojson', 'w') as fp:
         json.dump(invalidPaths, fp, indent=4)
 
 
@@ -94,7 +94,9 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
     intersectingNodeGeoJSON = []
     violatingWayFeatures = []
     print("number of ways in the currrent file : ", len(geoJSONdata["features"]))
-
+    print("--" * 30)
+    print("Checking whether there are any Ways without an intersecting node")
+    print("--" * 30)
     brunnelValid = pd.DataFrame(propertyData.apply(brunnelcheck, args=(skipTag,), axis=1))
     invalidGeometryIndex = indexInvalidGeometryType(geometryData).values.tolist()
     for counter in range(len(geoJSONdata["features"])):
@@ -112,7 +114,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
     prog.update()
 
     for rowIdI, wayI in geometryDataFormat.iteritems():
-        prog.set_stat(rowIdI)
+        prog.set_stat(rowIdI+1)
         # Update Progress Bar again
         prog.update()
         if (wayI == "invalid" or rowIdI in brunnelExist):
@@ -157,8 +159,8 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
                 else:
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
-
-    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"Ways_Missing_Intersection")
-    geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata,fileName+"recommended_Intersections")
+    fileName = fileName.split('.')[0]
+    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"_Ways_Missing_Intersection")
+    geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata,fileName+"_recommended_Intersections")
     prog.end()
 # return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures

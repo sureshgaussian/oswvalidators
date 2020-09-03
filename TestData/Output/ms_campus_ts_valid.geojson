@@ -1,0 +1,1242 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1355703,
+                        47.6458165
+                    ],
+                    [
+                        -122.1355407,
+                        47.6458379
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 3.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.132168,
+                        47.6459177
+                    ],
+                    [
+                        -122.1321289,
+                        47.6459115
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 3.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1376072,
+                        47.6458598
+                    ],
+                    [
+                        -122.1375723,
+                        47.6458619
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.6,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431969,
+                        47.6365115
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1340947,
+                        47.6377959
+                    ],
+                    [
+                        -122.1340305,
+                        47.6377959
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 4.8,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.141208,
+                        47.6414292
+                    ],
+                    [
+                        -122.1412273,
+                        47.6413713
+                    ],
+                    [
+                        -122.1412477,
+                        47.6413077
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 13.8,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1408848,
+                        47.6404648
+                    ],
+                    [
+                        -122.1409395,
+                        47.640334
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 15.1,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1411363,
+                        47.6398045
+                    ],
+                    [
+                        -122.1411568,
+                        47.6397574
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "concrete",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 5.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1340348,
+                        47.6465571
+                    ],
+                    [
+                        -122.1338651,
+                        47.6465851
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 13.1,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1321999,
+                        47.6496722
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1325807,
+                        47.6496534
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1396657,
+                        47.638883
+                    ],
+                    [
+                        -122.1395515,
+                        47.6388307
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 0,
+                "length": 10.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1395361,
+                        47.6392685
+                    ],
+                    [
+                        -122.1395581,
+                        47.6393342
+                    ]
+                ]
+            },
+            "properties": {
+                "foot": 1,
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 7.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1398023,
+                        47.6387506
+                    ],
+                    [
+                        -122.1397756,
+                        47.6386747
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 8.7,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431969,
+                        47.6365115
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "asphalt",
+                "highway": "cycleway",
+                "length": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1405378,
+                        47.6377976
+                    ],
+                    [
+                        -122.1405837,
+                        47.6379068
+                    ]
+                ]
+            },
+            "properties": {
+                "foot": 1,
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 12.6,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1404063,
+                        47.6370387
+                    ],
+                    [
+                        -122.1401883,
+                        47.6370586
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 16.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431889,
+                        47.638601
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "paved",
+                "highway": "footway",
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1338072,
+                        47.6382131
+                    ],
+                    [
+                        -122.1338065,
+                        47.6381962
+                    ],
+                    [
+                        -122.1338043,
+                        47.6381374
+                    ],
+                    [
+                        -122.1338037,
+                        47.6380847
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 14.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1324562,
+                        47.6383144
+                    ],
+                    [
+                        -122.1323383,
+                        47.6383106
+                    ],
+                    [
+                        -122.1322129,
+                        47.6383061
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 18.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1338936,
+                        47.6380404
+                    ],
+                    [
+                        -122.1339741,
+                        47.6380409
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 6.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1339741,
+                        47.6380409
+                    ],
+                    [
+                        -122.1340715,
+                        47.638042
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 7.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1339285,
+                        47.6382536
+                    ],
+                    [
+                        -122.1339563,
+                        47.6382504
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 2.1,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1340565,
+                        47.6382532
+                    ],
+                    [
+                        -122.1340873,
+                        47.6382594
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 2.4,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431568,
+                        47.6393597
+                    ],
+                    [
+                        -122.1431024,
+                        47.6393608
+                    ],
+                    [
+                        -122.1429386,
+                        47.6393613
+                    ],
+                    [
+                        -122.1428775,
+                        47.6393596
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 20.9,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431194,
+                        47.6436493
+                    ],
+                    [
+                        -122.1430715,
+                        47.6436496
+                    ],
+                    [
+                        -122.1429064,
+                        47.6436506
+                    ],
+                    [
+                        -122.1428392,
+                        47.643651
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 21.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431432,
+                        47.6443269
+                    ],
+                    [
+                        -122.1431488,
+                        47.6440701
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 28.6,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1429792,
+                        47.6495373
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1394112,
+                        47.6433256
+                    ],
+                    [
+                        -122.1393869,
+                        47.6433374
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.2,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1395175,
+                        47.6434913
+                    ],
+                    [
+                        -122.1394944,
+                        47.6434692
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 3.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1371938,
+                        47.6451875
+                    ],
+                    [
+                        -122.1371735,
+                        47.6451864
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 1.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1321289,
+                        47.6459115
+                    ],
+                    [
+                        -122.132119,
+                        47.6459178
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 1.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431969,
+                        47.6365115
+                    ]
+                ]
+            },
+            "properties": {
+                "foot": 1,
+                "surface": "concrete",
+                "highway": "cycleway",
+                "length": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431893,
+                        47.6415331
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431384,
+                        47.6452933
+                    ],
+                    [
+                        -122.1431366,
+                        47.6455137
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 24.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.137422,
+                        47.6458646
+                    ],
+                    [
+                        -122.1373859,
+                        47.6458603
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.7,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1376602,
+                        47.6459112
+                    ],
+                    [
+                        -122.1376659,
+                        47.6458918
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.2,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1356422,
+                        47.6407085
+                    ],
+                    [
+                        -122.1357871,
+                        47.6407414
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 11.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1358823,
+                        47.6407632
+                    ],
+                    [
+                        -122.1360283,
+                        47.6407968
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 11.6,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431911,
+                        47.6468842
+                    ],
+                    [
+                        -122.1431851,
+                        47.6468096
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 8.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1431951,
+                        47.6469514
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1321379,
+                        47.6426839
+                    ],
+                    [
+                        -122.1323178,
+                        47.642681
+                    ],
+                    [
+                        -122.1324359,
+                        47.6426785
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 22.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1324837,
+                        47.6426117
+                    ],
+                    [
+                        -122.1324826,
+                        47.6425281
+                    ],
+                    [
+                        -122.1324844,
+                        47.6424363
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 19.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1324376,
+                        47.6423789
+                    ],
+                    [
+                        -122.1323796,
+                        47.6423744
+                    ],
+                    [
+                        -122.1322386,
+                        47.642373
+                    ],
+                    [
+                        -122.1321445,
+                        47.642372
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 22.0,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1324664,
+                        47.6367099
+                    ],
+                    [
+                        -122.1324142,
+                        47.6367096
+                    ],
+                    [
+                        -122.1322903,
+                        47.6367088
+                    ],
+                    [
+                        -122.1322335,
+                        47.6367096
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 17.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1321421,
+                        47.6382614
+                    ],
+                    [
+                        -122.1321379,
+                        47.6381597
+                    ],
+                    [
+                        -122.1321335,
+                        47.6380532
+                    ]
+                ]
+            },
+            "properties": {
+                "crossing": "marked",
+                "footway": "crossing",
+                "surface": "asphalt",
+                "highway": "footway",
+                "curbramps": 1,
+                "tactile_paving": 1,
+                "length": 23.2,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1355052,
+                        47.6374583
+                    ],
+                    [
+                        -122.1354818,
+                        47.637472
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.3,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.13555,
+                        47.6375831
+                    ],
+                    [
+                        -122.1356054,
+                        47.6375266
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 7.5,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1354691,
+                        47.6377526
+                    ],
+                    [
+                        -122.1355389,
+                        47.6376562
+                    ]
+                ]
+            },
+            "properties": {
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 11.9,
+                "incline": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.1393831,
+                        47.6433626
+                    ],
+                    [
+                        -122.1394019,
+                        47.6433798
+                    ]
+                ]
+            },
+            "properties": {
+                "footway": "sidewalk",
+                "surface": "concrete",
+                "highway": "footway",
+                "length": 2.4,
+                "incline": 0.0
+            }
+        }
+    ]
+}
