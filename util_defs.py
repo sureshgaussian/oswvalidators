@@ -11,20 +11,13 @@ def save_file(path, json_file):
 
 
 def merge_dicts(dict1, dict2):
-    merged_dict = {}
-    if dict1.keys():
-        for id, msg in dict1.items():
-            if id not in merged_dict.items():
-                merged_dict[id] = [msg]
-            else:
-                merged_dict[id].append(msg)
+    merged_dict = copy.deepcopy(dict1)
     if dict2.keys():
-        for id, msg in dict2.items():
-            if id not in merged_dict.items():
-                merged_dict[id] = [msg]
+        for id, msgs in dict2.items():
+            if id not in merged_dict.keys():
+                merged_dict[id] = msgs
             else:
-                merged_dict[id].append(msg)
-    print(merged_dict)
+                merged_dict[id].extend(msgs)
     return merged_dict
 
 
@@ -57,6 +50,7 @@ def write_outputs(utild, cf, nodes_dict, ways_dict):
     valid_ways_save_path = os.path.join(cf.writePath,
                                         (ntpath.basename(utild.ways_file).split('.')[0] + '_valid.geojson'))
     save_file(valid_ways_save_path, valid_ways_json)
+
     invalid_ways_save_path = os.path.join(cf.writePath,
                                           (ntpath.basename(utild.ways_file).split('.')[0] + '_invalid.geojson'))
     save_file(invalid_ways_save_path, invalid_ways_json)

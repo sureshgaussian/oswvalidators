@@ -34,13 +34,13 @@ if __name__ == '__main__':
         utild = UtilData(nodes_file, ways_file, cf)
 
         if cf.do_all_validations or cf.do_schema_validations:
-            invalid_nodes_dict = validate_json_schema(utild, cf, 'nodes', nodes_file, cf.node_schema)
-            invalid_ways_dict = validate_json_schema(utild, cf, 'ways', ways_file, cf.ways_schema)
+            invalid_schema_nodes_dict = validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
+            invalid_schema_ways_dict = validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
 
-        error_nodes_dict, error_ways_dict = get_invalidNodes(utild, cf)
+        invalid_nodes_dict, invalid_ways_dict = get_invalidNodes(utild, cf)
 
-        merged_nodes_dict = merge_dicts(invalid_nodes_dict, error_nodes_dict)
-        merged_ways_dict = merge_dicts(invalid_ways_dict, error_ways_dict)
+        merged_nodes_dict = merge_dicts(invalid_schema_nodes_dict, invalid_nodes_dict)
+        merged_ways_dict = merge_dicts(invalid_schema_ways_dict, invalid_ways_dict)
 
         write_outputs(utild, cf, merged_nodes_dict, merged_ways_dict)
 

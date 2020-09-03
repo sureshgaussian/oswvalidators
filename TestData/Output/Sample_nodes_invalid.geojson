@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    53.4557312,
+                    20.394942
+                ]
+            },
+            "properties": {
+                "id": "node299",
+                "foot": "no"
+            },
+            "fixme": [
+                "'traffic_signals' is a required property for foot"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.7355477,
+                    81.4919157
+                ]
+            },
+            "properties": {
+                "id": "node298",
+                "kerb": "raised"
+            },
+            "fixme": [
+                "'barrier' is a required property for kerb"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.8237417,
+                    -62.6055345
+                ]
+            },
+            "properties": {
+                "id": "node297",
+                "foot": "no"
+            },
+            "fixme": [
+                "'traffic_signals' is a required property for foot"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.8556677,
+                    -30.4145768
+                ]
+            },
+            "properties": {
+                "id": "node293",
+                "timing": 6
+            },
+            "fixme": [
+                "'traffic_signals' is a required property for timing"
+            ]
+        }
+    ]
+}
