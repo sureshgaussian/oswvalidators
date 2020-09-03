@@ -57,6 +57,9 @@ class UtilData:
         self.invalid_nodes = []
         self.isolated_way_ids = []
 
+        self.invalid_nodes_dict = dict()
+        self.invalid_ways_dict = dict()
+
         with open(nodes_file) as data_json:
             self.nodes_json = json.load(data_json)
         with open(ways_file) as data_json:

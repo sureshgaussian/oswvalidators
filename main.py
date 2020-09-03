@@ -7,6 +7,7 @@ from config import DefaultConfigs
 from util_data import UtilData
 from Validate_JsonFile_Schema import validate_json_schema
 import ntpath
+from util_defs import merge_dicts, write_outputs
 
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
@@ -21,20 +22,28 @@ if __name__ == '__main__':
     writePath = args.writePath
 
     json_files = glob(os.path.join(inputPath, "*.geojson"))
-    print("Reading files from :",cf.inputPath)
+    print("Reading files from :", cf.inputPath)
     print("Number of geojson files :", len(json_files))
     nodes_files = sorted([x for x in json_files if 'node' in x])
     ways_files = sorted([x for x in json_files if 'node' not in x])
 
     for ind, (nodes_file, ways_file) in enumerate(zip(nodes_files, ways_files)):
         print('Processing the following files : \n{}\n{}'.format(ntpath.basename(nodes_file),
-                                                                  ntpath.basename(ways_file)))
-        if cf.do_all_validations or cf.do_schema_validations:
-            validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
-            validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
+                                                                 ntpath.basename(ways_file)))
 
         utild = UtilData(nodes_file, ways_file, cf)
-        get_invalidNodes(utild, cf)
+
+        if cf.do_all_validations or cf.do_schema_validations:
+            invalid_schema_nodes_dict = validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
+            invalid_schema_ways_dict = validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
+
+        invalid_nodes_dict, invalid_ways_dict = get_invalidNodes(utild, cf)
+
+        merged_nodes_dict = merge_dicts(invalid_schema_nodes_dict, invalid_nodes_dict)
+        merged_ways_dict = merge_dicts(invalid_schema_ways_dict, invalid_ways_dict)
+
+        write_outputs(utild, cf, merged_nodes_dict, merged_ways_dict)
+
         if cf.do_all_validations or cf.validation == 'intersectingvalidation':
             intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf, ntpath.basename(ways_file))
 
@@ -44,4 +53,4 @@ if __name__ == '__main__':
             print("--" * 10)
             plot_nodes_vs_ways(utild, cf)
             subgraph_eda(utild, cf)
-    print("\n Output files written at the following location ",cf.writePath)
+    print("\n Output files written at the following location ", cf.writePath)

@@ -110,20 +110,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.8556677,
-                    -30.4145768
-                ]
-            },
-            "properties": {
-                "id": "node293",
-                "timing": 6
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -158.7534303,
                     26.0849542
                 ]
@@ -159,48 +145,6 @@
             "properties": {
                 "id": "node296",
                 "public_transportation": "stop_position"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    51.8237417,
-                    -62.6055345
-                ]
-            },
-            "properties": {
-                "id": "node297",
-                "foot": "no"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    172.7355477,
-                    81.4919157
-                ]
-            },
-            "properties": {
-                "id": "node298",
-                "kerb": "raised"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    53.4557312,
-                    20.394942
-                ]
-            },
-            "properties": {
-                "id": "node299",
-                "foot": "no"
             }
         },
         {
