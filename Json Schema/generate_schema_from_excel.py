@@ -36,17 +36,21 @@ def build_properties(tags, types, df):
 
 def build_dependecies(dependencies):
 
-	children = dependencies["Tags"].values.tolist()
-	parent_key = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
-	parent_value = [dependencies['Prereqs'].str.split('=').values[i][1] for i in range(dependencies.shape[0])]
-	
+	children = dependencies["Tag"].values.tolist()
+	dependencies.drop(columns=['Tag'], inplace=True)
 	dependency_string = ''
-	
-	for i in range(0,len(children)):
-		child_string = '"' + children[i] + '":{"required" : ["' + parent_key[i] + '"], "properties": {"' + parent_key[i] + '":'
-		child_string = child_string + '{"type": "string", "const": "' + parent_value[i] + '"}}},'
-		dependency_string = dependency_string + child_string
+	for index, row in dependencies.iterrows():
+		dp_string = '"' + children[index] + '": {"anyOf": ['
+		for column in dependencies.columns:
+			if not (pd.isna(row[column])):
+				parent_key = row[column].split('=')[0]
+				parent_value = row[column].split('=')[1]
+				child_string = '{"required": ["' + parent_key + '"], "properties":{'
+				child_string = child_string + '"' + parent_key + '": {"type": "string", "const" : "' + parent_value + '"}}},'
+		dependency_string = dependency_string + dp_string + child_string[0:len(child_string)-1] + ']},'
+		
 	dependency_string = dependency_string[0:len(dependency_string)-1]
+
 	return dependency_string
 
 def generate_nodes_schema(tags, types, df, dependencies):
@@ -255,8 +259,9 @@ if __name__ == '__main__':
 	
 	# Remove all those lines which do not have a dependency
 	dependencies = dependencies[dependencies['Prereqs'] != 'None']
-	dependencies['Tag'] = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
-	
+	#dependencies['Tag'] = [dependencies['Prereqs'].str.split('=').values[i][0] for i in range(dependencies.shape[0])]
+	dependencies.rename(columns = {'Tags':'Tag'}, inplace = True) 
+
 	pointsdf = df[df['Geometry'] == 'Point'].sort_values(by=['type'])
 	pointsdf.reset_index(drop=True, inplace=True) # reset the index for future use
 	
@@ -273,9 +278,8 @@ if __name__ == '__main__':
 	linesdp = pd.merge(linesdf.Tag, dependencies, on='Tag', how='inner')
 	linesdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
 	
-	nodes_schema = generate_nodes_schema(point_tags, point_types, pointsdf, pointsdp)
+	nodes_schema = generate_ways_schema(point_tags, point_types, pointsdf, pointsdp)
 	ways_schema = generate_ways_schema(line_tags, line_types, linesdf, linesdp)
-	
 	
 	if json.loads(nodes_schema):
 		print('Generated Nodes schema Successfully \n')

@@ -97,13 +97,7 @@ def get_invalidNodes(utild, cf):
 
     error_nodes_dict = dict()
     error_ways_dict = dict()
-    # invalid_nodes_json = copy.deepcopy(utild.nodes_json)
-    # invalid_nodes_json['features'] = []
-    # invalid_ways_json = copy.deepcopy(utild.ways_json)
-    # invalid_ways_json['features'] = []
-    # valid_nodes_json = copy.deepcopy(utild.nodes_json)
-    # valid_ways_json = copy.deepcopy(utild.ways_json)
-
+    
     # Nodes - Ways : The remaining nodes should have properties
     diff_nodes = set(utild.nodes_coord_dict.keys()) - set(utild.ways_coord_dict.keys())
     for node in diff_nodes:
@@ -121,29 +115,5 @@ def get_invalidNodes(utild, cf):
             else:
                 error_ways_dict[way_id].append(str("Point " + node + " is not present in Nodes file"))
 
-    # for id, msg in sorted(error_nodes_dict.items(), reverse=True):
-    #     valid_nodes_json['features'].pop(id)
-    #     invalid_nodes_json['features'].append(utild.nodes_json['features'][id])
-    #     invalid_nodes_json['features'][-1].update({"fixme": msg})
-    #
-    # for id, msg in sorted(error_ways_dict.items(), reverse=True):
-    #     valid_ways_json['features'].pop(id)
-    #     invalid_ways_json['features'].append(utild.ways_json['features'][id])
-    #     invalid_ways_json['features'][-1].update({"fixme": msg})
-    #
-    # valid_nodes_save_path = os.path.join(cf.writePath,
-    #                                  (ntpath.basename(utild.nodes_file).split('.')[0] + '_other_valid.geojson'))
-    # save_file(valid_nodes_save_path, valid_nodes_json)
-    #
-    # invalid_nodes_save_path = os.path.join(cf.writePath,
-    #                                  (ntpath.basename(utild.nodes_file).split('.')[0] + '_other_invalid.geojson'))
-    # save_file(invalid_nodes_save_path, invalid_nodes_json)
-    #
-    # valid_ways_save_path = os.path.join(cf.writePath,
-    #                                  (ntpath.basename(utild.ways_file).split('.')[0] + '_other_valid.geojson'))
-    # save_file(valid_ways_save_path, valid_ways_json)
-    # invalid_ways_save_path = os.path.join(cf.writePath,
-    #                                  (ntpath.basename(utild.ways_file).split('.')[0] + '_other_invalid.geojson'))
-    # save_file(invalid_ways_save_path, invalid_ways_json)
-
+    
     return error_nodes_dict, error_ways_dict

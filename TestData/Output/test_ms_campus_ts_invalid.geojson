@@ -24,8 +24,8 @@
             "fixme": [
                 "'footway' is a required property for length",
                 "'footway' is a required property for incline",
-                "Point [-122.1424519, 47.6443185] is not present in Nodes file",
-                "Point [-122.1423115, 47.6442863] is not present in Nodes file"
+                "Point [-122.1423115, 47.6442863] is not present in Nodes file",
+                "Point [-122.1424519, 47.6443185] is not present in Nodes file"
             ]
         },
         {
@@ -59,10 +59,10 @@
             "fixme": [
                 "'footway' is a required property for length",
                 "'footway' is a required property for incline",
-                "Point [-122.1428099, 47.6443612] is not present in Nodes file",
                 "Point [-122.1426181, 47.6443567] is not present in Nodes file",
-                "Point [-122.1424519, 47.6443185] is not present in Nodes file",
-                "Point [-122.1425224, 47.6443392] is not present in Nodes file"
+                "Point [-122.1425224, 47.6443392] is not present in Nodes file",
+                "Point [-122.1428099, 47.6443612] is not present in Nodes file",
+                "Point [-122.1424519, 47.6443185] is not present in Nodes file"
             ]
         },
         {
