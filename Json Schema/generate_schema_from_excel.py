@@ -278,7 +278,7 @@ if __name__ == '__main__':
 	linesdp = pd.merge(linesdf.Tag, dependencies, on='Tag', how='inner')
 	linesdf.drop(columns=['Tag','Geometry', 'type'], inplace=True)
 	
-	nodes_schema = generate_ways_schema(point_tags, point_types, pointsdf, pointsdp)
+	nodes_schema = generate_nodes_schema(point_tags, point_types, pointsdf, pointsdp)
 	ways_schema = generate_ways_schema(line_tags, line_types, linesdf, linesdp)
 	
 	if json.loads(nodes_schema):

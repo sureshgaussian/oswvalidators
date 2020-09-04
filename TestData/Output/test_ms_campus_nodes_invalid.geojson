@@ -15,10 +15,9 @@
                 "kerb": "wrong2"
             },
             "fixme": [
-                "4 is greater than the maximum of 1 allowed for property tactile_paving",
-                "'wrong2' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
-                "'barrier' is a required property for kerb",
-                "'barrier' is a required property for tactile_paving"
+                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "'wrong2' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
+                "{'tactile_paving': 4, 'kerb': 'wrong2'} is not valid under any of the given schemas"
             ]
         },
         {
@@ -35,10 +34,9 @@
                 "kerb": "wrong1"
             },
             "fixme": [
-                "30 is greater than the maximum of 1 allowed for property tactile_paving",
-                "'wrong1' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
-                "'barrier' is a required property for kerb",
-                "'barrier' is a required property for tactile_paving"
+                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "'wrong1' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
+                "{'tactile_paving': 30, 'kerb': 'wrong1'} is not valid under any of the given schemas"
             ]
         },
         {
@@ -55,11 +53,10 @@
                 "kerb": "wrong0"
             },
             "fixme": [
-                "'Something' is not one of ['Point'] MISSED CAPTURING THIS enum",
-                "20 is greater than the maximum of 1 allowed for property tactile_paving",
-                "'wrong0' is not one of ['flush', 'lowered', 'raised', 'rolled'] MISSED CAPTURING THIS enum",
-                "'barrier' is a required property for kerb",
-                "'barrier' is a required property for tactile_paving"
+                "'Something' is not one of ['Point'] that are allowed for type",
+                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "'wrong0' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
+                "{'tactile_paving': 20, 'kerb': 'wrong0'} is not valid under any of the given schemas"
             ]
         },
         {
@@ -76,9 +73,8 @@
                 "kerb": "lowered"
             },
             "fixme": [
-                "4 is greater than the maximum of 1 allowed for property tactile_paving",
-                "'barrier' is a required property for kerb",
-                "'barrier' is a required property for tactile_paving"
+                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "{'tactile_paving': 4, 'kerb': 'lowered'} is not valid under any of the given schemas"
             ]
         }
     ]

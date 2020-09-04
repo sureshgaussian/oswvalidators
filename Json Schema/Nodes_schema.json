@@ -49,29 +49,27 @@
               {
                 "title": "GeometryType",
                 "type": "string",
-                "default": "LineString",
-                "enum": ["LineString"]
+                "default": "Point",
+                "enum": ["Point"]
               },
               "coordinates": 
               {
                 "title": "coordinates",
                 "type": "array",
                  "minItems": 2,
+                 "maxItems": 2,
+      			"additionalItems": false,
                 "items": [
                 {
-				  "type": "array",
-				  "additionalItems": false,
-				  "items": [
-				  {
-					  "type": "number",
-					  "minimum": -180.0,
-					  "maximum": 180.0
-				  },
-				  {
+                  "type": "number",
+				  "minimum": -180.0,
+				  "maximum": 180.0
+                },
+				{
                   "type": "number",
 				  "minimum": -90.0,
 				  "maximum": 90.0
-                }]}]
+                }]
                }
             }
           },
@@ -80,7 +78,7 @@
             "title": "propertiesObject",
             "type": "object",
             "additionalProperties": false,
-            "properties":  {"id": {"type": "string"},"level": {"type":"integer","minimum" :0},"traffic_signals:timing": {"type":"integer","minimum" :0},"kerb": {"type":"string","enum":["flush","lowered","raised","rolled"]},"barrier": {"type":"string","enum":["kerb"]},"amenity": {"type":"string","enum":["bench","waste_basket","telephone","manhole"]},"power": {"type":"string","enum":["pole"]},"emergency": {"type":"string","enum":["fire_hydrant"]},"manhole": {"type":"string","enum":["yes","no","unknown"]},"manhole:shape": {"type":"string","enum":["rectangular","circular"]},"manhole:material": {"type":"string","enum":["wood","steel","concrete","stone","reinforced_concrete"]},"traffic_signals:foot": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:sound": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:vibration": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:button_operated": {"type":"string","enum":["yes","no","unknown"]}},
+            "properties": {"id": {"type": "string"},"level": {"type":"integer","minimum" :0},"traffic_signals:timing": {"type":"integer","minimum" :0},"kerb": {"type":"string","enum":["flush","lowered","raised","rolled"]},"barrier": {"type":"string","enum":["kerb"]},"amenity": {"type":"string","enum":["bench","waste_basket","telephone","manhole"]},"power": {"type":"string","enum":["pole"]},"emergency": {"type":"string","enum":["fire_hydrant"]},"manhole": {"type":"string","enum":["yes","no","unknown"]},"manhole:shape": {"type":"string","enum":["rectangular","circular"]},"manhole:material": {"type":"string","enum":["wood","steel","concrete","stone","reinforced_concrete"]},"traffic_signals:foot": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:sound": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:vibration": {"type":"string","enum":["yes","no","unknown"]},"traffic_signals:button_operated": {"type":"string","enum":["yes","no","unknown"]}},
 			"dependencies": {"traffic_signals:timing": {"anyOf": [{"required": ["traffic_signals:foot"], "properties":{"traffic_signals:foot": {"type": "string", "const" : "yes"}}}]},"kerb": {"anyOf": [{"required": ["barrier"], "properties":{"barrier": {"type": "string", "const" : "kerb"}}}]},"traffic_signals:sound": {"anyOf": [{"required": ["traffic_signals:foot"], "properties":{"traffic_signals:foot": {"type": "string", "const" : "yes"}}}]},"traffic_signals:vibration": {"anyOf": [{"required": ["traffic_signals:foot"], "properties":{"traffic_signals:foot": {"type": "string", "const" : "yes"}}}]},"traffic_signals:button_operated": {"anyOf": [{"required": ["traffic_signals:foot"], "properties":{"traffic_signals:foot": {"type": "string", "const" : "yes"}}}]}}
           }
         }
