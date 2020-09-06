@@ -15,9 +15,9 @@
                 "kerb": "wrong2"
             },
             "fixme": [
-                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "Additional properties are not allowed ('tactile_paving' was unexpected) rak ",
                 "'wrong2' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
-                "{'tactile_paving': 4, 'kerb': 'wrong2'} is not valid under any of the given schemas"
+                "{'tactile_paving': 4, 'kerb': 'wrong2'} missing required supporting tags"
             ]
         },
         {
@@ -34,9 +34,9 @@
                 "kerb": "wrong1"
             },
             "fixme": [
-                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "Additional properties are not allowed ('tactile_paving' was unexpected) rak ",
                 "'wrong1' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
-                "{'tactile_paving': 30, 'kerb': 'wrong1'} is not valid under any of the given schemas"
+                "{'tactile_paving': 30, 'kerb': 'wrong1'} missing required supporting tags"
             ]
         },
         {
@@ -54,9 +54,9 @@
             },
             "fixme": [
                 "'Something' is not one of ['Point'] that are allowed for type",
-                "Additional properties are not allowed ('tactile_paving' was unexpected)",
+                "Additional properties are not allowed ('tactile_paving' was unexpected) rak ",
                 "'wrong0' is not one of ['flush', 'lowered', 'raised', 'rolled'] that are allowed for kerb",
-                "{'tactile_paving': 20, 'kerb': 'wrong0'} is not valid under any of the given schemas"
+                "{'tactile_paving': 20, 'kerb': 'wrong0'} missing required supporting tags"
             ]
         },
         {
@@ -73,8 +73,8 @@
                 "kerb": "lowered"
             },
             "fixme": [
-                "Additional properties are not allowed ('tactile_paving' was unexpected)",
-                "{'tactile_paving': 4, 'kerb': 'lowered'} is not valid under any of the given schemas"
+                "Additional properties are not allowed ('tactile_paving' was unexpected) rak ",
+                "{'tactile_paving': 4, 'kerb': 'lowered'} missing required supporting tags"
             ]
         }
     ]

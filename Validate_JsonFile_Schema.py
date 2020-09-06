@@ -13,11 +13,12 @@ def error_capture(key,errors,index):
         "minItems": errors.message + " for " + str(errors.schema_path[index-1]),
         "maximum":  errors.message + " allowed for property " +  str( errors.schema_path[index-1]),
         "minimum": errors.message + " allowed for property " + str( errors.schema_path[index-1]),
-        "additionalProperties":errors.message,
+        "additionalProperties": errors.message,
         "const": "'" + str(errors.schema_path[index-1]) + "':" + errors.message,
         "enum": errors.message + " that are allowed for " + str( errors.schema_path[index-1]),
-        "anyOf": errors.message
+        "anyOf": errors.message.split('}')[0] + "} missing required supporting tags"
     }
+    
     return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
 
 
