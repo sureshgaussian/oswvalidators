@@ -24,7 +24,6 @@ def error_capture(key,errors,index):
     errordict = {
         "required":errors.message + " for " + str(errors.schema_path[index-1]),
         "maxItems": maxItems_error(errors,index),
-        # "minItems": errors.message + " max for " + str(errors.schema_path[index-1]),
         "minItems": minItems_error(errors,index),
         "maximum":  errors.message + " allowed for property " +  str( errors.schema_path[index-1]),
         "minimum": errors.message + " allowed for property " + str( errors.schema_path[index-1]),
