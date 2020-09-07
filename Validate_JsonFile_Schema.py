@@ -4,13 +4,28 @@ import json
 import os
 import ntpath
 
+def minItems_error(errors,index):
+    if len(errors.schema_path)==8 and errors.schema_path[7]=='minItems' and errors.schema_path[4]=='geometry':
+        return (errors.message) + ". LineString should contain atleast 2 coordinate"
+    else:
+
+        return errors.message + " max for " + str(errors.schema_path[index - 1])
+
+def maxItems_error(errors,index):
+    if len(errors.schema_path)==8 and errors.schema_path[7]=='maxItems' and errors.schema_path[4]=='geometry':
+        return (errors.message) + ". Points should contain only 1 coordinate"
+    else:
+
+        return errors.message + " min for " + str(errors.schema_path[index - 1])
+
 
 def error_capture(key,errors,index):
 
     errordict = {
         "required":errors.message + " for " + str(errors.schema_path[index-1]),
-        "maxItems": errors.message + " min for " + str(errors.schema_path[index-1]),
-        "minItems": errors.message + " max for " + str(errors.schema_path[index-1]),
+        "maxItems": maxItems_error(errors,index),
+        # "minItems": errors.message + " max for " + str(errors.schema_path[index-1]),
+        "minItems": minItems_error(errors,index),
         "maximum":  errors.message + " allowed for property " +  str( errors.schema_path[index-1]),
         "minimum": errors.message + " allowed for property " + str( errors.schema_path[index-1]),
         "additionalProperties": (errors.message.split('(')[-1]).split(' ')[0] + " is not a valid OSW tag",
@@ -18,7 +33,7 @@ def error_capture(key,errors,index):
         "enum": errors.message + " that are allowed for " + str( errors.schema_path[index-1]),
         "anyOf": errors.message.split('}')[0] + "} missing required supporting tags"
     }
-    
+
     return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
 
 
@@ -37,6 +52,7 @@ def validate_json_schema(geojson_path=None, schema_path=None, writePath=None):
     for error in errors:
         if error.path[1] not in invalid_ids.keys():
             invalid_ids.update({error.path[1]: list()})
+        # print(error.schema_path)
         index = len(error.schema_path) - 1
         error_message = error_capture(error.schema_path[index], error, index)
         invalid_ids[error.path[1]].append(error_message)
