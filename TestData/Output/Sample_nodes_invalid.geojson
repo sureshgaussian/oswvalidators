@@ -6,6 +6,74 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    112.022436,
+                    81.4983863
+                ]
+            },
+            "properties": {
+                "id": "node17",
+                "kerb": "flush"
+            },
+            "fixme": [
+                "{'id': 'node17', 'kerb': 'flush'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.2480728,
+                    63.6702661
+                ]
+            },
+            "properties": {
+                "id": "node16",
+                "material": "steel"
+            },
+            "fixme": [
+                "{'id': 'node16', 'material': 'steel'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.387953,
+                    64.8464916
+                ]
+            },
+            "properties": {
+                "id": "node15",
+                "kerb": "raised"
+            },
+            "fixme": [
+                "{'id': 'node15', 'kerb': 'raised'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.8261808,
+                    74.1122176
+                ]
+            },
+            "properties": {
+                "id": "node14",
+                "traffic_signals:timing": 0
+            },
+            "fixme": [
+                "{'id': 'node14', 'traffic_signals:timing': 0} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     61.8708481,
                     -41.8653759
                 ]
@@ -15,7 +83,24 @@
                 "troubles": "trouble2"
             },
             "fixme": [
-                "Additional properties are not allowed  ap "
+                "'troubles' is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.0924178,
+                    14.8810437
+                ]
+            },
+            "properties": {
+                "id": "node12",
+                "kerb": "flush"
+            },
+            "fixme": [
+                "{'id': 'node12', 'kerb': 'flush'} missing required supporting tags"
             ]
         }
     ]

@@ -9,11 +9,11 @@ def error_capture(key,errors,index):
 
     errordict = {
         "required":errors.message + " for " + str(errors.schema_path[index-1]),
-        "maxItems": errors.message + " for " + str(errors.schema_path[index-1]),
-        "minItems": errors.message + " for " + str(errors.schema_path[index-1]),
+        "maxItems": errors.message + " min for " + str(errors.schema_path[index-1]),
+        "minItems": errors.message + " max for " + str(errors.schema_path[index-1]),
         "maximum":  errors.message + " allowed for property " +  str( errors.schema_path[index-1]),
         "minimum": errors.message + " allowed for property " + str( errors.schema_path[index-1]),
-        "additionalProperties": errors.message,
+        "additionalProperties": (errors.message.split('(')[-1]).split(' ')[0] + " is not a valid OSW tag",
         "const": "'" + str(errors.schema_path[index-1]) + "':" + errors.message,
         "enum": errors.message + " that are allowed for " + str( errors.schema_path[index-1]),
         "anyOf": errors.message.split('}')[0] + "} missing required supporting tags"
