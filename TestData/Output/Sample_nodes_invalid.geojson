@@ -7,20 +7,20 @@
                 "type": "Point",
                 "coordinates": [
                     [
-                        174.8261808,
-                        74.1122176
+                        174.8261801,
+                        74.112176
                     ],
                     [
-                        68.2480728,
-                        63.6702661
+                        68.2480722,
+                        63.672661
                     ],
                     [
-                        45.472378,
-                        9.3087891
+                        45.472373,
+                        9.387891
                     ],
                     [
-                        68.2480728,
-                        63.6702661
+                        68.2480724,
+                        63.672661
                     ]
                 ]
             },
@@ -29,10 +29,10 @@
                 "manhole": "sewer"
             },
             "fixme": [
-                "[[174.8261808, 74.1122176], [68.2480728, 63.6702661], [45.472378, 9.3087891], [68.2480728, 63.6702661]]. Point Geometry should contain only 1 coordinate",
-                "Additional items are not allowed ([45.472378, 9.3087891], [68.2480728, 63.6702661] were unexpected) MISSED CAPTURING THIS additionalItems",
-                "[174.8261808, 74.1122176] is not of type 'number' MISSED CAPTURING THIS type",
-                "[68.2480728, 63.6702661] is not of type 'number' MISSED CAPTURING THIS type"
+                "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Point Geometry should contain only 1 coordinate",
+                "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Only one of the coordinate or point should be there",
+                "[174.8261801, 74.112176] - consider removing this Point",
+                "[68.2480722, 63.672661] - consider removing this Point"
             ]
         },
         {

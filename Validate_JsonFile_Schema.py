@@ -6,17 +6,22 @@ import ntpath
 
 def minItems_error(errors,index):
     if len(errors.schema_path)==8 and errors.schema_path[7]=='minItems' and errors.schema_path[4]=='geometry':
-        return str(errors.instance) + ". LineString Geometry should contain atleast 2 coordinate"
+        return str(errors.instance) + ". LineString(Way) Geometry should contain atleast 2 coordinate"
     else:
 
         return errors.message + " max for " + str(errors.schema_path[index - 1])
 
 def maxItems_error(errors,index):
     if len(errors.schema_path)==8 and errors.schema_path[7]=='maxItems' and errors.schema_path[4]=='geometry':
-        return str(errors.instance) + ". Point Geometry should contain only 1 coordinate"
+        return str(errors.instance) + " - Point Geometry should contain only 1 coordinate"
     else:
 
         return errors.message + " min for " + str(errors.schema_path[index - 1])
+
+def type_item_error(errors,index):
+    if len(errors.schema_path)==10 and errors.schema_path[6]=='coordinates' and errors.schema_path[4]=='geometry' and errors.schema_path[9]=="type":
+        return str(errors.instance) + " - please remove the extra points. Point Geometry should contain only 1 coordinate"
+
 
 
 def error_capture(key,errors,index):
@@ -30,7 +35,9 @@ def error_capture(key,errors,index):
         "additionalProperties": (errors.message.split('(')[-1]).split(' ')[0] + " is not a valid OSW tag",
         "const": "'" + str(errors.schema_path[index-1]) + "':" + errors.message,
         "enum": errors.message + " that are allowed for " + str( errors.schema_path[index-1]),
-        "anyOf": errors.message.split('}')[0] + "} missing required supporting tags"
+        "anyOf": errors.message.split('}')[0] + "} missing required supporting tags",
+        "additionalItems": str(errors.instance) + " - Only one of the coordinate or point should be there",
+        "type": str(errors.instance) + " - consider removing this Point"
     }
 
     return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])
