@@ -18,7 +18,7 @@ def maxItems_error(errors,index):
 
         return errors.message + " min for " + str(errors.schema_path[index - 1])
 
-def type_item_error(errors,index):
+def type_item_error(errors):
     if len(errors.schema_path)==10 and errors.schema_path[6]=='coordinates' and errors.schema_path[4]=='geometry' and errors.schema_path[9]=="type":
         return str(errors.instance) + " - please remove the extra points. Point Geometry should contain only 1 coordinate"
 
@@ -37,7 +37,7 @@ def error_capture(key,errors,index):
         "enum": errors.message + " that are allowed for " + str( errors.schema_path[index-1]),
         "anyOf": errors.message.split('}')[0] + "} missing required supporting tags",
         "additionalItems": str(errors.instance) + " - Only one of the coordinate or point should be there",
-        "type": str(errors.instance) + " - consider removing this Point"
+        "type": type_item_error(errors)
     }
 
     return errordict.get(key, errors.message + " MISSED CAPTURING THIS " + errors.schema_path[index])

@@ -31,8 +31,8 @@
             "fixme": [
                 "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Point Geometry should contain only 1 coordinate",
                 "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Only one of the coordinate or point should be there",
-                "[174.8261801, 74.112176] - consider removing this Point",
-                "[68.2480722, 63.672661] - consider removing this Point"
+                "[174.8261801, 74.112176] - please remove the extra points. Point Geometry should contain only 1 coordinate",
+                "[68.2480722, 63.672661] - please remove the extra points. Point Geometry should contain only 1 coordinate"
             ]
         },
         {
