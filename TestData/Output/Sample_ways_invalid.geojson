@@ -54,7 +54,7 @@
                 "service": "alley"
             },
             "fixme": [
-                "[[-45.9305414, 34.5657964]] is too short LineString should contain atleast 2 coordinate",
+                "[[-45.9305414, 34.5657964]]. LineString Geometry should contain atleast 2 coordinate",
                 "{'id': 'way9', 'crossing:island': 'no', 'crossing': 'marked', 'service': 'alley'} missing required supporting tags",
                 "{'id': 'way9', 'crossing:island': 'no', 'crossing': 'marked', 'service': 'alley'} missing required supporting tags",
                 "Point [-45.9305414, 34.5657964] is not present in Nodes file"
@@ -191,7 +191,7 @@
                 "indoor": 1
             },
             "fixme": [
-                "[[145.149415, -82.0653199]] is too short LineString should contain atleast 2 coordinate",
+                "[[145.149415, -82.0653199]]. LineString Geometry should contain atleast 2 coordinate",
                 "Point [145.149415, -82.0653199] is not present in Nodes file"
             ]
         },
@@ -213,7 +213,7 @@
                 "service": "parking_aisle"
             },
             "fixme": [
-                "[[174.2847937, -64.2410158]] is too short LineString should contain atleast 2 coordinate",
+                "[[174.2847937, -64.2410158]]. LineString Geometry should contain atleast 2 coordinate",
                 "{'id': 'way3', 'brunnel': 'tunnel', 'incline': 1, 'service': 'parking_aisle'} missing required supporting tags",
                 "{'id': 'way3', 'brunnel': 'tunnel', 'incline': 1, 'service': 'parking_aisle'} missing required supporting tags"
             ]
@@ -262,11 +262,11 @@
             "fixme": [
                 "{'id': 'way2', 'footway': 'sidewalk', 'level': 0, 'service': 'driveway'} missing required supporting tags",
                 "{'id': 'way2', 'footway': 'sidewalk', 'level': 0, 'service': 'driveway'} missing required supporting tags",
-                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
-                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
                 "Point [165.7544278, -28.438074] is not present in Nodes file",
                 "Point [165.7544278, -28.438074] is not present in Nodes file",
-                "Point [-93.0368503, 10.0903024] is not present in Nodes file"
+                "Point [-93.0368503, 10.0903024] is not present in Nodes file",
+                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
+                "Point [-170.4130607, 5.0088115] is not present in Nodes file"
             ]
         },
         {
@@ -312,11 +312,11 @@
             },
             "fixme": [
                 "{'id': 'way1', 'level': 0, 'surface': 'paved', 'crossing:island': 'unknown'} missing required supporting tags",
+                "Point [-95.9945568, 53.1983622] is not present in Nodes file",
                 "Point [165.1776612, -0.4964391] is not present in Nodes file",
                 "Point [165.1776612, -0.4964391] is not present in Nodes file",
-                "Point [94.4782879, -60.0825774] is not present in Nodes file",
                 "Point [95.0327334, -76.6284917] is not present in Nodes file",
-                "Point [-95.9945568, 53.1983622] is not present in Nodes file"
+                "Point [94.4782879, -60.0825774] is not present in Nodes file"
             ]
         }
     ]

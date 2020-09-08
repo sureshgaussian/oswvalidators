@@ -6,14 +6,14 @@ import ntpath
 
 def minItems_error(errors,index):
     if len(errors.schema_path)==8 and errors.schema_path[7]=='minItems' and errors.schema_path[4]=='geometry':
-        return (errors.message) + ". LineString should contain atleast 2 coordinate"
+        return str(errors.instance) + ". LineString Geometry should contain atleast 2 coordinate"
     else:
 
         return errors.message + " max for " + str(errors.schema_path[index - 1])
 
 def maxItems_error(errors,index):
     if len(errors.schema_path)==8 and errors.schema_path[7]=='maxItems' and errors.schema_path[4]=='geometry':
-        return (errors.message) + ". Points should contain only 1 coordinate"
+        return str(errors.instance) + ". Point Geometry should contain only 1 coordinate"
     else:
 
         return errors.message + " min for " + str(errors.schema_path[index - 1])
