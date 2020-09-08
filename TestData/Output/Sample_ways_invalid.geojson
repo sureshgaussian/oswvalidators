@@ -169,8 +169,8 @@
                 "highway": "secondary"
             },
             "fixme": [
-                "Point [165.7544278, -28.438074] is not present in Nodes file",
-                "Point [-96.0821913, 1.8190847] is not present in Nodes file"
+                "Point [-96.0821913, 1.8190847] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file"
             ]
         },
         {
@@ -262,11 +262,11 @@
             "fixme": [
                 "{'id': 'way2', 'footway': 'sidewalk', 'level': 0, 'service': 'driveway'} missing required supporting tags",
                 "{'id': 'way2', 'footway': 'sidewalk', 'level': 0, 'service': 'driveway'} missing required supporting tags",
-                "Point [165.7544278, -28.438074] is not present in Nodes file",
-                "Point [165.7544278, -28.438074] is not present in Nodes file",
-                "Point [-93.0368503, 10.0903024] is not present in Nodes file",
                 "Point [-170.4130607, 5.0088115] is not present in Nodes file",
-                "Point [-170.4130607, 5.0088115] is not present in Nodes file"
+                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
+                "Point [-93.0368503, 10.0903024] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file"
             ]
         },
         {
@@ -312,11 +312,11 @@
             },
             "fixme": [
                 "{'id': 'way1', 'level': 0, 'surface': 'paved', 'crossing:island': 'unknown'} missing required supporting tags",
-                "Point [-95.9945568, 53.1983622] is not present in Nodes file",
+                "Point [94.4782879, -60.0825774] is not present in Nodes file",
                 "Point [165.1776612, -0.4964391] is not present in Nodes file",
                 "Point [165.1776612, -0.4964391] is not present in Nodes file",
                 "Point [95.0327334, -76.6284917] is not present in Nodes file",
-                "Point [94.4782879, -60.0825774] is not present in Nodes file"
+                "Point [-95.9945568, 53.1983622] is not present in Nodes file"
             ]
         }
     ]
