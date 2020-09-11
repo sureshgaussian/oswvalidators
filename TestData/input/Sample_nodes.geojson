@@ -19,5 +19,5 @@
 {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-155.072586,83.4434373]}, "properties": {"id": "node18","manhole:shape":"circular"}},
 {"type": "Feature", "geometry": {"type": "Point", "coordinates": [68.2480728,63.6702661]}, "properties": {"id": "node19","barrier":"kerb"}},
 {"type": "Feature", "geometry": {"type": "Point", "coordinates": [135.5071536,79.0838275]}, "properties": {"id": "node20","manhole":"sewer"}},
-{"type": "Feature", "geometry": {"type": "Point", "coordinates": [[174.8261801,74.112176],[68.2480722,63.672661],[45.472373,9.387891],[68.2480724,63.672661]]}, "properties": {"id": "node20","manhole":"sewer"}}
+{"type": "Feature", "geometry": {"type": "Point", "coordinates": [[174.8261801,74.112176],[68.2480722,63.672661],[45.472373,9.387891],[68.2480724,63.672661]]}, "properties": {"id": "node21","manhole":"sewer"}}
 ]}

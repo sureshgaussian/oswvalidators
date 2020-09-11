@@ -18,10 +18,19 @@ General steps to run:
 
 ##### How to run the code:
 
-    python main.py --inputPath <<input folder>> --validation <<Validation to Perform> --writePath <<Output Directory to Write To>>
+    python main.py --inputPath <<input folder>> --writePath <<Output Directory to Write To>>
 
 eg) If you want to check the intersecting validation
 
 
 
-    python main.py --inputPath OSW/TestData/input --validation intersectingvalidation --writePath OSW/TestData/Output
+    python main.py --inputPath TestData/input --writePath TestData/Output
+
+TO DO:
+- Add all the validations implemented and tested as default
+- Write information about the output files. What they contain and how to use them.
+- Remove file_filter from config.py
+- Write better instructions about how to recreate the environment
+- Separate requirements.txt into conda_reqs.txt, and pip_reqs.txt
+- Recheck missing_intersections and recommended_interesections files.
+- 

@@ -87,29 +87,6 @@
                             "id": {
                                 "type": "string"
                             },
-                            "level": {
-                                "type": "integer",
-                                "minimum": 0
-                            },
-                            "elevator": {
-                                "type": "integer",
-                                "minimum": 0,
-                                "maximum": 1
-                            },
-                            "foot": {
-                                "type": "integer",
-                                "minimum": 0,
-                                "maximum": 1
-                            },
-                            "layer": {
-                                "type": "integer",
-                                "minimum": 0
-                            },
-                            "kerb_raised": {
-                                "type": "integer",
-                                "minimum": 0,
-                                "maximum": 1
-                            },
                             "indoor": {
                                 "type": "integer",
                                 "minimum": 0,
@@ -118,6 +95,34 @@
                             "tactile_paving": {
                                 "type": "integer",
                                 "minimum": 0,
+                                "maximum": 1
+                            },
+                            "kerb_raised": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "layer": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "foot": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "elevator": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "level": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "incline": {
+                                "type": "number",
+                                "minimum": -1,
                                 "maximum": 1
                             },
                             "width": {
@@ -132,10 +137,34 @@
                                 "type": "number",
                                 "minimum": 0
                             },
-                            "incline": {
-                                "type": "number",
-                                "minimum": -1,
-                                "maximum": 1
+                            "platform": {
+                                "type": "string",
+                                "enum": [
+                                    "yes",
+                                    "no"
+                                ]
+                            },
+                            "ramp": {
+                                "type": "string",
+                                "enum": [
+                                    "yes",
+                                    "wheelchair",
+                                    "separate"
+                                ]
+                            },
+                            "service": {
+                                "type": "string",
+                                "enum": [
+                                    "alley",
+                                    "driveway",
+                                    "parking_aisle"
+                                ]
+                            },
+                            "intersection_type": {
+                                "type": "string",
+                                "enum": [
+                                    "roundabout"
+                                ]
                             },
                             "surface": {
                                 "type": "string",
@@ -147,29 +176,6 @@
                                     "paved",
                                     "paving_stones",
                                     "unpaved"
-                                ]
-                            },
-                            "service": {
-                                "type": "string",
-                                "enum": [
-                                    "alley",
-                                    "driveway",
-                                    "parking_aisle"
-                                ]
-                            },
-                            "ramp": {
-                                "type": "string",
-                                "enum": [
-                                    "yes",
-                                    "wheelchair",
-                                    "separate"
-                                ]
-                            },
-                            "platform": {
-                                "type": "string",
-                                "enum": [
-                                    "yes",
-                                    "no"
                                 ]
                             },
                             "name": {
@@ -276,7 +282,7 @@
                         },
                         "dependencies": {
                             "bicycle:backward": {
-                                "anyOf": [
+                                "allOf": [
                                     {
                                         "required": [
                                             "highway"
@@ -284,7 +290,18 @@
                                         "properties": {
                                             "highway": {
                                                 "type": "string",
-                                                "const": "cycleway"
+                                                "const": "* "
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "required": [
+                                            " cycleway"
+                                        ],
+                                        "properties": {
+                                            " cycleway": {
+                                                "type": "string",
+                                                "const": "lane"
                                             }
                                         }
                                     }

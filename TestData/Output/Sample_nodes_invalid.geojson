@@ -25,14 +25,50 @@
                 ]
             },
             "properties": {
-                "id": "node20",
+                "id": "node21",
                 "manhole": "sewer"
             },
             "fixme": [
                 "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Point Geometry should contain only 1 coordinate",
                 "[[174.8261801, 74.112176], [68.2480722, 63.672661], [45.472373, 9.387891], [68.2480724, 63.672661]] - Only one of the coordinate or point should be there",
                 "[174.8261801, 74.112176] - please remove the extra points. Point Geometry should contain only 1 coordinate",
-                "[68.2480722, 63.672661] - please remove the extra points. Point Geometry should contain only 1 coordinate"
+                "[68.2480722, 63.672661] - please remove the extra points. Point Geometry should contain only 1 coordinate",
+                "{'id': 'node21', 'manhole': 'sewer'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.5071536,
+                    79.0838275
+                ]
+            },
+            "properties": {
+                "id": "node20",
+                "manhole": "sewer"
+            },
+            "fixme": [
+                "{'id': 'node20', 'manhole': 'sewer'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.072586,
+                    83.4434373
+                ]
+            },
+            "properties": {
+                "id": "node18",
+                "manhole:shape": "circular"
+            },
+            "fixme": [
+                "'amenity' is a required property for 0",
+                "' manhole' is a required property for 1"
             ]
         },
         {
@@ -66,7 +102,8 @@
                 "material": "steel"
             },
             "fixme": [
-                "{'id': 'node16', 'material': 'steel'} missing required supporting tags"
+                "'amenity' is a required property for 0",
+                "' manhole' is a required property for 1"
             ]
         },
         {

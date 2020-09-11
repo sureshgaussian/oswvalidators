@@ -87,11 +87,6 @@
                                 "type": "integer",
                                 "minimum": 0
                             },
-                            "tactile_paving": {
-                                "type": "integer",
-                                "minimum": 0,
-                                "maximum": 1
-                            },
                             "layer": {
                                 "type": "integer",
                                 "minimum": 0
@@ -99,6 +94,11 @@
                             "level": {
                                 "type": "integer",
                                 "minimum": 0
+                            },
+                            "tactile_paving": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 1
                             },
                             "ref": {
                                 "type": "number",
@@ -175,16 +175,15 @@
                                     "pole"
                                 ]
                             },
-                            "name": {
-                                "type": "string"
-                            },
-                            "traffic_signals:vibration": {
+                            "pole": {
                                 "type": "string",
                                 "enum": [
                                     "yes",
-                                    "no",
-                                    "unknown"
+                                    "no"
                                 ]
+                            },
+                            "name": {
+                                "type": "string"
                             },
                             "material": {
                                 "type": "string",
@@ -224,12 +223,6 @@
                                     "rolled"
                                 ]
                             },
-                            "intersection_type": {
-                                "type": "string",
-                                "enum": [
-                                    "roundabout"
-                                ]
-                            },
                             "emergency": {
                                 "type": "string",
                                 "enum": [
@@ -262,11 +255,12 @@
                                     "kerb"
                                 ]
                             },
-                            "pole": {
+                            "traffic_signals:vibration": {
                                 "type": "string",
                                 "enum": [
                                     "yes",
-                                    "no"
+                                    "no",
+                                    "unknown"
                                 ]
                             },
                             "train": {
