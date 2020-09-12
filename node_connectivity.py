@@ -7,9 +7,10 @@ import os
 import ntpath
 import copy
 import time
-
+import util_defs
 
 # EDA Plots
+
 
 def plot_nodes_vs_ways(utild, cf):
     """
@@ -30,7 +31,7 @@ def plot_nodes_vs_ways(utild, cf):
     plt.xlabel("Number of Nodes")
     plt.ylabel("Number of Ways")
     # plt.show(block=False)
-    save_path = os.path.join(cf.writePath,
+    save_path = os.path.join(cf.writePath, "EDA",
                              (ntpath.basename(utild.ways_file).split('.')[0] + "_NodesVsWays.PNG"))
     plt.savefig(save_path, format="PNG")
     plt.clf()
@@ -47,18 +48,34 @@ def subgraph_eda(utild, cf):
     print("Number of Connected ways: ", len(utild.connected_ways['features']))
 
     connected_df = utild.ways_df
-    connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
-    print("Number of Connected Components : ",nx.number_connected_components(connected_FG))
-    subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
-    save_path = os.path.join(cf.writePath, (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
+    connected_FG = nx.from_pandas_edgelist(
+        connected_df, source='origin', target='dest')
+    print("Number of Connected Components : ",
+          nx.number_connected_components(connected_FG))
+    subgraphs = [connected_FG.subgraph(c).copy()
+                 for c in nx.connected_components(connected_FG)]
+    save_path = os.path.join(cf.writePath, "EDA", (ntpath.basename(
+        utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
     for i in range(len(subgraphs)):
+        ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
+        write_geojson(utild, cf, ways_set, i)
         if 2 < len(subgraphs[i]) < 10:
             nx.draw_networkx(subgraphs[i])
-            ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
             plt.savefig(save_path, format="PNG")
             plt.clf()
             print("sgraph[{}]_ways {}".format(i, ways_set))
             break
+
+
+def write_geojson(utild, cf, ways_set, sg_ind):
+    ways_json = copy.deepcopy(utild.ways_json)
+    ways_json['features'] = []
+    for id in sorted(ways_set):
+        ways_json['features'].append(utild.ways_json['features'][id])
+    ways_save_path = os.path.join(cf.writePath, "EDA",
+                                  (ntpath.basename(utild.ways_file).split('.')[0] + '_subgraph_' + str(sg_ind) + '.geojson'))
+    print(ways_save_path)
+    util_defs.save_file(ways_save_path, ways_json)
 
 
 def get_way_from_subgraph(sgraph, df):
@@ -77,13 +94,8 @@ def get_way_from_subgraph(sgraph, df):
         ways_set.update(s)
     return list(ways_set)
 
-
-def save_file(path, json_file):
-    with open(path, 'w') as fp:
-        json.dump(json_file, fp, indent=4)
-
-
 # Validations
+
 
 def get_invalidNodes(utild, cf):
     """
@@ -97,7 +109,8 @@ def get_invalidNodes(utild, cf):
     error_ways_dict = dict()
 
     # Nodes - Ways : The remaining nodes should have properties
-    diff_nodes = set(utild.nodes_coord_dict.keys()) - set(utild.ways_coord_dict.keys())
+    diff_nodes = set(utild.nodes_coord_dict.keys()) - \
+        set(utild.ways_coord_dict.keys())
     for node in diff_nodes:
         node_id = utild.nodes_coord_dict[node]
         if 'properties' not in utild.nodes_json['features'][node_id].keys() or not len(utild.nodes_json['features'][node_id]['properties']):
@@ -106,7 +119,8 @@ def get_invalidNodes(utild, cf):
                     "Point properties cannot be empty unless it is part of a way"]
 
     # Ways - Nodes : Ways containing the remaining nodes are invalid. The nodes should be present in nodes file
-    diff_ways = set(utild.ways_coord_dict.keys()) - set(utild.nodes_coord_dict.keys())
+    diff_ways = set(utild.ways_coord_dict.keys()) - \
+        set(utild.nodes_coord_dict.keys())
     for node in diff_ways:
         for way_id in utild.ways_coord_dict[node]:
             if way_id not in error_ways_dict.keys():

@@ -21,6 +21,6 @@ class DefaultConfigs:
             os.getcwd(), "Json Schema", "Ways_schema.json")
 
         self.do_all_validations = True
-        self.do_eda = False
+        self.do_eda = True
         self.do_schema_validations = False
         self.do_intersecting_validation = False
