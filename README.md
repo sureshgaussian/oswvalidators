@@ -30,7 +30,7 @@ Example:
 `python main.py --inputPath TestData/input --writePath TestData/Output`
 
 #####  Expected Input:
-Input folder should contain files belonging to one or more region/boundingbox and files belonging to a region should have the same prefix.   For example:
+Input folder should contain nodes, and ways files belonging to a region with the same prefix.   For example:
 |FileName  | Data it should contain |
 |--|--|
 |1. Redmond_nodes.geojson  | Contains all the points in that region |
