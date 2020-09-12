@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        145.149415,
+                        -82.0653199
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way5",
+                "crossing:island": "yes",
+                "bicycle:backward": "unknown",
+                "indoor": 1
+            }
+        }
+    ]
+}

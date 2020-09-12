@@ -46,7 +46,8 @@ The program writes the following files in the output folder
 |4. Redmond_ways_invalid.geojson | All the ways in the region that do **NOT** adhere to OSW schema |
 |5. Redmond_ways_Missing_Intersection.geojson | Shows the ways that are probably intersecting but don't have a intersecting node|
 |6. Redmond_ways_recommended_Intersection.geojson| Recommended Potential Intersecting points for the ways in *Missing_Intersection.geojson*|
-
+|7. Redmond_ways_connected.geojson | All the ways that are connected to atleast one another way |
+|8. Redmond_ways_isolated.geojson | Ways that are not connected to any other ways |
 
 ##### How to use the output files:
 

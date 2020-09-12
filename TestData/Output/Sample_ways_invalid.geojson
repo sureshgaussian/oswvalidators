@@ -1,0 +1,373 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        174.2847937,
+                        -64.2410158
+                    ],
+                    [
+                        104.9311032,
+                        -27.5521101
+                    ],
+                    [
+                        119.7913994,
+                        -1.0406991
+                    ],
+                    [
+                        104.9311032,
+                        -27.5521101
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way10",
+                "crossing:island": "no",
+                "incline": 6,
+                "brunnel": "ford"
+            },
+            "fixme": [
+                "6 is greater than the maximum of 1 allowed for property incline",
+                "'highway' is a required property for brunnel",
+                "'level' is a required property for brunnel",
+                "'footway' is a required property for crossing:island",
+                "'highway' is a required property for incline",
+                "Point [104.9311032, -27.5521101] is not present in Nodes file",
+                "Point [104.9311032, -27.5521101] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -45.9305414,
+                        34.5657964
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way9",
+                "crossing:island": "no",
+                "crossing": "marked",
+                "service": "alley"
+            },
+            "fixme": [
+                "[[-45.9305414, 34.5657964]]. LineString(Way) Geometry should contain atleast 2 coordinates",
+                "'footway' is a required property for crossing",
+                "'footway' is a required property for crossing:island",
+                "'highway' is a required property for service",
+                "Point [-45.9305414, 34.5657964] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -45.9305414,
+                        34.5657964
+                    ],
+                    [
+                        61.8708481,
+                        -41.8653759
+                    ],
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        101.7309692,
+                        53.3578967
+                    ],
+                    [
+                        -121.0924178,
+                        14.8810437
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way8",
+                "surface": "grass",
+                "troubles": "trouble3",
+                "kerb_raised": 1
+            },
+            "fixme": [
+                "'troubles' is not a valid OSW tag",
+                "'footway' is a required property for kerb_raised",
+                "'highway' is a required property for surface",
+                "Point [101.7309692, 53.3578967] is not present in Nodes file",
+                "Point [-45.9305414, 34.5657964] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        95.0327334,
+                        -76.6284917
+                    ],
+                    [
+                        135.5071536,
+                        79.0838275
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way7",
+                "troubles": "trouble2",
+                "traffic_signals": "no",
+                "footway": "crossing"
+            },
+            "fixme": [
+                "'traffic_signals', is not a valid OSW tag",
+                "'highway' is a required property for footway",
+                "Point [95.0327334, -76.6284917] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        -96.0821913,
+                        1.8190847
+                    ],
+                    [
+                        165.7544278,
+                        -28.438074
+                    ],
+                    [
+                        165.0995888,
+                        -38.2783873
+                    ],
+                    [
+                        119.7913994,
+                        -1.0406991
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way6",
+                "bicycle:backward": "no",
+                "traffic_signals": "yes",
+                "highway": "secondary"
+            },
+            "fixme": [
+                "'traffic_signals' is not a valid OSW tag",
+                "'cycleway' is a required property for bicycle:backward",
+                "Point [-96.0821913, 1.8190847] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        145.149415,
+                        -82.0653199
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way5",
+                "crossing:island": "yes",
+                "bicycle:backward": "unknown",
+                "indoor": 1
+            },
+            "fixme": [
+                "[[145.149415, -82.0653199]]. LineString(Way) Geometry should contain atleast 2 coordinates",
+                "'highway' is a required property for bicycle:backward",
+                "'cycleway' is a required property for bicycle:backward",
+                "'footway' is a required property for crossing:island",
+                "Point [145.149415, -82.0653199] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        174.8261808,
+                        74.1122176
+                    ],
+                    [
+                        68.2480728,
+                        63.6702661
+                    ],
+                    [
+                        45.472378,
+                        9.3087891
+                    ],
+                    [
+                        68.2480728,
+                        63.6702661
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way4",
+                "bicycle:backward": "unknown",
+                "indoor": 0,
+                "brunnel": "tunnel"
+            },
+            "fixme": [
+                "'highway' is a required property for bicycle:backward",
+                "'cycleway' is a required property for bicycle:backward",
+                "'highway' is a required property for brunnel",
+                "'level' is a required property for brunnel"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        174.2847937,
+                        -64.2410158
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way3",
+                "brunnel": "tunnel",
+                "incline": 1,
+                "service": "parking_aisle"
+            },
+            "fixme": [
+                "[[174.2847937, -64.2410158]]. LineString(Way) Geometry should contain atleast 2 coordinates",
+                "'highway' is a required property for brunnel",
+                "'level' is a required property for brunnel",
+                "'highway' is a required property for incline",
+                "'highway' is a required property for service"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        165.7544278,
+                        -28.438074
+                    ],
+                    [
+                        112.022436,
+                        81.4983863
+                    ],
+                    [
+                        -170.4130607,
+                        5.0088115
+                    ],
+                    [
+                        -170.4130607,
+                        5.0088115
+                    ],
+                    [
+                        165.7544278,
+                        -28.438074
+                    ],
+                    [
+                        174.2847937,
+                        -64.2410158
+                    ],
+                    [
+                        -93.0368503,
+                        10.0903024
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way2",
+                "footway": "sidewalk",
+                "level": 0,
+                "service": "driveway"
+            },
+            "fixme": [
+                "'highway' is a required property for footway",
+                "'highway' is a required property for service",
+                "Point [-93.0368503, 10.0903024] is not present in Nodes file",
+                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
+                "Point [-170.4130607, 5.0088115] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file",
+                "Point [165.7544278, -28.438074] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        165.1776612,
+                        -0.4964391
+                    ],
+                    [
+                        119.7913994,
+                        -1.0406991
+                    ],
+                    [
+                        165.1776612,
+                        -0.4964391
+                    ],
+                    [
+                        95.0327334,
+                        -76.6284917
+                    ],
+                    [
+                        -95.9945568,
+                        53.1983622
+                    ],
+                    [
+                        94.4782879,
+                        -60.0825774
+                    ],
+                    [
+                        165.0995888,
+                        -38.2783873
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way1",
+                "level": 0,
+                "surface": "paved",
+                "crossing:island": "unknown"
+            },
+            "fixme": [
+                "'footway' is a required property for crossing:island",
+                "'highway' is a required property for surface",
+                "Point [165.1776612, -0.4964391] is not present in Nodes file",
+                "Point [165.1776612, -0.4964391] is not present in Nodes file",
+                "Point [-95.9945568, 53.1983622] is not present in Nodes file",
+                "Point [94.4782879, -60.0825774] is not present in Nodes file",
+                "Point [95.0327334, -76.6284917] is not present in Nodes file"
+            ]
+        }
+    ]
+}

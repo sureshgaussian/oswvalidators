@@ -66,8 +66,8 @@ class UtilData:
             self.ways_json = json.load(data_json)
 
         if cf.do_eda:
-            if not os.path.exists(os.path.join(cf.writePath, "EDA")):
-                os.mkdir(os.path.join(cf.writePath, "EDA"))
+            if not os.path.exists(os.path.join(cf.writePath)):
+                os.mkdir(os.path.join(cf.writePath))
 
         # Construct the utility data
         self.nodes_list = self.get_coords_list(self.nodes_json['features'], cf)
@@ -152,10 +152,8 @@ class UtilData:
         self.connected_ways = connected_ways
         self.disconnected_ways = disconnected_ways
 
-        connected_save_path = os.path.join(cf.writePath, "EDA",
-                                           (ntpath.basename(self.ways_file).split('.')[0] + '_connected.geojson'))
-        disconnected_save_path = os.path.join(cf.writePath, "EDA",
-                                              (ntpath.basename(self.ways_file).split('.')[0] + '_disconnected.geojson'))
+        connected_save_path = os.path.join(cf.writePath, (ntpath.basename(self.ways_file).split('.')[0] + '_connected.geojson'))
+        disconnected_save_path = os.path.join(cf.writePath, (ntpath.basename(self.ways_file).split('.')[0] + '_isolated.geojson'))
 
         if cf.do_eda:
             with open(connected_save_path, 'w') as fp:
