@@ -9,7 +9,7 @@ import copy
 import time
 
 
-#####EDA Plots
+# EDA Plots
 
 def plot_nodes_vs_ways(utild, cf):
     """
@@ -30,7 +30,7 @@ def plot_nodes_vs_ways(utild, cf):
     plt.xlabel("Number of Nodes")
     plt.ylabel("Number of Ways")
     # plt.show(block=False)
-    save_path = os.path.join(cf.writePath, "EDA",
+    save_path = os.path.join(cf.writePath,
                              (ntpath.basename(utild.ways_file).split('.')[0] + "_NodesVsWays.PNG"))
     plt.savefig(save_path, format="PNG")
     plt.clf()
@@ -42,18 +42,21 @@ def subgraph_eda(utild, cf):
     Plots a subraph and it's edges
     """
     print("Number of ways in the file : ", len(utild.ways_list))
-    print("Number of isolated ways: ", len(utild.disconnected_ways['features']))
+    print("Number of isolated ways: ", len(
+        utild.disconnected_ways['features']))
     print("Number of Connected ways: ", len(utild.connected_ways['features']))
 
     connected_df = utild.ways_df
-    connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
-    print("Number of Connected Components : ", nx.number_connected_components(connected_FG))
-    subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
-    save_path = os.path.join(cf.writePath, "EDA",
+    connected_FG = nx.from_pandas_edgelist(
+        connected_df, source='origin', target='dest')
+    print("Number of Connected Components : ",
+          nx.number_connected_components(connected_FG))
+    subgraphs = [connected_FG.subgraph(c).copy()
+                 for c in nx.connected_components(connected_FG)]
+    save_path = os.path.join(cf.writePath,
                              (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
     for i in range(len(subgraphs)):
         if 2 < len(subgraphs[i]) < 10:
-            print("Printing subgraph{} edges : \n{}".format(i, subgraphs[i].edges))
             nx.draw_networkx(subgraphs[i])
             ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
             plt.savefig(save_path, format="PNG")
@@ -84,36 +87,39 @@ def save_file(path, json_file):
         json.dump(json_file, fp, indent=4)
 
 
-#### Validations
+# Validations
 
 def get_invalidNodes(utild, cf):
     """
-    From nodes_dict(N) and ways_dict(W),
-    1. N ^ W : ?? only for optimization
-    2. N - W : Remaining nodes are invalid if they don't have at least one property
-    3. W - N : Ways contain points that are not listed in the nodes file
-
+    From nodes_dict(N) and ways_dict(W), we obtain the set of Points
+    1. N - W : gives nodes that are stand alone and not part of any ways.
+    These nodes are invalid if they don't have at least one property
+    2. W - N : gives Ways that contain points that are not listed in the nodes file
     """
 
     error_nodes_dict = dict()
     error_ways_dict = dict()
-    
+
     # Nodes - Ways : The remaining nodes should have properties
-    diff_nodes = set(utild.nodes_coord_dict.keys()) - set(utild.ways_coord_dict.keys())
+    diff_nodes = set(utild.nodes_coord_dict.keys()) - \
+        set(utild.ways_coord_dict.keys())
     for node in diff_nodes:
         node_id = utild.nodes_coord_dict[node]
         if 'properties' not in utild.nodes_json['features'][node_id].keys() or not len(utild.nodes_json['features'][node_id]['properties']):
             if node_id not in error_nodes_dict.keys():
-                error_nodes_dict[node_id] = ["Point properties cannot be empty unless it is part of a way"]
+                error_nodes_dict[node_id] = [
+                    "Point properties cannot be empty unless it is part of a way"]
 
     # Ways - Nodes : Ways containing the remaining nodes are invalid. The nodes should be present in nodes file
-    diff_ways = set(utild.ways_coord_dict.keys()) - set(utild.nodes_coord_dict.keys())
+    diff_ways = set(utild.ways_coord_dict.keys()) - \
+        set(utild.nodes_coord_dict.keys())
     for node in diff_ways:
         for way_id in utild.ways_coord_dict[node]:
             if way_id not in error_ways_dict.keys():
-                error_ways_dict[way_id] = [str("Point " + node + " is not present in Nodes file")]
+                error_ways_dict[way_id] = [
+                    str("Point " + node + " is not present in Nodes file")]
             else:
-                error_ways_dict[way_id].append(str("Point " + node + " is not present in Nodes file"))
+                error_ways_dict[way_id].append(
+                    str("Point " + node + " is not present in Nodes file"))
 
-    
     return error_nodes_dict, error_ways_dict
