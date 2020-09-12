@@ -86,13 +86,8 @@ class UtilData:
         Ex : [[[e1_x1, e1_y1], [e1_x2, e1_y2]], [[e2_x3, e2_y3]]]
         """
         coord_list = []
-        filter_sidewalks = cf.filter_sidewalks  # Set True to include just sidewalks. Otherways all ways are returned
         for elem in features_list:
-            if filter_sidewalks and 'footway' in elem['properties']:
-                if elem['properties']['footway'] == 'sidewalk':
-                    coord_list.append(elem['geometry']['coordinates'])
-            else:
-                coord_list.append(elem['geometry']['coordinates'])
+            coord_list.append(elem['geometry']['coordinates'])
         return coord_list
 
     def get_coord_dict(self):
@@ -147,9 +142,12 @@ class UtilData:
         disconnected_ways = self.ways_json.copy()
         disconnected_ways['features'] = []
 
-        disconnected_ways['features'] = [self.ways_json['features'][ind] for ind in self.isolated_way_ids]
-        connected_way_ids = set(np.arange(len(self.ways_list))) - set(self.isolated_way_ids)
-        connected_ways['features'] = [self.ways_json['features'][ind] for ind in connected_way_ids]
+        disconnected_ways['features'] = [
+            self.ways_json['features'][ind] for ind in self.isolated_way_ids]
+        connected_way_ids = set(
+            np.arange(len(self.ways_list))) - set(self.isolated_way_ids)
+        connected_ways['features'] = [self.ways_json['features'][ind]
+                                      for ind in connected_way_ids]
 
         self.connected_ways = connected_ways
         self.disconnected_ways = disconnected_ways
@@ -175,7 +173,8 @@ class UtilData:
         data = {'origin': [], 'dest': []}
         df = pd.DataFrame(data)
         for elem in self.ways_list:
-            df = df.append({'origin': str(elem[0]), 'dest': str(elem[-1])}, ignore_index=True)
+            df = df.append(
+                {'origin': str(elem[0]), 'dest': str(elem[-1])}, ignore_index=True)
         self.ways_df = df
 
     def get_one_node_ways(self):
@@ -184,5 +183,5 @@ class UtilData:
         Gets number of linestrings that has only one node
         """
         one_node_ls_ids = []
-        self.one_node_ls_ids = [one_node_ls_ids.append(ind) for ind, way in enumerate(self.ways_list) if len(way) == 1]
-
+        self.one_node_ls_ids = [one_node_ls_ids.append(
+            ind) for ind, way in enumerate(self.ways_list) if len(way) == 1]

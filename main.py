@@ -11,17 +11,14 @@ from util_defs import merge_dicts, write_outputs
 
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
-    parser.add_argument("--inputPath", help="Relative input path to GeoJSON files",
+    parser.add_argument("--inputPath", help="Relative input path to GeoJSON files. Default: TestData\input",
                         default=os.path.join(os.getcwd(), "TestData\input"))
-    parser.add_argument("--validation", help="Type of validation", default='intersectingvalidation')
-    parser.add_argument("--writePath", help="Relative output path to write the validation errors",
+    parser.add_argument("--writePath", help="Relative output path to write the validation errors. Default: TestData\Output",
                         default=os.path.join(os.getcwd(), "TestData\Output"))
     args = parser.parse_args()
     cf = DefaultConfigs(args)
-    inputPath = args.inputPath
-    writePath = args.writePath
 
-    json_files = glob(os.path.join(inputPath, "*.geojson"))
+    json_files = glob(os.path.join(cf.inputPath, "*.geojson"))
     print("Reading files from :", cf.inputPath)
     print("Number of geojson files :", len(json_files))
     nodes_files = sorted([x for x in json_files if 'node' in x])
@@ -34,18 +31,23 @@ if __name__ == '__main__':
         utild = UtilData(nodes_file, ways_file, cf)
 
         if cf.do_all_validations or cf.do_schema_validations:
-            invalid_schema_nodes_dict = validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
-            invalid_schema_ways_dict = validate_json_schema(ways_file, cf.ways_schema, cf.writePath)
+            invalid_schema_nodes_dict = validate_json_schema(
+                nodes_file, cf.node_schema, cf.writePath)
+            invalid_schema_ways_dict = validate_json_schema(
+                ways_file, cf.ways_schema, cf.writePath)
 
         invalid_nodes_dict, invalid_ways_dict = get_invalidNodes(utild, cf)
 
-        merged_nodes_dict = merge_dicts(invalid_schema_nodes_dict, invalid_nodes_dict)
-        merged_ways_dict = merge_dicts(invalid_schema_ways_dict, invalid_ways_dict)
+        merged_nodes_dict = merge_dicts(
+            invalid_schema_nodes_dict, invalid_nodes_dict)
+        merged_ways_dict = merge_dicts(
+            invalid_schema_ways_dict, invalid_ways_dict)
 
         write_outputs(utild, cf, merged_nodes_dict, merged_ways_dict)
 
-        if cf.do_all_validations or cf.validation == 'intersectingvalidation':
-            intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf, ntpath.basename(ways_file))
+        if cf.do_intersecting_validation:
+            intersectLineStringInValidFormat(
+                utild.ways_json, "brunnel", cf, ntpath.basename(ways_file))
 
         if cf.do_eda:
             print("--" * 10)
