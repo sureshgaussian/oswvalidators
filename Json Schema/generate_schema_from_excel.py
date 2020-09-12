@@ -58,19 +58,23 @@ def build_dependecies(df):
 			dp_string = '"' + children[i] + '": {"anyOf": ['
 			dp_list = dependencies[i].split('OR')
 		else:
-			dp_string = '"' + children[i] + '": {"anyOf": ['
+			dp_string = '"' + children[i] + '": '
 			dp_list = dependencies[i].split()
 		
 		child_string = ''
 		for x in dp_list:
-			parent_key = x.split('=')[0]
-			parent_value = x.split('=')[1]
+			parent_key = x.split('=')[0].strip()
+			parent_value = x.split('=')[1].strip()
 			if parent_value == '*':
 				child_string = child_string + '{"required": ["' + parent_key + '"]},'
 			else:
 				child_string = child_string + '{"required": ["' + parent_key + '"], "properties":{'
 				child_string = child_string + '"' + parent_key + '": {"type": "string", "const" : "' + parent_value + '"}}},'
-		dependency_string = dependency_string + dp_string + child_string[0:len(child_string)-1] + ']},'
+		
+		if len(dp_list) > 1: # if it is anyof or AllOf, need to close the array
+			dependency_string = dependency_string + dp_string + child_string[0:len(child_string)-1] + ']},'
+		else: # if it is just required
+			dependency_string = dependency_string + dp_string + child_string[0:len(child_string)-2] + '},'
 		
 	dependency_string = dependency_string[0:len(dependency_string)-1]
 	#print(dependency_string)
@@ -328,4 +332,3 @@ if __name__ == '__main__':
 		ways_file.close()
 	else:
 		print('Error Generating Ways Schema')
-		

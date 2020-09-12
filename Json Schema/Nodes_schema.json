@@ -272,79 +272,59 @@
                         },
                         "dependencies": {
                             "bench": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "bin": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "bus": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "kerb": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "barrier"
-                                        ],
-                                        "properties": {
-                                            "barrier": {
-                                                "type": "string",
-                                                "const": "kerb"
-                                            }
-                                        }
+                                "required": [
+                                    "barrier"
+                                ],
+                                "properties": {
+                                    "barrier": {
+                                        "type": "string",
+                                        "const": "kerb"
                                     }
-                                ]
+                                }
                             },
                             "manhole": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "amenity"
-                                        ],
-                                        "properties": {
-                                            "amenity": {
-                                                "type": "string",
-                                                "const": "manhole"
-                                            }
-                                        }
+                                "required": [
+                                    "amenity"
+                                ],
+                                "properties": {
+                                    "amenity": {
+                                        "type": "string",
+                                        "const": "manhole"
                                     }
-                                ]
+                                }
                             },
                             "manhole:shape": {
                                 "allOf": [
@@ -355,13 +335,13 @@
                                         "properties": {
                                             "amenity": {
                                                 "type": "string",
-                                                "const": "manhole "
+                                                "const": "manhole"
                                             }
                                         }
                                     },
                                     {
                                         "required": [
-                                            " manhole"
+                                            "manhole"
                                         ]
                                     }
                                 ]
@@ -375,76 +355,60 @@
                                         "properties": {
                                             "amenity": {
                                                 "type": "string",
-                                                "const": "manhole "
+                                                "const": "manhole"
                                             }
                                         }
                                     },
                                     {
                                         "required": [
-                                            " manhole"
+                                            "manhole"
                                         ]
                                     }
                                 ]
                             },
                             "name": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "pole": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "ref": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "shelter": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             },
                             "tactile_paving": {
                                 "anyOf": [
@@ -455,7 +419,7 @@
                                         "properties": {
                                             "barrier": {
                                                 "type": "string",
-                                                "const": "kerb "
+                                                "const": "kerb"
                                             }
                                         }
                                     },
@@ -466,7 +430,7 @@
                                         "properties": {
                                             "amenity": {
                                                 "type": "string",
-                                                "const": "manhole "
+                                                "const": "manhole"
                                             }
                                         }
                                     },
@@ -484,94 +448,70 @@
                                 ]
                             },
                             "traffic_signals:button_operated": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "traffic_signals:foot"
-                                        ],
-                                        "properties": {
-                                            "traffic_signals:foot": {
-                                                "type": "string",
-                                                "const": "yes"
-                                            }
-                                        }
+                                "required": [
+                                    "traffic_signals:foot"
+                                ],
+                                "properties": {
+                                    "traffic_signals:foot": {
+                                        "type": "string",
+                                        "const": "yes"
                                     }
-                                ]
+                                }
                             },
                             "traffic_signals:sound": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "traffic_signals:foot"
-                                        ],
-                                        "properties": {
-                                            "traffic_signals:foot": {
-                                                "type": "string",
-                                                "const": "yes"
-                                            }
-                                        }
+                                "required": [
+                                    "traffic_signals:foot"
+                                ],
+                                "properties": {
+                                    "traffic_signals:foot": {
+                                        "type": "string",
+                                        "const": "yes"
                                     }
-                                ]
+                                }
                             },
                             "traffic_signals:tactile": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "traffic_signals:foot"
-                                        ],
-                                        "properties": {
-                                            "traffic_signals:foot": {
-                                                "type": "string",
-                                                "const": "yes"
-                                            }
-                                        }
+                                "required": [
+                                    "traffic_signals:foot"
+                                ],
+                                "properties": {
+                                    "traffic_signals:foot": {
+                                        "type": "string",
+                                        "const": "yes"
                                     }
-                                ]
+                                }
                             },
                             "traffic_signals:timing": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "traffic_signals:foot"
-                                        ],
-                                        "properties": {
-                                            "traffic_signals:foot": {
-                                                "type": "string",
-                                                "const": "yes"
-                                            }
-                                        }
+                                "required": [
+                                    "traffic_signals:foot"
+                                ],
+                                "properties": {
+                                    "traffic_signals:foot": {
+                                        "type": "string",
+                                        "const": "yes"
                                     }
-                                ]
+                                }
                             },
                             "traffic_signals:vibration": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "traffic_signals:foot"
-                                        ],
-                                        "properties": {
-                                            "traffic_signals:foot": {
-                                                "type": "string",
-                                                "const": "yes"
-                                            }
-                                        }
+                                "required": [
+                                    "traffic_signals:foot"
+                                ],
+                                "properties": {
+                                    "traffic_signals:foot": {
+                                        "type": "string",
+                                        "const": "yes"
                                     }
-                                ]
+                                }
                             },
                             "train": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "public_transport"
-                                        ],
-                                        "properties": {
-                                            "public_transport": {
-                                                "type": "string",
-                                                "const": "stop_position"
-                                            }
-                                        }
+                                "required": [
+                                    "public_transport"
+                                ],
+                                "properties": {
+                                    "public_transport": {
+                                        "type": "string",
+                                        "const": "stop_position"
                                     }
-                                ]
+                                }
                             }
                         }
                     }

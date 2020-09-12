@@ -47,14 +47,10 @@ def subgraph_eda(utild, cf):
     print("Number of Connected ways: ", len(utild.connected_ways['features']))
 
     connected_df = utild.ways_df
-    connected_FG = nx.from_pandas_edgelist(
-        connected_df, source='origin', target='dest')
-    print("Number of Connected Components : ",
-          nx.number_connected_components(connected_FG))
-    subgraphs = [connected_FG.subgraph(c).copy()
-                 for c in nx.connected_components(connected_FG)]
-    save_path = os.path.join(cf.writePath,
-                             (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
+    connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
+    print("Number of Connected Components : ",nx.number_connected_components(connected_FG))
+    subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
+    save_path = os.path.join(cf.writePath, (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
     for i in range(len(subgraphs)):
         if 2 < len(subgraphs[i]) < 10:
             nx.draw_networkx(subgraphs[i])
@@ -69,7 +65,7 @@ def get_way_from_subgraph(sgraph, df):
     """
     Networkx gives subgraphs. This function is to infer the 'way id' from the given subgraph.
     Args : subgraph and df
-    Retruns : set of ways that belong to subgraph
+    Returns : set of ways that belong to subgraph
     """
     ways_set = set()
     for ind, edge in enumerate(sgraph.edges):
@@ -101,8 +97,7 @@ def get_invalidNodes(utild, cf):
     error_ways_dict = dict()
 
     # Nodes - Ways : The remaining nodes should have properties
-    diff_nodes = set(utild.nodes_coord_dict.keys()) - \
-        set(utild.ways_coord_dict.keys())
+    diff_nodes = set(utild.nodes_coord_dict.keys()) - set(utild.ways_coord_dict.keys())
     for node in diff_nodes:
         node_id = utild.nodes_coord_dict[node]
         if 'properties' not in utild.nodes_json['features'][node_id].keys() or not len(utild.nodes_json['features'][node_id]['properties']):
@@ -111,8 +106,7 @@ def get_invalidNodes(utild, cf):
                     "Point properties cannot be empty unless it is part of a way"]
 
     # Ways - Nodes : Ways containing the remaining nodes are invalid. The nodes should be present in nodes file
-    diff_ways = set(utild.ways_coord_dict.keys()) - \
-        set(utild.nodes_coord_dict.keys())
+    diff_ways = set(utild.ways_coord_dict.keys()) - set(utild.nodes_coord_dict.keys())
     for node in diff_ways:
         for way_id in utild.ways_coord_dict[node]:
             if way_id not in error_ways_dict.keys():

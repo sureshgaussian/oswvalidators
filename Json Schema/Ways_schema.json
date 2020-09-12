@@ -286,20 +286,14 @@
                                     {
                                         "required": [
                                             "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "* "
-                                            }
-                                        }
+                                        ]
                                     },
                                     {
                                         "required": [
-                                            " cycleway"
+                                            "cycleway"
                                         ],
                                         "properties": {
-                                            " cycleway": {
+                                            "cycleway": {
                                                 "type": "string",
                                                 "const": "lane"
                                             }
@@ -312,13 +306,7 @@
                                     {
                                         "required": [
                                             "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "* "
-                                            }
-                                        }
+                                        ]
                                     },
                                     {
                                         "required": [
@@ -328,34 +316,26 @@
                                 ]
                             },
                             "crossing": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "footway"
-                                        ],
-                                        "properties": {
-                                            "footway": {
-                                                "type": "string",
-                                                "const": "crossing"
-                                            }
-                                        }
+                                "required": [
+                                    "footway"
+                                ],
+                                "properties": {
+                                    "footway": {
+                                        "type": "string",
+                                        "const": "crossing"
                                     }
-                                ]
+                                }
                             },
                             "crossing:island": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "footway"
-                                        ],
-                                        "properties": {
-                                            "footway": {
-                                                "type": "string",
-                                                "const": "crossing"
-                                            }
-                                        }
+                                "required": [
+                                    "footway"
+                                ],
+                                "properties": {
+                                    "footway": {
+                                        "type": "string",
+                                        "const": "crossing"
                                     }
-                                ]
+                                }
                             },
                             "crossing_ref": {
                                 "allOf": [
@@ -366,16 +346,16 @@
                                         "properties": {
                                             "footway": {
                                                 "type": "string",
-                                                "const": "crossing "
+                                                "const": "crossing"
                                             }
                                         }
                                     },
                                     {
                                         "required": [
-                                            " crossing"
+                                            "crossing"
                                         ],
                                         "properties": {
-                                            " crossing": {
+                                            "crossing": {
                                                 "type": "string",
                                                 "const": "marked"
                                             }
@@ -384,57 +364,33 @@
                                 ]
                             },
                             "cycleway": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "cycleway:left": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "cycleway:right": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "description": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "elevator": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "foot": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "foot:backward": {
@@ -446,16 +402,16 @@
                                         "properties": {
                                             "highway": {
                                                 "type": "string",
-                                                "const": "cycleway "
+                                                "const": "cycleway"
                                             }
                                         }
                                     },
                                     {
                                         "required": [
-                                            " foot"
+                                            "foot"
                                         ],
                                         "properties": {
-                                            " foot": {
+                                            "foot": {
                                                 "type": "string",
                                                 "const": "1"
                                             }
@@ -464,69 +420,45 @@
                                 ]
                             },
                             "footway": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "footway"
-                                            }
-                                        }
+                                "required": [
+                                    "highway"
+                                ],
+                                "properties": {
+                                    "highway": {
+                                        "type": "string",
+                                        "const": "footway"
                                     }
-                                ]
+                                }
                             },
                             "handrail": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "steps"
-                                            }
-                                        }
+                                "required": [
+                                    "highway"
+                                ],
+                                "properties": {
+                                    "highway": {
+                                        "type": "string",
+                                        "const": "steps"
                                     }
-                                ]
+                                }
                             },
                             "incline": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "kerb_raised": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "footway"
-                                        ]
-                                    }
+                                "required": [
+                                    "footway"
                                 ]
                             },
                             "length": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "name": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "ramp": {
@@ -538,54 +470,42 @@
                                         "properties": {
                                             "highway": {
                                                 "type": "string",
-                                                "const": "footway "
+                                                "const": "footway"
                                             }
                                         }
                                     },
                                     {
                                         "required": [
-                                            " incline"
+                                            "incline"
                                         ]
                                     }
                                 ]
                             },
                             "service": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "service"
-                                            }
-                                        }
+                                "required": [
+                                    "highway"
+                                ],
+                                "properties": {
+                                    "highway": {
+                                        "type": "string",
+                                        "const": "service"
                                     }
-                                ]
+                                }
                             },
                             "step_count": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ],
-                                        "properties": {
-                                            "highway": {
-                                                "type": "string",
-                                                "const": "steps"
-                                            }
-                                        }
+                                "required": [
+                                    "highway"
+                                ],
+                                "properties": {
+                                    "highway": {
+                                        "type": "string",
+                                        "const": "steps"
                                     }
-                                ]
+                                }
                             },
                             "surface": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             },
                             "tactile_paving": {
@@ -597,7 +517,7 @@
                                         "properties": {
                                             "footway": {
                                                 "type": "string",
-                                                "const": "crossing "
+                                                "const": "crossing"
                                             }
                                         }
                                     },
@@ -615,12 +535,8 @@
                                 ]
                             },
                             "width": {
-                                "anyOf": [
-                                    {
-                                        "required": [
-                                            "highway"
-                                        ]
-                                    }
+                                "required": [
+                                    "highway"
                                 ]
                             }
                         }
