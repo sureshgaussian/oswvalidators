@@ -160,7 +160,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
     fileName = fileName.split('.')[0]
-    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"_Ways_Missing_Intersection")
+    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"_Missing_Intersection")
     geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata,fileName+"_recommended_Intersections")
     prog.end()
 # return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures

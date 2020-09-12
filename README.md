@@ -44,9 +44,21 @@ The program writes the following files in the output folder
 |2. Redmond_ways_valid.geojson   | All the ways in the region that are in accordance with OSW schema |
 |3. Redmond_nodes_invalid.geojson | All the points in the region that do **NOT** adhere to OSW schema|
 |4. Redmond_ways_invalid.geojson | All the ways in the region that do **NOT** adhere to OSW schema |
+|5. Redmond_ways_Missing_Intersection.geojson | Shows the ways that are probably intersecting but don't have a intersecting node|
+|6. Redmond_ways_recommended_Intersection.geojson| Recommended Potential Intersecting points for the ways in *Missing_Intersection.geojson*|
 
-For the *invalid* files, please look at the tag "fixme" in them to know what is the possible reason for the point or way being invalidated and take the necessary action to fix them.
 
+##### How to use the output files:
 
-TO DO:
-- Recheck missing_intersections and recommended_interesections files.
+For the *invalid* files, please look at the tag "fixme" in them to know what is the possible reason for the point or way being invalidated and take the necessary action to fix them.  
+
+Load *Missing_Intersection* file in QGIS to see the ways that are potentially intersecting but don't have an intersecting node.  
+Load *Recommended_Intersection* file on top of *Missing_Intersection* files to see recommended intersection points.
+
+#### How to file issues:
+
+Please open a GitHub issue for any for any bugs/requested features. For each issue, please provide:
+ - Branch commit your code is based on. This could be done in a couple of ways:
+  -- pick the 'commit' tag from the first line of the command 'git log' 
+  -- If the code you're working on is based on a release tag, provide the release tag 
+- Provide potential test input files you used while running the code

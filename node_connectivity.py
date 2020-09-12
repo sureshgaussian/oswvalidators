@@ -41,25 +41,19 @@ def subgraph_eda(utild, cf):
     Calculates the number of subgraphs from the given ways_list
     Plots a subraph and it's edges
     """
+    
     print("Number of ways in the file : ", len(utild.ways_list))
-    print("Number of isolated ways: ", len(
-        utild.disconnected_ways['features']))
-    print("Number of Connected ways: ", len(utild.connected_ways['features']))
-
     connected_df = utild.ways_df
     connected_FG = nx.from_pandas_edgelist(connected_df, source='origin', target='dest')
-    print("Number of Connected Components : ",nx.number_connected_components(connected_FG))
-    subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
-    save_path = os.path.join(cf.writePath, (ntpath.basename(utild.ways_file).split('.')[0] + "_SampleSubgraph.PNG"))
-    for i in range(len(subgraphs)):
-        if 2 < len(subgraphs[i]) < 10:
-            nx.draw_networkx(subgraphs[i])
-            ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
-            plt.savefig(save_path, format="PNG")
-            plt.clf()
-            print("sgraph[{}]_ways {}".format(i, ways_set))
-            break
+    print("Number of Subgraphs/islands : ",nx.number_connected_components(connected_FG))
+    
 
+    print("Number of ways not connected to any other way: ", len(utild.disconnected_ways['features']))
+    print("Number of ways that are connected to atleast one other way: ", len(utild.connected_ways['features']))
+
+    subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
+    for i in range(len(subgraphs)):
+        print("Number of ways in subgraph " + str(i) + ": " + str(len(subgraphs[i].nodes)))
 
 def get_way_from_subgraph(sgraph, df):
     """

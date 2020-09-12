@@ -48,6 +48,6 @@ if __name__ == '__main__':
             print("--" * 10)
             print("eda")
             print("--" * 10)
-            plot_nodes_vs_ways(utild, cf)
+            #plot_nodes_vs_ways(utild, cf)
             subgraph_eda(utild, cf)
     print("\n Output files written at the following location ", cf.writePath)

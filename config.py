@@ -23,4 +23,4 @@ class DefaultConfigs:
         self.do_all_validations = True
         self.do_eda = False
         self.do_schema_validations = False
-        self.do_intersecting_validation = False
+        self.do_intersecting_validation = True
