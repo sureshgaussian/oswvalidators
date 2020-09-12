@@ -7,7 +7,7 @@ import os
 import ntpath
 import copy
 import time
-
+import util_defs
 
 # EDA Plots
 
@@ -54,7 +54,20 @@ def subgraph_eda(utild, cf):
     subgraphs = [connected_FG.subgraph(c).copy() for c in nx.connected_components(connected_FG)]
     for i in range(len(subgraphs)):
         print("Number of ways in subgraph " + str(i) + ": " + str(len(subgraphs[i].nodes)))
+        ways_set = get_way_from_subgraph(subgraphs[i], connected_df)
+        write_geojson(utild, cf, ways_set, i)
 
+
+def write_geojson(utild, cf, ways_set, sg_ind):
+    ways_json = copy.deepcopy(utild.ways_json)
+    ways_json['features'] = []
+    for id in sorted(ways_set):
+        ways_json['features'].append(utild.ways_json['features'][id])
+    ways_save_path = os.path.join(cf.writePath, (ntpath.basename(utild.ways_file).split('.')[0] + '_subgraph_' + str(sg_ind) + '.geojson'))
+    #print(ways_save_path)
+    util_defs.save_file(ways_save_path, ways_json)
+    
+    
 def get_way_from_subgraph(sgraph, df):
     """
     Networkx gives subgraphs. This function is to infer the 'way id' from the given subgraph.

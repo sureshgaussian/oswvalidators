@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        -96.0821913,
+                        1.8190847
+                    ],
+                    [
+                        165.7544278,
+                        -28.438074
+                    ],
+                    [
+                        165.0995888,
+                        -38.2783873
+                    ],
+                    [
+                        119.7913994,
+                        -1.0406991
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way6",
+                "bicycle:backward": "no",
+                "traffic_signals": "yes",
+                "highway": "secondary"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        95.0327334,
+                        -76.6284917
+                    ],
+                    [
+                        135.5071536,
+                        79.0838275
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way7",
+                "troubles": "trouble2",
+                "traffic_signals": "no",
+                "footway": "crossing"
+            }
+        }
+    ]
+}

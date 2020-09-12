@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        174.2847937,
+                        -64.2410158
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way3",
+                "brunnel": "tunnel",
+                "incline": 1,
+                "service": "parking_aisle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        174.2847937,
+                        -64.2410158
+                    ],
+                    [
+                        104.9311032,
+                        -27.5521101
+                    ],
+                    [
+                        119.7913994,
+                        -1.0406991
+                    ],
+                    [
+                        104.9311032,
+                        -27.5521101
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way10",
+                "crossing:island": "no",
+                "incline": 6,
+                "brunnel": "ford"
+            }
+        }
+    ]
+}

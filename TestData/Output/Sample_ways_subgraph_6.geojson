@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -45.9305414,
+                        34.5657964
+                    ],
+                    [
+                        61.8708481,
+                        -41.8653759
+                    ],
+                    [
+                        43.6361224,
+                        -60.3727833
+                    ],
+                    [
+                        101.7309692,
+                        53.3578967
+                    ],
+                    [
+                        -121.0924178,
+                        14.8810437
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way8",
+                "surface": "grass",
+                "troubles": "trouble3",
+                "kerb_raised": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -45.9305414,
+                        34.5657964
+                    ]
+                ]
+            },
+            "properties": {
+                "id": "way9",
+                "crossing:island": "no",
+                "crossing": "marked",
+                "service": "alley"
+            }
+        }
+    ]
+}

@@ -22,6 +22,7 @@ def merge_dicts(dict1, dict2):
 
 
 def write_outputs(utild, cf, nodes_dict, ways_dict):
+    
     invalid_nodes_json = copy.deepcopy(utild.nodes_json)
     invalid_nodes_json['features'] = []
     invalid_ways_json = copy.deepcopy(utild.ways_json)
@@ -39,18 +40,14 @@ def write_outputs(utild, cf, nodes_dict, ways_dict):
         invalid_ways_json['features'].append(utild.ways_json['features'][id])
         invalid_ways_json['features'][-1].update({"fixme": msg})
 
-    valid_nodes_save_path = os.path.join(cf.writePath,
-                                         (ntpath.basename(utild.nodes_file).split('.')[0] + '_valid.geojson'))
+    valid_nodes_save_path = os.path.join(cf.writePath,(ntpath.basename(utild.nodes_file).split('.')[0] + '_valid.geojson'))
     save_file(valid_nodes_save_path, valid_nodes_json)
 
-    invalid_nodes_save_path = os.path.join(cf.writePath,
-                                           (ntpath.basename(utild.nodes_file).split('.')[0] + '_invalid.geojson'))
+    invalid_nodes_save_path = os.path.join(cf.writePath,(ntpath.basename(utild.nodes_file).split('.')[0] + '_invalid.geojson'))
     save_file(invalid_nodes_save_path, invalid_nodes_json)
 
-    valid_ways_save_path = os.path.join(cf.writePath,
-                                        (ntpath.basename(utild.ways_file).split('.')[0] + '_valid.geojson'))
+    valid_ways_save_path = os.path.join(cf.writePath,(ntpath.basename(utild.ways_file).split('.')[0] + '_valid.geojson'))
     save_file(valid_ways_save_path, valid_ways_json)
 
-    invalid_ways_save_path = os.path.join(cf.writePath,
-                                          (ntpath.basename(utild.ways_file).split('.')[0] + '_invalid.geojson'))
+    invalid_ways_save_path = os.path.join(cf.writePath,(ntpath.basename(utild.ways_file).split('.')[0] + '_invalid.geojson'))
     save_file(invalid_ways_save_path, invalid_ways_json)

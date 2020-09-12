@@ -48,6 +48,7 @@ The program writes the following files in the output folder
 |6. Redmond_ways_recommended_Intersection.geojson| Recommended Potential Intersecting points for the ways in *Missing_Intersection.geojson*|
 |7. Redmond_ways_connected.geojson | All the ways that are connected to atleast one another way |
 |8. Redmond_ways_isolated.geojson | Ways that are not connected to any other ways |
+|9. Redmond_ways_subgraph_\*.geojson | Shows a connected island of the region given |
 
 ##### How to use the output files:
 

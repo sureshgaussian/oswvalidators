@@ -8,6 +8,7 @@ from util_data import UtilData
 from Validate_JsonFile_Schema import validate_json_schema
 import ntpath
 from util_defs import merge_dicts, write_outputs
+import copy
 
 if __name__ == '__main__':
     parser = ag.ArgumentParser()
@@ -29,6 +30,7 @@ if __name__ == '__main__':
                                                                  ntpath.basename(ways_file)))
 
         utild = UtilData(nodes_file, ways_file, cf)
+        utildOriginal = copy.deepcopy(utild)
 
         if cf.do_all_validations or cf.do_schema_validations:
             invalid_schema_nodes_dict = validate_json_schema(nodes_file, cf.node_schema, cf.writePath)
@@ -42,12 +44,12 @@ if __name__ == '__main__':
         write_outputs(utild, cf, merged_nodes_dict, merged_ways_dict)
 
         if cf.do_intersecting_validation:
-            intersectLineStringInValidFormat(utild.ways_json, "brunnel", cf, ntpath.basename(ways_file))
+            intersectLineStringInValidFormat(utildOriginal.ways_json, "brunnel", cf, ntpath.basename(ways_file))
 
         if cf.do_eda:
             print("--" * 10)
             print("eda")
             print("--" * 10)
             #plot_nodes_vs_ways(utild, cf)
-            subgraph_eda(utild, cf)
+            subgraph_eda(utildOriginal, cf)
     print("\n Output files written at the following location ", cf.writePath)
