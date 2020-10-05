@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37020524",
+                "highway": "residential",
+                "name": "West 16th Street",
+                "old_name": "Cherry Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "16th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7469406,
+                        30.28009
+                    ],
+                    [
+                        -97.7470321,
+                        30.2801162
+                    ],
+                    [
+                        -97.7482536,
+                        30.2804656
+                    ],
+                    [
+                        -97.7488691,
+                        30.2806416
+                    ]
+                ]
+            },
+            "id": "way/37020524"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/124953231",
+                "highway": "residential",
+                "name": "West 16th Street",
+                "old_name": "Cherry Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "16th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7437337,
+                        30.2791792
+                    ],
+                    [
+                        -97.7442343,
+                        30.2793216
+                    ],
+                    [
+                        -97.7447877,
+                        30.2794791
+                    ],
+                    [
+                        -97.7457877,
+                        30.2797629
+                    ],
+                    [
+                        -97.7458743,
+                        30.2797882
+                    ],
+                    [
+                        -97.745971,
+                        30.2798175
+                    ],
+                    [
+                        -97.7468593,
+                        30.280067
+                    ],
+                    [
+                        -97.7469406,
+                        30.28009
+                    ]
+                ]
+            },
+            "id": "way/124953231"
+        }
+    ]
+}

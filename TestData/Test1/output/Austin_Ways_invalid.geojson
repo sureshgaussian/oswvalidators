@@ -1,0 +1,4691 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/776700089",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7463215,
+                        30.2817076
+                    ],
+                    [
+                        -97.7469156,
+                        30.2818634
+                    ],
+                    [
+                        -97.7470721,
+                        30.281488
+                    ],
+                    [
+                        -97.746681,
+                        30.2813557
+                    ],
+                    [
+                        -97.7466011,
+                        30.2813707
+                    ],
+                    [
+                        -97.7465667,
+                        30.281357
+                    ],
+                    [
+                        -97.7464676,
+                        30.2813233
+                    ]
+                ]
+            },
+            "id": "way/776700089",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7470721, 30.281488] is not present in Nodes file",
+                "Point [-97.7464676, 30.2813233] is not present in Nodes file",
+                "Point [-97.7465667, 30.281357] is not present in Nodes file",
+                "Point [-97.746681, 30.2813557] is not present in Nodes file",
+                "Point [-97.7466011, 30.2813707] is not present in Nodes file",
+                "Point [-97.7469156, 30.2818634] is not present in Nodes file",
+                "Point [-97.7463215, 30.2817076] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/771571024",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468279,
+                        30.2803844
+                    ],
+                    [
+                        -97.7467423,
+                        30.2803583
+                    ],
+                    [
+                        -97.7459865,
+                        30.2801242
+                    ]
+                ]
+            },
+            "id": "way/771571024",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7467423, 30.2803583] is not present in Nodes file",
+                "Point [-97.7459865, 30.2801242] is not present in Nodes file",
+                "Point [-97.7468279, 30.2803844] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/764470890",
+                "highway": "unclassified",
+                "lanes": "2",
+                "maxspeed": "20 mph",
+                "name": "Rio Grande Street",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7461361,
+                        30.2790692
+                    ],
+                    [
+                        -97.7460866,
+                        30.2792051
+                    ],
+                    [
+                        -97.7459041,
+                        30.2797063
+                    ],
+                    [
+                        -97.7458743,
+                        30.2797882
+                    ],
+                    [
+                        -97.7458595,
+                        30.2798303
+                    ],
+                    [
+                        -97.745592,
+                        30.2805923
+                    ],
+                    [
+                        -97.7455643,
+                        30.2806711
+                    ],
+                    [
+                        -97.7455452,
+                        30.2807223
+                    ],
+                    [
+                        -97.7454126,
+                        30.2810768
+                    ],
+                    [
+                        -97.745307,
+                        30.2813091
+                    ]
+                ]
+            },
+            "id": "way/764470890",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
+                "Point [-97.7460866, 30.2792051] is not present in Nodes file",
+                "Point [-97.7461361, 30.2790692] is not present in Nodes file",
+                "Point [-97.7455643, 30.2806711] is not present in Nodes file",
+                "Point [-97.7454126, 30.2810768] is not present in Nodes file",
+                "Point [-97.7458743, 30.2797882] is not present in Nodes file",
+                "Point [-97.745307, 30.2813091] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001200",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454446,
+                        30.2807006
+                    ],
+                    [
+                        -97.7454654,
+                        30.280643
+                    ],
+                    [
+                        -97.7454897,
+                        30.2805715
+                    ]
+                ]
+            },
+            "id": "way/687001200",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001199",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7456803,
+                        30.2806108
+                    ],
+                    [
+                        -97.745592,
+                        30.2805923
+                    ],
+                    [
+                        -97.7454897,
+                        30.2805715
+                    ]
+                ]
+            },
+            "id": "way/687001199",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001198",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745621,
+                        30.2807385
+                    ],
+                    [
+                        -97.7456436,
+                        30.2806937
+                    ],
+                    [
+                        -97.7456803,
+                        30.2806108
+                    ]
+                ]
+            },
+            "id": "way/687001198",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001197",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745621,
+                        30.2807385
+                    ],
+                    [
+                        -97.7455452,
+                        30.2807223
+                    ],
+                    [
+                        -97.7454446,
+                        30.2807006
+                    ]
+                ]
+            },
+            "id": "way/687001197",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001020",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7459968,
+                        30.2797329
+                    ],
+                    [
+                        -97.745971,
+                        30.2798175
+                    ],
+                    [
+                        -97.7459556,
+                        30.2798636
+                    ]
+                ]
+            },
+            "id": "way/687001020",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001019",
+                "crossing": "marked",
+                "crossing_ref": "zebra",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7458073,
+                        30.2796758
+                    ],
+                    [
+                        -97.7459041,
+                        30.2797063
+                    ],
+                    [
+                        -97.7459968,
+                        30.2797329
+                    ]
+                ]
+            },
+            "id": "way/687001019",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001018",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457753,
+                        30.2797991
+                    ],
+                    [
+                        -97.7457877,
+                        30.2797629
+                    ],
+                    [
+                        -97.7458073,
+                        30.2796758
+                    ]
+                ]
+            },
+            "id": "way/687001018",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/687001017",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457753,
+                        30.2797991
+                    ],
+                    [
+                        -97.7458595,
+                        30.2798303
+                    ],
+                    [
+                        -97.7459556,
+                        30.2798636
+                    ]
+                ]
+            },
+            "id": "way/687001017",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/686560145",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468951,
+                        30.2799991
+                    ],
+                    [
+                        -97.7469674,
+                        30.2800163
+                    ],
+                    [
+                        -97.7470404,
+                        30.2800357
+                    ]
+                ]
+            },
+            "id": "way/686560145",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/686560144",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468373,
+                        30.2801071
+                    ],
+                    [
+                        -97.7468593,
+                        30.280067
+                    ],
+                    [
+                        -97.7468951,
+                        30.2799991
+                    ]
+                ]
+            },
+            "id": "way/686560144",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/686560143",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7469901,
+                        30.2801625
+                    ],
+                    [
+                        -97.7469206,
+                        30.2801421
+                    ],
+                    [
+                        -97.7468512,
+                        30.2801214
+                    ]
+                ]
+            },
+            "id": "way/686560143",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/686443906",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7467322,
+                        30.2809123
+                    ],
+                    [
+                        -97.7467095,
+                        30.2809068
+                    ]
+                ]
+            },
+            "id": "way/686443906",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7467322, 30.2809123] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/675157786",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7462877,
+                        30.2817966
+                    ],
+                    [
+                        -97.7464623,
+                        30.2818348
+                    ],
+                    [
+                        -97.7465181,
+                        30.281847
+                    ],
+                    [
+                        -97.7470049,
+                        30.28198
+                    ]
+                ]
+            },
+            "id": "way/675157786",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7464623, 30.2818348] is not present in Nodes file",
+                "Point [-97.7470049, 30.28198] is not present in Nodes file",
+                "Point [-97.7465181, 30.281847] is not present in Nodes file",
+                "Point [-97.7462877, 30.2817966] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656544268",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7448574,
+                        30.2795506
+                    ],
+                    [
+                        -97.7448887,
+                        30.2795595
+                    ]
+                ]
+            },
+            "id": "way/656544268",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7448887, 30.2795595] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656544267",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7448886,
+                        30.2795521
+                    ],
+                    [
+                        -97.7448887,
+                        30.2795595
+                    ]
+                ]
+            },
+            "id": "way/656544267",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7448887, 30.2795595] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543804",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457753,
+                        30.2797991
+                    ],
+                    [
+                        -97.7457484,
+                        30.2798108
+                    ]
+                ]
+            },
+            "id": "way/656543804",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7457484, 30.2798108] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543803",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7458073,
+                        30.2796758
+                    ],
+                    [
+                        -97.7457999,
+                        30.279667
+                    ]
+                ]
+            },
+            "id": "way/656543803",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7457999, 30.279667] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543802",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7459968,
+                        30.2797329
+                    ],
+                    [
+                        -97.7460239,
+                        30.2797398
+                    ]
+                ]
+            },
+            "id": "way/656543802",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7460239, 30.2797398] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543801",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468512,
+                        30.2801214
+                    ],
+                    [
+                        -97.746833,
+                        30.2801189
+                    ]
+                ]
+            },
+            "id": "way/656543801",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.746833, 30.2801189] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543800",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468373,
+                        30.2801071
+                    ],
+                    [
+                        -97.746833,
+                        30.2801189
+                    ]
+                ]
+            },
+            "id": "way/656543800",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.746833, 30.2801189] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543799",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468951,
+                        30.2799991
+                    ],
+                    [
+                        -97.7468921,
+                        30.2799727
+                    ]
+                ]
+            },
+            "id": "way/656543799",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7468921, 30.2799727] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656543798",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7469901,
+                        30.2801625
+                    ],
+                    [
+                        -97.7470136,
+                        30.2801687
+                    ]
+                ]
+            },
+            "id": "way/656543798",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7470136, 30.2801687] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542456",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745621,
+                        30.2807385
+                    ],
+                    [
+                        -97.7456313,
+                        30.2807523
+                    ]
+                ]
+            },
+            "id": "way/656542456",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7456313, 30.2807523] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542455",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454897,
+                        30.2805715
+                    ],
+                    [
+                        -97.7454735,
+                        30.2805463
+                    ]
+                ]
+            },
+            "id": "way/656542455",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7454735, 30.2805463] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542454",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7445575,
+                        30.2804181
+                    ],
+                    [
+                        -97.7445582,
+                        30.2804424
+                    ]
+                ]
+            },
+            "id": "way/656542454",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7445582, 30.2804424] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542453",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7445234,
+                        30.2804324
+                    ],
+                    [
+                        -97.7445582,
+                        30.2804424
+                    ]
+                ]
+            },
+            "id": "way/656542453",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7445582, 30.2804424] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542452",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7445747,
+                        30.2802888
+                    ],
+                    [
+                        -97.7446145,
+                        30.2802996
+                    ]
+                ]
+            },
+            "id": "way/656542452",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7446145, 30.2802996] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656542451",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7446016,
+                        30.2803256
+                    ],
+                    [
+                        -97.7446145,
+                        30.2802996
+                    ]
+                ]
+            },
+            "id": "way/656542451",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7446145, 30.2802996] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656540466",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7443802,
+                        30.2803901
+                    ],
+                    [
+                        -97.744369,
+                        30.2803878
+                    ]
+                ]
+            },
+            "id": "way/656540466",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.744369, 30.2803878] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656540465",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7443677,
+                        30.2803636
+                    ],
+                    [
+                        -97.7443587,
+                        30.2803847
+                    ]
+                ]
+            },
+            "id": "way/656540465",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7443587, 30.2803847] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656540464",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7444367,
+                        30.2802498
+                    ],
+                    [
+                        -97.7444041,
+                        30.2802399
+                    ]
+                ]
+            },
+            "id": "way/656540464",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7444041, 30.2802399] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656540463",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7443944,
+                        30.2802674
+                    ],
+                    [
+                        -97.7444041,
+                        30.2802399
+                    ]
+                ]
+            },
+            "id": "way/656540463",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7444041, 30.2802399] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656440919",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7441578,
+                        30.2809296
+                    ],
+                    [
+                        -97.7440754,
+                        30.2811234
+                    ]
+                ]
+            },
+            "id": "way/656440919",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7440754, 30.2811234] is not present in Nodes file",
+                "Point [-97.7441578, 30.2809296] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437805",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7442471,
+                        30.2811806
+                    ],
+                    [
+                        -97.7442663,
+                        30.2811792
+                    ]
+                ]
+            },
+            "id": "way/656437805",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7442663, 30.2811792] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437804",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7442598,
+                        30.2812015
+                    ],
+                    [
+                        -97.7442663,
+                        30.2811792
+                    ]
+                ]
+            },
+            "id": "way/656437804",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7442663, 30.2811792] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437803",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7446795,
+                        30.2814217
+                    ],
+                    [
+                        -97.7446786,
+                        30.2814436
+                    ]
+                ]
+            },
+            "id": "way/656437803",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7446786, 30.2814436] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437802",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450992,
+                        30.2815409
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/656437802",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7450904, 30.2815661] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437801",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451259,
+                        30.2815773
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/656437801",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7450904, 30.2815661] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435890",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451339,
+                        30.2814503
+                    ],
+                    [
+                        -97.7451409,
+                        30.2814304
+                    ]
+                ]
+            },
+            "id": "way/656435890",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7451409, 30.2814304] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435889",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451782,
+                        30.2814416
+                    ],
+                    [
+                        -97.7451409,
+                        30.2814304
+                    ]
+                ]
+            },
+            "id": "way/656435889",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7451409, 30.2814304] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435888",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453218,
+                        30.2814819
+                    ],
+                    [
+                        -97.7453545,
+                        30.281493
+                    ]
+                ]
+            },
+            "id": "way/656435888",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7453545, 30.281493] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435887",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453475,
+                        30.28151
+                    ],
+                    [
+                        -97.7453545,
+                        30.281493
+                    ]
+                ]
+            },
+            "id": "way/656435887",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7453545, 30.281493] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435629",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7452774,
+                        30.2816066
+                    ],
+                    [
+                        -97.7453072,
+                        30.2816173
+                    ]
+                ]
+            },
+            "id": "way/656435629",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7453072, 30.2816173] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435628",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453126,
+                        30.2816028
+                    ],
+                    [
+                        -97.7453072,
+                        30.2816173
+                    ]
+                ]
+            },
+            "id": "way/656435628",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7453072, 30.2816173] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652926625",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7446825,
+                        30.2794953
+                    ],
+                    [
+                        -97.7444963,
+                        30.2799922
+                    ],
+                    [
+                        -97.744472,
+                        30.2800568
+                    ],
+                    [
+                        -97.7444041,
+                        30.2802399
+                    ]
+                ]
+            },
+            "id": "way/652926625",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.744472, 30.2800568] is not present in Nodes file",
+                "Point [-97.7446825, 30.2794953] is not present in Nodes file",
+                "Point [-97.7444041, 30.2802399] is not present in Nodes file",
+                "Point [-97.7444963, 30.2799922] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652926622",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7444041,
+                        30.2802399
+                    ],
+                    [
+                        -97.7440424,
+                        30.280137
+                    ],
+                    [
+                        -97.7439509,
+                        30.2801163
+                    ],
+                    [
+                        -97.743934,
+                        30.2801124
+                    ],
+                    [
+                        -97.7435308,
+                        30.2799979
+                    ]
+                ]
+            },
+            "id": "way/652926622",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7439509, 30.2801163] is not present in Nodes file",
+                "Point [-97.7435308, 30.2799979] is not present in Nodes file",
+                "Point [-97.7444041, 30.2802399] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652926258",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7441578,
+                        30.2809296
+                    ],
+                    [
+                        -97.7441573,
+                        30.2808963
+                    ],
+                    [
+                        -97.7441811,
+                        30.2808276
+                    ],
+                    [
+                        -97.7442194,
+                        30.2807825
+                    ],
+                    [
+                        -97.7442267,
+                        30.2807534
+                    ],
+                    [
+                        -97.7442318,
+                        30.2807324
+                    ],
+                    [
+                        -97.7443014,
+                        30.2805636
+                    ],
+                    [
+                        -97.7443099,
+                        30.2805478
+                    ],
+                    [
+                        -97.7443154,
+                        30.2805375
+                    ],
+                    [
+                        -97.7443406,
+                        30.2804779
+                    ],
+                    [
+                        -97.7443442,
+                        30.2804699
+                    ],
+                    [
+                        -97.744369,
+                        30.2803878
+                    ]
+                ]
+            },
+            "id": "way/652926258",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7443154, 30.2805375] is not present in Nodes file",
+                "Point [-97.7443014, 30.2805636] is not present in Nodes file",
+                "Point [-97.7442267, 30.2807534] is not present in Nodes file",
+                "Point [-97.7442194, 30.2807825] is not present in Nodes file",
+                "Point [-97.7443406, 30.2804779] is not present in Nodes file",
+                "Point [-97.7441573, 30.2808963] is not present in Nodes file",
+                "Point [-97.7443442, 30.2804699] is not present in Nodes file",
+                "Point [-97.7441578, 30.2809296] is not present in Nodes file",
+                "Point [-97.7441811, 30.2808276] is not present in Nodes file",
+                "Point [-97.744369, 30.2803878] is not present in Nodes file",
+                "Point [-97.7443099, 30.2805478] is not present in Nodes file",
+                "Point [-97.7442318, 30.2807324] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652926251",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.744369,
+                        30.2803878
+                    ],
+                    [
+                        -97.7443587,
+                        30.2803847
+                    ],
+                    [
+                        -97.7440438,
+                        30.2802915
+                    ],
+                    [
+                        -97.7438859,
+                        30.280248
+                    ],
+                    [
+                        -97.7438255,
+                        30.2802307
+                    ],
+                    [
+                        -97.7437766,
+                        30.2802169
+                    ],
+                    [
+                        -97.7434861,
+                        30.280133
+                    ]
+                ]
+            },
+            "id": "way/652926251",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7434861, 30.280133] is not present in Nodes file",
+                "Point [-97.744369, 30.2803878] is not present in Nodes file",
+                "Point [-97.7440438, 30.2802915] is not present in Nodes file",
+                "Point [-97.7443587, 30.2803847] is not present in Nodes file",
+                "Point [-97.7437766, 30.2802169] is not present in Nodes file",
+                "Point [-97.7438859, 30.280248] is not present in Nodes file",
+                "Point [-97.7438255, 30.2802307] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924628",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7442105,
+                        30.2812966
+                    ],
+                    [
+                        -97.7441733,
+                        30.2814053
+                    ],
+                    [
+                        -97.7440351,
+                        30.2817285
+                    ],
+                    [
+                        -97.7439993,
+                        30.2818121
+                    ],
+                    [
+                        -97.7440285,
+                        30.2818307
+                    ],
+                    [
+                        -97.7440396,
+                        30.2818454
+                    ],
+                    [
+                        -97.7440209,
+                        30.2818973
+                    ],
+                    [
+                        -97.7440043,
+                        30.2819438
+                    ],
+                    [
+                        -97.743917,
+                        30.2821806
+                    ]
+                ]
+            },
+            "id": "way/652924628",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7440209, 30.2818973] is not present in Nodes file",
+                "Point [-97.7440285, 30.2818307] is not present in Nodes file",
+                "Point [-97.7441733, 30.2814053] is not present in Nodes file",
+                "Point [-97.743917, 30.2821806] is not present in Nodes file",
+                "Point [-97.7440351, 30.2817285] is not present in Nodes file",
+                "Point [-97.7440396, 30.2818454] is not present in Nodes file",
+                "Point [-97.7440043, 30.2819438] is not present in Nodes file",
+                "Point [-97.7439993, 30.2818121] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924627",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7447692,
+                        30.2824245
+                    ],
+                    [
+                        -97.7449168,
+                        30.2820207
+                    ],
+                    [
+                        -97.7449267,
+                        30.2819906
+                    ],
+                    [
+                        -97.744935,
+                        30.2819704
+                    ],
+                    [
+                        -97.7450825,
+                        30.2815867
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/652924627",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7449168, 30.2820207] is not present in Nodes file",
+                "Point [-97.7447692, 30.2824245] is not present in Nodes file",
+                "Point [-97.7450904, 30.2815661] is not present in Nodes file",
+                "Point [-97.744935, 30.2819704] is not present in Nodes file",
+                "Point [-97.7449267, 30.2819906] is not present in Nodes file",
+                "Point [-97.7450825, 30.2815867] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924626",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ],
+                    [
+                        -97.7448848,
+                        30.2815102
+                    ],
+                    [
+                        -97.7447949,
+                        30.2814845
+                    ],
+                    [
+                        -97.7447844,
+                        30.2814819
+                    ],
+                    [
+                        -97.7447383,
+                        30.2814598
+                    ],
+                    [
+                        -97.7446786,
+                        30.2814436
+                    ],
+                    [
+                        -97.7445428,
+                        30.2814068
+                    ],
+                    [
+                        -97.7442105,
+                        30.2812966
+                    ]
+                ]
+            },
+            "id": "way/652924626",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7446786, 30.2814436] is not present in Nodes file",
+                "Point [-97.7448848, 30.2815102] is not present in Nodes file",
+                "Point [-97.7445428, 30.2814068] is not present in Nodes file",
+                "Point [-97.7447949, 30.2814845] is not present in Nodes file",
+                "Point [-97.7450904, 30.2815661] is not present in Nodes file",
+                "Point [-97.7447383, 30.2814598] is not present in Nodes file",
+                "Point [-97.7447844, 30.2814819] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652922200",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454446,
+                        30.2807006
+                    ],
+                    [
+                        -97.7454364,
+                        30.2806899
+                    ],
+                    [
+                        -97.7454237,
+                        30.2806824
+                    ],
+                    [
+                        -97.744872,
+                        30.2805297
+                    ],
+                    [
+                        -97.7448204,
+                        30.2805189
+                    ],
+                    [
+                        -97.7446893,
+                        30.2804805
+                    ],
+                    [
+                        -97.7446268,
+                        30.2804619
+                    ]
+                ]
+            },
+            "id": "way/652922200",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7448204, 30.2805189] is not present in Nodes file",
+                "Point [-97.744872, 30.2805297] is not present in Nodes file",
+                "Point [-97.7446893, 30.2804805] is not present in Nodes file",
+                "Point [-97.7446268, 30.2804619] is not present in Nodes file",
+                "Point [-97.7454364, 30.2806899] is not present in Nodes file",
+                "Point [-97.7454237, 30.2806824] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652922199",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7445582,
+                        30.2804424
+                    ],
+                    [
+                        -97.7444271,
+                        30.2807916
+                    ],
+                    [
+                        -97.7444124,
+                        30.2808045
+                    ],
+                    [
+                        -97.7443796,
+                        30.2808331
+                    ],
+                    [
+                        -97.744344,
+                        30.2809225
+                    ],
+                    [
+                        -97.74432,
+                        30.2809865
+                    ],
+                    [
+                        -97.744261,
+                        30.2811654
+                    ],
+                    [
+                        -97.7442663,
+                        30.2811792
+                    ]
+                ]
+            },
+            "id": "way/652922199",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.74432, 30.2809865] is not present in Nodes file",
+                "Point [-97.744261, 30.2811654] is not present in Nodes file",
+                "Point [-97.7442663, 30.2811792] is not present in Nodes file",
+                "Point [-97.7444271, 30.2807916] is not present in Nodes file",
+                "Point [-97.7445582, 30.2804424] is not present in Nodes file",
+                "Point [-97.7443796, 30.2808331] is not present in Nodes file",
+                "Point [-97.7444124, 30.2808045] is not present in Nodes file",
+                "Point [-97.744344, 30.2809225] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652922198",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7442663,
+                        30.2811792
+                    ],
+                    [
+                        -97.7448039,
+                        30.2813361
+                    ],
+                    [
+                        -97.744864,
+                        30.2813534
+                    ],
+                    [
+                        -97.7449771,
+                        30.2813858
+                    ],
+                    [
+                        -97.7450856,
+                        30.2814156
+                    ],
+                    [
+                        -97.7451409,
+                        30.2814304
+                    ]
+                ]
+            },
+            "id": "way/652922198",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.744864, 30.2813534] is not present in Nodes file",
+                "Point [-97.7442663, 30.2811792] is not present in Nodes file",
+                "Point [-97.7451409, 30.2814304] is not present in Nodes file",
+                "Point [-97.7448039, 30.2813361] is not present in Nodes file",
+                "Point [-97.7450856, 30.2814156] is not present in Nodes file",
+                "Point [-97.7449771, 30.2813858] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652922197",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7446268,
+                        30.2804619
+                    ],
+                    [
+                        -97.7445582,
+                        30.2804424
+                    ]
+                ]
+            },
+            "id": "way/652922197",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7446268, 30.2804619] is not present in Nodes file",
+                "Point [-97.7445582, 30.2804424] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652922196",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451409,
+                        30.2814304
+                    ],
+                    [
+                        -97.7452668,
+                        30.2810807
+                    ],
+                    [
+                        -97.7452849,
+                        30.2810422
+                    ],
+                    [
+                        -97.7452893,
+                        30.2810327
+                    ],
+                    [
+                        -97.7453664,
+                        30.280827
+                    ],
+                    [
+                        -97.7453994,
+                        30.280837
+                    ],
+                    [
+                        -97.7454469,
+                        30.2807134
+                    ],
+                    [
+                        -97.7454446,
+                        30.2807006
+                    ]
+                ]
+            },
+            "id": "way/652922196",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7453994, 30.280837] is not present in Nodes file",
+                "Point [-97.7454469, 30.2807134] is not present in Nodes file",
+                "Point [-97.7452893, 30.2810327] is not present in Nodes file",
+                "Point [-97.7453664, 30.280827] is not present in Nodes file",
+                "Point [-97.7451409, 30.2814304] is not present in Nodes file",
+                "Point [-97.7452849, 30.2810422] is not present in Nodes file",
+                "Point [-97.7452668, 30.2810807] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652921423",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454735,
+                        30.2805463
+                    ],
+                    [
+                        -97.7455975,
+                        30.2802006
+                    ],
+                    [
+                        -97.7456263,
+                        30.2801282
+                    ],
+                    [
+                        -97.7457484,
+                        30.2798108
+                    ]
+                ]
+            },
+            "id": "way/652921423",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7455975, 30.2802006] is not present in Nodes file",
+                "Point [-97.7454735, 30.2805463] is not present in Nodes file",
+                "Point [-97.7456263, 30.2801282] is not present in Nodes file",
+                "Point [-97.7457484, 30.2798108] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652921422",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7448887,
+                        30.2795595
+                    ],
+                    [
+                        -97.7447479,
+                        30.2799307
+                    ],
+                    [
+                        -97.7447392,
+                        30.2799637
+                    ],
+                    [
+                        -97.7446145,
+                        30.2802996
+                    ]
+                ]
+            },
+            "id": "way/652921422",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7447392, 30.2799637] is not present in Nodes file",
+                "Point [-97.7447479, 30.2799307] is not present in Nodes file",
+                "Point [-97.7446145, 30.2802996] is not present in Nodes file",
+                "Point [-97.7448887, 30.2795595] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652921421",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7446145,
+                        30.2802996
+                    ],
+                    [
+                        -97.7448029,
+                        30.2803523
+                    ],
+                    [
+                        -97.7448626,
+                        30.2803696
+                    ],
+                    [
+                        -97.7451053,
+                        30.280442
+                    ],
+                    [
+                        -97.745171,
+                        30.2804629
+                    ],
+                    [
+                        -97.7454735,
+                        30.2805463
+                    ]
+                ]
+            },
+            "id": "way/652921421",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.745171, 30.2804629] is not present in Nodes file",
+                "Point [-97.7454735, 30.2805463] is not present in Nodes file",
+                "Point [-97.7446145, 30.2802996] is not present in Nodes file",
+                "Point [-97.7448626, 30.2803696] is not present in Nodes file",
+                "Point [-97.7451053, 30.280442] is not present in Nodes file",
+                "Point [-97.7448029, 30.2803523] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652921420",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457484,
+                        30.2798108
+                    ],
+                    [
+                        -97.7455097,
+                        30.2797333
+                    ],
+                    [
+                        -97.7454272,
+                        30.2797101
+                    ],
+                    [
+                        -97.7453273,
+                        30.2796829
+                    ],
+                    [
+                        -97.7452253,
+                        30.2796493
+                    ],
+                    [
+                        -97.7448887,
+                        30.2795595
+                    ]
+                ]
+            },
+            "id": "way/652921420",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7454272, 30.2797101] is not present in Nodes file",
+                "Point [-97.7457484, 30.2798108] is not present in Nodes file",
+                "Point [-97.7452253, 30.2796493] is not present in Nodes file",
+                "Point [-97.7455097, 30.2797333] is not present in Nodes file",
+                "Point [-97.7453273, 30.2796829] is not present in Nodes file",
+                "Point [-97.7448887, 30.2795595] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652920944",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7470136,
+                        30.2801687
+                    ],
+                    [
+                        -97.7469206,
+                        30.2804189
+                    ],
+                    [
+                        -97.7468913,
+                        30.2804874
+                    ],
+                    [
+                        -97.7468126,
+                        30.2806929
+                    ],
+                    [
+                        -97.7468039,
+                        30.2807171
+                    ],
+                    [
+                        -97.7467937,
+                        30.2807456
+                    ],
+                    [
+                        -97.746779,
+                        30.2807888
+                    ],
+                    [
+                        -97.7467322,
+                        30.2809123
+                    ]
+                ]
+            },
+            "id": "way/652920944",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7468039, 30.2807171] is not present in Nodes file",
+                "Point [-97.7468126, 30.2806929] is not present in Nodes file",
+                "Point [-97.7467322, 30.2809123] is not present in Nodes file",
+                "Point [-97.7468913, 30.2804874] is not present in Nodes file",
+                "Point [-97.7470136, 30.2801687] is not present in Nodes file",
+                "Point [-97.7469206, 30.2804189] is not present in Nodes file",
+                "Point [-97.7467937, 30.2807456] is not present in Nodes file",
+                "Point [-97.746779, 30.2807888] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652920942",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7467322,
+                        30.2809123
+                    ],
+                    [
+                        -97.7475234,
+                        30.2811439
+                    ],
+                    [
+                        -97.7476137,
+                        30.2811703
+                    ],
+                    [
+                        -97.7478959,
+                        30.281256
+                    ]
+                ]
+            },
+            "id": "way/652920942",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7475234, 30.2811439] is not present in Nodes file",
+                "Point [-97.7467322, 30.2809123] is not present in Nodes file",
+                "Point [-97.7476137, 30.2811703] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652919591",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457999,
+                        30.279667
+                    ],
+                    [
+                        -97.7459246,
+                        30.2793256
+                    ],
+                    [
+                        -97.7459471,
+                        30.2792661
+                    ],
+                    [
+                        -97.7460072,
+                        30.2790995
+                    ],
+                    [
+                        -97.7460285,
+                        30.2790443
+                    ],
+                    [
+                        -97.7460648,
+                        30.2789335
+                    ]
+                ]
+            },
+            "id": "way/652919591",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7460072, 30.2790995] is not present in Nodes file",
+                "Point [-97.7460648, 30.2789335] is not present in Nodes file",
+                "Point [-97.7459246, 30.2793256] is not present in Nodes file",
+                "Point [-97.7457999, 30.279667] is not present in Nodes file",
+                "Point [-97.7460285, 30.2790443] is not present in Nodes file",
+                "Point [-97.7459471, 30.2792661] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652919589",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7449661,
+                        30.279436
+                    ],
+                    [
+                        -97.7451841,
+                        30.2794966
+                    ],
+                    [
+                        -97.7456627,
+                        30.2796313
+                    ],
+                    [
+                        -97.7457404,
+                        30.279654
+                    ],
+                    [
+                        -97.7457867,
+                        30.2796697
+                    ],
+                    [
+                        -97.7457999,
+                        30.279667
+                    ]
+                ]
+            },
+            "id": "way/652919589",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7449661, 30.279436] is not present in Nodes file",
+                "Point [-97.7457404, 30.279654] is not present in Nodes file",
+                "Point [-97.7451841, 30.2794966] is not present in Nodes file",
+                "Point [-97.7456627, 30.2796313] is not present in Nodes file",
+                "Point [-97.7457867, 30.2796697] is not present in Nodes file",
+                "Point [-97.7457999, 30.279667] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/629000517",
+                "description": "sidewalk_link",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7465743,
+                        30.2808726
+                    ],
+                    [
+                        -97.7465435,
+                        30.2808649
+                    ]
+                ]
+            },
+            "id": "way/629000517",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7465435, 30.2808649] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/629000516",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7467095,
+                        30.2809068
+                    ],
+                    [
+                        -97.7467049,
+                        30.2809055
+                    ],
+                    [
+                        -97.7466355,
+                        30.2808869
+                    ],
+                    [
+                        -97.7465743,
+                        30.2808726
+                    ]
+                ]
+            },
+            "id": "way/629000516",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7467049, 30.2809055] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/629000514",
+                "description": "sidewalk_link",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7467292,
+                        30.2809404
+                    ],
+                    [
+                        -97.7467322,
+                        30.2809123
+                    ]
+                ]
+            },
+            "id": "way/629000514",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7467322, 30.2809123] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/629000513",
+                "crossing": "unmarked",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7466907,
+                        30.2810298
+                    ],
+                    [
+                        -97.7467041,
+                        30.2810031
+                    ],
+                    [
+                        -97.7467125,
+                        30.2809823
+                    ],
+                    [
+                        -97.7467292,
+                        30.2809404
+                    ]
+                ]
+            },
+            "id": "way/629000513",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7467125, 30.2809823] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/629000506",
+                "description": "West Ave (W. sidewalk)",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7464935,
+                        30.2815429
+                    ],
+                    [
+                        -97.7465566,
+                        30.2813819
+                    ],
+                    [
+                        -97.7465667,
+                        30.281357
+                    ],
+                    [
+                        -97.7465847,
+                        30.2813124
+                    ],
+                    [
+                        -97.7466907,
+                        30.2810298
+                    ]
+                ]
+            },
+            "id": "way/629000506",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7465566, 30.2813819] is not present in Nodes file",
+                "Point [-97.7464935, 30.2815429] is not present in Nodes file",
+                "Point [-97.7465667, 30.281357] is not present in Nodes file",
+                "Point [-97.7465847, 30.2813124] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618575097",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7460239,
+                        30.2797398
+                    ],
+                    [
+                        -97.7460127,
+                        30.2797238
+                    ],
+                    [
+                        -97.7461852,
+                        30.2792571
+                    ],
+                    [
+                        -97.7461938,
+                        30.2792358
+                    ],
+                    [
+                        -97.7462067,
+                        30.2792037
+                    ],
+                    [
+                        -97.7462506,
+                        30.2790994
+                    ],
+                    [
+                        -97.7462657,
+                        30.2790659
+                    ],
+                    [
+                        -97.7462772,
+                        30.2790535
+                    ],
+                    [
+                        -97.7462728,
+                        30.2790374
+                    ],
+                    [
+                        -97.7462887,
+                        30.2789868
+                    ]
+                ]
+            },
+            "id": "way/618575097",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7462728, 30.2790374] is not present in Nodes file",
+                "Point [-97.7462887, 30.2789868] is not present in Nodes file",
+                "Point [-97.7460127, 30.2797238] is not present in Nodes file",
+                "Point [-97.7460239, 30.2797398] is not present in Nodes file",
+                "Point [-97.7461852, 30.2792571] is not present in Nodes file",
+                "Point [-97.7462772, 30.2790535] is not present in Nodes file",
+                "Point [-97.7462657, 30.2790659] is not present in Nodes file",
+                "Point [-97.7462067, 30.2792037] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618575096",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7471705,
+                        30.2792395
+                    ],
+                    [
+                        -97.7471725,
+                        30.2792442
+                    ],
+                    [
+                        -97.7470533,
+                        30.2795748
+                    ],
+                    [
+                        -97.7470142,
+                        30.2796806
+                    ],
+                    [
+                        -97.7469962,
+                        30.2797289
+                    ],
+                    [
+                        -97.7469136,
+                        30.2799539
+                    ],
+                    [
+                        -97.746906,
+                        30.2799648
+                    ],
+                    [
+                        -97.7468921,
+                        30.2799727
+                    ]
+                ]
+            },
+            "id": "way/618575096",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7469136, 30.2799539] is not present in Nodes file",
+                "Point [-97.7471725, 30.2792442] is not present in Nodes file",
+                "Point [-97.7468921, 30.2799727] is not present in Nodes file",
+                "Point [-97.7471705, 30.2792395] is not present in Nodes file",
+                "Point [-97.746906, 30.2799648] is not present in Nodes file",
+                "Point [-97.7470533, 30.2795748] is not present in Nodes file",
+                "Point [-97.7470142, 30.2796806] is not present in Nodes file",
+                "Point [-97.7469962, 30.2797289] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618575095",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7468921,
+                        30.2799727
+                    ],
+                    [
+                        -97.7468772,
+                        30.2799757
+                    ],
+                    [
+                        -97.7468664,
+                        30.2799743
+                    ],
+                    [
+                        -97.7460239,
+                        30.2797398
+                    ]
+                ]
+            },
+            "id": "way/618575095",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7468772, 30.2799757] is not present in Nodes file",
+                "Point [-97.7468921, 30.2799727] is not present in Nodes file",
+                "Point [-97.7468664, 30.2799743] is not present in Nodes file",
+                "Point [-97.7460239, 30.2797398] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574660",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.746833,
+                        30.2801189
+                    ],
+                    [
+                        -97.7467653,
+                        30.2802973
+                    ],
+                    [
+                        -97.746756,
+                        30.2803175
+                    ],
+                    [
+                        -97.7467501,
+                        30.2803356
+                    ],
+                    [
+                        -97.7467423,
+                        30.2803583
+                    ],
+                    [
+                        -97.7467384,
+                        30.2803699
+                    ],
+                    [
+                        -97.7467046,
+                        30.2804748
+                    ],
+                    [
+                        -97.7466988,
+                        30.2805111
+                    ],
+                    [
+                        -97.7466964,
+                        30.2805252
+                    ],
+                    [
+                        -97.7466579,
+                        30.2805504
+                    ],
+                    [
+                        -97.7465435,
+                        30.2808649
+                    ]
+                ]
+            },
+            "id": "way/618574660",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7467423, 30.2803583] is not present in Nodes file",
+                "Point [-97.7466988, 30.2805111] is not present in Nodes file",
+                "Point [-97.746756, 30.2803175] is not present in Nodes file",
+                "Point [-97.7467046, 30.2804748] is not present in Nodes file",
+                "Point [-97.7467384, 30.2803699] is not present in Nodes file",
+                "Point [-97.746833, 30.2801189] is not present in Nodes file",
+                "Point [-97.7465435, 30.2808649] is not present in Nodes file",
+                "Point [-97.7466964, 30.2805252] is not present in Nodes file",
+                "Point [-97.7466579, 30.2805504] is not present in Nodes file",
+                "Point [-97.7467501, 30.2803356] is not present in Nodes file",
+                "Point [-97.7467653, 30.2802973] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574658",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7456803,
+                        30.2806108
+                    ],
+                    [
+                        -97.7459556,
+                        30.2798636
+                    ]
+                ]
+            },
+            "id": "way/618574658",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574655",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7459556,
+                        30.2798636
+                    ],
+                    [
+                        -97.7464477,
+                        30.2800039
+                    ],
+                    [
+                        -97.746833,
+                        30.2801189
+                    ]
+                ]
+            },
+            "id": "way/618574655",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.746833, 30.2801189] is not present in Nodes file",
+                "Point [-97.7464477, 30.2800039] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574652",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7465435,
+                        30.2808649
+                    ],
+                    [
+                        -97.7462726,
+                        30.2807873
+                    ],
+                    [
+                        -97.7462002,
+                        30.2807581
+                    ],
+                    [
+                        -97.7460881,
+                        30.2807238
+                    ],
+                    [
+                        -97.7459971,
+                        30.2806986
+                    ],
+                    [
+                        -97.7456803,
+                        30.2806108
+                    ]
+                ]
+            },
+            "id": "way/618574652",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7460881, 30.2807238] is not present in Nodes file",
+                "Point [-97.7462002, 30.2807581] is not present in Nodes file",
+                "Point [-97.7465435, 30.2808649] is not present in Nodes file",
+                "Point [-97.7459971, 30.2806986] is not present in Nodes file",
+                "Point [-97.7462726, 30.2807873] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574649",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7460229,
+                        30.2808571
+                    ],
+                    [
+                        -97.7458356,
+                        30.2808047
+                    ],
+                    [
+                        -97.7457911,
+                        30.2807902
+                    ],
+                    [
+                        -97.7456384,
+                        30.2807481
+                    ],
+                    [
+                        -97.7456313,
+                        30.2807523
+                    ]
+                ]
+            },
+            "id": "way/618574649",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7457911, 30.2807902] is not present in Nodes file",
+                "Point [-97.7456313, 30.2807523] is not present in Nodes file",
+                "Point [-97.7458356, 30.2808047] is not present in Nodes file",
+                "Point [-97.7456384, 30.2807481] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574646",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453545,
+                        30.281493
+                    ],
+                    [
+                        -97.7454386,
+                        30.2812564
+                    ],
+                    [
+                        -97.7454597,
+                        30.28121
+                    ],
+                    [
+                        -97.745483,
+                        30.2811445
+                    ],
+                    [
+                        -97.7455099,
+                        30.2810769
+                    ],
+                    [
+                        -97.7456313,
+                        30.2807523
+                    ]
+                ]
+            },
+            "id": "way/618574646",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7454597, 30.28121] is not present in Nodes file",
+                "Point [-97.7454386, 30.2812564] is not present in Nodes file",
+                "Point [-97.7456313, 30.2807523] is not present in Nodes file",
+                "Point [-97.7453545, 30.281493] is not present in Nodes file",
+                "Point [-97.745483, 30.2811445] is not present in Nodes file",
+                "Point [-97.7455099, 30.2810769] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618574643",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7456073,
+                        30.2815635
+                    ],
+                    [
+                        -97.7453545,
+                        30.281493
+                    ]
+                ]
+            },
+            "id": "way/618574643",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7453545, 30.281493] is not present in Nodes file",
+                "Point [-97.7456073, 30.2815635] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618573137",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453247,
+                        30.2816223
+                    ],
+                    [
+                        -97.7455847,
+                        30.2816963
+                    ],
+                    [
+                        -97.7457026,
+                        30.2817314
+                    ],
+                    [
+                        -97.74607,
+                        30.2818357
+                    ],
+                    [
+                        -97.7460926,
+                        30.2818401
+                    ],
+                    [
+                        -97.7461373,
+                        30.2818518
+                    ],
+                    [
+                        -97.7461895,
+                        30.2818703
+                    ]
+                ]
+            },
+            "id": "way/618573137",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7461373, 30.2818518] is not present in Nodes file",
+                "Point [-97.74607, 30.2818357] is not present in Nodes file",
+                "Point [-97.7461895, 30.2818703] is not present in Nodes file",
+                "Point [-97.7460926, 30.2818401] is not present in Nodes file",
+                "Point [-97.7453247, 30.2816223] is not present in Nodes file",
+                "Point [-97.7455847, 30.2816963] is not present in Nodes file",
+                "Point [-97.7457026, 30.2817314] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/618573136",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "OpenSidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450718,
+                        30.2825086
+                    ],
+                    [
+                        -97.7450617,
+                        30.2824976
+                    ],
+                    [
+                        -97.7450277,
+                        30.282416
+                    ],
+                    [
+                        -97.7450196,
+                        30.282395
+                    ],
+                    [
+                        -97.7450605,
+                        30.2822578
+                    ],
+                    [
+                        -97.7450698,
+                        30.2822314
+                    ],
+                    [
+                        -97.7450765,
+                        30.2822124
+                    ],
+                    [
+                        -97.7451009,
+                        30.2821633
+                    ],
+                    [
+                        -97.7451944,
+                        30.281921
+                    ],
+                    [
+                        -97.7452127,
+                        30.2818684
+                    ],
+                    [
+                        -97.7453072,
+                        30.2816173
+                    ],
+                    [
+                        -97.7453247,
+                        30.2816223
+                    ]
+                ]
+            },
+            "id": "way/618573136",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7453072, 30.2816173] is not present in Nodes file",
+                "Point [-97.7450698, 30.2822314] is not present in Nodes file",
+                "Point [-97.7453247, 30.2816223] is not present in Nodes file",
+                "Point [-97.7451009, 30.2821633] is not present in Nodes file",
+                "Point [-97.7452127, 30.2818684] is not present in Nodes file",
+                "Point [-97.7450718, 30.2825086] is not present in Nodes file",
+                "Point [-97.7451944, 30.281921] is not present in Nodes file",
+                "Point [-97.7450605, 30.2822578] is not present in Nodes file",
+                "Point [-97.7450765, 30.2822124] is not present in Nodes file",
+                "Point [-97.7450196, 30.282395] is not present in Nodes file",
+                "Point [-97.7450277, 30.282416] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/387759474",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "no",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7420094,
+                        30.2806076
+                    ],
+                    [
+                        -97.7421119,
+                        30.280637
+                    ],
+                    [
+                        -97.7428702,
+                        30.2808541
+                    ],
+                    [
+                        -97.7430807,
+                        30.2809144
+                    ],
+                    [
+                        -97.7441344,
+                        30.2812135
+                    ],
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ]
+                ]
+            },
+            "id": "way/387759474",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7441344, 30.2812135] is not present in Nodes file",
+                "Point [-97.7449859, 30.2814552] is not present in Nodes file",
+                "Point [-97.7430807, 30.2809144] is not present in Nodes file",
+                "Point [-97.7420094, 30.2806076] is not present in Nodes file",
+                "Point [-97.7428702, 30.2808541] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/327172673",
+                "highway": "unclassified",
+                "name": "West Avenue",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "West",
+                "tiger:name_type": "Ave",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7488573,
+                        30.2749138
+                    ],
+                    [
+                        -97.7488231,
+                        30.2750051
+                    ],
+                    [
+                        -97.7484715,
+                        30.275944
+                    ],
+                    [
+                        -97.7484317,
+                        30.2760504
+                    ],
+                    [
+                        -97.7483923,
+                        30.2761608
+                    ],
+                    [
+                        -97.748196,
+                        30.27668
+                    ],
+                    [
+                        -97.7481126,
+                        30.276932
+                    ],
+                    [
+                        -97.7480046,
+                        30.2772585
+                    ],
+                    [
+                        -97.7479825,
+                        30.2773173
+                    ],
+                    [
+                        -97.7479547,
+                        30.2773915
+                    ],
+                    [
+                        -97.7478477,
+                        30.2776504
+                    ],
+                    [
+                        -97.747656,
+                        30.278172
+                    ],
+                    [
+                        -97.7474841,
+                        30.2786413
+                    ],
+                    [
+                        -97.7473349,
+                        30.2790212
+                    ],
+                    [
+                        -97.747314,
+                        30.2790765
+                    ],
+                    [
+                        -97.7472665,
+                        30.2791944
+                    ],
+                    [
+                        -97.7472446,
+                        30.2792545
+                    ],
+                    [
+                        -97.7469674,
+                        30.2800163
+                    ],
+                    [
+                        -97.7469406,
+                        30.28009
+                    ],
+                    [
+                        -97.7469206,
+                        30.2801421
+                    ],
+                    [
+                        -97.7468279,
+                        30.2803844
+                    ],
+                    [
+                        -97.7466355,
+                        30.2808869
+                    ],
+                    [
+                        -97.7466006,
+                        30.2809735
+                    ],
+                    [
+                        -97.7464676,
+                        30.2813233
+                    ],
+                    [
+                        -97.7463215,
+                        30.2817076
+                    ],
+                    [
+                        -97.7462877,
+                        30.2817966
+                    ],
+                    [
+                        -97.746275,
+                        30.28183
+                    ],
+                    [
+                        -97.7461003,
+                        30.2823526
+                    ],
+                    [
+                        -97.7460489,
+                        30.2825008
+                    ],
+                    [
+                        -97.7459573,
+                        30.2827648
+                    ],
+                    [
+                        -97.7459264,
+                        30.2828538
+                    ]
+                ]
+            },
+            "id": "way/327172673",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
+                "Point [-97.7481126, 30.276932] is not present in Nodes file",
+                "Point [-97.7460489, 30.2825008] is not present in Nodes file",
+                "Point [-97.7466006, 30.2809735] is not present in Nodes file",
+                "Point [-97.7469406, 30.28009] is not present in Nodes file",
+                "Point [-97.7461003, 30.2823526] is not present in Nodes file",
+                "Point [-97.7479547, 30.2773915] is not present in Nodes file",
+                "Point [-97.7464676, 30.2813233] is not present in Nodes file",
+                "Point [-97.748196, 30.27668] is not present in Nodes file",
+                "Point [-97.7474841, 30.2786413] is not present in Nodes file",
+                "Point [-97.746275, 30.28183] is not present in Nodes file",
+                "Point [-97.7468279, 30.2803844] is not present in Nodes file",
+                "Point [-97.747656, 30.278172] is not present in Nodes file",
+                "Point [-97.7462877, 30.2817966] is not present in Nodes file",
+                "Point [-97.7459264, 30.2828538] is not present in Nodes file",
+                "Point [-97.7480046, 30.2772585] is not present in Nodes file",
+                "Point [-97.7463215, 30.2817076] is not present in Nodes file",
+                "Point [-97.7478477, 30.2776504] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/327172672",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "sidewalk": "no",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ],
+                    [
+                        -97.746275,
+                        30.28183
+                    ]
+                ]
+            },
+            "id": "way/327172672",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7457427, 30.2816849] is not present in Nodes file",
+                "Point [-97.746275, 30.28183] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/327172653",
+                "highway": "unclassified",
+                "name": "Nueces Street",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Nueces",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7477607,
+                        30.2715035
+                    ],
+                    [
+                        -97.7475846,
+                        30.2719677
+                    ],
+                    [
+                        -97.7474386,
+                        30.2723491
+                    ],
+                    [
+                        -97.7474037,
+                        30.2724404
+                    ],
+                    [
+                        -97.7473769,
+                        30.2725149
+                    ],
+                    [
+                        -97.7472325,
+                        30.2729163
+                    ],
+                    [
+                        -97.7470905,
+                        30.2732919
+                    ],
+                    [
+                        -97.7470581,
+                        30.2733777
+                    ],
+                    [
+                        -97.7470322,
+                        30.2734473
+                    ],
+                    [
+                        -97.746715,
+                        30.2743004
+                    ],
+                    [
+                        -97.7464981,
+                        30.2748741
+                    ],
+                    [
+                        -97.746303,
+                        30.275402
+                    ],
+                    [
+                        -97.7462648,
+                        30.2755052
+                    ],
+                    [
+                        -97.7460449,
+                        30.2760605
+                    ],
+                    [
+                        -97.7458491,
+                        30.2766099
+                    ],
+                    [
+                        -97.7456712,
+                        30.2770795
+                    ],
+                    [
+                        -97.745502,
+                        30.277567
+                    ],
+                    [
+                        -97.7453297,
+                        30.2780339
+                    ],
+                    [
+                        -97.7451711,
+                        30.2784659
+                    ],
+                    [
+                        -97.7451294,
+                        30.2785766
+                    ],
+                    [
+                        -97.7447877,
+                        30.2794791
+                    ],
+                    [
+                        -97.7444583,
+                        30.2803564
+                    ],
+                    [
+                        -97.7443005,
+                        30.280774
+                    ],
+                    [
+                        -97.7441344,
+                        30.2812135
+                    ],
+                    [
+                        -97.7440641,
+                        30.2813967
+                    ]
+                ]
+            },
+            "id": "way/327172653",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
+                "Point [-97.7475846, 30.2719677] is not present in Nodes file",
+                "Point [-97.745502, 30.277567] is not present in Nodes file",
+                "Point [-97.7441344, 30.2812135] is not present in Nodes file",
+                "Point [-97.7460449, 30.2760605] is not present in Nodes file",
+                "Point [-97.7440641, 30.2813967] is not present in Nodes file",
+                "Point [-97.7458491, 30.2766099] is not present in Nodes file",
+                "Point [-97.7453297, 30.2780339] is not present in Nodes file",
+                "Point [-97.7472325, 30.2729163] is not present in Nodes file",
+                "Point [-97.7464981, 30.2748741] is not present in Nodes file",
+                "Point [-97.7447877, 30.2794791] is not present in Nodes file",
+                "Point [-97.7456712, 30.2770795] is not present in Nodes file",
+                "Point [-97.7444583, 30.2803564] is not present in Nodes file",
+                "Point [-97.7443005, 30.280774] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612940",
+                "highway": "residential",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ],
+                    [
+                        -97.7451603,
+                        30.2814747
+                    ],
+                    [
+                        -97.745143,
+                        30.2814995
+                    ],
+                    [
+                        -97.7451377,
+                        30.2815282
+                    ],
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ]
+                ]
+            },
+            "id": "way/310612940",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7451377, 30.2815282] is not present in Nodes file",
+                "Point [-97.7451603, 30.2814747] is not present in Nodes file",
+                "Point [-97.7451454, 30.2815564] is not present in Nodes file",
+                "Point [-97.7451872, 30.2814574] is not present in Nodes file",
+                "Point [-97.745143, 30.2814995] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612938",
+                "highway": "residential",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ],
+                    [
+                        -97.745166,
+                        30.281581
+                    ],
+                    [
+                        -97.7451962,
+                        30.2815966
+                    ],
+                    [
+                        -97.7452311,
+                        30.2816007
+                    ],
+                    [
+                        -97.745265,
+                        30.2815925
+                    ],
+                    [
+                        -97.7452909,
+                        30.2815751
+                    ],
+                    [
+                        -97.7453074,
+                        30.2815507
+                    ],
+                    [
+                        -97.7453124,
+                        30.2815227
+                    ],
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ],
+                    [
+                        -97.745285,
+                        30.2814705
+                    ],
+                    [
+                        -97.7452554,
+                        30.2814546
+                    ],
+                    [
+                        -97.745221,
+                        30.28145
+                    ],
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ]
+                ]
+            },
+            "id": "way/310612938",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-97.7452554, 30.2814546] is not present in Nodes file",
+                "Point [-97.7453124, 30.2815227] is not present in Nodes file",
+                "Point [-97.7452311, 30.2816007] is not present in Nodes file",
+                "Point [-97.7452909, 30.2815751] is not present in Nodes file",
+                "Point [-97.745285, 30.2814705] is not present in Nodes file",
+                "Point [-97.7451454, 30.2815564] is not present in Nodes file",
+                "Point [-97.745265, 30.2815925] is not present in Nodes file",
+                "Point [-97.7451962, 30.2815966] is not present in Nodes file",
+                "Point [-97.745166, 30.281581] is not present in Nodes file",
+                "Point [-97.745221, 30.28145] is not present in Nodes file",
+                "Point [-97.7453074, 30.2815507] is not present in Nodes file",
+                "Point [-97.7451872, 30.2814574] is not present in Nodes file",
+                "Point [-97.7453051, 30.2814951] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612934",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "sidewalk": "right",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ],
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ]
+                ]
+            },
+            "id": "way/310612934",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7457427, 30.2816849] is not present in Nodes file",
+                "Point [-97.7454803, 30.2816014] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612933",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745265,
+                        30.2815925
+                    ],
+                    [
+                        -97.7453376,
+                        30.2815851
+                    ],
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ]
+                ]
+            },
+            "id": "way/310612933",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7453376, 30.2815851] is not present in Nodes file",
+                "Point [-97.745265, 30.2815925] is not present in Nodes file",
+                "Point [-97.7454803, 30.2816014] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612932",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ],
+                    [
+                        -97.7450958,
+                        30.2815136
+                    ],
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ]
+                ]
+            },
+            "id": "way/310612932",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7450958, 30.2815136] is not present in Nodes file",
+                "Point [-97.7451454, 30.2815564] is not present in Nodes file",
+                "Point [-97.7449859, 30.2814552] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612931",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ],
+                    [
+                        -97.7451091,
+                        30.2814672
+                    ],
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ]
+                ]
+            },
+            "id": "way/310612931",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7451091, 30.2814672] is not present in Nodes file",
+                "Point [-97.7449859, 30.2814552] is not present in Nodes file",
+                "Point [-97.7451872, 30.2814574] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612930",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ],
+                    [
+                        -97.7453573,
+                        30.2815406
+                    ],
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ]
+                ]
+            },
+            "id": "way/310612930",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7453573, 30.2815406] is not present in Nodes file",
+                "Point [-97.7454803, 30.2816014] is not present in Nodes file",
+                "Point [-97.7453051, 30.2814951] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612929",
+                "highway": "residential",
+                "lanes": "2",
+                "name": "Rio Grande Street",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745144,
+                        30.2817485
+                    ],
+                    [
+                        -97.745041,
+                        30.2820241
+                    ],
+                    [
+                        -97.7449775,
+                        30.2822049
+                    ],
+                    [
+                        -97.7449625,
+                        30.2822478
+                    ]
+                ]
+            },
+            "id": "way/310612929",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.745041, 30.2820241] is not present in Nodes file",
+                "Point [-97.745144, 30.2817485] is not present in Nodes file",
+                "Point [-97.7449625, 30.2822478] is not present in Nodes file",
+                "Point [-97.7449775, 30.2822049] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612928",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745144,
+                        30.2817485
+                    ],
+                    [
+                        -97.7452109,
+                        30.2816405
+                    ],
+                    [
+                        -97.745265,
+                        30.2815925
+                    ]
+                ]
+            },
+            "id": "way/310612928",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7452109, 30.2816405] is not present in Nodes file",
+                "Point [-97.745265, 30.2815925] is not present in Nodes file",
+                "Point [-97.745144, 30.2817485] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612927",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ],
+                    [
+                        -97.7451548,
+                        30.281623
+                    ],
+                    [
+                        -97.745144,
+                        30.2817485
+                    ]
+                ]
+            },
+            "id": "way/310612927",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7451454, 30.2815564] is not present in Nodes file",
+                "Point [-97.7451548, 30.281623] is not present in Nodes file",
+                "Point [-97.745144, 30.2817485] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612926",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ],
+                    [
+                        -97.7452942,
+                        30.2814302
+                    ],
+                    [
+                        -97.745307,
+                        30.2813091
+                    ]
+                ]
+            },
+            "id": "way/310612926",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.745307, 30.2813091] is not present in Nodes file",
+                "Point [-97.7452942, 30.2814302] is not present in Nodes file",
+                "Point [-97.7453051, 30.2814951] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612925",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745307,
+                        30.2813091
+                    ],
+                    [
+                        -97.7452346,
+                        30.2814187
+                    ],
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ]
+                ]
+            },
+            "id": "way/310612925",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7452346, 30.2814187] is not present in Nodes file",
+                "Point [-97.745307, 30.2813091] is not present in Nodes file",
+                "Point [-97.7451872, 30.2814574] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/124953233",
+                "highway": "residential",
+                "name": "West 17th Street",
+                "old_name": "Linden Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "17th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7433995,
+                        30.2800552
+                    ],
+                    [
+                        -97.7439199,
+                        30.2802032
+                    ],
+                    [
+                        -97.7444583,
+                        30.2803564
+                    ],
+                    [
+                        -97.7454654,
+                        30.280643
+                    ],
+                    [
+                        -97.7455643,
+                        30.2806711
+                    ],
+                    [
+                        -97.7456436,
+                        30.2806937
+                    ],
+                    [
+                        -97.7460697,
+                        30.2808149
+                    ],
+                    [
+                        -97.7466006,
+                        30.2809735
+                    ]
+                ]
+            },
+            "id": "way/124953233",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7466006, 30.2809735] is not present in Nodes file",
+                "Point [-97.7455643, 30.2806711] is not present in Nodes file",
+                "Point [-97.7439199, 30.2802032] is not present in Nodes file",
+                "Point [-97.7460697, 30.2808149] is not present in Nodes file",
+                "Point [-97.7444583, 30.2803564] is not present in Nodes file",
+                "Point [-97.7433995, 30.2800552] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/124953231",
+                "highway": "residential",
+                "name": "West 16th Street",
+                "old_name": "Cherry Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "16th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7437337,
+                        30.2791792
+                    ],
+                    [
+                        -97.7442343,
+                        30.2793216
+                    ],
+                    [
+                        -97.7447877,
+                        30.2794791
+                    ],
+                    [
+                        -97.7457877,
+                        30.2797629
+                    ],
+                    [
+                        -97.7458743,
+                        30.2797882
+                    ],
+                    [
+                        -97.745971,
+                        30.2798175
+                    ],
+                    [
+                        -97.7468593,
+                        30.280067
+                    ],
+                    [
+                        -97.7469406,
+                        30.28009
+                    ]
+                ]
+            },
+            "id": "way/124953231",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7437337, 30.2791792] is not present in Nodes file",
+                "Point [-97.7469406, 30.28009] is not present in Nodes file",
+                "Point [-97.7458743, 30.2797882] is not present in Nodes file",
+                "Point [-97.7442343, 30.2793216] is not present in Nodes file",
+                "Point [-97.7447877, 30.2794791] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37785784",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745041,
+                        30.2820241
+                    ],
+                    [
+                        -97.7449267,
+                        30.2819906
+                    ],
+                    [
+                        -97.7440351,
+                        30.2817285
+                    ],
+                    [
+                        -97.7439466,
+                        30.2817025
+                    ],
+                    [
+                        -97.7438638,
+                        30.2816789
+                    ],
+                    [
+                        -97.7434218,
+                        30.2815527
+                    ],
+                    [
+                        -97.7429895,
+                        30.2814293
+                    ],
+                    [
+                        -97.7428956,
+                        30.2814025
+                    ]
+                ]
+            },
+            "id": "way/37785784",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7429895, 30.2814293] is not present in Nodes file",
+                "Point [-97.7439466, 30.2817025] is not present in Nodes file",
+                "Point [-97.7434218, 30.2815527] is not present in Nodes file",
+                "Point [-97.7438638, 30.2816789] is not present in Nodes file",
+                "Point [-97.7440351, 30.2817285] is not present in Nodes file",
+                "Point [-97.745041, 30.2820241] is not present in Nodes file",
+                "Point [-97.7449267, 30.2819906] is not present in Nodes file",
+                "Point [-97.7428956, 30.2814025] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37785783",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7460697,
+                        30.2808149
+                    ],
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ]
+                ]
+            },
+            "id": "way/37785783",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7457427, 30.2816849] is not present in Nodes file",
+                "Point [-97.7460697, 30.2808149] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37785782",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7421601,
+                        30.2801796
+                    ],
+                    [
+                        -97.742267,
+                        30.2802092
+                    ],
+                    [
+                        -97.7423552,
+                        30.2802336
+                    ],
+                    [
+                        -97.7425186,
+                        30.2802788
+                    ],
+                    [
+                        -97.7427657,
+                        30.2803471
+                    ],
+                    [
+                        -97.7429039,
+                        30.2803854
+                    ],
+                    [
+                        -97.7430145,
+                        30.2804159
+                    ],
+                    [
+                        -97.7430458,
+                        30.2804246
+                    ],
+                    [
+                        -97.7431293,
+                        30.2804477
+                    ],
+                    [
+                        -97.7432383,
+                        30.2804778
+                    ],
+                    [
+                        -97.743345,
+                        30.2805081
+                    ],
+                    [
+                        -97.7442267,
+                        30.2807534
+                    ],
+                    [
+                        -97.7443005,
+                        30.280774
+                    ],
+                    [
+                        -97.7444124,
+                        30.2808045
+                    ],
+                    [
+                        -97.7452849,
+                        30.2810422
+                    ],
+                    [
+                        -97.7454126,
+                        30.2810768
+                    ]
+                ]
+            },
+            "id": "way/37785782",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7432383, 30.2804778] is not present in Nodes file",
+                "Point [-97.7431293, 30.2804477] is not present in Nodes file",
+                "Point [-97.7442267, 30.2807534] is not present in Nodes file",
+                "Point [-97.7429039, 30.2803854] is not present in Nodes file",
+                "Point [-97.742267, 30.2802092] is not present in Nodes file",
+                "Point [-97.7454126, 30.2810768] is not present in Nodes file",
+                "Point [-97.7430458, 30.2804246] is not present in Nodes file",
+                "Point [-97.7430145, 30.2804159] is not present in Nodes file",
+                "Point [-97.7423552, 30.2802336] is not present in Nodes file",
+                "Point [-97.7425186, 30.2802788] is not present in Nodes file",
+                "Point [-97.7452849, 30.2810422] is not present in Nodes file",
+                "Point [-97.743345, 30.2805081] is not present in Nodes file",
+                "Point [-97.7444124, 30.2808045] is not present in Nodes file",
+                "Point [-97.7421601, 30.2801796] is not present in Nodes file",
+                "Point [-97.7427657, 30.2803471] is not present in Nodes file",
+                "Point [-97.7443005, 30.280774] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37785778",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7445933,
+                        30.2784256
+                    ],
+                    [
+                        -97.7445686,
+                        30.2784872
+                    ],
+                    [
+                        -97.7445345,
+                        30.2785724
+                    ],
+                    [
+                        -97.7445081,
+                        30.2786383
+                    ],
+                    [
+                        -97.7442688,
+                        30.2792355
+                    ],
+                    [
+                        -97.7442343,
+                        30.2793216
+                    ],
+                    [
+                        -97.7442163,
+                        30.2793701
+                    ],
+                    [
+                        -97.7439509,
+                        30.2801163
+                    ],
+                    [
+                        -97.7439199,
+                        30.2802032
+                    ]
+                ]
+            },
+            "id": "way/37785778",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-97.7442163, 30.2793701] is not present in Nodes file",
+                "Point [-97.7445933, 30.2784256] is not present in Nodes file",
+                "Point [-97.7439509, 30.2801163] is not present in Nodes file",
+                "Point [-97.7439199, 30.2802032] is not present in Nodes file",
+                "Point [-97.7445345, 30.2785724] is not present in Nodes file",
+                "Point [-97.7445686, 30.2784872] is not present in Nodes file",
+                "Point [-97.7442343, 30.2793216] is not present in Nodes file",
+                "Point [-97.7445081, 30.2786383] is not present in Nodes file",
+                "Point [-97.7442688, 30.2792355] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37020526",
+                "highway": "residential",
+                "name": "West 17th Street",
+                "old_name": "Linden Street",
+                "sidewalk": "left",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "17th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7466006,
+                        30.2809735
+                    ],
+                    [
+                        -97.7467041,
+                        30.2810031
+                    ],
+                    [
+                        -97.7479146,
+                        30.2813494
+                    ]
+                ]
+            },
+            "id": "way/37020526",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7466006, 30.2809735] is not present in Nodes file",
+                "Point [-97.7479146, 30.2813494] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37020524",
+                "highway": "residential",
+                "name": "West 16th Street",
+                "old_name": "Cherry Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "16th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7469406,
+                        30.28009
+                    ],
+                    [
+                        -97.7470321,
+                        30.2801162
+                    ],
+                    [
+                        -97.7482536,
+                        30.2804656
+                    ],
+                    [
+                        -97.7488691,
+                        30.2806416
+                    ]
+                ]
+            },
+            "id": "way/37020524",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'tiger:county', is not a valid OSW tag",
+                "Point [-97.7469406, 30.28009] is not present in Nodes file",
+                "Point [-97.7488691, 30.2806416] is not present in Nodes file",
+                "Point [-97.7482536, 30.2804656] is not present in Nodes file"
+            ]
+        }
+    ]
+}

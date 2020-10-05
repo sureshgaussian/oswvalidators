@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/344681144",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2038601,
+                        47.617961
+                    ],
+                    [
+                        -122.2038587,
+                        47.6181398
+                    ]
+                ]
+            },
+            "id": "way/344681144"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/743695059",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2038601,
+                        47.617961
+                    ],
+                    [
+                        -122.2041963,
+                        47.6179622
+                    ],
+                    [
+                        -122.2043965,
+                        47.6179629
+                    ]
+                ]
+            },
+            "id": "way/743695059"
+        }
+    ]
+}

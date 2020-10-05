@@ -1,0 +1,209 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334649602",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9802685,
+                        39.7381128
+                    ],
+                    [
+                        -104.9802706,
+                        39.7383559
+                    ],
+                    [
+                        -104.980271,
+                        39.7384375
+                    ]
+                ]
+            },
+            "id": "way/334649602"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643734",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787415,
+                        39.738433
+                    ],
+                    [
+                        -104.9786597,
+                        39.7384328
+                    ],
+                    [
+                        -104.9781472,
+                        39.7384313
+                    ]
+                ]
+            },
+            "id": "way/628643734"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643735",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9791141,
+                        39.7384341
+                    ],
+                    [
+                        -104.978837,
+                        39.7384333
+                    ],
+                    [
+                        -104.9787415,
+                        39.738433
+                    ]
+                ]
+            },
+            "id": "way/628643735"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643736",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9799035,
+                        39.7384364
+                    ],
+                    [
+                        -104.9798183,
+                        39.7384362
+                    ],
+                    [
+                        -104.979329,
+                        39.7384348
+                    ],
+                    [
+                        -104.9791141,
+                        39.7384341
+                    ]
+                ]
+            },
+            "id": "way/628643736"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643737",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.980271,
+                        39.7384375
+                    ],
+                    [
+                        -104.98,
+                        39.7384367
+                    ],
+                    [
+                        -104.9799035,
+                        39.7384364
+                    ]
+                ]
+            },
+            "id": "way/628643737"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643738",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9811093,
+                        39.73844
+                    ],
+                    [
+                        -104.9809984,
+                        39.7384397
+                    ],
+                    [
+                        -104.9808915,
+                        39.7384394
+                    ],
+                    [
+                        -104.9806783,
+                        39.7384387
+                    ],
+                    [
+                        -104.9804834,
+                        39.7384382
+                    ],
+                    [
+                        -104.980271,
+                        39.7384375
+                    ]
+                ]
+            },
+            "id": "way/628643738"
+        }
+    ]
+}

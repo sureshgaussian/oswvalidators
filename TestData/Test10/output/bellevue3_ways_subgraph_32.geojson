@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490817",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "Northeast 10th Street",
+                "oneway": "yes",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "10th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2067522,
+                        47.6192588
+                    ],
+                    [
+                        -122.2066294,
+                        47.6192169
+                    ],
+                    [
+                        -122.2063176,
+                        47.6192202
+                    ],
+                    [
+                        -122.2059133,
+                        47.6192231
+                    ],
+                    [
+                        -122.2058114,
+                        47.6192421
+                    ],
+                    [
+                        -122.2057105,
+                        47.6192442
+                    ],
+                    [
+                        -122.2053849,
+                        47.6192472
+                    ],
+                    [
+                        -122.2052917,
+                        47.6192784
+                    ]
+                ]
+            },
+            "id": "way/513490817"
+        }
+    ]
+}

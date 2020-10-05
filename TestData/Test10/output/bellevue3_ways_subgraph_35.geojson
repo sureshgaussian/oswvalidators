@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/592205861",
+                "highway": "corridor",
+                "indoor": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2039632,
+                        47.6156013
+                    ],
+                    [
+                        -122.2039795,
+                        47.6161414
+                    ],
+                    [
+                        -122.2039947,
+                        47.6167381
+                    ]
+                ]
+            },
+            "id": "way/592205861"
+        }
+    ]
+}

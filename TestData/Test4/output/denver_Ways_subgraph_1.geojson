@@ -1,0 +1,360 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/119422848",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "Washington Street",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ],
+                    [
+                        -104.9787259,
+                        39.7368163
+                    ],
+                    [
+                        -104.9787215,
+                        39.7364259
+                    ],
+                    [
+                        -104.9787189,
+                        39.7361959
+                    ],
+                    [
+                        -104.9787159,
+                        39.735936
+                    ],
+                    [
+                        -104.978708,
+                        39.7352449
+                    ],
+                    [
+                        -104.978707,
+                        39.7351615
+                    ],
+                    [
+                        -104.9787064,
+                        39.735066
+                    ],
+                    [
+                        -104.9787043,
+                        39.7347569
+                    ],
+                    [
+                        -104.9787021,
+                        39.734437
+                    ],
+                    [
+                        -104.978701,
+                        39.7342763
+                    ],
+                    [
+                        -104.9787003,
+                        39.7341719
+                    ],
+                    [
+                        -104.9786989,
+                        39.7339654
+                    ],
+                    [
+                        -104.9786978,
+                        39.7337966
+                    ],
+                    [
+                        -104.9786973,
+                        39.733699
+                    ],
+                    [
+                        -104.9786966,
+                        39.7335994
+                    ],
+                    [
+                        -104.9786956,
+                        39.7334203
+                    ],
+                    [
+                        -104.9786921,
+                        39.7327633
+                    ],
+                    [
+                        -104.9786886,
+                        39.7321289
+                    ],
+                    [
+                        -104.9786881,
+                        39.7320518
+                    ],
+                    [
+                        -104.9786874,
+                        39.7319384
+                    ],
+                    [
+                        -104.9786843,
+                        39.7314557
+                    ],
+                    [
+                        -104.978679,
+                        39.7306273
+                    ]
+                ]
+            },
+            "id": "way/119422848"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643777",
+                "highway": "tertiary",
+                "lanes": "2",
+                "name": "Washington Street",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787515,
+                        39.7398161
+                    ],
+                    [
+                        -104.9787477,
+                        39.7393467
+                    ],
+                    [
+                        -104.9787458,
+                        39.7390973
+                    ],
+                    [
+                        -104.9787453,
+                        39.7389253
+                    ],
+                    [
+                        -104.978744,
+                        39.7385234
+                    ],
+                    [
+                        -104.9787415,
+                        39.738433
+                    ],
+                    [
+                        -104.9787394,
+                        39.7383448
+                    ],
+                    [
+                        -104.9787288,
+                        39.7375915
+                    ],
+                    [
+                        -104.9787283,
+                        39.737443
+                    ],
+                    [
+                        -104.9787277,
+                        39.7372423
+                    ],
+                    [
+                        -104.9787267,
+                        39.7369473
+                    ],
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ]
+                ]
+            },
+            "id": "way/628643777"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657298",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.978351,
+                        39.7368842
+                    ],
+                    [
+                        -104.978647,
+                        39.7368845
+                    ],
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ]
+                ]
+            },
+            "id": "way/628657298"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657300",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ],
+                    [
+                        -104.9788053,
+                        39.7368846
+                    ],
+                    [
+                        -104.9793163,
+                        39.736885
+                    ],
+                    [
+                        -104.9794587,
+                        39.7368851
+                    ]
+                ]
+            },
+            "id": "way/628657300"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657301",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9794587,
+                        39.7368851
+                    ],
+                    [
+                        -104.9798211,
+                        39.7368854
+                    ],
+                    [
+                        -104.979883,
+                        39.7368854
+                    ]
+                ]
+            },
+            "id": "way/628657301"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657303",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.979883,
+                        39.7368854
+                    ],
+                    [
+                        -104.9799873,
+                        39.7368855
+                    ],
+                    [
+                        -104.9804742,
+                        39.7368859
+                    ],
+                    [
+                        -104.9806537,
+                        39.736886
+                    ]
+                ]
+            },
+            "id": "way/628657303"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657307",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9806537,
+                        39.736886
+                    ],
+                    [
+                        -104.9809845,
+                        39.7368863
+                    ],
+                    [
+                        -104.9810987,
+                        39.7368864
+                    ]
+                ]
+            },
+            "id": "way/628657307"
+        }
+    ]
+}

@@ -1,0 +1,645 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37785783",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7460697,
+                        30.2808149
+                    ],
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ]
+                ]
+            },
+            "id": "way/37785783"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612925",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745307,
+                        30.2813091
+                    ],
+                    [
+                        -97.7452346,
+                        30.2814187
+                    ],
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ]
+                ]
+            },
+            "id": "way/310612925"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612926",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ],
+                    [
+                        -97.7452942,
+                        30.2814302
+                    ],
+                    [
+                        -97.745307,
+                        30.2813091
+                    ]
+                ]
+            },
+            "id": "way/310612926"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612927",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ],
+                    [
+                        -97.7451548,
+                        30.281623
+                    ],
+                    [
+                        -97.745144,
+                        30.2817485
+                    ]
+                ]
+            },
+            "id": "way/310612927"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612928",
+                "highway": "residential",
+                "name": "Rio Grande Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745144,
+                        30.2817485
+                    ],
+                    [
+                        -97.7452109,
+                        30.2816405
+                    ],
+                    [
+                        -97.745265,
+                        30.2815925
+                    ]
+                ]
+            },
+            "id": "way/310612928"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612929",
+                "highway": "residential",
+                "lanes": "2",
+                "name": "Rio Grande Street",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745144,
+                        30.2817485
+                    ],
+                    [
+                        -97.745041,
+                        30.2820241
+                    ],
+                    [
+                        -97.7449775,
+                        30.2822049
+                    ],
+                    [
+                        -97.7449625,
+                        30.2822478
+                    ]
+                ]
+            },
+            "id": "way/310612929"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612930",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ],
+                    [
+                        -97.7453573,
+                        30.2815406
+                    ],
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ]
+                ]
+            },
+            "id": "way/310612930"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612931",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ],
+                    [
+                        -97.7451091,
+                        30.2814672
+                    ],
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ]
+                ]
+            },
+            "id": "way/310612931"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612932",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ],
+                    [
+                        -97.7450958,
+                        30.2815136
+                    ],
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ]
+                ]
+            },
+            "id": "way/310612932"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612933",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.745265,
+                        30.2815925
+                    ],
+                    [
+                        -97.7453376,
+                        30.2815851
+                    ],
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ]
+                ]
+            },
+            "id": "way/310612933"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612934",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "sidewalk": "right",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7454803,
+                        30.2816014
+                    ],
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ]
+                ]
+            },
+            "id": "way/310612934"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612938",
+                "highway": "residential",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ],
+                    [
+                        -97.745166,
+                        30.281581
+                    ],
+                    [
+                        -97.7451962,
+                        30.2815966
+                    ],
+                    [
+                        -97.7452311,
+                        30.2816007
+                    ],
+                    [
+                        -97.745265,
+                        30.2815925
+                    ],
+                    [
+                        -97.7452909,
+                        30.2815751
+                    ],
+                    [
+                        -97.7453074,
+                        30.2815507
+                    ],
+                    [
+                        -97.7453124,
+                        30.2815227
+                    ],
+                    [
+                        -97.7453051,
+                        30.2814951
+                    ],
+                    [
+                        -97.745285,
+                        30.2814705
+                    ],
+                    [
+                        -97.7452554,
+                        30.2814546
+                    ],
+                    [
+                        -97.745221,
+                        30.28145
+                    ],
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ]
+                ]
+            },
+            "id": "way/310612938"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/310612940",
+                "highway": "residential",
+                "oneway": "yes",
+                "sidewalk": "right",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451872,
+                        30.2814574
+                    ],
+                    [
+                        -97.7451603,
+                        30.2814747
+                    ],
+                    [
+                        -97.745143,
+                        30.2814995
+                    ],
+                    [
+                        -97.7451377,
+                        30.2815282
+                    ],
+                    [
+                        -97.7451454,
+                        30.2815564
+                    ]
+                ]
+            },
+            "id": "way/310612940"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/327172672",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "sidewalk": "no",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7457427,
+                        30.2816849
+                    ],
+                    [
+                        -97.746275,
+                        30.28183
+                    ]
+                ]
+            },
+            "id": "way/327172672"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/387759474",
+                "highway": "residential",
+                "name": "West 18th Street",
+                "old_name": "Chestnut Street",
+                "oneway": "no",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "18th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "yes",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7420094,
+                        30.2806076
+                    ],
+                    [
+                        -97.7421119,
+                        30.280637
+                    ],
+                    [
+                        -97.7428702,
+                        30.2808541
+                    ],
+                    [
+                        -97.7430807,
+                        30.2809144
+                    ],
+                    [
+                        -97.7441344,
+                        30.2812135
+                    ],
+                    [
+                        -97.7449859,
+                        30.2814552
+                    ]
+                ]
+            },
+            "id": "way/387759474"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/764470890",
+                "highway": "unclassified",
+                "lanes": "2",
+                "maxspeed": "20 mph",
+                "name": "Rio Grande Street",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Rio Grande",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7461361,
+                        30.2790692
+                    ],
+                    [
+                        -97.7460866,
+                        30.2792051
+                    ],
+                    [
+                        -97.7459041,
+                        30.2797063
+                    ],
+                    [
+                        -97.7458743,
+                        30.2797882
+                    ],
+                    [
+                        -97.7458595,
+                        30.2798303
+                    ],
+                    [
+                        -97.745592,
+                        30.2805923
+                    ],
+                    [
+                        -97.7455643,
+                        30.2806711
+                    ],
+                    [
+                        -97.7455452,
+                        30.2807223
+                    ],
+                    [
+                        -97.7454126,
+                        30.2810768
+                    ],
+                    [
+                        -97.745307,
+                        30.2813091
+                    ]
+                ]
+            },
+            "id": "way/764470890"
+        }
+    ]
+}

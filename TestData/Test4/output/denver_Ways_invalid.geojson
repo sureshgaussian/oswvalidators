@@ -1,0 +1,3106 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/717901979",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9851586,
+                        39.7369541
+                    ],
+                    [
+                        -104.9849679,
+                        39.7369541
+                    ],
+                    [
+                        -104.9848785,
+                        39.7369565
+                    ],
+                    [
+                        -104.9847332,
+                        39.7369603
+                    ],
+                    [
+                        -104.9847115,
+                        39.7369463
+                    ],
+                    [
+                        -104.9842449,
+                        39.7369478
+                    ],
+                    [
+                        -104.983739,
+                        39.736951
+                    ],
+                    [
+                        -104.9836032,
+                        39.736951
+                    ],
+                    [
+                        -104.9834702,
+                        39.736952
+                    ],
+                    [
+                        -104.9829355,
+                        39.7369519
+                    ],
+                    [
+                        -104.9823943,
+                        39.7369508
+                    ],
+                    [
+                        -104.9823213,
+                        39.7369509
+                    ],
+                    [
+                        -104.9822359,
+                        39.7369509
+                    ],
+                    [
+                        -104.9817006,
+                        39.7369509
+                    ],
+                    [
+                        -104.9811996,
+                        39.7369501
+                    ],
+                    [
+                        -104.9810992,
+                        39.7369499
+                    ],
+                    [
+                        -104.9809851,
+                        39.7369497
+                    ],
+                    [
+                        -104.9804746,
+                        39.7369488
+                    ],
+                    [
+                        -104.979988,
+                        39.7369484
+                    ],
+                    [
+                        -104.979884,
+                        39.7369483
+                    ],
+                    [
+                        -104.9798211,
+                        39.7369482
+                    ],
+                    [
+                        -104.9793168,
+                        39.7369477
+                    ],
+                    [
+                        -104.9788061,
+                        39.7369474
+                    ],
+                    [
+                        -104.9787267,
+                        39.7369473
+                    ],
+                    [
+                        -104.9786472,
+                        39.7369465
+                    ],
+                    [
+                        -104.9782266,
+                        39.7369453
+                    ],
+                    [
+                        -104.9777156,
+                        39.7369452
+                    ],
+                    [
+                        -104.9776233,
+                        39.7369452
+                    ],
+                    [
+                        -104.9775432,
+                        39.7369452
+                    ],
+                    [
+                        -104.9764618,
+                        39.7369452
+                    ],
+                    [
+                        -104.9763772,
+                        39.7369443
+                    ],
+                    [
+                        -104.9758907,
+                        39.7369441
+                    ],
+                    [
+                        -104.9753933,
+                        39.7369442
+                    ],
+                    [
+                        -104.9753011,
+                        39.7369442
+                    ],
+                    [
+                        -104.9752243,
+                        39.7369441
+                    ],
+                    [
+                        -104.9747303,
+                        39.7369432
+                    ]
+                ]
+            },
+            "id": "way/717901979",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9811996, 39.7369501] is not present in Nodes file",
+                "Point [-104.9823943, 39.7369508] is not present in Nodes file",
+                "Point [-104.9775432, 39.7369452] is not present in Nodes file",
+                "Point [-104.9798211, 39.7369482] is not present in Nodes file",
+                "Point [-104.9847115, 39.7369463] is not present in Nodes file",
+                "Point [-104.9834702, 39.736952] is not present in Nodes file",
+                "Point [-104.9788061, 39.7369474] is not present in Nodes file",
+                "Point [-104.9809851, 39.7369497] is not present in Nodes file",
+                "Point [-104.9786472, 39.7369465] is not present in Nodes file",
+                "Point [-104.9849679, 39.7369541] is not present in Nodes file",
+                "Point [-104.9763772, 39.7369443] is not present in Nodes file",
+                "Point [-104.9822359, 39.7369509] is not present in Nodes file",
+                "Point [-104.9753933, 39.7369442] is not present in Nodes file",
+                "Point [-104.983739, 39.736951] is not present in Nodes file",
+                "Point [-104.9777156, 39.7369452] is not present in Nodes file",
+                "Point [-104.9847332, 39.7369603] is not present in Nodes file",
+                "Point [-104.9851586, 39.7369541] is not present in Nodes file",
+                "Point [-104.9752243, 39.7369441] is not present in Nodes file",
+                "Point [-104.979988, 39.7369484] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/697362438",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9809278,
+                        39.7366877
+                    ],
+                    [
+                        -104.9809819,
+                        39.7366877
+                    ],
+                    [
+                        -104.9810962,
+                        39.7366877
+                    ]
+                ]
+            },
+            "id": "way/697362438",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9810962, 39.7366877] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657323",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793223,
+                        39.7376162
+                    ],
+                    [
+                        -104.9797387,
+                        39.7376131
+                    ]
+                ]
+            },
+            "id": "way/628657323",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793223, 39.7376162] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657307",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9806537,
+                        39.736886
+                    ],
+                    [
+                        -104.9809845,
+                        39.7368863
+                    ],
+                    [
+                        -104.9810987,
+                        39.7368864
+                    ]
+                ]
+            },
+            "id": "way/628657307",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9806537, 39.736886] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657306",
+                "bicycle": "designated",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "Pennsylvania Street",
+                "oneway": "no",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9810767,
+                        39.7351601
+                    ],
+                    [
+                        -104.981078,
+                        39.7352557
+                    ],
+                    [
+                        -104.9810782,
+                        39.7352719
+                    ],
+                    [
+                        -104.9810954,
+                        39.7366251
+                    ]
+                ]
+            },
+            "id": "way/628657306",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9810767, 39.7351601] is not present in Nodes file",
+                "Point [-104.9810954, 39.7366251] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657303",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.979883,
+                        39.7368854
+                    ],
+                    [
+                        -104.9799873,
+                        39.7368855
+                    ],
+                    [
+                        -104.9804742,
+                        39.7368859
+                    ],
+                    [
+                        -104.9806537,
+                        39.736886
+                    ]
+                ]
+            },
+            "id": "way/628657303",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9806537, 39.736886] is not present in Nodes file",
+                "Point [-104.9804742, 39.7368859] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657301",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9794587,
+                        39.7368851
+                    ],
+                    [
+                        -104.9798211,
+                        39.7368854
+                    ],
+                    [
+                        -104.979883,
+                        39.7368854
+                    ]
+                ]
+            },
+            "id": "way/628657301",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9794587, 39.7368851] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657300",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ],
+                    [
+                        -104.9788053,
+                        39.7368846
+                    ],
+                    [
+                        -104.9793163,
+                        39.736885
+                    ],
+                    [
+                        -104.9794587,
+                        39.7368851
+                    ]
+                ]
+            },
+            "id": "way/628657300",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9794587, 39.7368851] is not present in Nodes file",
+                "Point [-104.9793163, 39.736885] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657298",
+                "access": "yes",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "foot": "yes",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 13th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.978351,
+                        39.7368842
+                    ],
+                    [
+                        -104.978647,
+                        39.7368845
+                    ],
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ]
+                ]
+            },
+            "id": "way/628657298",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.978351, 39.7368842] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643777",
+                "highway": "tertiary",
+                "lanes": "2",
+                "name": "Washington Street",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787515,
+                        39.7398161
+                    ],
+                    [
+                        -104.9787477,
+                        39.7393467
+                    ],
+                    [
+                        -104.9787458,
+                        39.7390973
+                    ],
+                    [
+                        -104.9787453,
+                        39.7389253
+                    ],
+                    [
+                        -104.978744,
+                        39.7385234
+                    ],
+                    [
+                        -104.9787415,
+                        39.738433
+                    ],
+                    [
+                        -104.9787394,
+                        39.7383448
+                    ],
+                    [
+                        -104.9787288,
+                        39.7375915
+                    ],
+                    [
+                        -104.9787283,
+                        39.737443
+                    ],
+                    [
+                        -104.9787277,
+                        39.7372423
+                    ],
+                    [
+                        -104.9787267,
+                        39.7369473
+                    ],
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ]
+                ]
+            },
+            "id": "way/628643777",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9787458, 39.7390973] is not present in Nodes file",
+                "Point [-104.9787283, 39.737443] is not present in Nodes file",
+                "Point [-104.9787277, 39.7372423] is not present in Nodes file",
+                "Point [-104.9787288, 39.7375915] is not present in Nodes file",
+                "Point [-104.9787477, 39.7393467] is not present in Nodes file",
+                "Point [-104.9787453, 39.7389253] is not present in Nodes file",
+                "Point [-104.9787515, 39.7398161] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643738",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9811093,
+                        39.73844
+                    ],
+                    [
+                        -104.9809984,
+                        39.7384397
+                    ],
+                    [
+                        -104.9808915,
+                        39.7384394
+                    ],
+                    [
+                        -104.9806783,
+                        39.7384387
+                    ],
+                    [
+                        -104.9804834,
+                        39.7384382
+                    ],
+                    [
+                        -104.980271,
+                        39.7384375
+                    ]
+                ]
+            },
+            "id": "way/628643738",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9808915, 39.7384394] is not present in Nodes file",
+                "Point [-104.980271, 39.7384375] is not present in Nodes file",
+                "Point [-104.9806783, 39.7384387] is not present in Nodes file",
+                "Point [-104.9804834, 39.7384382] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643737",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through;left|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.980271,
+                        39.7384375
+                    ],
+                    [
+                        -104.98,
+                        39.7384367
+                    ],
+                    [
+                        -104.9799035,
+                        39.7384364
+                    ]
+                ]
+            },
+            "id": "way/628643737",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.980271, 39.7384375] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643736",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9799035,
+                        39.7384364
+                    ],
+                    [
+                        -104.9798183,
+                        39.7384362
+                    ],
+                    [
+                        -104.979329,
+                        39.7384348
+                    ],
+                    [
+                        -104.9791141,
+                        39.7384341
+                    ]
+                ]
+            },
+            "id": "way/628643736",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.979329, 39.7384348] is not present in Nodes file",
+                "Point [-104.9791141, 39.7384341] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643735",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved",
+                "turn:lanes": "through|through|through;right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9791141,
+                        39.7384341
+                    ],
+                    [
+                        -104.978837,
+                        39.7384333
+                    ],
+                    [
+                        -104.9787415,
+                        39.738433
+                    ]
+                ]
+            },
+            "id": "way/628643735",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9791141, 39.7384341] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628643734",
+                "bicycle": "yes",
+                "cycleway": "no",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "East 14th Avenue",
+                "oneway": "yes",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787415,
+                        39.738433
+                    ],
+                    [
+                        -104.9786597,
+                        39.7384328
+                    ],
+                    [
+                        -104.9781472,
+                        39.7384313
+                    ]
+                ]
+            },
+            "id": "way/628643734",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'maxspeed', is not a valid OSW tag",
+                "'no' is not one of ['lane'] that are allowed for cycleway",
+                "Point [-104.9781472, 39.7384313] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/571837273",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788132,
+                        39.7352455
+                    ],
+                    [
+                        -104.9788119,
+                        39.7351614
+                    ],
+                    [
+                        -104.9788119,
+                        39.7350663
+                    ],
+                    [
+                        -104.9788066,
+                        39.734437
+                    ],
+                    [
+                        -104.9788043,
+                        39.7341719
+                    ],
+                    [
+                        -104.9788011,
+                        39.7337971
+                    ],
+                    [
+                        -104.9787999,
+                        39.7336995
+                    ],
+                    [
+                        -104.9787985,
+                        39.7336
+                    ],
+                    [
+                        -104.978797,
+                        39.73342
+                    ],
+                    [
+                        -104.9787916,
+                        39.7327631
+                    ],
+                    [
+                        -104.9787864,
+                        39.7321291
+                    ],
+                    [
+                        -104.9787857,
+                        39.7320518
+                    ],
+                    [
+                        -104.9787824,
+                        39.7319386
+                    ]
+                ]
+            },
+            "id": "way/571837273",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788119, 39.7350663] is not present in Nodes file",
+                "Point [-104.9788132, 39.7352455] is not present in Nodes file",
+                "Point [-104.9787824, 39.7319386] is not present in Nodes file",
+                "Point [-104.9788011, 39.7337971] is not present in Nodes file",
+                "Point [-104.9787864, 39.7321291] is not present in Nodes file",
+                "Point [-104.9787985, 39.7336] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/571837272",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788219,
+                        39.7367823
+                    ],
+                    [
+                        -104.9788198,
+                        39.7364171
+                    ],
+                    [
+                        -104.9788186,
+                        39.7361961
+                    ],
+                    [
+                        -104.9788171,
+                        39.7359363
+                    ],
+                    [
+                        -104.9788132,
+                        39.7352455
+                    ]
+                ]
+            },
+            "id": "way/571837272",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788132, 39.7352455] is not present in Nodes file",
+                "Point [-104.9788219, 39.7367823] is not present in Nodes file",
+                "Point [-104.9788198, 39.7364171] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/385383263",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9809979,
+                        39.7383582
+                    ],
+                    [
+                        -104.980483,
+                        39.7383576
+                    ],
+                    [
+                        -104.9802706,
+                        39.7383559
+                    ],
+                    [
+                        -104.9800001,
+                        39.7383538
+                    ]
+                ]
+            },
+            "id": "way/385383263",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9809979, 39.7383582] is not present in Nodes file",
+                "Point [-104.9800001, 39.7383538] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/385383259",
+                "footway": "crossing",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9812124,
+                        39.7383585
+                    ],
+                    [
+                        -104.9811094,
+                        39.7383583
+                    ],
+                    [
+                        -104.9809979,
+                        39.7383582
+                    ]
+                ]
+            },
+            "id": "way/385383259",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9809979, 39.7383582] is not present in Nodes file",
+                "Point [-104.9812124, 39.7383585] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/385383256",
+                "footway": "crossing",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9800001,
+                        39.7383538
+                    ],
+                    [
+                        -104.9799026,
+                        39.738353
+                    ],
+                    [
+                        -104.9798164,
+                        39.7383522
+                    ]
+                ]
+            },
+            "id": "way/385383256",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798164, 39.7383522] is not present in Nodes file",
+                "Point [-104.9800001, 39.7383538] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/385383249",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9798164,
+                        39.7383522
+                    ],
+                    [
+                        -104.9793283,
+                        39.7383478
+                    ],
+                    [
+                        -104.9788359,
+                        39.7383453
+                    ]
+                ]
+            },
+            "id": "way/385383249",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798164, 39.7383522] is not present in Nodes file",
+                "Point [-104.9788359, 39.7383453] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/385383247",
+                "footway": "crossing",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788359,
+                        39.7383453
+                    ],
+                    [
+                        -104.9787394,
+                        39.7383448
+                    ],
+                    [
+                        -104.9786591,
+                        39.7383444
+                    ]
+                ]
+            },
+            "id": "way/385383247",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788359, 39.7383453] is not present in Nodes file",
+                "Point [-104.9786591, 39.7383444] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/337135502",
+                "highway": "service",
+                "service": "alley",
+                "source": "Yahoo"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9792764,
+                        39.7320515
+                    ],
+                    [
+                        -104.979277,
+                        39.7321299
+                    ],
+                    [
+                        -104.9792799,
+                        39.7324817
+                    ],
+                    [
+                        -104.9792823,
+                        39.7327623
+                    ],
+                    [
+                        -104.9792873,
+                        39.7333683
+                    ],
+                    [
+                        -104.9792877,
+                        39.7334182
+                    ],
+                    [
+                        -104.9792892,
+                        39.7336031
+                    ],
+                    [
+                        -104.97929,
+                        39.7337022
+                    ],
+                    [
+                        -104.9792908,
+                        39.7337979
+                    ],
+                    [
+                        -104.9792982,
+                        39.7346896
+                    ],
+                    [
+                        -104.9793013,
+                        39.7350675
+                    ],
+                    [
+                        -104.979302,
+                        39.7351612
+                    ],
+                    [
+                        -104.9793028,
+                        39.7352485
+                    ],
+                    [
+                        -104.9793047,
+                        39.7354884
+                    ],
+                    [
+                        -104.9793068,
+                        39.7357359
+                    ],
+                    [
+                        -104.9793084,
+                        39.7359375
+                    ],
+                    [
+                        -104.9793106,
+                        39.7361969
+                    ],
+                    [
+                        -104.9793112,
+                        39.7362684
+                    ],
+                    [
+                        -104.9793124,
+                        39.7364177
+                    ],
+                    [
+                        -104.9793142,
+                        39.7366393
+                    ],
+                    [
+                        -104.9793157,
+                        39.7368193
+                    ],
+                    [
+                        -104.9793163,
+                        39.736885
+                    ],
+                    [
+                        -104.9793168,
+                        39.7369477
+                    ],
+                    [
+                        -104.9793223,
+                        39.7376162
+                    ],
+                    [
+                        -104.9793263,
+                        39.7380989
+                    ],
+                    [
+                        -104.9793283,
+                        39.7383478
+                    ],
+                    [
+                        -104.979329,
+                        39.7384348
+                    ],
+                    [
+                        -104.9793298,
+                        39.7385259
+                    ],
+                    [
+                        -104.9793325,
+                        39.7388599
+                    ],
+                    [
+                        -104.9793342,
+                        39.7390664
+                    ],
+                    [
+                        -104.9793345,
+                        39.7390973
+                    ],
+                    [
+                        -104.9793351,
+                        39.7391684
+                    ],
+                    [
+                        -104.9793388,
+                        39.7396161
+                    ],
+                    [
+                        -104.9793389,
+                        39.7396314
+                    ],
+                    [
+                        -104.9793413,
+                        39.7399233
+                    ],
+                    [
+                        -104.9793421,
+                        39.7400205
+                    ],
+                    [
+                        -104.979343,
+                        39.7401267
+                    ]
+                ]
+            },
+            "id": "way/337135502",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9793047, 39.7354884] is not present in Nodes file",
+                "Point [-104.9792823, 39.7327623] is not present in Nodes file",
+                "Point [-104.9792877, 39.7334182] is not present in Nodes file",
+                "Point [-104.9792764, 39.7320515] is not present in Nodes file",
+                "Point [-104.9793084, 39.7359375] is not present in Nodes file",
+                "Point [-104.9793124, 39.7364177] is not present in Nodes file",
+                "Point [-104.9793342, 39.7390664] is not present in Nodes file",
+                "Point [-104.9792982, 39.7346896] is not present in Nodes file",
+                "Point [-104.9793112, 39.7362684] is not present in Nodes file",
+                "Point [-104.97929, 39.7337022] is not present in Nodes file",
+                "Point [-104.979329, 39.7384348] is not present in Nodes file",
+                "Point [-104.9793389, 39.7396314] is not present in Nodes file",
+                "Point [-104.9793106, 39.7361969] is not present in Nodes file",
+                "Point [-104.9792873, 39.7333683] is not present in Nodes file",
+                "Point [-104.9793223, 39.7376162] is not present in Nodes file",
+                "Point [-104.9793421, 39.7400205] is not present in Nodes file",
+                "Point [-104.9793388, 39.7396161] is not present in Nodes file",
+                "Point [-104.9793163, 39.736885] is not present in Nodes file",
+                "Point [-104.9793351, 39.7391684] is not present in Nodes file",
+                "Point [-104.979302, 39.7351612] is not present in Nodes file",
+                "Point [-104.9793068, 39.7357359] is not present in Nodes file",
+                "Point [-104.9793345, 39.7390973] is not present in Nodes file",
+                "Point [-104.9792799, 39.7324817] is not present in Nodes file",
+                "Point [-104.9793325, 39.7388599] is not present in Nodes file",
+                "Point [-104.9793142, 39.7366393] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/337135341",
+                "highway": "residential",
+                "lanes": "2",
+                "name": "Pearl Street",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9798522,
+                        39.73194
+                    ],
+                    [
+                        -104.9798536,
+                        39.7320512
+                    ],
+                    [
+                        -104.979854,
+                        39.732131
+                    ],
+                    [
+                        -104.9798541,
+                        39.7321484
+                    ],
+                    [
+                        -104.9798562,
+                        39.7326371
+                    ],
+                    [
+                        -104.9798655,
+                        39.73337
+                    ],
+                    [
+                        -104.9798682,
+                        39.7335798
+                    ],
+                    [
+                        -104.9798685,
+                        39.7336073
+                    ],
+                    [
+                        -104.9798697,
+                        39.7337048
+                    ],
+                    [
+                        -104.9798702,
+                        39.7337986
+                    ],
+                    [
+                        -104.9798703,
+                        39.7338264
+                    ],
+                    [
+                        -104.9798722,
+                        39.7341752
+                    ],
+                    [
+                        -104.9798745,
+                        39.73462
+                    ],
+                    [
+                        -104.9798749,
+                        39.7346907
+                    ],
+                    [
+                        -104.9798768,
+                        39.7350541
+                    ],
+                    [
+                        -104.9798769,
+                        39.735066
+                    ],
+                    [
+                        -104.9798773,
+                        39.7351608
+                    ],
+                    [
+                        -104.9798776,
+                        39.7352516
+                    ],
+                    [
+                        -104.9798776,
+                        39.7352614
+                    ],
+                    [
+                        -104.9798803,
+                        39.7360536
+                    ],
+                    [
+                        -104.9798822,
+                        39.7366414
+                    ],
+                    [
+                        -104.9798824,
+                        39.7367003
+                    ],
+                    [
+                        -104.9798828,
+                        39.7368223
+                    ],
+                    [
+                        -104.979883,
+                        39.7368854
+                    ],
+                    [
+                        -104.979884,
+                        39.7369483
+                    ],
+                    [
+                        -104.9799026,
+                        39.738353
+                    ],
+                    [
+                        -104.9799035,
+                        39.7384364
+                    ],
+                    [
+                        -104.9799037,
+                        39.7385264
+                    ],
+                    [
+                        -104.9799041,
+                        39.7390674
+                    ],
+                    [
+                        -104.9799042,
+                        39.7391401
+                    ],
+                    [
+                        -104.9799042,
+                        39.7391716
+                    ],
+                    [
+                        -104.9799044,
+                        39.7393432
+                    ],
+                    [
+                        -104.9799045,
+                        39.7395062
+                    ],
+                    [
+                        -104.9799049,
+                        39.7396326
+                    ],
+                    [
+                        -104.9799049,
+                        39.7399265
+                    ],
+                    [
+                        -104.979905,
+                        39.7400223
+                    ]
+                ]
+            },
+            "id": "way/337135341",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9799044, 39.7393432] is not present in Nodes file",
+                "Point [-104.9799049, 39.7396326] is not present in Nodes file",
+                "Point [-104.9798697, 39.7337048] is not present in Nodes file",
+                "Point [-104.9798773, 39.7351608] is not present in Nodes file",
+                "Point [-104.9798824, 39.7367003] is not present in Nodes file",
+                "Point [-104.9798745, 39.73462] is not present in Nodes file",
+                "Point [-104.9798562, 39.7326371] is not present in Nodes file",
+                "Point [-104.9798536, 39.7320512] is not present in Nodes file",
+                "Point [-104.9798655, 39.73337] is not present in Nodes file",
+                "Point [-104.9799041, 39.7390674] is not present in Nodes file",
+                "Point [-104.9799045, 39.7395062] is not present in Nodes file",
+                "Point [-104.9799042, 39.7391716] is not present in Nodes file",
+                "Point [-104.9799042, 39.7391401] is not present in Nodes file",
+                "Point [-104.9798822, 39.7366414] is not present in Nodes file",
+                "Point [-104.9798803, 39.7360536] is not present in Nodes file",
+                "Point [-104.9798722, 39.7341752] is not present in Nodes file",
+                "Point [-104.9798749, 39.7346907] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/335529049",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787283,
+                        39.737443
+                    ],
+                    [
+                        -104.9786514,
+                        39.7374425
+                    ],
+                    [
+                        -104.9782351,
+                        39.7374424
+                    ]
+                ]
+            },
+            "id": "way/335529049",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9787283, 39.737443] is not present in Nodes file",
+                "Point [-104.9782351, 39.7374424] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/335382242",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9782376,
+                        39.7375916
+                    ],
+                    [
+                        -104.97826,
+                        39.7375916
+                    ],
+                    [
+                        -104.9786527,
+                        39.7375925
+                    ],
+                    [
+                        -104.9787288,
+                        39.7375915
+                    ]
+                ]
+            },
+            "id": "way/335382242",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9787288, 39.7375915] is not present in Nodes file",
+                "Point [-104.9782376, 39.7375916] is not present in Nodes file",
+                "Point [-104.97826, 39.7375916] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/335018928",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9798204,
+                        39.7368219
+                    ],
+                    [
+                        -104.9793157,
+                        39.7368193
+                    ],
+                    [
+                        -104.9788045,
+                        39.7368166
+                    ]
+                ]
+            },
+            "id": "way/335018928",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798204, 39.7368219] is not present in Nodes file",
+                "Point [-104.9788045, 39.7368166] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/335018927",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788045,
+                        39.7368166
+                    ],
+                    [
+                        -104.9787259,
+                        39.7368163
+                    ],
+                    [
+                        -104.9786457,
+                        39.7368161
+                    ],
+                    [
+                        -104.978203,
+                        39.7368148
+                    ],
+                    [
+                        -104.9777133,
+                        39.7368145
+                    ]
+                ]
+            },
+            "id": "way/335018927",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9786457, 39.7368161] is not present in Nodes file",
+                "Point [-104.9788045, 39.7368166] is not present in Nodes file",
+                "Point [-104.9777133, 39.7368145] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334959046",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787189,
+                        39.7361959
+                    ],
+                    [
+                        -104.9788186,
+                        39.7361961
+                    ],
+                    [
+                        -104.9793106,
+                        39.7361969
+                    ]
+                ]
+            },
+            "id": "way/334959046",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9787189, 39.7361959] is not present in Nodes file",
+                "Point [-104.9793106, 39.7361969] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334959034",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793142,
+                        39.7366393
+                    ],
+                    [
+                        -104.9798038,
+                        39.7366411
+                    ],
+                    [
+                        -104.9798822,
+                        39.7366414
+                    ]
+                ]
+            },
+            "id": "way/334959034",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798822, 39.7366414] is not present in Nodes file",
+                "Point [-104.9793142, 39.7366393] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334958788",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793124,
+                        39.7364177
+                    ],
+                    [
+                        -104.9788198,
+                        39.7364171
+                    ]
+                ]
+            },
+            "id": "way/334958788",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793124, 39.7364177] is not present in Nodes file",
+                "Point [-104.9788198, 39.7364171] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334958575",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.978896,
+                        39.7362664
+                    ],
+                    [
+                        -104.9793112,
+                        39.7362684
+                    ]
+                ]
+            },
+            "id": "way/334958575",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793112, 39.7362684] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334958421",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788749,
+                        39.7354879
+                    ],
+                    [
+                        -104.9793047,
+                        39.7354884
+                    ]
+                ]
+            },
+            "id": "way/334958421",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793047, 39.7354884] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334958420",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793084,
+                        39.7359375
+                    ],
+                    [
+                        -104.9788171,
+                        39.7359363
+                    ],
+                    [
+                        -104.9787159,
+                        39.735936
+                    ]
+                ]
+            },
+            "id": "way/334958420",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793084, 39.7359375] is not present in Nodes file",
+                "Point [-104.9787159, 39.735936] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334958397",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.97891,
+                        39.7357364
+                    ],
+                    [
+                        -104.9793068,
+                        39.7357359
+                    ]
+                ]
+            },
+            "id": "way/334958397",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9793068, 39.7357359] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334894040",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9792111,
+                        39.7372434
+                    ],
+                    [
+                        -104.9788762,
+                        39.7372426
+                    ],
+                    [
+                        -104.978826,
+                        39.7372425
+                    ],
+                    [
+                        -104.9787277,
+                        39.7372423
+                    ]
+                ]
+            },
+            "id": "way/334894040",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9787277, 39.7372423] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334892504",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793263,
+                        39.7380989
+                    ],
+                    [
+                        -104.9788337,
+                        39.7380993
+                    ]
+                ]
+            },
+            "id": "way/334892504",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788337, 39.7380993] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334884960",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9799881,
+                        39.7399268
+                    ],
+                    [
+                        -104.9799875,
+                        39.7397831
+                    ],
+                    [
+                        -104.9800107,
+                        39.7397682
+                    ],
+                    [
+                        -104.98001,
+                        39.7396329
+                    ],
+                    [
+                        -104.9800087,
+                        39.7395069
+                    ],
+                    [
+                        -104.9800074,
+                        39.7393432
+                    ],
+                    [
+                        -104.9800059,
+                        39.7391406
+                    ],
+                    [
+                        -104.9800011,
+                        39.7385266
+                    ],
+                    [
+                        -104.98,
+                        39.7384367
+                    ],
+                    [
+                        -104.9800001,
+                        39.7383538
+                    ],
+                    [
+                        -104.9799881,
+                        39.736955
+                    ],
+                    [
+                        -104.979988,
+                        39.7369484
+                    ],
+                    [
+                        -104.9799873,
+                        39.7368855
+                    ],
+                    [
+                        -104.9799867,
+                        39.7368225
+                    ],
+                    [
+                        -104.9799854,
+                        39.736701
+                    ],
+                    [
+                        -104.9799785,
+                        39.7360537
+                    ],
+                    [
+                        -104.9799699,
+                        39.7352519
+                    ],
+                    [
+                        -104.9799692,
+                        39.7351608
+                    ],
+                    [
+                        -104.9799672,
+                        39.7350655
+                    ],
+                    [
+                        -104.9799646,
+                        39.73462
+                    ],
+                    [
+                        -104.9799621,
+                        39.7341754
+                    ],
+                    [
+                        -104.9799599,
+                        39.7337986
+                    ],
+                    [
+                        -104.9799585,
+                        39.7337047
+                    ],
+                    [
+                        -104.9799578,
+                        39.7336073
+                    ],
+                    [
+                        -104.9799565,
+                        39.7334499
+                    ],
+                    [
+                        -104.9799558,
+                        39.7333701
+                    ],
+                    [
+                        -104.9799532,
+                        39.7330492
+                    ],
+                    [
+                        -104.9799498,
+                        39.7326374
+                    ],
+                    [
+                        -104.9799438,
+                        39.7321312
+                    ],
+                    [
+                        -104.9799425,
+                        39.7320512
+                    ],
+                    [
+                        -104.9799397,
+                        39.7319399
+                    ]
+                ]
+            },
+            "id": "way/334884960",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9800011, 39.7385266] is not present in Nodes file",
+                "Point [-104.9799565, 39.7334499] is not present in Nodes file",
+                "Point [-104.9799532, 39.7330492] is not present in Nodes file",
+                "Point [-104.9799875, 39.7397831] is not present in Nodes file",
+                "Point [-104.9799672, 39.7350655] is not present in Nodes file",
+                "Point [-104.9799438, 39.7321312] is not present in Nodes file",
+                "Point [-104.9799578, 39.7336073] is not present in Nodes file",
+                "Point [-104.9799867, 39.7368225] is not present in Nodes file",
+                "Point [-104.9799699, 39.7352519] is not present in Nodes file",
+                "Point [-104.9800107, 39.7397682] is not present in Nodes file",
+                "Point [-104.9799881, 39.7399268] is not present in Nodes file",
+                "Point [-104.9799397, 39.7319399] is not present in Nodes file",
+                "Point [-104.9799599, 39.7337986] is not present in Nodes file",
+                "Point [-104.979988, 39.7369484] is not present in Nodes file",
+                "Point [-104.9800001, 39.7383538] is not present in Nodes file",
+                "Point [-104.9799881, 39.736955] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334684033",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9798803,
+                        39.7360536
+                    ],
+                    [
+                        -104.9799785,
+                        39.7360537
+                    ],
+                    [
+                        -104.9803211,
+                        39.7360541
+                    ],
+                    [
+                        -104.9803607,
+                        39.7360614
+                    ],
+                    [
+                        -104.9803895,
+                        39.7360768
+                    ],
+                    [
+                        -104.9804049,
+                        39.7360933
+                    ],
+                    [
+                        -104.9804096,
+                        39.7361057
+                    ],
+                    [
+                        -104.9804103,
+                        39.7361207
+                    ]
+                ]
+            },
+            "id": "way/334684033",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9803607, 39.7360614] is not present in Nodes file",
+                "Point [-104.9803895, 39.7360768] is not present in Nodes file",
+                "Point [-104.9804096, 39.7361057] is not present in Nodes file",
+                "Point [-104.9803211, 39.7360541] is not present in Nodes file",
+                "Point [-104.9798803, 39.7360536] is not present in Nodes file",
+                "Point [-104.9804049, 39.7360933] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334683482",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9801619,
+                        39.7367023
+                    ],
+                    [
+                        -104.9799854,
+                        39.736701
+                    ],
+                    [
+                        -104.9798824,
+                        39.7367003
+                    ]
+                ]
+            },
+            "id": "way/334683482",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798824, 39.7367003] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334681675",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9808354,
+                        39.7353918
+                    ],
+                    [
+                        -104.9808989,
+                        39.7353921
+                    ],
+                    [
+                        -104.9809693,
+                        39.7353927
+                    ]
+                ]
+            },
+            "id": "way/334681675",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9808989, 39.7353921] is not present in Nodes file",
+                "Point [-104.9809693, 39.7353927] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334681647",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9806169,
+                        39.7354916
+                    ],
+                    [
+                        -104.9806163,
+                        39.7354603
+                    ],
+                    [
+                        -104.9808836,
+                        39.7354607
+                    ],
+                    [
+                        -104.9808983,
+                        39.7354453
+                    ],
+                    [
+                        -104.9808989,
+                        39.7353921
+                    ],
+                    [
+                        -104.980899,
+                        39.7353829
+                    ],
+                    [
+                        -104.9808594,
+                        39.7353226
+                    ],
+                    [
+                        -104.9808306,
+                        39.735304
+                    ],
+                    [
+                        -104.9807843,
+                        39.7352885
+                    ],
+                    [
+                        -104.9806844,
+                        39.735287
+                    ],
+                    [
+                        -104.9805966,
+                        39.7353293
+                    ],
+                    [
+                        -104.9805691,
+                        39.7353299
+                    ]
+                ]
+            },
+            "id": "way/334681647",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9808836, 39.7354607] is not present in Nodes file",
+                "Point [-104.9806163, 39.7354603] is not present in Nodes file",
+                "Point [-104.9808594, 39.7353226] is not present in Nodes file",
+                "Point [-104.9807843, 39.7352885] is not present in Nodes file",
+                "Point [-104.9808983, 39.7354453] is not present in Nodes file",
+                "Point [-104.9808306, 39.735304] is not present in Nodes file",
+                "Point [-104.9808989, 39.7353921] is not present in Nodes file",
+                "Point [-104.9805966, 39.7353293] is not present in Nodes file",
+                "Point [-104.9806844, 39.735287] is not present in Nodes file",
+                "Point [-104.980899, 39.7353829] is not present in Nodes file",
+                "Point [-104.9806169, 39.7354916] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334681550",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9808923,
+                        39.7354922
+                    ],
+                    [
+                        -104.9806169,
+                        39.7354916
+                    ],
+                    [
+                        -104.9804659,
+                        39.7354912
+                    ]
+                ]
+            },
+            "id": "way/334681550",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9804659, 39.7354912] is not present in Nodes file",
+                "Point [-104.9806169, 39.7354916] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334649602",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9802685,
+                        39.7381128
+                    ],
+                    [
+                        -104.9802706,
+                        39.7383559
+                    ],
+                    [
+                        -104.980271,
+                        39.7384375
+                    ]
+                ]
+            },
+            "id": "way/334649602",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.980271, 39.7384375] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334629137",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9806806,
+                        39.7387441
+                    ],
+                    [
+                        -104.9806791,
+                        39.7385281
+                    ],
+                    [
+                        -104.9806783,
+                        39.7384387
+                    ]
+                ]
+            },
+            "id": "way/334629137",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9806783, 39.7384387] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334629136",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9808898,
+                        39.7387405
+                    ],
+                    [
+                        -104.980891,
+                        39.7385288
+                    ],
+                    [
+                        -104.9808915,
+                        39.7384394
+                    ]
+                ]
+            },
+            "id": "way/334629136",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9808915, 39.7384394] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333516959",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788359,
+                        39.7383453
+                    ],
+                    [
+                        -104.9788337,
+                        39.7380993
+                    ],
+                    [
+                        -104.978826,
+                        39.7372425
+                    ],
+                    [
+                        -104.9788237,
+                        39.7369916
+                    ],
+                    [
+                        -104.9788061,
+                        39.7369474
+                    ],
+                    [
+                        -104.9788053,
+                        39.7368846
+                    ],
+                    [
+                        -104.9788045,
+                        39.7368166
+                    ],
+                    [
+                        -104.9788219,
+                        39.7367823
+                    ]
+                ]
+            },
+            "id": "way/333516959",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788359, 39.7383453] is not present in Nodes file",
+                "Point [-104.9788219, 39.7367823] is not present in Nodes file",
+                "Point [-104.9788337, 39.7380993] is not present in Nodes file",
+                "Point [-104.9788061, 39.7369474] is not present in Nodes file",
+                "Point [-104.9788045, 39.7368166] is not present in Nodes file",
+                "Point [-104.9788237, 39.7369916] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333516958",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9788392,
+                        39.7385238
+                    ],
+                    [
+                        -104.978837,
+                        39.7384333
+                    ],
+                    [
+                        -104.9788359,
+                        39.7383453
+                    ]
+                ]
+            },
+            "id": "way/333516958",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9788359, 39.7383453] is not present in Nodes file",
+                "Point [-104.9788392, 39.7385238] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333516202",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9798349,
+                        39.7399261
+                    ],
+                    [
+                        -104.9798321,
+                        39.7396325
+                    ],
+                    [
+                        -104.9798268,
+                        39.7391712
+                    ],
+                    [
+                        -104.9798256,
+                        39.7390673
+                    ],
+                    [
+                        -104.9798197,
+                        39.7385263
+                    ],
+                    [
+                        -104.9798183,
+                        39.7384362
+                    ],
+                    [
+                        -104.9798164,
+                        39.7383522
+                    ],
+                    [
+                        -104.9798063,
+                        39.7369744
+                    ],
+                    [
+                        -104.9798211,
+                        39.7369482
+                    ],
+                    [
+                        -104.9798211,
+                        39.7368854
+                    ],
+                    [
+                        -104.9798204,
+                        39.7368219
+                    ],
+                    [
+                        -104.9798049,
+                        39.7367913
+                    ],
+                    [
+                        -104.9798038,
+                        39.7366411
+                    ],
+                    [
+                        -104.9797936,
+                        39.7352511
+                    ],
+                    [
+                        -104.9797929,
+                        39.7351609
+                    ],
+                    [
+                        -104.9797916,
+                        39.7350662
+                    ],
+                    [
+                        -104.9797886,
+                        39.7346905
+                    ],
+                    [
+                        -104.9797815,
+                        39.7337988
+                    ],
+                    [
+                        -104.9797808,
+                        39.7337048
+                    ],
+                    [
+                        -104.9797801,
+                        39.7336061
+                    ],
+                    [
+                        -104.9797614,
+                        39.7321308
+                    ],
+                    [
+                        -104.9797614,
+                        39.7320512
+                    ],
+                    [
+                        -104.9797607,
+                        39.7319399
+                    ]
+                ]
+            },
+            "id": "way/333516202",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9798164, 39.7383522] is not present in Nodes file",
+                "Point [-104.9797815, 39.7337988] is not present in Nodes file",
+                "Point [-104.9798349, 39.7399261] is not present in Nodes file",
+                "Point [-104.9798211, 39.7369482] is not present in Nodes file",
+                "Point [-104.9797916, 39.7350662] is not present in Nodes file",
+                "Point [-104.9797607, 39.7319399] is not present in Nodes file",
+                "Point [-104.9798204, 39.7368219] is not present in Nodes file",
+                "Point [-104.9798063, 39.7369744] is not present in Nodes file",
+                "Point [-104.9798197, 39.7385263] is not present in Nodes file",
+                "Point [-104.9798049, 39.7367913] is not present in Nodes file",
+                "Point [-104.9797801, 39.7336061] is not present in Nodes file",
+                "Point [-104.9797614, 39.7321308] is not present in Nodes file",
+                "Point [-104.9797936, 39.7352511] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333515356",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9810124,
+                        39.7399294
+                    ],
+                    [
+                        -104.9809999,
+                        39.7385291
+                    ],
+                    [
+                        -104.9809984,
+                        39.7384397
+                    ],
+                    [
+                        -104.9809979,
+                        39.7383582
+                    ],
+                    [
+                        -104.9809851,
+                        39.7369497
+                    ],
+                    [
+                        -104.9809845,
+                        39.7368863
+                    ],
+                    [
+                        -104.9809831,
+                        39.7368258
+                    ],
+                    [
+                        -104.9809819,
+                        39.7366877
+                    ],
+                    [
+                        -104.9809812,
+                        39.736608
+                    ],
+                    [
+                        -104.9809643,
+                        39.736573
+                    ],
+                    [
+                        -104.9809576,
+                        39.7359057
+                    ],
+                    [
+                        -104.9809704,
+                        39.7358665
+                    ],
+                    [
+                        -104.9809693,
+                        39.7353927
+                    ],
+                    [
+                        -104.980969,
+                        39.7352553
+                    ],
+                    [
+                        -104.980969,
+                        39.7351602
+                    ],
+                    [
+                        -104.980969,
+                        39.7350598
+                    ],
+                    [
+                        -104.9809677,
+                        39.7349256
+                    ],
+                    [
+                        -104.9809637,
+                        39.7345253
+                    ],
+                    [
+                        -104.980963,
+                        39.7344585
+                    ],
+                    [
+                        -104.9809569,
+                        39.7337997
+                    ],
+                    [
+                        -104.9809563,
+                        39.7337041
+                    ],
+                    [
+                        -104.9809543,
+                        39.7336073
+                    ],
+                    [
+                        -104.9809455,
+                        39.7326924
+                    ],
+                    [
+                        -104.9809432,
+                        39.7324492
+                    ],
+                    [
+                        -104.9809402,
+                        39.7321329
+                    ],
+                    [
+                        -104.980939,
+                        39.7320506
+                    ],
+                    [
+                        -104.9809375,
+                        39.731939
+                    ]
+                ]
+            },
+            "id": "way/333515356",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.980969, 39.7352553] is not present in Nodes file",
+                "Point [-104.9809979, 39.7383582] is not present in Nodes file",
+                "Point [-104.9809543, 39.7336073] is not present in Nodes file",
+                "Point [-104.980969, 39.7350598] is not present in Nodes file",
+                "Point [-104.9809569, 39.7337997] is not present in Nodes file",
+                "Point [-104.9809999, 39.7385291] is not present in Nodes file",
+                "Point [-104.9809402, 39.7321329] is not present in Nodes file",
+                "Point [-104.9809375, 39.731939] is not present in Nodes file",
+                "Point [-104.9809812, 39.736608] is not present in Nodes file",
+                "Point [-104.9809851, 39.7369497] is not present in Nodes file",
+                "Point [-104.9809704, 39.7358665] is not present in Nodes file",
+                "Point [-104.9809576, 39.7359057] is not present in Nodes file",
+                "Point [-104.9809693, 39.7353927] is not present in Nodes file",
+                "Point [-104.9810124, 39.7399294] is not present in Nodes file",
+                "Point [-104.9809643, 39.736573] is not present in Nodes file",
+                "Point [-104.9809831, 39.7368258] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333381955",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9834707,
+                        39.7353522
+                    ],
+                    [
+                        -104.9831918,
+                        39.7353491
+                    ],
+                    [
+                        -104.9831509,
+                        39.735345
+                    ],
+                    [
+                        -104.9829772,
+                        39.7353058
+                    ],
+                    [
+                        -104.9829202,
+                        39.7352769
+                    ],
+                    [
+                        -104.9828907,
+                        39.7352619
+                    ],
+                    [
+                        -104.9828243,
+                        39.7352563
+                    ],
+                    [
+                        -104.9824147,
+                        39.7352563
+                    ],
+                    [
+                        -104.9822979,
+                        39.7352562
+                    ],
+                    [
+                        -104.9822011,
+                        39.7352558
+                    ],
+                    [
+                        -104.9816895,
+                        39.7352537
+                    ],
+                    [
+                        -104.981185,
+                        39.7352554
+                    ],
+                    [
+                        -104.981078,
+                        39.7352557
+                    ],
+                    [
+                        -104.980969,
+                        39.7352553
+                    ],
+                    [
+                        -104.9804645,
+                        39.7352537
+                    ],
+                    [
+                        -104.9799699,
+                        39.7352519
+                    ],
+                    [
+                        -104.9798776,
+                        39.7352516
+                    ],
+                    [
+                        -104.9797936,
+                        39.7352511
+                    ],
+                    [
+                        -104.9793028,
+                        39.7352485
+                    ],
+                    [
+                        -104.9788132,
+                        39.7352455
+                    ],
+                    [
+                        -104.978708,
+                        39.7352449
+                    ],
+                    [
+                        -104.9786309,
+                        39.7352448
+                    ],
+                    [
+                        -104.9781928,
+                        39.7352439
+                    ],
+                    [
+                        -104.9777016,
+                        39.7352417
+                    ],
+                    [
+                        -104.9776152,
+                        39.7352408
+                    ],
+                    [
+                        -104.9775297,
+                        39.7352403
+                    ]
+                ]
+            },
+            "id": "way/333381955",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.980969, 39.7352553] is not present in Nodes file",
+                "Point [-104.9829772, 39.7353058] is not present in Nodes file",
+                "Point [-104.9831918, 39.7353491] is not present in Nodes file",
+                "Point [-104.9777016, 39.7352417] is not present in Nodes file",
+                "Point [-104.9788132, 39.7352455] is not present in Nodes file",
+                "Point [-104.9786309, 39.7352448] is not present in Nodes file",
+                "Point [-104.9799699, 39.7352519] is not present in Nodes file",
+                "Point [-104.9831509, 39.735345] is not present in Nodes file",
+                "Point [-104.9822011, 39.7352558] is not present in Nodes file",
+                "Point [-104.9828907, 39.7352619] is not present in Nodes file",
+                "Point [-104.9834707, 39.7353522] is not present in Nodes file",
+                "Point [-104.9824147, 39.7352563] is not present in Nodes file",
+                "Point [-104.9775297, 39.7352403] is not present in Nodes file",
+                "Point [-104.981185, 39.7352554] is not present in Nodes file",
+                "Point [-104.9828243, 39.7352563] is not present in Nodes file",
+                "Point [-104.9797936, 39.7352511] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/333381446",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.982391,
+                        39.7368259
+                    ],
+                    [
+                        -104.9823208,
+                        39.7368259
+                    ],
+                    [
+                        -104.9822359,
+                        39.7368261
+                    ],
+                    [
+                        -104.9816995,
+                        39.7368275
+                    ],
+                    [
+                        -104.9811996,
+                        39.7368266
+                    ],
+                    [
+                        -104.981098,
+                        39.7368264
+                    ],
+                    [
+                        -104.9809831,
+                        39.7368258
+                    ],
+                    [
+                        -104.9804738,
+                        39.7368233
+                    ],
+                    [
+                        -104.9799867,
+                        39.7368225
+                    ],
+                    [
+                        -104.9798828,
+                        39.7368223
+                    ],
+                    [
+                        -104.9798204,
+                        39.7368219
+                    ]
+                ]
+            },
+            "id": "way/333381446",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "Point [-104.9822359, 39.7368261] is not present in Nodes file",
+                "Point [-104.9799867, 39.7368225] is not present in Nodes file",
+                "Point [-104.9798204, 39.7368219] is not present in Nodes file",
+                "Point [-104.982391, 39.7368259] is not present in Nodes file",
+                "Point [-104.9809831, 39.7368258] is not present in Nodes file",
+                "Point [-104.9811996, 39.7368266] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/119422848",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "Washington Street",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9787265,
+                        39.7368845
+                    ],
+                    [
+                        -104.9787259,
+                        39.7368163
+                    ],
+                    [
+                        -104.9787215,
+                        39.7364259
+                    ],
+                    [
+                        -104.9787189,
+                        39.7361959
+                    ],
+                    [
+                        -104.9787159,
+                        39.735936
+                    ],
+                    [
+                        -104.978708,
+                        39.7352449
+                    ],
+                    [
+                        -104.978707,
+                        39.7351615
+                    ],
+                    [
+                        -104.9787064,
+                        39.735066
+                    ],
+                    [
+                        -104.9787043,
+                        39.7347569
+                    ],
+                    [
+                        -104.9787021,
+                        39.734437
+                    ],
+                    [
+                        -104.978701,
+                        39.7342763
+                    ],
+                    [
+                        -104.9787003,
+                        39.7341719
+                    ],
+                    [
+                        -104.9786989,
+                        39.7339654
+                    ],
+                    [
+                        -104.9786978,
+                        39.7337966
+                    ],
+                    [
+                        -104.9786973,
+                        39.733699
+                    ],
+                    [
+                        -104.9786966,
+                        39.7335994
+                    ],
+                    [
+                        -104.9786956,
+                        39.7334203
+                    ],
+                    [
+                        -104.9786921,
+                        39.7327633
+                    ],
+                    [
+                        -104.9786886,
+                        39.7321289
+                    ],
+                    [
+                        -104.9786881,
+                        39.7320518
+                    ],
+                    [
+                        -104.9786874,
+                        39.7319384
+                    ],
+                    [
+                        -104.9786843,
+                        39.7314557
+                    ],
+                    [
+                        -104.978679,
+                        39.7306273
+                    ]
+                ]
+            },
+            "id": "way/119422848",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9786989, 39.7339654] is not present in Nodes file",
+                "Point [-104.9787043, 39.7347569] is not present in Nodes file",
+                "Point [-104.9787021, 39.734437] is not present in Nodes file",
+                "Point [-104.9786843, 39.7314557] is not present in Nodes file",
+                "Point [-104.9787189, 39.7361959] is not present in Nodes file",
+                "Point [-104.9787003, 39.7341719] is not present in Nodes file",
+                "Point [-104.978679, 39.7306273] is not present in Nodes file",
+                "Point [-104.9787159, 39.735936] is not present in Nodes file",
+                "Point [-104.9786881, 39.7320518] is not present in Nodes file",
+                "Point [-104.9786956, 39.7334203] is not present in Nodes file",
+                "Point [-104.978701, 39.7342763] is not present in Nodes file",
+                "Point [-104.9786921, 39.7327633] is not present in Nodes file",
+                "Point [-104.9787215, 39.7364259] is not present in Nodes file"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/40664965",
+                "highway": "service",
+                "service": "alley",
+                "source": "Yahoo"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9804929,
+                        39.7400231
+                    ],
+                    [
+                        -104.9804923,
+                        39.7399285
+                    ],
+                    [
+                        -104.9804906,
+                        39.7396339
+                    ],
+                    [
+                        -104.9804898,
+                        39.7395103
+                    ],
+                    [
+                        -104.9804888,
+                        39.7393432
+                    ],
+                    [
+                        -104.9804877,
+                        39.7391432
+                    ],
+                    [
+                        -104.980484,
+                        39.7385275
+                    ],
+                    [
+                        -104.9804834,
+                        39.7384382
+                    ],
+                    [
+                        -104.980483,
+                        39.7383576
+                    ],
+                    [
+                        -104.9804746,
+                        39.7369488
+                    ],
+                    [
+                        -104.9804742,
+                        39.7368859
+                    ],
+                    [
+                        -104.9804738,
+                        39.7368233
+                    ],
+                    [
+                        -104.9804659,
+                        39.7354912
+                    ],
+                    [
+                        -104.9804645,
+                        39.7352537
+                    ],
+                    [
+                        -104.9804639,
+                        39.7351605
+                    ]
+                ]
+            },
+            "id": "way/40664965",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-104.9804639, 39.7351605] is not present in Nodes file",
+                "Point [-104.9804877, 39.7391432] is not present in Nodes file",
+                "Point [-104.9804659, 39.7354912] is not present in Nodes file",
+                "Point [-104.9804888, 39.7393432] is not present in Nodes file",
+                "Point [-104.9804742, 39.7368859] is not present in Nodes file",
+                "Point [-104.9804898, 39.7395103] is not present in Nodes file",
+                "Point [-104.9804906, 39.7396339] is not present in Nodes file",
+                "Point [-104.9804929, 39.7400231] is not present in Nodes file",
+                "Point [-104.9804834, 39.7384382] is not present in Nodes file"
+            ]
+        }
+    ]
+}

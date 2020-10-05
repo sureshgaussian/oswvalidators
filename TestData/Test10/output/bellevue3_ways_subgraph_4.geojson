@@ -1,0 +1,98 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/30758704",
+                "highway": "residential",
+                "lit": "no",
+                "name": "Northeast 5th Street",
+                "old_name": "Lakeview Drive",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "5th",
+                "tiger:name_direction_prefix": "NE",
+                "tiger:reviewed": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2083387,
+                        47.6150057
+                    ],
+                    [
+                        -122.2076722,
+                        47.6150156
+                    ],
+                    [
+                        -122.2075901,
+                        47.6150168
+                    ],
+                    [
+                        -122.207111,
+                        47.6150239
+                    ],
+                    [
+                        -122.2069986,
+                        47.6150256
+                    ]
+                ]
+            },
+            "id": "way/30758704"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/388984227",
+                "highway": "service",
+                "service": "driveway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2069986,
+                        47.6150256
+                    ],
+                    [
+                        -122.2068892,
+                        47.6150304
+                    ],
+                    [
+                        -122.2067994,
+                        47.6150344
+                    ],
+                    [
+                        -122.2067323,
+                        47.615029
+                    ],
+                    [
+                        -122.2066679,
+                        47.6150019
+                    ],
+                    [
+                        -122.2066143,
+                        47.614973
+                    ],
+                    [
+                        -122.206558,
+                        47.6149422
+                    ],
+                    [
+                        -122.2064882,
+                        47.6149241
+                    ],
+                    [
+                        -122.2063729,
+                        47.6149239
+                    ]
+                ]
+            },
+            "id": "way/388984227"
+        }
+    ]
+}

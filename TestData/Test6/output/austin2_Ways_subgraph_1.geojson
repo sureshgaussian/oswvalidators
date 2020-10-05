@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37782964",
+                "highway": "service",
+                "service": "alley"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450535,
+                        30.2692086
+                    ],
+                    [
+                        -97.7449332,
+                        30.2691756
+                    ],
+                    [
+                        -97.7440745,
+                        30.2689399
+                    ],
+                    [
+                        -97.7439515,
+                        30.2689062
+                    ]
+                ]
+            },
+            "id": "way/37782964"
+        }
+    ]
+}
