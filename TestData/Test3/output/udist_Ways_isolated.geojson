@@ -1,0 +1,28 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/223480289",
+                "bridge": "yes",
+                "highway": "footway",
+                "layer": "1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.3125976,
+                        47.6617688
+                    ],
+                    [
+                        -122.3125438,
+                        47.661775
+                    ]
+                ]
+            },
+            "id": "way/223480289"
+        }
+    ]
+}

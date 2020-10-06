@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/842810315",
+                "highway": "service",
+                "source": "Yahoo"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.202178,
+                        47.6129004
+                    ],
+                    [
+                        -122.2021867,
+                        47.6131956
+                    ],
+                    [
+                        -122.2022026,
+                        47.6137497
+                    ],
+                    [
+                        -122.2022063,
+                        47.6138646
+                    ]
+                ]
+            },
+            "id": "way/842810315"
+        }
+    ]
+}

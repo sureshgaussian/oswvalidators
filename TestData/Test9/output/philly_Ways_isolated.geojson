@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/813282524",
+                "bridge": "yes",
+                "highway": "footway",
+                "layer": "1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.064815,
+                        42.3501756
+                    ],
+                    [
+                        -71.0648444,
+                        42.3500564
+                    ]
+                ]
+            },
+            "id": "way/813282524"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/469742840",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.0660283,
+                        42.3480567
+                    ],
+                    [
+                        -71.0659547,
+                        42.3484313
+                    ],
+                    [
+                        -71.0665368,
+                        42.3485014
+                    ],
+                    [
+                        -71.0668686,
+                        42.3483124
+                    ],
+                    [
+                        -71.066797,
+                        42.3482758
+                    ],
+                    [
+                        -71.0668218,
+                        42.3481479
+                    ]
+                ]
+            },
+            "id": "way/469742840"
+        }
+    ]
+}

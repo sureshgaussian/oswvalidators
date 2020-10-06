@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/628657306",
+                "bicycle": "designated",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "Pennsylvania Street",
+                "oneway": "no",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9810767,
+                        39.7351601
+                    ],
+                    [
+                        -104.981078,
+                        39.7352557
+                    ],
+                    [
+                        -104.9810782,
+                        39.7352719
+                    ],
+                    [
+                        -104.9810954,
+                        39.7366251
+                    ]
+                ]
+            },
+            "id": "way/628657306"
+        }
+    ]
+}

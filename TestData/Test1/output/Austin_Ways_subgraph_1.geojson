@@ -1,0 +1,97 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/37020526",
+                "highway": "residential",
+                "name": "West 17th Street",
+                "old_name": "Linden Street",
+                "sidewalk": "left",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "17th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7466006,
+                        30.2809735
+                    ],
+                    [
+                        -97.7467041,
+                        30.2810031
+                    ],
+                    [
+                        -97.7479146,
+                        30.2813494
+                    ]
+                ]
+            },
+            "id": "way/37020526"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/124953233",
+                "highway": "residential",
+                "name": "West 17th Street",
+                "old_name": "Linden Street",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "17th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7433995,
+                        30.2800552
+                    ],
+                    [
+                        -97.7439199,
+                        30.2802032
+                    ],
+                    [
+                        -97.7444583,
+                        30.2803564
+                    ],
+                    [
+                        -97.7454654,
+                        30.280643
+                    ],
+                    [
+                        -97.7455643,
+                        30.2806711
+                    ],
+                    [
+                        -97.7456436,
+                        30.2806937
+                    ],
+                    [
+                        -97.7460697,
+                        30.2808149
+                    ],
+                    [
+                        -97.7466006,
+                        30.2809735
+                    ]
+                ]
+            },
+            "id": "way/124953233"
+        }
+    ]
+}

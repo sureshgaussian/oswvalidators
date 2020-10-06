@@ -1,0 +1,1903 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/6422057",
+                "highway": "residential",
+                "name": "103rd Avenue Northeast",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "103rd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030519,
+                        47.6185703
+                    ],
+                    [
+                        -122.2030519,
+                        47.6186623
+                    ],
+                    [
+                        -122.2030519,
+                        47.618755
+                    ],
+                    [
+                        -122.203051,
+                        47.6191406
+                    ],
+                    [
+                        -122.203051,
+                        47.6191555
+                    ],
+                    [
+                        -122.2030519,
+                        47.6192525
+                    ],
+                    [
+                        -122.2030505,
+                        47.619338
+                    ],
+                    [
+                        -122.2030504,
+                        47.6194406
+                    ],
+                    [
+                        -122.2030484,
+                        47.6196483
+                    ],
+                    [
+                        -122.2030442,
+                        47.6202205
+                    ],
+                    [
+                        -122.2030435,
+                        47.6203232
+                    ]
+                ]
+            },
+            "id": "way/6422057"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/6509408",
+                "highway": "tertiary",
+                "lanes": "3",
+                "lanes:backward": "2",
+                "lanes:forward": "1",
+                "name": "102nd Avenue Northeast",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:backward": "left|right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2044003,
+                        47.6174842
+                    ],
+                    [
+                        -122.2044,
+                        47.6175387
+                    ],
+                    [
+                        -122.2044002,
+                        47.6175552
+                    ],
+                    [
+                        -122.2043996,
+                        47.6176345
+                    ]
+                ]
+            },
+            "id": "way/6509408"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/161929520",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2054428,
+                        47.6173898
+                    ],
+                    [
+                        -122.2054412,
+                        47.6173321
+                    ],
+                    [
+                        -122.2054402,
+                        47.6172503
+                    ],
+                    [
+                        -122.2054199,
+                        47.6167495
+                    ],
+                    [
+                        -122.2053954,
+                        47.6161381
+                    ],
+                    [
+                        -122.205361,
+                        47.615278
+                    ],
+                    [
+                        -122.2053552,
+                        47.6152477
+                    ],
+                    [
+                        -122.2053444,
+                        47.6152227
+                    ],
+                    [
+                        -122.2053295,
+                        47.6151985
+                    ],
+                    [
+                        -122.2053095,
+                        47.6151796
+                    ],
+                    [
+                        -122.2052847,
+                        47.6151601
+                    ],
+                    [
+                        -122.2052497,
+                        47.615144
+                    ],
+                    [
+                        -122.205219,
+                        47.6151357
+                    ],
+                    [
+                        -122.2051807,
+                        47.6151275
+                    ],
+                    [
+                        -122.2048445,
+                        47.61513
+                    ],
+                    [
+                        -122.2047901,
+                        47.6151242
+                    ],
+                    [
+                        -122.204766,
+                        47.6151175
+                    ],
+                    [
+                        -122.2047439,
+                        47.6151065
+                    ],
+                    [
+                        -122.2047241,
+                        47.6150912
+                    ],
+                    [
+                        -122.2047161,
+                        47.6150756
+                    ],
+                    [
+                        -122.2047114,
+                        47.6150561
+                    ],
+                    [
+                        -122.2047116,
+                        47.6150234
+                    ],
+                    [
+                        -122.204712,
+                        47.6148047
+                    ],
+                    [
+                        -122.2047167,
+                        47.6139377
+                    ],
+                    [
+                        -122.2047176,
+                        47.6138827
+                    ],
+                    [
+                        -122.2047186,
+                        47.6137984
+                    ]
+                ]
+            },
+            "id": "way/161929520"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/161929521",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2017804,
+                        47.616207
+                    ],
+                    [
+                        -122.2018678,
+                        47.6162051
+                    ],
+                    [
+                        -122.2026338,
+                        47.6161882
+                    ],
+                    [
+                        -122.2028632,
+                        47.6161854
+                    ],
+                    [
+                        -122.2030286,
+                        47.6161838
+                    ],
+                    [
+                        -122.2030659,
+                        47.6161949
+                    ],
+                    [
+                        -122.2031046,
+                        47.6162151
+                    ]
+                ]
+            },
+            "id": "way/161929521"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/344681163",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2033992,
+                        47.6176319
+                    ],
+                    [
+                        -122.2043996,
+                        47.6176345
+                    ]
+                ]
+            },
+            "id": "way/344681163"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/344681166",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043798,
+                        47.6186054
+                    ],
+                    [
+                        -122.2042805,
+                        47.6186042
+                    ],
+                    [
+                        -122.2042385,
+                        47.6186037
+                    ]
+                ]
+            },
+            "id": "way/344681166"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/344681175",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2038853,
+                        47.6183769
+                    ],
+                    [
+                        -122.2038853,
+                        47.6184745
+                    ],
+                    [
+                        -122.2038843,
+                        47.6185026
+                    ],
+                    [
+                        -122.2042994,
+                        47.6185028
+                    ],
+                    [
+                        -122.2043806,
+                        47.6185028
+                    ]
+                ]
+            },
+            "id": "way/344681175"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/344681177",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2038584,
+                        47.6181772
+                    ],
+                    [
+                        -122.203857,
+                        47.6183496
+                    ],
+                    [
+                        -122.2038853,
+                        47.6183769
+                    ],
+                    [
+                        -122.2040503,
+                        47.6183779
+                    ],
+                    [
+                        -122.2041222,
+                        47.6183783
+                    ],
+                    [
+                        -122.2043016,
+                        47.6183799
+                    ],
+                    [
+                        -122.204337,
+                        47.6183802
+                    ]
+                ]
+            },
+            "id": "way/344681177"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360209435",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2054881,
+                        47.6176595
+                    ],
+                    [
+                        -122.2053478,
+                        47.6176638
+                    ],
+                    [
+                        -122.2052871,
+                        47.6176656
+                    ],
+                    [
+                        -122.2050514,
+                        47.6176635
+                    ],
+                    [
+                        -122.2048203,
+                        47.6176615
+                    ]
+                ]
+            },
+            "id": "way/360209435"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360209436",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2052285,
+                        47.6174955
+                    ],
+                    [
+                        -122.2052304,
+                        47.6175409
+                    ],
+                    [
+                        -122.2052355,
+                        47.6176276
+                    ],
+                    [
+                        -122.2052871,
+                        47.6176656
+                    ],
+                    [
+                        -122.2052794,
+                        47.6182014
+                    ],
+                    [
+                        -122.2052008,
+                        47.6182575
+                    ],
+                    [
+                        -122.2050467,
+                        47.6182571
+                    ],
+                    [
+                        -122.2048203,
+                        47.6182565
+                    ],
+                    [
+                        -122.2048003,
+                        47.6182564
+                    ],
+                    [
+                        -122.2046883,
+                        47.6182683
+                    ]
+                ]
+            },
+            "id": "way/360209436"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360209437",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2048203,
+                        47.6176615
+                    ],
+                    [
+                        -122.2048203,
+                        47.6182565
+                    ]
+                ]
+            },
+            "id": "way/360209437"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360209439",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2046837,
+                        47.6189043
+                    ],
+                    [
+                        -122.2046835,
+                        47.6188451
+                    ],
+                    [
+                        -122.2046858,
+                        47.6185441
+                    ],
+                    [
+                        -122.2046874,
+                        47.6183495
+                    ],
+                    [
+                        -122.2046883,
+                        47.6182683
+                    ]
+                ]
+            },
+            "id": "way/360209439"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360210396",
+                "highway": "service",
+                "oneway": "yes",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2046182,
+                        47.6182675
+                    ],
+                    [
+                        -122.2046244,
+                        47.6176976
+                    ],
+                    [
+                        -122.2046753,
+                        47.6176607
+                    ],
+                    [
+                        -122.2048203,
+                        47.6176615
+                    ]
+                ]
+            },
+            "id": "way/360210396"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360210397",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2060596,
+                        47.6190736
+                    ],
+                    [
+                        -122.2051774,
+                        47.6190711
+                    ],
+                    [
+                        -122.2046215,
+                        47.6190695
+                    ],
+                    [
+                        -122.2046215,
+                        47.6189042
+                    ]
+                ]
+            },
+            "id": "way/360210397"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360210398",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2060596,
+                        47.6190736
+                    ],
+                    [
+                        -122.2060717,
+                        47.6182891
+                    ],
+                    [
+                        -122.2060829,
+                        47.6176557
+                    ]
+                ]
+            },
+            "id": "way/360210398"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360210399",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2060829,
+                        47.6176557
+                    ],
+                    [
+                        -122.2054881,
+                        47.6176595
+                    ]
+                ]
+            },
+            "id": "way/360210399"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/360214306",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.206316,
+                        47.6174509
+                    ],
+                    [
+                        -122.206316,
+                        47.617542
+                    ],
+                    [
+                        -122.2063162,
+                        47.6176407
+                    ],
+                    [
+                        -122.2063164,
+                        47.6182903
+                    ],
+                    [
+                        -122.2063175,
+                        47.6191092
+                    ],
+                    [
+                        -122.206317,
+                        47.6191926
+                    ],
+                    [
+                        -122.2063176,
+                        47.6192202
+                    ],
+                    [
+                        -122.2063177,
+                        47.6192928
+                    ]
+                ]
+            },
+            "id": "way/360214306"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/387201732",
+                "highway": "secondary",
+                "lanes": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.206316,
+                        47.6174509
+                    ],
+                    [
+                        -122.2056146,
+                        47.61739
+                    ],
+                    [
+                        -122.2054428,
+                        47.6173898
+                    ]
+                ]
+            },
+            "id": "way/387201732"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/387201734",
+                "highway": "secondary_link",
+                "lanes": "1",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2047795,
+                        47.6174815
+                    ],
+                    [
+                        -122.2048573,
+                        47.6174526
+                    ],
+                    [
+                        -122.2052752,
+                        47.617451
+                    ],
+                    [
+                        -122.2053745,
+                        47.6174501
+                    ],
+                    [
+                        -122.2054428,
+                        47.6173898
+                    ]
+                ]
+            },
+            "id": "way/387201734"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/387201735",
+                "highway": "secondary",
+                "lanes": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2047795,
+                        47.6174815
+                    ],
+                    [
+                        -122.2048606,
+                        47.6174939
+                    ],
+                    [
+                        -122.2049309,
+                        47.6174946
+                    ],
+                    [
+                        -122.2052285,
+                        47.6174955
+                    ],
+                    [
+                        -122.2054908,
+                        47.6174963
+                    ],
+                    [
+                        -122.2056093,
+                        47.6174966
+                    ],
+                    [
+                        -122.205873,
+                        47.6174796
+                    ]
+                ]
+            },
+            "id": "way/387201735"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906906",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE",
+                "turn:lanes": "left||right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.205873,
+                        47.6174796
+                    ],
+                    [
+                        -122.206316,
+                        47.6174509
+                    ]
+                ]
+            },
+            "id": "way/427906906"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906911",
+                "highway": "secondary",
+                "lanes": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2031232,
+                        47.6174872
+                    ],
+                    [
+                        -122.2033982,
+                        47.6174878
+                    ],
+                    [
+                        -122.2035666,
+                        47.6174882
+                    ]
+                ]
+            },
+            "id": "way/427906911"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906914",
+                "highway": "secondary",
+                "lanes": "5",
+                "lanes:backward": "3",
+                "lanes:forward": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE",
+                "turn:lanes:backward": "left||right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2070816,
+                        47.6174492
+                    ],
+                    [
+                        -122.2069423,
+                        47.6174495
+                    ],
+                    [
+                        -122.2065162,
+                        47.6174504
+                    ],
+                    [
+                        -122.206316,
+                        47.6174509
+                    ]
+                ]
+            },
+            "id": "way/427906914"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906922",
+                "highway": "secondary",
+                "lanes": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.201759,
+                        47.6174837
+                    ],
+                    [
+                        -122.201912,
+                        47.6174841
+                    ],
+                    [
+                        -122.2031232,
+                        47.6174872
+                    ]
+                ]
+            },
+            "id": "way/427906922"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906929",
+                "highway": "secondary",
+                "lanes": "2",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2035666,
+                        47.6174882
+                    ],
+                    [
+                        -122.2042737,
+                        47.6174873
+                    ],
+                    [
+                        -122.2043069,
+                        47.6174865
+                    ],
+                    [
+                        -122.2044003,
+                        47.6174842
+                    ]
+                ]
+            },
+            "id": "way/427906929"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490800",
+                "highway": "secondary",
+                "lanes": "4",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE",
+                "turn:lanes": "left|left||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2034351,
+                        47.6173999
+                    ],
+                    [
+                        -122.2031267,
+                        47.6174003
+                    ],
+                    [
+                        -122.2019223,
+                        47.6173933
+                    ],
+                    [
+                        -122.2017818,
+                        47.6173925
+                    ],
+                    [
+                        -122.2016573,
+                        47.6173805
+                    ]
+                ]
+            },
+            "id": "way/513490800"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490801",
+                "highway": "secondary",
+                "lanes": "4",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "8th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2044012,
+                        47.617392
+                    ],
+                    [
+                        -122.204343,
+                        47.6173932
+                    ],
+                    [
+                        -122.2039808,
+                        47.6174004
+                    ],
+                    [
+                        -122.2034351,
+                        47.6173999
+                    ]
+                ]
+            },
+            "id": "way/513490801"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490802",
+                "highway": "tertiary",
+                "name": "102nd Avenue Northeast",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2044012,
+                        47.617392
+                    ],
+                    [
+                        -122.2044003,
+                        47.6174842
+                    ]
+                ]
+            },
+            "id": "way/513490802"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490803",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:both_ways": "1",
+                "lanes:forward": "1",
+                "name": "102nd Avenue Northeast",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:both_ways": "left"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043964,
+                        47.6179309
+                    ],
+                    [
+                        -122.2043965,
+                        47.6179629
+                    ],
+                    [
+                        -122.2043956,
+                        47.6180763
+                    ],
+                    [
+                        -122.204395,
+                        47.618162
+                    ],
+                    [
+                        -122.2043907,
+                        47.6182441
+                    ]
+                ]
+            },
+            "id": "way/513490803"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490804",
+                "highway": "tertiary",
+                "lanes": "2",
+                "name": "102nd Avenue Northeast",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043813,
+                        47.618411
+                    ],
+                    [
+                        -122.2044394,
+                        47.6183826
+                    ],
+                    [
+                        -122.2044397,
+                        47.618343
+                    ],
+                    [
+                        -122.204441,
+                        47.6182665
+                    ]
+                ]
+            },
+            "id": "way/513490804"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490805",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "102nd Avenue Northeast",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043907,
+                        47.6182441
+                    ],
+                    [
+                        -122.2043352,
+                        47.6182668
+                    ]
+                ]
+            },
+            "id": "way/513490805"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490806",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:forward": "2",
+                "name": "102nd Avenue Northeast",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:forward": "left|"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043813,
+                        47.618411
+                    ],
+                    [
+                        -122.2043806,
+                        47.6185028
+                    ]
+                ]
+            },
+            "id": "way/513490806"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490807",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:forward": "2",
+                "name": "102nd Avenue Northeast",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:forward": "left|"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.204377,
+                        47.6189892
+                    ],
+                    [
+                        -122.2043824,
+                        47.6191477
+                    ],
+                    [
+                        -122.2043865,
+                        47.6192523
+                    ]
+                ]
+            },
+            "id": "way/513490807"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490808",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "turn:lanes": "left||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2054428,
+                        47.6173898
+                    ],
+                    [
+                        -122.2046692,
+                        47.617389
+                    ],
+                    [
+                        -122.2045756,
+                        47.6173902
+                    ],
+                    [
+                        -122.2045507,
+                        47.6173905
+                    ],
+                    [
+                        -122.2044012,
+                        47.617392
+                    ]
+                ]
+            },
+            "id": "way/513490808"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513490809",
+                "highway": "secondary",
+                "lanes": "3",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2044003,
+                        47.6174842
+                    ],
+                    [
+                        -122.2045459,
+                        47.6174812
+                    ],
+                    [
+                        -122.2045769,
+                        47.6174806
+                    ],
+                    [
+                        -122.2047795,
+                        47.6174815
+                    ]
+                ]
+            },
+            "id": "way/513490809"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/513503500",
+                "highway": "secondary",
+                "lanes": "5",
+                "maxspeed": "30 mph",
+                "name": "Northeast 8th Street",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "turn:lanes": "left||||right"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2007118,
+                        47.6174788
+                    ],
+                    [
+                        -122.2015624,
+                        47.6174821
+                    ],
+                    [
+                        -122.2017006,
+                        47.6174826
+                    ],
+                    [
+                        -122.201759,
+                        47.6174837
+                    ]
+                ]
+            },
+            "id": "way/513503500"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/549778474",
+                "highway": "service",
+                "service": "driveway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2069777,
+                        47.6144162
+                    ],
+                    [
+                        -122.2070826,
+                        47.6144147
+                    ],
+                    [
+                        -122.2071027,
+                        47.6144144
+                    ],
+                    [
+                        -122.2071461,
+                        47.61435
+                    ],
+                    [
+                        -122.2071434,
+                        47.614134
+                    ]
+                ]
+            },
+            "id": "way/549778474"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/577948126",
+                "highway": "tertiary",
+                "name": "100th Avenue Northeast",
+                "old_name": "Bellevue Avenue",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "100th",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.206958,
+                        47.613839
+                    ],
+                    [
+                        -122.2069605,
+                        47.6139112
+                    ],
+                    [
+                        -122.206968,
+                        47.6141283
+                    ]
+                ]
+            },
+            "id": "way/577948126"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/577950258",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:both_ways": "1",
+                "lanes:forward": "1",
+                "name": "102nd Avenue Northeast",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:backward": "left|right",
+                "turn:lanes:both_ways": "left"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043996,
+                        47.6176345
+                    ],
+                    [
+                        -122.2043973,
+                        47.617855
+                    ],
+                    [
+                        -122.2043964,
+                        47.6179309
+                    ]
+                ]
+            },
+            "id": "way/577950258"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652027893",
+                "highway": "service",
+                "layer": "-1",
+                "tunnel": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2031046,
+                        47.6162151
+                    ],
+                    [
+                        -122.2032771,
+                        47.6167467
+                    ]
+                ]
+            },
+            "id": "way/652027893"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652027894",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2032771,
+                        47.6167467
+                    ],
+                    [
+                        -122.2032906,
+                        47.6167872
+                    ],
+                    [
+                        -122.2034139,
+                        47.6169398
+                    ],
+                    [
+                        -122.2034335,
+                        47.6170101
+                    ],
+                    [
+                        -122.2034346,
+                        47.6173224
+                    ],
+                    [
+                        -122.2034351,
+                        47.6173999
+                    ]
+                ]
+            },
+            "id": "way/652027894"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/663057103",
+                "highway": "tertiary",
+                "name": "100th Avenue Northeast",
+                "old_name": "Bellevue Avenue",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "100th",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.206968,
+                        47.6141283
+                    ],
+                    [
+                        -122.2069777,
+                        47.6144162
+                    ],
+                    [
+                        -122.2069933,
+                        47.6148717
+                    ],
+                    [
+                        -122.2069961,
+                        47.6149672
+                    ],
+                    [
+                        -122.2069986,
+                        47.6150256
+                    ],
+                    [
+                        -122.2070003,
+                        47.6150926
+                    ],
+                    [
+                        -122.2070188,
+                        47.615616
+                    ],
+                    [
+                        -122.2070222,
+                        47.615714
+                    ],
+                    [
+                        -122.2070307,
+                        47.6159634
+                    ],
+                    [
+                        -122.207042,
+                        47.6162917
+                    ],
+                    [
+                        -122.2070429,
+                        47.6163195
+                    ],
+                    [
+                        -122.2070524,
+                        47.6165969
+                    ],
+                    [
+                        -122.20706,
+                        47.6168182
+                    ],
+                    [
+                        -122.207061,
+                        47.6168452
+                    ],
+                    [
+                        -122.207064,
+                        47.6169826
+                    ],
+                    [
+                        -122.2070775,
+                        47.6173544
+                    ],
+                    [
+                        -122.2070816,
+                        47.6174492
+                    ]
+                ]
+            },
+            "id": "way/663057103"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/663057104",
+                "highway": "service",
+                "service": "driveway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2071434,
+                        47.614134
+                    ],
+                    [
+                        -122.2071125,
+                        47.6141264
+                    ],
+                    [
+                        -122.2070729,
+                        47.6141269
+                    ],
+                    [
+                        -122.206968,
+                        47.6141283
+                    ]
+                ]
+            },
+            "id": "way/663057104"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670748",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:forward": "2",
+                "name": "102nd Avenue Northeast",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:forward": "left|"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043798,
+                        47.6186054
+                    ],
+                    [
+                        -122.2043776,
+                        47.6189054
+                    ],
+                    [
+                        -122.204377,
+                        47.6189892
+                    ]
+                ]
+            },
+            "id": "way/739670748"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670749",
+                "highway": "tertiary",
+                "lanes": "4",
+                "lanes:backward": "2",
+                "lanes:forward": "2",
+                "name": "102nd Avenue Northeast",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:forward": "left|"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043806,
+                        47.6185028
+                    ],
+                    [
+                        -122.2043798,
+                        47.6186054
+                    ]
+                ]
+            },
+            "id": "way/739670749"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670750",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "102nd Avenue Northeast",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.204337,
+                        47.6183802
+                    ],
+                    [
+                        -122.2043813,
+                        47.618411
+                    ]
+                ]
+            },
+            "id": "way/739670750"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670751",
+                "highway": "tertiary",
+                "lanes": "1",
+                "name": "102nd Avenue Northeast",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2043352,
+                        47.6182668
+                    ],
+                    [
+                        -122.2043359,
+                        47.6183167
+                    ],
+                    [
+                        -122.204337,
+                        47.6183802
+                    ]
+                ]
+            },
+            "id": "way/739670751"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670752",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2046182,
+                        47.6182675
+                    ],
+                    [
+                        -122.2045175,
+                        47.6182669
+                    ],
+                    [
+                        -122.204441,
+                        47.6182665
+                    ]
+                ]
+            },
+            "id": "way/739670752"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670753",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2046883,
+                        47.6182683
+                    ],
+                    [
+                        -122.2046182,
+                        47.6182675
+                    ]
+                ]
+            },
+            "id": "way/739670753"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670754",
+                "highway": "tertiary",
+                "lanes": "2",
+                "name": "102nd Avenue Northeast",
+                "oneway": "yes",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "102nd",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.204441,
+                        47.6182665
+                    ],
+                    [
+                        -122.2043907,
+                        47.6182441
+                    ]
+                ]
+            },
+            "id": "way/739670754"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/739670755",
+                "highway": "service",
+                "service": "parking_aisle"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.204441,
+                        47.6182665
+                    ],
+                    [
+                        -122.2043352,
+                        47.6182668
+                    ]
+                ]
+            },
+            "id": "way/739670755"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/801495121",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030519,
+                        47.6185703
+                    ],
+                    [
+                        -122.2030841,
+                        47.6183181
+                    ],
+                    [
+                        -122.2031211,
+                        47.6175283
+                    ],
+                    [
+                        -122.2031232,
+                        47.6174872
+                    ]
+                ]
+            },
+            "id": "way/801495121"
+        }
+    ]
+}

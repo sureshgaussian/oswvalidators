@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656584689",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "lit": "yes",
+                "surface": "paving_stones"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7426066,
+                        30.2689285
+                    ],
+                    [
+                        -97.7426361,
+                        30.2689338
+                    ]
+                ]
+            },
+            "id": "way/656584689"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656584690",
+                "crossing": "marked",
+                "crossing_ref": "zebra",
+                "footway": "crossing",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7424004,
+                        30.2688728
+                    ],
+                    [
+                        -97.7424986,
+                        30.2688949
+                    ],
+                    [
+                        -97.7426066,
+                        30.2689285
+                    ]
+                ]
+            },
+            "id": "way/656584690"
+        }
+    ]
+}

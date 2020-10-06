@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435628",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7453126,
+                        30.2816028
+                    ],
+                    [
+                        -97.7453072,
+                        30.2816173
+                    ]
+                ]
+            },
+            "id": "way/656435628"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656435629",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7452774,
+                        30.2816066
+                    ],
+                    [
+                        -97.7453072,
+                        30.2816173
+                    ]
+                ]
+            },
+            "id": "way/656435629"
+        }
+    ]
+}

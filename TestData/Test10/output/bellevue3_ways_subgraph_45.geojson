@@ -1,0 +1,81 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/843400114",
+                "bridge": "yes",
+                "handrail": "both",
+                "highway": "footway",
+                "incline": "down",
+                "layer": "1",
+                "project": "opensidewalks",
+                "surface": "concrete"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2048727,
+                        47.6140421
+                    ],
+                    [
+                        -122.2048722,
+                        47.6140336
+                    ],
+                    [
+                        -122.2051677,
+                        47.6140307
+                    ],
+                    [
+                        -122.2051674,
+                        47.6140135
+                    ],
+                    [
+                        -122.2048668,
+                        47.6140169
+                    ]
+                ]
+            },
+            "id": "way/843400114"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/843400137",
+                "bridge": "yes",
+                "highway": "footway",
+                "layer": "1",
+                "project": "opensidewalks",
+                "surface": "concrete"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2048668,
+                        47.6140169
+                    ],
+                    [
+                        -122.204867,
+                        47.6140422
+                    ],
+                    [
+                        -122.2048673,
+                        47.6140564
+                    ],
+                    [
+                        -122.2048184,
+                        47.6140566
+                    ],
+                    [
+                        -122.2045687,
+                        47.6140576
+                    ]
+                ]
+            },
+            "id": "way/843400137"
+        }
+    ]
+}

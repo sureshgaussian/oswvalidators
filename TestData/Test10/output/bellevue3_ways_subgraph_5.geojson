@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/43872832",
+                "bridge": "yes",
+                "covered": "yes",
+                "foot": "yes",
+                "highway": "footway",
+                "layer": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2015031,
+                        47.6167494
+                    ],
+                    [
+                        -122.2019123,
+                        47.6166831
+                    ]
+                ]
+            },
+            "id": "way/43872832"
+        }
+    ]
+}

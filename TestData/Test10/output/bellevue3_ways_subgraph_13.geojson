@@ -1,0 +1,401 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/243441994",
+                "highway": "secondary",
+                "lanes": "6",
+                "lanes:backward": "3",
+                "lanes:forward": "3",
+                "name": "Bellevue Way Northeast",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:backward": "left||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.201736,
+                        47.6175684
+                    ],
+                    [
+                        -122.2017294,
+                        47.6179348
+                    ],
+                    [
+                        -122.2017266,
+                        47.6180608
+                    ],
+                    [
+                        -122.2017253,
+                        47.6180946
+                    ],
+                    [
+                        -122.2017211,
+                        47.6183105
+                    ],
+                    [
+                        -122.2017185,
+                        47.6184053
+                    ],
+                    [
+                        -122.2017177,
+                        47.6184626
+                    ]
+                ]
+            },
+            "id": "way/243441994"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/425272687",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Bellevue Way Northeast",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2018018,
+                        47.6173094
+                    ],
+                    [
+                        -122.2017787,
+                        47.6164218
+                    ],
+                    [
+                        -122.2017804,
+                        47.616207
+                    ],
+                    [
+                        -122.2017656,
+                        47.6156741
+                    ],
+                    [
+                        -122.2017616,
+                        47.6155295
+                    ],
+                    [
+                        -122.2017517,
+                        47.6151723
+                    ],
+                    [
+                        -122.2017484,
+                        47.6150536
+                    ],
+                    [
+                        -122.2017361,
+                        47.6146399
+                    ]
+                ]
+            },
+            "id": "way/425272687"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906764",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Bellevue Way Northeast",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes": "left||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2017361,
+                        47.6146399
+                    ],
+                    [
+                        -122.2017132,
+                        47.613974
+                    ],
+                    [
+                        -122.2017089,
+                        47.613871
+                    ]
+                ]
+            },
+            "id": "way/427906764"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906779",
+                "highway": "secondary",
+                "lanes": "6",
+                "lanes:backward": "2",
+                "lanes:forward": "4",
+                "name": "Bellevue Way Northeast",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE",
+                "turn:lanes:forward": "left|||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.201707,
+                        47.6189454
+                    ],
+                    [
+                        -122.2017032,
+                        47.6191139
+                    ],
+                    [
+                        -122.2017001,
+                        47.6192526
+                    ]
+                ]
+            },
+            "id": "way/427906779"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906792",
+                "highway": "secondary",
+                "lanes": "6",
+                "name": "Bellevue Way Northeast",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2017177,
+                        47.6184626
+                    ],
+                    [
+                        -122.2017155,
+                        47.6185648
+                    ],
+                    [
+                        -122.201714,
+                        47.6186323
+                    ],
+                    [
+                        -122.201707,
+                        47.6189454
+                    ]
+                ]
+            },
+            "id": "way/427906792"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906801",
+                "highway": "secondary",
+                "lanes": "2",
+                "name": "Bellevue Way Northeast",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2017089,
+                        47.613871
+                    ],
+                    [
+                        -122.2017007,
+                        47.6137455
+                    ],
+                    [
+                        -122.2016772,
+                        47.6133405
+                    ],
+                    [
+                        -122.2016687,
+                        47.6131971
+                    ],
+                    [
+                        -122.2016541,
+                        47.6128985
+                    ],
+                    [
+                        -122.2016386,
+                        47.6125163
+                    ]
+                ]
+            },
+            "id": "way/427906801"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906886",
+                "highway": "secondary",
+                "maxspeed": "35 mph",
+                "name": "Northeast 4th Street",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "4th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2015403,
+                        47.6138727
+                    ],
+                    [
+                        -122.2017089,
+                        47.613871
+                    ]
+                ]
+            },
+            "id": "way/427906886"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/427906887",
+                "highway": "secondary",
+                "lanes": "5",
+                "lanes:backward": "2",
+                "lanes:forward": "3",
+                "maxspeed": "35 mph",
+                "name": "Northeast 4th Street",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "4th",
+                "tiger:name_direction_prefix": "NE",
+                "turn:lanes:forward": "left||"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2026697,
+                        47.6138587
+                    ],
+                    [
+                        -122.2022063,
+                        47.6138646
+                    ],
+                    [
+                        -122.2018095,
+                        47.6138697
+                    ],
+                    [
+                        -122.2017089,
+                        47.613871
+                    ]
+                ]
+            },
+            "id": "way/427906887"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/816498791",
+                "highway": "secondary",
+                "lanes": "3",
+                "name": "Bellevue Way Northeast",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.201736,
+                        47.6175684
+                    ],
+                    [
+                        -122.201759,
+                        47.6174837
+                    ],
+                    [
+                        -122.2017818,
+                        47.6173925
+                    ],
+                    [
+                        -122.2018018,
+                        47.6173094
+                    ]
+                ]
+            },
+            "id": "way/816498791"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/816498792",
+                "highway": "secondary",
+                "lanes": "4",
+                "name": "Bellevue Way Northeast",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "Bellevue",
+                "tiger:name_direction_suffix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.20163,
+                        47.6173117
+                    ],
+                    [
+                        -122.2016573,
+                        47.6173805
+                    ],
+                    [
+                        -122.2017006,
+                        47.6174826
+                    ],
+                    [
+                        -122.201736,
+                        47.6175684
+                    ]
+                ]
+            },
+            "id": "way/816498792"
+        }
+    ]
+}

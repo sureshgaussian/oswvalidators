@@ -1,0 +1,215 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/55480148",
+                "highway": "service",
+                "oneway": "yes"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2017517,
+                        47.6151723
+                    ],
+                    [
+                        -122.2018233,
+                        47.6151712
+                    ],
+                    [
+                        -122.2029976,
+                        47.6151532
+                    ],
+                    [
+                        -122.203138,
+                        47.615151
+                    ],
+                    [
+                        -122.2031092,
+                        47.6143227
+                    ],
+                    [
+                        -122.2031037,
+                        47.6141438
+                    ],
+                    [
+                        -122.2030489,
+                        47.6140267
+                    ]
+                ]
+            },
+            "id": "way/55480148"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/441086625",
+                "highway": "secondary",
+                "maxspeed": "35 mph",
+                "name": "Northeast 4th Street",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "4th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.202918,
+                        47.6138581
+                    ],
+                    [
+                        -122.2030603,
+                        47.61389
+                    ]
+                ]
+            },
+            "id": "way/441086625"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/470492325",
+                "highway": "service",
+                "oneway": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2029587,
+                        47.6141679
+                    ],
+                    [
+                        -122.2030082,
+                        47.6140793
+                    ]
+                ]
+            },
+            "id": "way/470492325"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/479656687",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030489,
+                        47.6140267
+                    ],
+                    [
+                        -122.2030558,
+                        47.6139375
+                    ],
+                    [
+                        -122.2030603,
+                        47.61389
+                    ]
+                ]
+            },
+            "id": "way/479656687"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/479656688",
+                "highway": "service"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030082,
+                        47.6140793
+                    ],
+                    [
+                        -122.2019701,
+                        47.6140857
+                    ],
+                    [
+                        -122.2019724,
+                        47.6142862
+                    ]
+                ]
+            },
+            "id": "way/479656688"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/737992906",
+                "highway": "secondary",
+                "maxspeed": "35 mph",
+                "name": "Northeast 4th Street",
+                "oneway": "yes",
+                "surface": "paved",
+                "tiger:cfcc": "A41",
+                "tiger:county": "King, WA",
+                "tiger:name_base": "4th",
+                "tiger:name_direction_prefix": "NE"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030603,
+                        47.61389
+                    ],
+                    [
+                        -122.2044972,
+                        47.6138837
+                    ],
+                    [
+                        -122.2047176,
+                        47.6138827
+                    ],
+                    [
+                        -122.2049138,
+                        47.6138812
+                    ],
+                    [
+                        -122.2055613,
+                        47.6138762
+                    ],
+                    [
+                        -122.2057423,
+                        47.6138411
+                    ]
+                ]
+            },
+            "id": "way/737992906"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/737992907",
+                "highway": "service",
+                "oneway": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2030082,
+                        47.6140793
+                    ],
+                    [
+                        -122.2030489,
+                        47.6140267
+                    ]
+                ]
+            },
+            "id": "way/737992907"
+        }
+    ]
+}

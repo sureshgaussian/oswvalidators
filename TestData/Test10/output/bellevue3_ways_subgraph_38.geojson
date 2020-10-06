@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/753604534",
+                "highway": "service",
+                "service": "driveway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.2070307,
+                        47.6159634
+                    ],
+                    [
+                        -122.2071369,
+                        47.615962
+                    ],
+                    [
+                        -122.2075879,
+                        47.6159559
+                    ]
+                ]
+            },
+            "id": "way/753604534"
+        }
+    ]
+}

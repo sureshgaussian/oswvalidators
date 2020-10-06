@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/334892504",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -104.9793263,
+                        39.7380989
+                    ],
+                    [
+                        -104.9788337,
+                        39.7380993
+                    ]
+                ]
+            },
+            "id": "way/334892504"
+        }
+    ]
+}

@@ -1,0 +1,3209 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6648416126",
+                "direction": "backward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.981095,
+                    39.7460643
+                ]
+            },
+            "id": "node/6648416126",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6648416124",
+                "direction": "backward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810983,
+                    39.7447406
+                ]
+            },
+            "id": "node/6648416124",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6648416123",
+                "direction": "forward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810977,
+                    39.7449788
+                ]
+            },
+            "id": "node/6648416123",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6648416116",
+                "direction": "backward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811023,
+                    39.7431373
+                ]
+            },
+            "id": "node/6648416116",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6648416115",
+                "direction": "forward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811016,
+                    39.743391
+                ]
+            },
+            "id": "node/6648416115",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5930497181",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9797188,
+                    39.7433598
+                ]
+            },
+            "id": "node/5930497181",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5516783130",
+                "direction": "forward",
+                "highway": "stop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811056,
+                    39.7417993
+                ]
+            },
+            "id": "node/5516783130",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'direction', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5153035078",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9804921,
+                    39.7431642
+                ]
+            },
+            "id": "node/5153035078",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4955447713",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823336,
+                    39.7448687
+                ]
+            },
+            "id": "node/4955447713",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4130848163",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812195,
+                    39.7436145
+                ]
+            },
+            "id": "node/4130848163",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3413678358",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823285,
+                    39.7415801
+                ]
+            },
+            "id": "node/3413678358",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412904543",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823877,
+                    39.7324208
+                ]
+            },
+            "id": "node/3412904543",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412869537",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823914,
+                    39.733064
+                ]
+            },
+            "id": "node/3412869537",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412843234",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.982393,
+                    39.7333529
+                ]
+            },
+            "id": "node/3412843234",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412535825",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824067,
+                    39.7343598
+                ]
+            },
+            "id": "node/3412535825",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412175396",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824274,
+                    39.7366364
+                ]
+            },
+            "id": "node/3412175396",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3412171258",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.982417,
+                    39.7355078
+                ]
+            },
+            "id": "node/3412171258",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3411394683",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824322,
+                    39.7373071
+                ]
+            },
+            "id": "node/3411394683",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3411349461",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824394,
+                    39.7379442
+                ]
+            },
+            "id": "node/3411349461",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3406352227",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824529,
+                    39.7392869
+                ]
+            },
+            "id": "node/3406352227",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3404964958",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824153,
+                    39.7351593
+                ]
+            },
+            "id": "node/3404964958",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3404137737",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823949,
+                    39.7337044
+                ]
+            },
+            "id": "node/3404137737",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3404136744",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823856,
+                    39.7320499
+                ]
+            },
+            "id": "node/3404136744",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3404136743",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823923,
+                    39.7368874
+                ]
+            },
+            "id": "node/3404136743",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3404136742",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824447,
+                    39.7384439
+                ]
+            },
+            "id": "node/3404136742",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390880043",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812213,
+                    39.7409146
+                ]
+            },
+            "id": "node/3390880043",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390805427",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824585,
+                    39.7404883
+                ]
+            },
+            "id": "node/3390805427",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390803685",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824583,
+                    39.7408452
+                ]
+            },
+            "id": "node/3390803685",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390665564",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824579,
+                    39.7413046
+                ]
+            },
+            "id": "node/3390665564",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390657744",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.983464,
+                    39.7407344
+                ]
+            },
+            "id": "node/3390657744",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390657743",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834651,
+                    39.740539
+                ]
+            },
+            "id": "node/3390657743",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3390650861",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834624,
+                    39.7410529
+                ]
+            },
+            "id": "node/3390650861",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386802046",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.981002,
+                    39.7430906
+                ]
+            },
+            "id": "node/3386802046",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386801586",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.981003,
+                    39.742781
+                ]
+            },
+            "id": "node/3386801586",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386786092",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812202,
+                    39.7426481
+                ]
+            },
+            "id": "node/3386786092",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386786091",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812202,
+                    39.7426855
+                ]
+            },
+            "id": "node/3386786091",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386758781",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822399,
+                    39.7426784
+                ]
+            },
+            "id": "node/3386758781",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386758374",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822382,
+                    39.7430235
+                ]
+            },
+            "id": "node/3386758374",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386089696",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824549,
+                    39.7420983
+                ]
+            },
+            "id": "node/3386089696",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386064354",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9830584,
+                    39.7431714
+                ]
+            },
+            "id": "node/3386064354",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3386064353",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9833068,
+                    39.7431721
+                ]
+            },
+            "id": "node/3386064353",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3385535221",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9842367,
+                    39.7431764
+                ]
+            },
+            "id": "node/3385535221",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3385515410",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9851212,
+                    39.7417762
+                ]
+            },
+            "id": "node/3385515410",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3385451667",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9750546,
+                    39.7447483
+                ]
+            },
+            "id": "node/3385451667",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383876413",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9778846,
+                    39.7447602
+                ]
+            },
+            "id": "node/3383876413",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383736328",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9797184,
+                    39.7447638
+                ]
+            },
+            "id": "node/3383736328",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383736327",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9795008,
+                    39.7447632
+                ]
+            },
+            "id": "node/3383736327",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383675569",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9809992,
+                    39.7436999
+                ]
+            },
+            "id": "node/3383675569",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383662806",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9804814,
+                    39.7447662
+                ]
+            },
+            "id": "node/3383662806",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3383662806', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383086216",
+                "noexit": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9813002,
+                    39.7438252
+                ]
+            },
+            "id": "node/3383086216",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'noexit', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383073145",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823312,
+                    39.7433668
+                ]
+            },
+            "id": "node/3383073145",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3383062847",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812195,
+                    39.7444313
+                ]
+            },
+            "id": "node/3383062847",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3382701069",
+                "noexit": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9826051,
+                    39.7441531
+                ]
+            },
+            "id": "node/3382701069",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'noexit', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3382350571",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9861093,
+                    39.7431858
+                ]
+            },
+            "id": "node/3382350571",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3382339594",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834539,
+                    39.7448733
+                ]
+            },
+            "id": "node/3382339594",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3382331803",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9841665,
+                    39.7433677
+                ]
+            },
+            "id": "node/3382331803",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376106563",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9793328,
+                    39.7447627
+                ]
+            },
+            "id": "node/3376106563",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376106353",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9817227,
+                    39.7415789
+                ]
+            },
+            "id": "node/3376106353",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376087139",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823287,
+                    39.7417679
+                ]
+            },
+            "id": "node/3376087139",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376087137",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.981722,
+                    39.7417664
+                ]
+            },
+            "id": "node/3376087137",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376087130",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811057,
+                    39.7417659
+                ]
+            },
+            "id": "node/3376087130",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376087128",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9805014,
+                    39.7417669
+                ]
+            },
+            "id": "node/3376087128",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086567",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9787437,
+                    39.7417622
+                ]
+            },
+            "id": "node/3376086567",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086565",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9782212,
+                    39.7417607
+                ]
+            },
+            "id": "node/3376086565",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086128",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9775703,
+                    39.7417591
+                ]
+            },
+            "id": "node/3376086128",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086126",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9768942,
+                    39.7417581
+                ]
+            },
+            "id": "node/3376086126",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086033",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.976168,
+                    39.741756
+                ]
+            },
+            "id": "node/3376086033",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3376086033', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086031",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9754635,
+                    39.7417555
+                ]
+            },
+            "id": "node/3376086031",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3376086031', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086010",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9747757,
+                    39.7417545
+                ]
+            },
+            "id": "node/3376086010",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376086008",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9741293,
+                    39.7417517
+                ]
+            },
+            "id": "node/3376086008",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376083227",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9861093,
+                    39.7417787
+                ]
+            },
+            "id": "node/3376083227",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376083225",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9854928,
+                    39.7417777
+                ]
+            },
+            "id": "node/3376083225",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3376083225', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376083223",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.984849,
+                    39.7417767
+                ]
+            },
+            "id": "node/3376083223",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376083211",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9835831,
+                    39.7417725
+                ]
+            },
+            "id": "node/3376083211",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376082379",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829677,
+                    39.7417715
+                ]
+            },
+            "id": "node/3376082379",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3376082379', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376082378",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834622,
+                    39.7424885
+                ]
+            },
+            "id": "node/3376082378",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376078947",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9799096,
+                    39.7417648
+                ]
+            },
+            "id": "node/3376078947",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3376078945",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9793394,
+                    39.7417638
+                ]
+            },
+            "id": "node/3376078945",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375627321",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.981715,
+                    39.7431676
+                ]
+            },
+            "id": "node/3375627321",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375627292",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811022,
+                    39.7431659
+                ]
+            },
+            "id": "node/3375627292",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375626842",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823309,
+                    39.7431693
+                ]
+            },
+            "id": "node/3375626842",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375624298",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9848478,
+                    39.7433703
+                ]
+            },
+            "id": "node/3375624298",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375620742",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9835871,
+                    39.7431731
+                ]
+            },
+            "id": "node/3375620742",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375620700",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9848476,
+                    39.7431795
+                ]
+            },
+            "id": "node/3375620700",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375620694",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9817141,
+                    39.7433672
+                ]
+            },
+            "id": "node/3375620694",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619728",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9811017,
+                    39.7433654
+                ]
+            },
+            "id": "node/3375619728",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619726",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9804908,
+                    39.7433634
+                ]
+            },
+            "id": "node/3375619726",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619724",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9799029,
+                    39.7433613
+                ]
+            },
+            "id": "node/3375619724",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619376",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9835877,
+                    39.7433703
+                ]
+            },
+            "id": "node/3375619376",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619231",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9854904,
+                    39.7431827
+                ]
+            },
+            "id": "node/3375619231",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619230",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9861098,
+                    39.7433754
+                ]
+            },
+            "id": "node/3375619230",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375619167",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9793359,
+                    39.7433582
+                ]
+            },
+            "id": "node/3375619167",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375618406",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.978737,
+                    39.7433814
+                ]
+            },
+            "id": "node/3375618406",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375617423",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9775632,
+                    39.7433814
+                ]
+            },
+            "id": "node/3375617423",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375617421",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9770333,
+                    39.7433824
+                ]
+            },
+            "id": "node/3375617421",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375615662",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9782206,
+                    39.7433814
+                ]
+            },
+            "id": "node/3375615662",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375614080",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9747759,
+                    39.7433763
+                ]
+            },
+            "id": "node/3375614080",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375614078",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9741249,
+                    39.7433762
+                ]
+            },
+            "id": "node/3375614078",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375613911",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9761734,
+                    39.7433783
+                ]
+            },
+            "id": "node/3375613911",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375599549",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9754579,
+                    39.7447528
+                ]
+            },
+            "id": "node/3375599549",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375598258",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9761692,
+                    39.7447538
+                ]
+            },
+            "id": "node/3375598258",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375597450",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9768967,
+                    39.7447559
+                ]
+            },
+            "id": "node/3375597450",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375596310",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9775571,
+                    39.744761
+                ]
+            },
+            "id": "node/3375596310",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375596308",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.97822,
+                    39.7447589
+                ]
+            },
+            "id": "node/3375596308",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375596307",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9787382,
+                    39.744762
+                ]
+            },
+            "id": "node/3375596307",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375596075",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "tactile_paving": "no"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9798955,
+                    39.7447652
+                ]
+            },
+            "id": "node/3375596075",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3375596075', 'crossing': 'unmarked', 'highway': 'crossing', 'tactile_paving': 'no'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375595693",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823334,
+                    39.7447713
+                ]
+            },
+            "id": "node/3375595693",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375595307",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829516,
+                    39.7447703
+                ]
+            },
+            "id": "node/3375595307",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375593040",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810982,
+                    39.7447672
+                ]
+            },
+            "id": "node/3375593040",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375592241",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9842272,
+                    39.7447796
+                ]
+            },
+            "id": "node/3375592241",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375590976",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9835919,
+                    39.7447765
+                ]
+            },
+            "id": "node/3375590976",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375590960",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9848528,
+                    39.7447822
+                ]
+            },
+            "id": "node/3375590960",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375588978",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9861136,
+                    39.7447853
+                ]
+            },
+            "id": "node/3375588978",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375580861",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829513,
+                    39.7449658
+                ]
+            },
+            "id": "node/3375580861",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375516010",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810977,
+                    39.7449596
+                ]
+            },
+            "id": "node/3375516010",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375341715",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829476,
+                    39.7460955
+                ]
+            },
+            "id": "node/3375341715",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375340598",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810949,
+                    39.7460879
+                ]
+            },
+            "id": "node/3375340598",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375268993",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9763339,
+                    39.7432485
+                ]
+            },
+            "id": "node/3375268993",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375243886",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9786614,
+                    39.7432539
+                ]
+            },
+            "id": "node/3375243886",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375120760",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9774612,
+                    39.7432512
+                ]
+            },
+            "id": "node/3375120760",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375118610",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.976008,
+                    39.7432479
+                ]
+            },
+            "id": "node/3375118610",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375117843",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9748922,
+                    39.7432453
+                ]
+            },
+            "id": "node/3375117843",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375116635",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9735268,
+                    39.7432422
+                ]
+            },
+            "id": "node/3375116635",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3375112525",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9746762,
+                    39.7432448
+                ]
+            },
+            "id": "node/3375112525",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374678708",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9788406,
+                    39.7432543
+                ]
+            },
+            "id": "node/3374678708",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374672912",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9798233,
+                    39.7432566
+                ]
+            },
+            "id": "node/3374672912",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374660391",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9800047,
+                    39.743257
+                ]
+            },
+            "id": "node/3374660391",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374653194",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9810014,
+                    39.7432593
+                ]
+            },
+            "id": "node/3374653194",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374649293",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812195,
+                    39.7432598
+                ]
+            },
+            "id": "node/3374649293",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374647899",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812195,
+                    39.7448641
+                ]
+            },
+            "id": "node/3374647899",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374647783",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812174,
+                    39.7400247
+                ]
+            },
+            "id": "node/3374647783",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374647638",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812214,
+                    39.7416679
+                ]
+            },
+            "id": "node/3374647638",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374647637",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812213,
+                    39.7404872
+                ]
+            },
+            "id": "node/3374647637",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374644599",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.982245,
+                    39.7416715
+                ]
+            },
+            "id": "node/3374644599",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374642874",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.982237,
+                    39.7432621
+                ]
+            },
+            "id": "node/3374642874",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374642873",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822374,
+                    39.7442378
+                ]
+            },
+            "id": "node/3374642873",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374629086",
+                "crossing": "traffic_signals",
+                "highway": "crossing",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822329,
+                    39.7448683
+                ]
+            },
+            "id": "node/3374629086",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/3374629086', 'crossing': 'traffic_signals', 'highway': 'crossing', 'tactile_paving': 'yes'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374629032",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822259,
+                    39.7461814
+                ]
+            },
+            "id": "node/3374629032",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374564508",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9822577,
+                    39.7400355
+                ]
+            },
+            "id": "node/3374564508",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374563592",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824522,
+                    39.7448692
+                ]
+            },
+            "id": "node/3374563592",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374563589",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824701,
+                    39.744083
+                ]
+            },
+            "id": "node/3374563589",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374563003",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824764,
+                    39.7432626
+                ]
+            },
+            "id": "node/3374563003",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374562021",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824589,
+                    39.7400373
+                ]
+            },
+            "id": "node/3374562021",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374558093",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834634,
+                    39.7461814
+                ]
+            },
+            "id": "node/3374558093",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374553687",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834637,
+                    39.7432649
+                ]
+            },
+            "id": "node/3374553687",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374553415",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9824576,
+                    39.741672
+                ]
+            },
+            "id": "node/3374553415",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374552920",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834604,
+                    39.7416744
+                ]
+            },
+            "id": "node/3374552920",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374552162",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9834684,
+                    39.7440862
+                ]
+            },
+            "id": "node/3374552162",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374411884",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829466,
+                    39.7462813
+                ]
+            },
+            "id": "node/3374411884",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374401735",
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9776756,
+                    39.7432517
+                ]
+            },
+            "id": "node/3374401735",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3374387920",
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9829395,
+                    39.7474728
+                ]
+            },
+            "id": "node/3374387920",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3338507428",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812037,
+                    39.7475252
+                ]
+            },
+            "id": "node/3338507428",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3338507427",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9812165,
+                    39.7461818
+                ]
+            },
+            "id": "node/3338507427",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/773327014",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9734046,
+                    39.7432419
+                ]
+            },
+            "id": "node/773327014",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176080667",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.974777,
+                    39.743245
+                ]
+            },
+            "id": "node/176080667",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176080663",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9775637,
+                    39.7432514
+                ]
+            },
+            "id": "node/176080663",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176080661",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9787369,
+                    39.7432541
+                ]
+            },
+            "id": "node/176080661",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176080655",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823311,
+                    39.7432623
+                ]
+            },
+            "id": "node/176080655",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176072807",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9835874,
+                    39.7432652
+                ]
+            },
+            "id": "node/176072807",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/176071281",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9823286,
+                    39.7416717
+                ]
+            },
+            "id": "node/176071281",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        }
+    ]
+}

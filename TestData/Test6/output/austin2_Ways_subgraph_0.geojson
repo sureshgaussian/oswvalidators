@@ -1,0 +1,607 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/30756754",
+                "cycleway": "shared_lane",
+                "highway": "primary",
+                "lanes": "4",
+                "name": "Congress Avenue",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Congress",
+                "tiger:name_type": "Ave",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7428064,
+                        30.268072
+                    ],
+                    [
+                        -97.7428453,
+                        30.267968
+                    ],
+                    [
+                        -97.7430377,
+                        30.2674537
+                    ],
+                    [
+                        -97.7431271,
+                        30.267215
+                    ],
+                    [
+                        -97.7431556,
+                        30.2671385
+                    ]
+                ]
+            },
+            "id": "way/30756754"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/144469638",
+                "highway": "secondary",
+                "name": "West 6th Street",
+                "old_name": "Pecan Street",
+                "oneway": "yes",
+                "sidewalk": "both",
+                "tiger:cfcc": "A41:A63",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "6th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7428064,
+                        30.268072
+                    ],
+                    [
+                        -97.7429824,
+                        30.2681207
+                    ],
+                    [
+                        -97.7434977,
+                        30.268265
+                    ],
+                    [
+                        -97.7436933,
+                        30.268318
+                    ]
+                ]
+            },
+            "id": "way/144469638"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/201680484",
+                "highway": "secondary",
+                "lit": "yes",
+                "name": "West 7th Street",
+                "old_name": "Bois de Arc Street (old Bois d'Arc Street)",
+                "oneway": "yes",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "7th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7448803,
+                        30.2696716
+                    ],
+                    [
+                        -97.7447651,
+                        30.2696394
+                    ],
+                    [
+                        -97.7439065,
+                        30.2693992
+                    ],
+                    [
+                        -97.7438973,
+                        30.2693966
+                    ],
+                    [
+                        -97.74378,
+                        30.2693646
+                    ],
+                    [
+                        -97.7436849,
+                        30.269338
+                    ],
+                    [
+                        -97.7436797,
+                        30.2693366
+                    ],
+                    [
+                        -97.7431343,
+                        30.2691844
+                    ],
+                    [
+                        -97.7426317,
+                        30.269044
+                    ],
+                    [
+                        -97.7424606,
+                        30.2689964
+                    ]
+                ]
+            },
+            "id": "way/201680484"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/204974723",
+                "highway": "secondary",
+                "name": "Colorado Street",
+                "note": "Converted to two-way in 2018 https://austin.towers.net/colorado-street-goes-two-way-this-month-in-downtown-austin/",
+                "oneway": "no",
+                "sidewalk": "both",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7441258,
+                        30.2684402
+                    ],
+                    [
+                        -97.7441674,
+                        30.2683418
+                    ],
+                    [
+                        -97.7441688,
+                        30.268338
+                    ],
+                    [
+                        -97.7444417,
+                        30.2675972
+                    ],
+                    [
+                        -97.744475,
+                        30.2675067
+                    ],
+                    [
+                        -97.7445132,
+                        30.2674047
+                    ],
+                    [
+                        -97.7446532,
+                        30.2670305
+                    ],
+                    [
+                        -97.7446871,
+                        30.2669415
+                    ],
+                    [
+                        -97.7447962,
+                        30.2666548
+                    ],
+                    [
+                        -97.744825,
+                        30.2665712
+                    ],
+                    [
+                        -97.7448645,
+                        30.2664693
+                    ],
+                    [
+                        -97.7450013,
+                        30.2661
+                    ],
+                    [
+                        -97.7451389,
+                        30.2657322
+                    ],
+                    [
+                        -97.7451568,
+                        30.2656844
+                    ],
+                    [
+                        -97.7451802,
+                        30.2656216
+                    ],
+                    [
+                        -97.7451931,
+                        30.2655872
+                    ],
+                    [
+                        -97.7452096,
+                        30.265543
+                    ],
+                    [
+                        -97.7452877,
+                        30.2653343
+                    ],
+                    [
+                        -97.7454995,
+                        30.2647683
+                    ],
+                    [
+                        -97.7455295,
+                        30.264688
+                    ],
+                    [
+                        -97.7455628,
+                        30.2645989
+                    ],
+                    [
+                        -97.7456352,
+                        30.2644055
+                    ],
+                    [
+                        -97.7456594,
+                        30.2643407
+                    ],
+                    [
+                        -97.7456696,
+                        30.2643136
+                    ],
+                    [
+                        -97.7458308,
+                        30.2638828
+                    ],
+                    [
+                        -97.7458749,
+                        30.2637648
+                    ]
+                ]
+            },
+            "id": "way/204974723"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/204981554",
+                "highway": "secondary",
+                "name": "East 6th Street",
+                "old_name": "Pecan Street",
+                "oneway": "yes",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "6th",
+                "tiger:name_direction_prefix": "E",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78702",
+                "tiger:zip_right": "78702"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.739319,
+                        30.267097
+                    ],
+                    [
+                        -97.7394442,
+                        30.267132
+                    ],
+                    [
+                        -97.7402648,
+                        30.2673629
+                    ],
+                    [
+                        -97.7402937,
+                        30.26737
+                    ],
+                    [
+                        -97.7404009,
+                        30.2674008
+                    ],
+                    [
+                        -97.7405144,
+                        30.267431
+                    ],
+                    [
+                        -97.7405233,
+                        30.2674335
+                    ],
+                    [
+                        -97.7413717,
+                        30.2676715
+                    ],
+                    [
+                        -97.741465,
+                        30.2676977
+                    ],
+                    [
+                        -97.7415959,
+                        30.2677342
+                    ],
+                    [
+                        -97.7421061,
+                        30.2678766
+                    ],
+                    [
+                        -97.7426483,
+                        30.2680287
+                    ],
+                    [
+                        -97.7428064,
+                        30.268072
+                    ]
+                ]
+            },
+            "id": "way/204981554"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501794",
+                "highway": "secondary",
+                "name": "West 6th Street",
+                "old_name": "Pecan Street",
+                "oneway": "yes",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41:A63",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "6th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7436933,
+                        30.268318
+                    ],
+                    [
+                        -97.7440235,
+                        30.2684064
+                    ],
+                    [
+                        -97.7440284,
+                        30.2684089
+                    ],
+                    [
+                        -97.7441258,
+                        30.2684402
+                    ]
+                ]
+            },
+            "id": "way/655501794"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501844",
+                "cycleway": "shared_lane",
+                "highway": "primary",
+                "lanes": "4",
+                "name": "Congress Avenue",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Congress",
+                "tiger:name_type": "Ave",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7424606,
+                        30.2689964
+                    ],
+                    [
+                        -97.7424986,
+                        30.2688949
+                    ],
+                    [
+                        -97.7427767,
+                        30.2681515
+                    ],
+                    [
+                        -97.7428064,
+                        30.268072
+                    ]
+                ]
+            },
+            "id": "way/655501844"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501850",
+                "highway": "secondary",
+                "lit": "yes",
+                "name": "Colorado Street",
+                "note": "Converted to two-way in 2018 https://austin.towers.net/colorado-street-goes-two-way-this-month-in-downtown-austin/",
+                "oneway": "no",
+                "sidewalk": "both",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7440943,
+                        30.2685244
+                    ],
+                    [
+                        -97.7441258,
+                        30.2684402
+                    ]
+                ]
+            },
+            "id": "way/655501850"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501852",
+                "highway": "secondary",
+                "lit": "yes",
+                "name": "Colorado Street",
+                "note": "Converted to two-way in 2018 https://austin.towers.net/colorado-street-goes-two-way-this-month-in-downtown-austin/",
+                "oneway": "no",
+                "sidewalk": "both",
+                "surface": "asphalt"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7434367,
+                        30.2702821
+                    ],
+                    [
+                        -97.74347,
+                        30.270195
+                    ],
+                    [
+                        -97.7435977,
+                        30.2698519
+                    ],
+                    [
+                        -97.7437423,
+                        30.2694662
+                    ],
+                    [
+                        -97.7437477,
+                        30.2694518
+                    ],
+                    [
+                        -97.74378,
+                        30.2693646
+                    ],
+                    [
+                        -97.7438162,
+                        30.2692643
+                    ],
+                    [
+                        -97.7439515,
+                        30.2689062
+                    ],
+                    [
+                        -97.7440943,
+                        30.2685244
+                    ]
+                ]
+            },
+            "id": "way/655501852"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501853",
+                "highway": "secondary",
+                "lit": "yes",
+                "name": "West 6th Street",
+                "old_name": "Pecan Street",
+                "oneway": "yes",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41:A63",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "6th",
+                "tiger:name_direction_prefix": "W",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7441258,
+                        30.2684402
+                    ],
+                    [
+                        -97.7442587,
+                        30.2684787
+                    ],
+                    [
+                        -97.7451062,
+                        30.2687143
+                    ]
+                ]
+            },
+            "id": "way/655501853"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/655501856",
+                "cycleway:right": "buffered_lane",
+                "highway": "primary",
+                "lanes": "4",
+                "lit": "yes",
+                "maxspeed": "30 mph",
+                "name": "Lavaca Street",
+                "old_name": "La Baca Street",
+                "old_ref": "Loop 275 (old US 81;SH 29)",
+                "oneway": "yes",
+                "parking:lane:left": "parallel",
+                "sidewalk": "both",
+                "surface": "asphalt",
+                "tiger:cfcc": "A41",
+                "tiger:county": "Travis, TX",
+                "tiger:name_base": "Lavaca",
+                "tiger:name_type": "St",
+                "tiger:reviewed": "no",
+                "tiger:zip_left": "78701",
+                "tiger:zip_right": "78701"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7452261,
+                        30.2687473
+                    ],
+                    [
+                        -97.7451943,
+                        30.2688323
+                    ],
+                    [
+                        -97.7450535,
+                        30.2692086
+                    ],
+                    [
+                        -97.7449152,
+                        30.2695788
+                    ],
+                    [
+                        -97.7448803,
+                        30.2696716
+                    ]
+                ]
+            },
+            "id": "way/655501856"
+        }
+    ]
+}

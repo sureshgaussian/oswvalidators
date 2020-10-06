@@ -22,8 +22,8 @@ if __name__ == '__main__':
     json_files = glob(os.path.join(cf.inputPath, "*.geojson"))
     print("Reading files from :", cf.inputPath)
     print("Number of geojson files :", len(json_files))
-    nodes_files = sorted([x for x in json_files if 'node' in x])
-    ways_files = sorted([x for x in json_files if 'node' not in x])
+    nodes_files = sorted([x for x in json_files if 'node' in x.lower()])
+    ways_files = sorted([x for x in json_files if 'node' not in x.lower()])
 
     for ind, (nodes_file, ways_file) in enumerate(zip(nodes_files, ways_files)):
         print('Processing the following files : \n{}\n{}'.format(ntpath.basename(nodes_file),

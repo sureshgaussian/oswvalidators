@@ -1,0 +1,6424 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7957458419",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015629,
+                    47.6180947
+                ]
+            },
+            "id": "node/7957458419",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7957458414",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015592,
+                    47.6184054
+                ]
+            },
+            "id": "node/7957458414",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7957458410",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201533,
+                    47.6184054
+                ]
+            },
+            "id": "node/7957458410",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7957458403",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015565,
+                    47.6186299
+                ]
+            },
+            "id": "node/7957458403",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7956113477",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030484,
+                    47.6196483
+                ]
+            },
+            "id": "node/7956113477",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851758",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046858,
+                    47.6185441
+                ]
+            },
+            "id": "node/7955851758",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851757",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053478,
+                    47.6176638
+                ]
+            },
+            "id": "node/7955851757",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851754",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2059775,
+                    47.6183848
+                ]
+            },
+            "id": "node/7955851754",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851751",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2059867,
+                    47.6178275
+                ]
+            },
+            "id": "node/7955851751",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851748",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2056104,
+                    47.6177495
+                ]
+            },
+            "id": "node/7955851748",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851745",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2055069,
+                    47.6177494
+                ]
+            },
+            "id": "node/7955851745",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851742",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054074,
+                    47.6181145
+                ]
+            },
+            "id": "node/7955851742",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851739",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054064,
+                    47.6181626
+                ]
+            },
+            "id": "node/7955851739",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851734",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2050746,
+                    47.6183311
+                ]
+            },
+            "id": "node/7955851734",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851731",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2048908,
+                    47.6183306
+                ]
+            },
+            "id": "node/7955851731",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851728",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046874,
+                    47.6183495
+                ]
+            },
+            "id": "node/7955851728",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851726",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047351,
+                    47.6183496
+                ]
+            },
+            "id": "node/7955851726",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851720",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047438,
+                    47.6185448
+                ]
+            },
+            "id": "node/7955851720",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851715",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046835,
+                    47.6188451
+                ]
+            },
+            "id": "node/7955851715",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851712",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063164,
+                    47.6182903
+                ]
+            },
+            "id": "node/7955851712",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851711",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2060717,
+                    47.6182891
+                ]
+            },
+            "id": "node/7955851711",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955851708",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2059921,
+                    47.6182887
+                ]
+            },
+            "id": "node/7955851708",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7955846081",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053763,
+                    47.6177049
+                ]
+            },
+            "id": "node/7955846081",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726246",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2033984,
+                    47.6175288
+                ]
+            },
+            "id": "node/7953726246",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726245",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2031211,
+                    47.6175283
+                ]
+            },
+            "id": "node/7953726245",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726243",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2034804,
+                    47.617529
+                ]
+            },
+            "id": "node/7953726243",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726241",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030484,
+                    47.6175282
+                ]
+            },
+            "id": "node/7953726241",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726240",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018669,
+                    47.6179353
+                ]
+            },
+            "id": "node/7953726240",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726238",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018674,
+                    47.6178948
+                ]
+            },
+            "id": "node/7953726238",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726236",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018662,
+                    47.6179852
+                ]
+            },
+            "id": "node/7953726236",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726235",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018621,
+                    47.6183113
+                ]
+            },
+            "id": "node/7953726235",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726234",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018627,
+                    47.6182676
+                ]
+            },
+            "id": "node/7953726234",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726232",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018616,
+                    47.6183541
+                ]
+            },
+            "id": "node/7953726232",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726212",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.203051,
+                    47.6191555
+                ]
+            },
+            "id": "node/7953726212",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726209",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.203097,
+                    47.619159
+                ]
+            },
+            "id": "node/7953726209",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726208",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030505,
+                    47.619338
+                ]
+            },
+            "id": "node/7953726208",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726202",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20365,
+                    47.6191618
+                ]
+            },
+            "id": "node/7953726202",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726200",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2035983,
+                    47.6191616
+                ]
+            },
+            "id": "node/7953726200",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726198",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2037128,
+                    47.6191621
+                ]
+            },
+            "id": "node/7953726198",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726197",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045119,
+                    47.6189047
+                ]
+            },
+            "id": "node/7953726197",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726195",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045116,
+                    47.6189438
+                ]
+            },
+            "id": "node/7953726195",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726194",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045124,
+                    47.6188574
+                ]
+            },
+            "id": "node/7953726194",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726193",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042805,
+                    47.6186042
+                ]
+            },
+            "id": "node/7953726193",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726192",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043,
+                    47.6184733
+                ]
+            },
+            "id": "node/7953726192",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726191",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042994,
+                    47.6185028
+                ]
+            },
+            "id": "node/7953726191",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726190",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042991,
+                    47.618518
+                ]
+            },
+            "id": "node/7953726190",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953726189",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20428,
+                    47.6186386
+                ]
+            },
+            "id": "node/7953726189",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710882",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043016,
+                    47.6183799
+                ]
+            },
+            "id": "node/7953710882",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710880",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043013,
+                    47.6183993
+                ]
+            },
+            "id": "node/7953710880",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710879",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045175,
+                    47.6182669
+                ]
+            },
+            "id": "node/7953710879",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710877",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045173,
+                    47.6183033
+                ]
+            },
+            "id": "node/7953710877",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710875",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045178,
+                    47.6182235
+                ]
+            },
+            "id": "node/7953710875",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710874",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206316,
+                    47.617542
+                ]
+            },
+            "id": "node/7953710874",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710871",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2052304,
+                    47.6175409
+                ]
+            },
+            "id": "node/7953710871",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710870",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2052922,
+                    47.617541
+                ]
+            },
+            "id": "node/7953710870",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710868",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2051788,
+                    47.6175407
+                ]
+            },
+            "id": "node/7953710868",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710867",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044397,
+                    47.618343
+                ]
+            },
+            "id": "node/7953710867",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/7953710867', 'button_operated': 'yes', 'crossing': 'marked', 'crossing:island': 'yes', 'highway': 'crossing', 'project': 'opensidewalks', 'tactile_paving': 'yes', 'traffic_signals:foot': 'yes', 'traffic_signals:sound': 'yes'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710866",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043359,
+                    47.6183167
+                ]
+            },
+            "id": "node/7953710866",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag",
+                "{'@id': 'node/7953710866', 'button_operated': 'yes', 'crossing': 'marked', 'crossing:island': 'yes', 'highway': 'crossing', 'project': 'opensidewalks', 'tactile_paving': 'yes', 'traffic_signals:foot': 'yes', 'traffic_signals:sound': 'yes'} missing required supporting tags"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710863",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044856,
+                    47.6183434
+                ]
+            },
+            "id": "node/7953710863",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710859",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042812,
+                    47.6185601
+                ]
+            },
+            "id": "node/7953710859",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710858",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043023,
+                    47.6183417
+                ]
+            },
+            "id": "node/7953710858",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710843",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017032,
+                    47.6191139
+                ]
+            },
+            "id": "node/7953710843",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710841",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018777,
+                    47.6192526
+                ]
+            },
+            "id": "node/7953710841",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710827",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.204343,
+                    47.6173932
+                ]
+            },
+            "id": "node/7953710827",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710826",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043069,
+                    47.6174865
+                ]
+            },
+            "id": "node/7953710826",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710825",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044,
+                    47.6175387
+                ]
+            },
+            "id": "node/7953710825",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710824",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045507,
+                    47.6173905
+                ]
+            },
+            "id": "node/7953710824",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710823",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045459,
+                    47.6174812
+                ]
+            },
+            "id": "node/7953710823",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710821",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2062665,
+                    47.6175448
+                ]
+            },
+            "id": "node/7953710821",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953710820",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063897,
+                    47.6175379
+                ]
+            },
+            "id": "node/7953710820",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953219993",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206317,
+                    47.6191926
+                ]
+            },
+            "id": "node/7953219993",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953219991",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2062667,
+                    47.6191923
+                ]
+            },
+            "id": "node/7953219991",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7953219989",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063775,
+                    47.6191929
+                ]
+            },
+            "id": "node/7953219989",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951445604",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070729,
+                    47.6141269
+                ]
+            },
+            "id": "node/7951445604",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951445600",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070826,
+                    47.6144147
+                ]
+            },
+            "id": "node/7951445600",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951415383",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2071266,
+                    47.615713
+                ]
+            },
+            "id": "node/7951415383",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951415378",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2071369,
+                    47.615962
+                ]
+            },
+            "id": "node/7951415378",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951415349",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070807,
+                    47.6175387
+                ]
+            },
+            "id": "node/7951415349",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951415348",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069423,
+                    47.6174495
+                ]
+            },
+            "id": "node/7951415348",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951415346",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070775,
+                    47.6173544
+                ]
+            },
+            "id": "node/7951415346",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951203010",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070741,
+                    47.6191869
+                ]
+            },
+            "id": "node/7951203010",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951203009",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069582,
+                    47.6192619
+                ]
+            },
+            "id": "node/7951203009",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951203001",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042289,
+                    47.6192523
+                ]
+            },
+            "id": "node/7951203001",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951202999",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045307,
+                    47.6192562
+                ]
+            },
+            "id": "node/7951202999",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7951202998",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043824,
+                    47.6191477
+                ]
+            },
+            "id": "node/7951202998",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7945539009",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015624,
+                    47.6174821
+                ]
+            },
+            "id": "node/7945539009",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7945539008",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2019223,
+                    47.6173933
+                ]
+            },
+            "id": "node/7945539008",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7945539007",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201912,
+                    47.6174841
+                ]
+            },
+            "id": "node/7945539007",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319822",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.205352,
+                    47.6167492
+                ]
+            },
+            "id": "node/7867319822",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319820",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054199,
+                    47.6167495
+                ]
+            },
+            "id": "node/7867319820",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319817",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2052405,
+                    47.6155272
+                ]
+            },
+            "id": "node/7867319817",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319808",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053954,
+                    47.6161381
+                ]
+            },
+            "id": "node/7867319808",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319807",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053198,
+                    47.6161375
+                ]
+            },
+            "id": "node/7867319807",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319806",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054366,
+                    47.6161384
+                ]
+            },
+            "id": "node/7867319806",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319801",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2050774,
+                    47.6161215
+                ]
+            },
+            "id": "node/7867319801",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319793",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2023709,
+                    47.6163101
+                ]
+            },
+            "id": "node/7867319793",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319787",
+                "entrance": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2032713,
+                    47.6169665
+                ]
+            },
+            "id": "node/7867319787",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319773",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054754,
+                    47.6161176
+                ]
+            },
+            "id": "node/7867319773",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319769",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046733,
+                    47.6151114
+                ]
+            },
+            "id": "node/7867319769",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319768",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2048028,
+                    47.6150599
+                ]
+            },
+            "id": "node/7867319768",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319764",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049396,
+                    47.6150423
+                ]
+            },
+            "id": "node/7867319764",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319752",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2052429,
+                    47.6170096
+                ]
+            },
+            "id": "node/7867319752",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319740",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2032373,
+                    47.6169487
+                ]
+            },
+            "id": "node/7867319740",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319732",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2055578,
+                    47.6154839
+                ]
+            },
+            "id": "node/7867319732",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319722",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2034424,
+                    47.6168801
+                ]
+            },
+            "id": "node/7867319722",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319717",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2022754,
+                    47.6162849
+                ]
+            },
+            "id": "node/7867319717",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867319712",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.203077,
+                    47.6143229
+                ]
+            },
+            "id": "node/7867319712",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283678",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045727,
+                    47.6141668
+                ]
+            },
+            "id": "node/7867283678",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283673",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2048453,
+                    47.615171
+                ]
+            },
+            "id": "node/7867283673",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283671",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049028,
+                    47.6151712
+                ]
+            },
+            "id": "node/7867283671",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283666",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2032332,
+                    47.6140351
+                ]
+            },
+            "id": "node/7867283666",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283664",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049108,
+                    47.6150594
+                ]
+            },
+            "id": "node/7867283664",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283657",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046294,
+                    47.6148054
+                ]
+            },
+            "id": "node/7867283657",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283651",
+                "entrance": "yes",
+                "level": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045687,
+                    47.6140576
+                ]
+            },
+            "id": "node/7867283651",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7867283647",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063736,
+                    47.6149646
+                ]
+            },
+            "id": "node/7867283647",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848237",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201919,
+                    47.616926
+                ]
+            },
+            "id": "node/7863848237",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848235",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201922,
+                    47.6170009
+                ]
+            },
+            "id": "node/7863848235",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848228",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030057,
+                    47.6161406
+                ]
+            },
+            "id": "node/7863848228",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848223",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2028648,
+                    47.6162494
+                ]
+            },
+            "id": "node/7863848223",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848222",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2026401,
+                    47.6162627
+                ]
+            },
+            "id": "node/7863848222",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848217",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2029224,
+                    47.6162483
+                ]
+            },
+            "id": "node/7863848217",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848216",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2028141,
+                    47.6162504
+                ]
+            },
+            "id": "node/7863848216",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848215",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2026916,
+                    47.6162511
+                ]
+            },
+            "id": "node/7863848215",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848209",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2031092,
+                    47.6143227
+                ]
+            },
+            "id": "node/7863848209",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848207",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2031564,
+                    47.6143224
+                ]
+            },
+            "id": "node/7863848207",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848205",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2032446,
+                    47.6143219
+                ]
+            },
+            "id": "node/7863848205",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848204",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.203245,
+                    47.6143325
+                ]
+            },
+            "id": "node/7863848204",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848199",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030969,
+                    47.615196
+                ]
+            },
+            "id": "node/7863848199",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863848198",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2032119,
+                    47.6152193
+                ]
+            },
+            "id": "node/7863848198",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796770",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201823,
+                    47.6151529
+                ]
+            },
+            "id": "node/7863796770",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796769",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018267,
+                    47.6150526
+                ]
+            },
+            "id": "node/7863796769",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796768",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018233,
+                    47.6151712
+                ]
+            },
+            "id": "node/7863796768",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796767",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018259,
+                    47.6150283
+                ]
+            },
+            "id": "node/7863796767",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796766",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018238,
+                    47.6151967
+                ]
+            },
+            "id": "node/7863796766",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863796756",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018273,
+                    47.6150691
+                ]
+            },
+            "id": "node/7863796756",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656238",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206924,
+                    47.6155671
+                ]
+            },
+            "id": "node/7863656238",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656235",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069265,
+                    47.6156175
+                ]
+            },
+            "id": "node/7863656235",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656233",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206927,
+                    47.6156307
+                ]
+            },
+            "id": "node/7863656233",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656229",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069603,
+                    47.616598
+                ]
+            },
+            "id": "node/7863656229",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656228",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069693,
+                    47.6169825
+                ]
+            },
+            "id": "node/7863656228",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656225",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069636,
+                    47.6170321
+                ]
+            },
+            "id": "node/7863656225",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656224",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069722,
+                    47.6169578
+                ]
+            },
+            "id": "node/7863656224",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656223",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2065139,
+                    47.6173718
+                ]
+            },
+            "id": "node/7863656223",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656221",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2065793,
+                    47.6173715
+                ]
+            },
+            "id": "node/7863656221",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656219",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2064703,
+                    47.6173721
+                ]
+            },
+            "id": "node/7863656219",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656218",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2034346,
+                    47.6173224
+                ]
+            },
+            "id": "node/7863656218",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656216",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2034853,
+                    47.6173222
+                ]
+            },
+            "id": "node/7863656216",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656214",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2033724,
+                    47.6173226
+                ]
+            },
+            "id": "node/7863656214",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656213",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018678,
+                    47.6162051
+                ]
+            },
+            "id": "node/7863656213",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656209",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054412,
+                    47.6173321
+                ]
+            },
+            "id": "node/7863656209",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656204",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069588,
+                    47.6165493
+                ]
+            },
+            "id": "node/7863656204",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656203",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069616,
+                    47.6166413
+                ]
+            },
+            "id": "node/7863656203",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656199",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2068892,
+                    47.6150304
+                ]
+            },
+            "id": "node/7863656199",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656198",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069961,
+                    47.6149672
+                ]
+            },
+            "id": "node/7863656198",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656197",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.207111,
+                    47.6150239
+                ]
+            },
+            "id": "node/7863656197",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656196",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070003,
+                    47.6150926
+                ]
+            },
+            "id": "node/7863656196",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656193",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2071157,
+                    47.6150899
+                ]
+            },
+            "id": "node/7863656193",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656192",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2071069,
+                    47.6149665
+                ]
+            },
+            "id": "node/7863656192",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863656191",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2068991,
+                    47.6149678
+                ]
+            },
+            "id": "node/7863656191",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863598848",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030558,
+                    47.6139375
+                ]
+            },
+            "id": "node/7863598848",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863598845",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2029609,
+                    47.6139414
+                ]
+            },
+            "id": "node/7863598845",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863598844",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2031577,
+                    47.6139332
+                ]
+            },
+            "id": "node/7863598844",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863434601",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017656,
+                    47.6156741
+                ]
+            },
+            "id": "node/7863434601",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863434600",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201619,
+                    47.6156758
+                ]
+            },
+            "id": "node/7863434600",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863434598",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017616,
+                    47.6155295
+                ]
+            },
+            "id": "node/7863434598",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7863434597",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2016155,
+                    47.6155331
+                ]
+            },
+            "id": "node/7863434597",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7858259337",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017007,
+                    47.6137455
+                ]
+            },
+            "id": "node/7858259337",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7858259335",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018095,
+                    47.6138697
+                ]
+            },
+            "id": "node/7858259335",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7858259333",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017132,
+                    47.613974
+                ]
+            },
+            "id": "node/7858259333",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7858259332",
+                "crossing": "marked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201545,
+                    47.6139898
+                ]
+            },
+            "id": "node/7858259332",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809923",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2022026,
+                    47.6137497
+                ]
+            },
+            "id": "node/7857809923",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809915",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063624,
+                    47.6139269
+                ]
+            },
+            "id": "node/7857809915",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809908",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044972,
+                    47.6138837
+                ]
+            },
+            "id": "node/7857809908",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809907",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044893,
+                    47.6137968
+                ]
+            },
+            "id": "node/7857809907",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809906",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049192,
+                    47.6137998
+                ]
+            },
+            "id": "node/7857809906",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809905",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "crossing:island": "yes",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049138,
+                    47.6138812
+                ]
+            },
+            "id": "node/7857809905",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809904",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047167,
+                    47.6139377
+                ]
+            },
+            "id": "node/7857809904",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7857809902",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2048465,
+                    47.613938
+                ]
+            },
+            "id": "node/7857809902",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7850600823",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070431,
+                    47.6139097
+                ]
+            },
+            "id": "node/7850600823",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7850600822",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2068286,
+                    47.6138392
+                ]
+            },
+            "id": "node/7850600822",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7850600820",
+                "crossing": "marked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069605,
+                    47.6139112
+                ]
+            },
+            "id": "node/7850600820",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7850600812",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2068415,
+                    47.6137541
+                ]
+            },
+            "id": "node/7850600812",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7850600811",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2068225,
+                    47.6139137
+                ]
+            },
+            "id": "node/7850600811",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7625804230",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017006,
+                    47.6174826
+                ]
+            },
+            "id": "node/7625804230",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7625804229",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017818,
+                    47.6173925
+                ]
+            },
+            "id": "node/7625804229",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/7616768017",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063694,
+                    47.6148014
+                ]
+            },
+            "id": "node/7616768017",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6597720270",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053233,
+                    47.6176284
+                ]
+            },
+            "id": "node/6597720270",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6597720261",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043722,
+                    47.615123
+                ]
+            },
+            "id": "node/6597720261",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6364061407",
+                "bus": "yes",
+                "gtfs:stop_id": "67620",
+                "name": "Bellevue Way NE & NE 4th St",
+                "public_transport": "stop_position",
+                "ref": "67620"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2016772,
+                    47.6133405
+                ]
+            },
+            "id": "node/6364061407",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'gtfs:stop_id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6270547370",
+                "highway": "traffic_signals",
+                "traffic_signals:direction": "backward"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044002,
+                    47.6175552
+                ]
+            },
+            "id": "node/6270547370",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6270547369",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042737,
+                    47.6174873
+                ]
+            },
+            "id": "node/6270547369",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6270547368",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045756,
+                    47.6173902
+                ]
+            },
+            "id": "node/6270547368",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6113553078",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.202866,
+                    47.61629
+                ]
+            },
+            "id": "node/6113553078",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6113553077",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2026434,
+                    47.616293
+                ]
+            },
+            "id": "node/6113553077",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759910493",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047186,
+                    47.6137984
+                ]
+            },
+            "id": "node/5759910493",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759906091",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045599,
+                    47.6139374
+                ]
+            },
+            "id": "node/5759906091",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759906090",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045002,
+                    47.6139168
+                ]
+            },
+            "id": "node/5759906090",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759906086",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044862,
+                    47.6137635
+                ]
+            },
+            "id": "node/5759906086",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759906085",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049217,
+                    47.6137616
+                ]
+            },
+            "id": "node/5759906085",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900533",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206901,
+                    47.6150949
+                ]
+            },
+            "id": "node/5759900533",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900532",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069315,
+                    47.6173767
+                ]
+            },
+            "id": "node/5759900532",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900531",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069556,
+                    47.61754
+                ]
+            },
+            "id": "node/5759900531",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900530",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2072024,
+                    47.6175375
+                ]
+            },
+            "id": "node/5759900530",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900529",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2072099,
+                    47.6173609
+                ]
+            },
+            "id": "node/5759900529",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759900528",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069918,
+                    47.6173443
+                ]
+            },
+            "id": "node/5759900528",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759892423",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042869,
+                    47.6175384
+                ]
+            },
+            "id": "node/5759892423",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759892422",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.204363,
+                    47.6173412
+                ]
+            },
+            "id": "node/5759892422",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759892421",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045533,
+                    47.6173411
+                ]
+            },
+            "id": "node/5759892421",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759872104",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206964,
+                    47.6191766
+                ]
+            },
+            "id": "node/5759872104",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759872102",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206953,
+                    47.6193392
+                ]
+            },
+            "id": "node/5759872102",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634135",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042297,
+                    47.6193121
+                ]
+            },
+            "id": "node/5759634135",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634132",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.204529,
+                    47.6193163
+                ]
+            },
+            "id": "node/5759634132",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634131",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2044839,
+                    47.6191481
+                ]
+            },
+            "id": "node/5759634131",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634130",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045324,
+                    47.6191969
+                ]
+            },
+            "id": "node/5759634130",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634129",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042279,
+                    47.619178
+                ]
+            },
+            "id": "node/5759634129",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759634128",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042964,
+                    47.6191473
+                ]
+            },
+            "id": "node/5759634128",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759631839",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018419,
+                    47.6191071
+                ]
+            },
+            "id": "node/5759631839",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759631837",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018775,
+                    47.6191467
+                ]
+            },
+            "id": "node/5759631837",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759631830",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018778,
+                    47.6193344
+                ]
+            },
+            "id": "node/5759631830",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759508050",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018831,
+                    47.6173083
+                ]
+            },
+            "id": "node/5759508050",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759508049",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2019293,
+                    47.6173316
+                ]
+            },
+            "id": "node/5759508049",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759508048",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201853,
+                    47.6175719
+                ]
+            },
+            "id": "node/5759508048",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759508047",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2019091,
+                    47.6175231
+                ]
+            },
+            "id": "node/5759508047",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759500546",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017957,
+                    47.6155287
+                ]
+            },
+            "id": "node/5759500546",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759500545",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018015,
+                    47.6156737
+                ]
+            },
+            "id": "node/5759500545",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759500541",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015362,
+                    47.61567
+                ]
+            },
+            "id": "node/5759500541",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5759500539",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015244,
+                    47.6155353
+                ]
+            },
+            "id": "node/5759500539",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5752777692",
+                "entrance": "yes",
+                "level": "0",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.202091,
+                    47.6156362
+                ]
+            },
+            "id": "node/5752777692",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5652659762",
+                "entrance": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2039947,
+                    47.6167381
+                ]
+            },
+            "id": "node/5652659762",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5652659760",
+                "entrance": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2048631,
+                    47.6168074
+                ]
+            },
+            "id": "node/5652659760",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5652659754",
+                "entrance": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2027772,
+                    47.6156282
+                ]
+            },
+            "id": "node/5652659754",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5057086282",
+                "barrier": "kerb",
+                "kerb": "lowered"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2014889,
+                    47.6139951
+                ]
+            },
+            "id": "node/5057086282",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052316667",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2055836,
+                    47.6173358
+                ]
+            },
+            "id": "node/5052316667",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052277498",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053708,
+                    47.6173303
+                ]
+            },
+            "id": "node/5052277498",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052277487",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.204776,
+                    47.6151708
+                ]
+            },
+            "id": "node/5052277487",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052277484",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046318,
+                    47.6148879
+                ]
+            },
+            "id": "node/5052277484",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052277481",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2046265,
+                    47.6147054
+                ]
+            },
+            "id": "node/5052277481",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5052277479",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2025847,
+                    47.6162753
+                ]
+            },
+            "id": "node/5052277479",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5019372006",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201759,
+                    47.6174837
+                ]
+            },
+            "id": "node/5019372006",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5019299033",
+                "bus": "yes",
+                "gtfs:stop_id": "85669",
+                "name": "NE 8th St & 102nd Ave NE",
+                "public_transport": "stop_position",
+                "ref": "85669"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2039808,
+                    47.6174004
+                ]
+            },
+            "id": "node/5019299033",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'gtfs:stop_id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4892574512",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.203503,
+                    47.6169734
+                ]
+            },
+            "id": "node/4892574512",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207990",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021695,
+                    47.6144321
+                ]
+            },
+            "id": "node/4727207990",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207888",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021738,
+                    47.6145773
+                ]
+            },
+            "id": "node/4727207888",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207886",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021651,
+                    47.6142832
+                ]
+            },
+            "id": "node/4727207886",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207885",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021783,
+                    47.6147306
+                ]
+            },
+            "id": "node/4727207885",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207882",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021831,
+                    47.6148907
+                ]
+            },
+            "id": "node/4727207882",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207878",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2021877,
+                    47.6150483
+                ]
+            },
+            "id": "node/4727207878",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207877",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018056,
+                    47.6139384
+                ]
+            },
+            "id": "node/4727207877",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4727207863",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049112,
+                    47.6139202
+                ]
+            },
+            "id": "node/4727207863",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4704011873",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201815,
+                    47.613771
+                ]
+            },
+            "id": "node/4704011873",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4646669784",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2029587,
+                    47.6141679
+                ]
+            },
+            "id": "node/4646669784",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4561056862",
+                "bus": "yes",
+                "gtfs:stop_id": "70608",
+                "name": "NE 8th St & 102nd Ave NE",
+                "public_transport": "stop_position",
+                "ref": "70608"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049309,
+                    47.6174946
+                ]
+            },
+            "id": "node/4561056862",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'gtfs:stop_id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4245960172",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2018018,
+                    47.6173094
+                ]
+            },
+            "id": "node/4245960172",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4245960168",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201713,
+                    47.616217
+                ]
+            },
+            "id": "node/4245960168",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4245960159",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017089,
+                    47.613871
+                ]
+            },
+            "id": "node/4245960159",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4112967484",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2067226,
+                    47.6166009
+                ]
+            },
+            "id": "node/4112967484",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4112967482",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2066931,
+                    47.6156214
+                ]
+            },
+            "id": "node/4112967482",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3921537795",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2063729,
+                    47.6149239
+                ]
+            },
+            "id": "node/3921537795",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3905207506",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.205298,
+                    47.6167738
+                ]
+            },
+            "id": "node/3905207506",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3832089158",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2052604,
+                    47.615567
+                ]
+            },
+            "id": "node/3832089158",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3648303882",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043865,
+                    47.6192523
+                ]
+            },
+            "id": "node/3648303882",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3648303878",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2016573,
+                    47.6173805
+                ]
+            },
+            "id": "node/3648303878",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3518618754",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.202485,
+                    47.61613
+                ]
+            },
+            "id": "node/3518618754",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3518618752",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017652,
+                    47.6139691
+                ]
+            },
+            "id": "node/3518618752",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514288036",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2029866,
+                    47.6191506
+                ]
+            },
+            "id": "node/3514288036",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514288022",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015686,
+                    47.6191205
+                ]
+            },
+            "id": "node/3514288022",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287993",
+                "traffic_calming": "bump"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20358,
+                    47.6188709
+                ]
+            },
+            "id": "node/3514287993",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287887",
+                "traffic_calming": "bump"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2031254,
+                    47.6187553
+                ]
+            },
+            "id": "node/3514287887",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287869",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2042385,
+                    47.6186037
+                ]
+            },
+            "id": "node/3514287869",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287844",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2043136,
+                    47.6183136
+                ]
+            },
+            "id": "node/3514287844",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287838",
+                "traffic_calming": "bump"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2030519,
+                    47.6185703
+                ]
+            },
+            "id": "node/3514287838",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287820",
+                "noexit": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2038584,
+                    47.6181772
+                ]
+            },
+            "id": "node/3514287820",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'noexit', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514287814",
+                "noexit": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2038587,
+                    47.6181398
+                ]
+            },
+            "id": "node/3514287814",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'noexit', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514285771",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.201736,
+                    47.6175684
+                ]
+            },
+            "id": "node/3514285771",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514285769",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015587,
+                    47.6175631
+                ]
+            },
+            "id": "node/3514285769",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514285762",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2045429,
+                    47.6175392
+                ]
+            },
+            "id": "node/3514285762",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514285736",
+                "button_operated": "yes",
+                "crossing": "marked",
+                "highway": "crossing",
+                "lit": "yes",
+                "project": "opensidewalks",
+                "traffic_signals:foot": "yes",
+                "traffic_signals:sound": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20163,
+                    47.6173117
+                ]
+            },
+            "id": "node/3514285736",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/3514285735",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20157,
+                    47.6173125
+                ]
+            },
+            "id": "node/3514285735",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/2699100799",
+                "barrier": "kerb",
+                "kerb": "lowered",
+                "project": "opensidewalks",
+                "tactile_paving": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2071741,
+                    47.6192054
+                ]
+            },
+            "id": "node/2699100799",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/1738808310",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015031,
+                    47.6167494
+                ]
+            },
+            "id": "node/1738808310",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/1738808298",
+                "crossing": "unmarked",
+                "highway": "crossing",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047241,
+                    47.6150912
+                ]
+            },
+            "id": "node/1738808298",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212689",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2054472,
+                    47.6182107
+                ]
+            },
+            "id": "node/697212689",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212688",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2059446,
+                    47.6183082
+                ]
+            },
+            "id": "node/697212688",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212687",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047913,
+                    47.6184884
+                ]
+            },
+            "id": "node/697212687",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212686",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2049778,
+                    47.6183677
+                ]
+            },
+            "id": "node/697212686",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212685",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2053953,
+                    47.6183176
+                ]
+            },
+            "id": "node/697212685",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212682",
+                "traffic_calming": "bump"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2041963,
+                    47.6179622
+                ]
+            },
+            "id": "node/697212682",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/697212651",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.202826,
+                    47.6148609
+                ]
+            },
+            "id": "node/697212651",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id' is not a valid OSW tag",
+                "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/557241371",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2019123,
+                    47.6166831
+                ]
+            },
+            "id": "node/557241371",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/340166886",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2050766,
+                    47.6161021
+                ]
+            },
+            "id": "node/340166886",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/340165820",
+                "entrance": "yes",
+                "level": "1",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.204369,
+                    47.6150359
+                ]
+            },
+            "id": "node/340165820",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/340164892",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2055283,
+                    47.6161242
+                ]
+            },
+            "id": "node/340164892",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/321553632",
+                "entrance": "yes",
+                "project": "opensidewalks"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.202399,
+                    47.6162963
+                ]
+            },
+            "id": "node/321553632",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'@id', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53215555",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2069986,
+                    47.6150256
+                ]
+            },
+            "id": "node/53215555",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53156630",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2015403,
+                    47.6138727
+                ]
+            },
+            "id": "node/53156630",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53156629",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2047176,
+                    47.6138827
+                ]
+            },
+            "id": "node/53156629",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53156627",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.206958,
+                    47.613839
+                ]
+            },
+            "id": "node/53156627",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53129835",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2070816,
+                    47.6174492
+                ]
+            },
+            "id": "node/53129835",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/53101382",
+                "highway": "traffic_signals"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2017001,
+                    47.6192526
+                ]
+            },
+            "id": "node/53101382",
+            "fixme": [
+                "'id' is not a valid OSW tag",
+                "'highway', is not a valid OSW tag"
+            ]
+        }
+    ]
+}

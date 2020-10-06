@@ -1,0 +1,189 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924626",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ],
+                    [
+                        -97.7448848,
+                        30.2815102
+                    ],
+                    [
+                        -97.7447949,
+                        30.2814845
+                    ],
+                    [
+                        -97.7447844,
+                        30.2814819
+                    ],
+                    [
+                        -97.7447383,
+                        30.2814598
+                    ],
+                    [
+                        -97.7446786,
+                        30.2814436
+                    ],
+                    [
+                        -97.7445428,
+                        30.2814068
+                    ],
+                    [
+                        -97.7442105,
+                        30.2812966
+                    ]
+                ]
+            },
+            "id": "way/652924626"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924627",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7447692,
+                        30.2824245
+                    ],
+                    [
+                        -97.7449168,
+                        30.2820207
+                    ],
+                    [
+                        -97.7449267,
+                        30.2819906
+                    ],
+                    [
+                        -97.744935,
+                        30.2819704
+                    ],
+                    [
+                        -97.7450825,
+                        30.2815867
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/652924627"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/652924628",
+                "footway": "sidewalk",
+                "highway": "footway",
+                "project": "opensidewalks",
+                "surface": "paved"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7442105,
+                        30.2812966
+                    ],
+                    [
+                        -97.7441733,
+                        30.2814053
+                    ],
+                    [
+                        -97.7440351,
+                        30.2817285
+                    ],
+                    [
+                        -97.7439993,
+                        30.2818121
+                    ],
+                    [
+                        -97.7440285,
+                        30.2818307
+                    ],
+                    [
+                        -97.7440396,
+                        30.2818454
+                    ],
+                    [
+                        -97.7440209,
+                        30.2818973
+                    ],
+                    [
+                        -97.7440043,
+                        30.2819438
+                    ],
+                    [
+                        -97.743917,
+                        30.2821806
+                    ]
+                ]
+            },
+            "id": "way/652924628"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437801",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7451259,
+                        30.2815773
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/656437801"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/656437802",
+                "footway": "sidewalk",
+                "highway": "footway"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.7450992,
+                        30.2815409
+                    ],
+                    [
+                        -97.7450904,
+                        30.2815661
+                    ]
+                ]
+            },
+            "id": "way/656437802"
+        }
+    ]
+}

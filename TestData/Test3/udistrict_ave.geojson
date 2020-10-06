@@ -1,0 +1,6139 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-10-03T20:36:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/6439213",
+        "alt_name": "The Ave",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30 mph",
+        "name": "University Way Northeast",
+        "sidewalk": "both",
+        "surface": "concrete",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "University",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Way"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3131389,
+            47.6612773
+          ],
+          [
+            -122.313136,
+            47.6613697
+          ],
+          [
+            -122.3131222,
+            47.6620611
+          ],
+          [
+            -122.313119,
+            47.6621887
+          ],
+          [
+            -122.3131172,
+            47.6622966
+          ],
+          [
+            -122.3131018,
+            47.6630193
+          ],
+          [
+            -122.3131002,
+            47.6630965
+          ],
+          [
+            -122.3130985,
+            47.6631742
+          ],
+          [
+            -122.313088,
+            47.6636664
+          ],
+          [
+            -122.3130837,
+            47.6640027
+          ],
+          [
+            -122.3130778,
+            47.6641457
+          ],
+          [
+            -122.3130685,
+            47.6645857
+          ],
+          [
+            -122.3130659,
+            47.6647067
+          ],
+          [
+            -122.3130633,
+            47.6648234
+          ],
+          [
+            -122.3130618,
+            47.6648984
+          ]
+        ]
+      },
+      "id": "way/6439213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/6509865",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "25 mph",
+        "name": "15th Avenue Northeast",
+        "sidewalk": "both",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "15th",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119594,
+            47.6648936
+          ],
+          [
+            -122.3119578,
+            47.6649888
+          ],
+          [
+            -122.3119164,
+            47.6661918
+          ],
+          [
+            -122.3119156,
+            47.6662364
+          ],
+          [
+            -122.3119134,
+            47.6663638
+          ],
+          [
+            -122.3119122,
+            47.6664236
+          ],
+          [
+            -122.311912,
+            47.6665039
+          ],
+          [
+            -122.3119116,
+            47.6666409
+          ],
+          [
+            -122.3119062,
+            47.6684489
+          ],
+          [
+            -122.311906,
+            47.6685208
+          ],
+          [
+            -122.3119059,
+            47.6685769
+          ],
+          [
+            -122.3119021,
+            47.669391
+          ],
+          [
+            -122.3119033,
+            47.6694401
+          ],
+          [
+            -122.311903,
+            47.6695103
+          ],
+          [
+            -122.3119001,
+            47.6704388
+          ],
+          [
+            -122.3119001,
+            47.6704485
+          ],
+          [
+            -122.3119,
+            47.670478
+          ],
+          [
+            -122.3119015,
+            47.6706397
+          ],
+          [
+            -122.3119019,
+            47.6706871
+          ],
+          [
+            -122.3119022,
+            47.6707196
+          ]
+        ]
+      },
+      "id": "way/6509865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38502228",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "25 mph",
+        "name": "Northeast 47th Street",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "47th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119673,
+            47.6630915
+          ],
+          [
+            -122.31187,
+            47.6630911
+          ],
+          [
+            -122.3117563,
+            47.6630908
+          ],
+          [
+            -122.3115599,
+            47.6630903
+          ],
+          [
+            -122.311391,
+            47.6630898
+          ],
+          [
+            -122.3109275,
+            47.6630786
+          ],
+          [
+            -122.3108437,
+            47.6630795
+          ],
+          [
+            -122.3107565,
+            47.6630804
+          ],
+          [
+            -122.3102953,
+            47.6630864
+          ]
+        ]
+      },
+      "id": "way/38502228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38502229",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Northeast 47th Street",
+        "sidewalk": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "47th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3152615,
+            47.6631044
+          ],
+          [
+            -122.3151616,
+            47.6631052
+          ],
+          [
+            -122.3147297,
+            47.663102
+          ],
+          [
+            -122.3143531,
+            47.6630997
+          ],
+          [
+            -122.3142469,
+            47.6630996
+          ],
+          [
+            -122.3141521,
+            47.663099
+          ],
+          [
+            -122.3139221,
+            47.663098
+          ],
+          [
+            -122.3136791,
+            47.663097
+          ],
+          [
+            -122.3132287,
+            47.6630966
+          ],
+          [
+            -122.3131002,
+            47.6630965
+          ],
+          [
+            -122.3130035,
+            47.6630957
+          ],
+          [
+            -122.3125409,
+            47.6630917
+          ],
+          [
+            -122.31208,
+            47.6630915
+          ],
+          [
+            -122.3119673,
+            47.6630915
+          ]
+        ]
+      },
+      "id": "way/38502229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/54356427",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3147141,
+            47.66467
+          ],
+          [
+            -122.3143241,
+            47.6646677
+          ],
+          [
+            -122.3142281,
+            47.6646672
+          ]
+        ]
+      },
+      "id": "way/54356427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136051128",
+        "highway": "service",
+        "name": "Safeway 3091 Truck Service Ramp"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313728,
+            47.6647459
+          ],
+          [
+            -122.3137251,
+            47.6645648
+          ]
+        ]
+      },
+      "id": "way/136051128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136051129",
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142289,
+            47.6646043
+          ],
+          [
+            -122.3141214,
+            47.6646036
+          ],
+          [
+            -122.3137924,
+            47.6646008
+          ],
+          [
+            -122.3137923,
+            47.6647465
+          ]
+        ]
+      },
+      "id": "way/136051129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136051130",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142362,
+            47.6639975
+          ],
+          [
+            -122.3141316,
+            47.663997
+          ],
+          [
+            -122.3137285,
+            47.6639946
+          ],
+          [
+            -122.3137307,
+            47.6638114
+          ],
+          [
+            -122.3141349,
+            47.6638157
+          ],
+          [
+            -122.3142383,
+            47.6638162
+          ]
+        ]
+      },
+      "id": "way/136051130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136051131",
+        "highway": "service",
+        "oneway": "yes",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3137923,
+            47.6647465
+          ],
+          [
+            -122.3141155,
+            47.6647491
+          ],
+          [
+            -122.3142271,
+            47.66475
+          ]
+        ]
+      },
+      "id": "way/136051131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223480289",
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3125976,
+            47.6617688
+          ],
+          [
+            -122.3125438,
+            47.661775
+          ]
+        ]
+      },
+      "id": "way/223480289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244113595",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142301,
+            47.6644962
+          ],
+          [
+            -122.3143293,
+            47.6644971
+          ],
+          [
+            -122.3147158,
+            47.6645007
+          ]
+        ]
+      },
+      "id": "way/244113595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/261636580",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Brooklyn Avenue Northeast",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "Brooklyn",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142687,
+            47.6612886
+          ],
+          [
+            -122.3142677,
+            47.661376
+          ],
+          [
+            -122.3142625,
+            47.6618035
+          ],
+          [
+            -122.314259,
+            47.6620368
+          ],
+          [
+            -122.3142581,
+            47.6621697
+          ],
+          [
+            -122.3142571,
+            47.6622592
+          ],
+          [
+            -122.3142477,
+            47.6630359
+          ],
+          [
+            -122.3142469,
+            47.6630996
+          ],
+          [
+            -122.314246,
+            47.6631759
+          ],
+          [
+            -122.3142396,
+            47.6637126
+          ],
+          [
+            -122.3142383,
+            47.6638162
+          ],
+          [
+            -122.3142362,
+            47.6639975
+          ],
+          [
+            -122.314235,
+            47.6640329
+          ],
+          [
+            -122.3142304,
+            47.6644745
+          ],
+          [
+            -122.3142301,
+            47.6644962
+          ],
+          [
+            -122.3142289,
+            47.6646043
+          ],
+          [
+            -122.3142281,
+            47.6646672
+          ],
+          [
+            -122.3142271,
+            47.66475
+          ],
+          [
+            -122.3142262,
+            47.6648284
+          ],
+          [
+            -122.3142252,
+            47.6649085
+          ]
+        ]
+      },
+      "id": "way/261636580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/261636582",
+        "access": "destination",
+        "highway": "service",
+        "maxspeed": "15 mph",
+        "oneway": "no",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3137344,
+            47.6597936
+          ],
+          [
+            -122.3137334,
+            47.6598753
+          ],
+          [
+            -122.3137299,
+            47.6601577
+          ],
+          [
+            -122.3137171,
+            47.6612019
+          ],
+          [
+            -122.3137161,
+            47.6612822
+          ],
+          [
+            -122.3137144,
+            47.6613635
+          ],
+          [
+            -122.3136981,
+            47.6621651
+          ],
+          [
+            -122.3136805,
+            47.6630263
+          ],
+          [
+            -122.3136791,
+            47.663097
+          ],
+          [
+            -122.3136776,
+            47.6631713
+          ],
+          [
+            -122.3136675,
+            47.6636702
+          ],
+          [
+            -122.3136481,
+            47.6645918
+          ]
+        ]
+      },
+      "id": "way/261636582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331771341",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes",
+        "turn:lanes:backward": "left||"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3138895,
+            47.6612837
+          ],
+          [
+            -122.3137161,
+            47.6612822
+          ],
+          [
+            -122.3136413,
+            47.6612816
+          ]
+        ]
+      },
+      "id": "way/331771341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337868808",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136675,
+            47.6636702
+          ],
+          [
+            -122.3132096,
+            47.6636672
+          ],
+          [
+            -122.313088,
+            47.6636664
+          ]
+        ]
+      },
+      "id": "way/337868808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340214356",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30 mph",
+        "name": "Northeast 50th Street",
+        "sidewalk": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "50th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130618,
+            47.6648984
+          ],
+          [
+            -122.313218,
+            47.6649004
+          ],
+          [
+            -122.3135792,
+            47.6649053
+          ],
+          [
+            -122.3136426,
+            47.6649056
+          ]
+        ]
+      },
+      "id": "way/340214356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363225848",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes",
+        "turn:lanes:forward": "left||"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312684,
+            47.6612734
+          ],
+          [
+            -122.3125677,
+            47.6612724
+          ],
+          [
+            -122.3121381,
+            47.6612687
+          ],
+          [
+            -122.3119721,
+            47.6612672
+          ]
+        ]
+      },
+      "id": "way/363225848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383843763",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142581,
+            47.6621697
+          ],
+          [
+            -122.3141472,
+            47.6621691
+          ],
+          [
+            -122.3140333,
+            47.6621681
+          ],
+          [
+            -122.3138254,
+            47.6621662
+          ],
+          [
+            -122.3136981,
+            47.6621651
+          ]
+        ]
+      },
+      "id": "way/383843763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383843764",
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3138254,
+            47.6621662
+          ],
+          [
+            -122.313824,
+            47.662642
+          ],
+          [
+            -122.3139366,
+            47.6626718
+          ],
+          [
+            -122.3140225,
+            47.6626718
+          ],
+          [
+            -122.3140372,
+            47.6626357
+          ],
+          [
+            -122.3140333,
+            47.6621681
+          ]
+        ]
+      },
+      "id": "way/383843764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383844950",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130685,
+            47.6645857
+          ],
+          [
+            -122.3131974,
+            47.6645871
+          ],
+          [
+            -122.3136481,
+            47.6645918
+          ]
+        ]
+      },
+      "id": "way/383844950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/428097434",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "maxspeed": "25 mph",
+        "name": "15th Avenue Northeast",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "15th",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "trolley_wire": "yes",
+        "turn:lanes:backward": "left||"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119721,
+            47.6612672
+          ],
+          [
+            -122.3119728,
+            47.6613622
+          ],
+          [
+            -122.311972,
+            47.661465
+          ],
+          [
+            -122.3119726,
+            47.6615105
+          ],
+          [
+            -122.3119714,
+            47.6615417
+          ]
+        ]
+      },
+      "id": "way/428097434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/428098913",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3131389,
+            47.6612773
+          ],
+          [
+            -122.313014,
+            47.6612762
+          ],
+          [
+            -122.312684,
+            47.6612734
+          ]
+        ]
+      },
+      "id": "way/428098913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/428098918",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "separate",
+        "surface": "concrete",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3134479,
+            47.6612799
+          ],
+          [
+            -122.313266,
+            47.6612784
+          ],
+          [
+            -122.3131389,
+            47.6612773
+          ]
+        ]
+      },
+      "id": "way/428098918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436979375",
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3121415,
+            47.6611894
+          ],
+          [
+            -122.3121381,
+            47.6612687
+          ],
+          [
+            -122.3121335,
+            47.6613346
+          ]
+        ]
+      },
+      "id": "way/436979375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436979376",
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3120944,
+            47.6613522
+          ],
+          [
+            -122.3119728,
+            47.6613622
+          ],
+          [
+            -122.3118527,
+            47.6613709
+          ]
+        ]
+      },
+      "id": "way/436979376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465799095",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136413,
+            47.6612816
+          ],
+          [
+            -122.3134479,
+            47.6612799
+          ]
+        ]
+      },
+      "id": "way/465799095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465799954",
+        "highway": "tertiary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northeast 50th Street",
+        "sidewalk": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "50th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130618,
+            47.6648984
+          ],
+          [
+            -122.312947,
+            47.6648979
+          ],
+          [
+            -122.3126507,
+            47.6648965
+          ],
+          [
+            -122.3125126,
+            47.6648959
+          ],
+          [
+            -122.3120961,
+            47.6648937
+          ],
+          [
+            -122.3119594,
+            47.6648936
+          ]
+        ]
+      },
+      "id": "way/465799954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465799955",
+        "highway": "tertiary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northeast 50th Street",
+        "sidewalk": "separate",
+        "surface": "concrete",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "50th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119594,
+            47.6648936
+          ],
+          [
+            -122.3118309,
+            47.6648934
+          ],
+          [
+            -122.3113693,
+            47.6648947
+          ]
+        ]
+      },
+      "id": "way/465799955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465799956",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "25 mph",
+        "name": "15th Avenue Northeast",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "15th",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119714,
+            47.6615417
+          ],
+          [
+            -122.3119711,
+            47.6616477
+          ],
+          [
+            -122.3119689,
+            47.6623885
+          ],
+          [
+            -122.311967,
+            47.6630137
+          ],
+          [
+            -122.3119673,
+            47.6630915
+          ],
+          [
+            -122.3119675,
+            47.6631473
+          ],
+          [
+            -122.3119668,
+            47.6643527
+          ],
+          [
+            -122.311962,
+            47.6647252
+          ],
+          [
+            -122.3119608,
+            47.6648042
+          ],
+          [
+            -122.3119594,
+            47.6648936
+          ]
+        ]
+      },
+      "id": "way/465799956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/469220278",
+        "access": "destination",
+        "highway": "service",
+        "lanes": "1",
+        "maxspeed": "15 mph",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3126627,
+            47.6568307
+          ],
+          [
+            -122.3126614,
+            47.6568948
+          ],
+          [
+            -122.3126612,
+            47.6569021
+          ],
+          [
+            -122.3126576,
+            47.6570706
+          ],
+          [
+            -122.3126333,
+            47.6582509
+          ],
+          [
+            -122.3126325,
+            47.6582612
+          ],
+          [
+            -122.3126313,
+            47.6583156
+          ],
+          [
+            -122.31263,
+            47.658384
+          ],
+          [
+            -122.3126091,
+            47.6593687
+          ],
+          [
+            -122.3126016,
+            47.6597253
+          ],
+          [
+            -122.3126004,
+            47.6597788
+          ],
+          [
+            -122.3125979,
+            47.6598592
+          ],
+          [
+            -122.3125809,
+            47.6603776
+          ],
+          [
+            -122.3125689,
+            47.6611889
+          ],
+          [
+            -122.3125683,
+            47.6612307
+          ],
+          [
+            -122.3125677,
+            47.6612724
+          ],
+          [
+            -122.3125666,
+            47.66135
+          ],
+          [
+            -122.3125417,
+            47.6630365
+          ],
+          [
+            -122.3125409,
+            47.6630917
+          ],
+          [
+            -122.3125393,
+            47.6631581
+          ],
+          [
+            -122.3125154,
+            47.6648342
+          ],
+          [
+            -122.3125126,
+            47.6648959
+          ],
+          [
+            -122.3125116,
+            47.6649726
+          ],
+          [
+            -122.3124953,
+            47.6661955
+          ],
+          [
+            -122.3124928,
+            47.6663666
+          ],
+          [
+            -122.3124919,
+            47.6664263
+          ],
+          [
+            -122.3124909,
+            47.6665034
+          ],
+          [
+            -122.3124666,
+            47.6684564
+          ],
+          [
+            -122.3124658,
+            47.6685182
+          ],
+          [
+            -122.3124652,
+            47.6685914
+          ],
+          [
+            -122.312459,
+            47.6693834
+          ],
+          [
+            -122.3124586,
+            47.6694377
+          ],
+          [
+            -122.312459,
+            47.6695131
+          ],
+          [
+            -122.312464,
+            47.6704449
+          ],
+          [
+            -122.3124642,
+            47.6704901
+          ],
+          [
+            -122.3124651,
+            47.6706584
+          ],
+          [
+            -122.3124658,
+            47.6707981
+          ],
+          [
+            -122.312466,
+            47.6708518
+          ]
+        ]
+      },
+      "id": "way/469220278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706535",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31323,
+            47.6630422
+          ],
+          [
+            -122.3132287,
+            47.6630966
+          ],
+          [
+            -122.313227,
+            47.6631533
+          ]
+        ]
+      },
+      "id": "way/475706535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706536",
+        "crossing": "uncontrolled;zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314149,
+            47.6630355
+          ],
+          [
+            -122.3141521,
+            47.663099
+          ],
+          [
+            -122.314154,
+            47.6631671
+          ]
+        ]
+      },
+      "id": "way/475706536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706537",
+        "crossing": "uncontrolled;zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31435,
+            47.6630364
+          ],
+          [
+            -122.3142477,
+            47.6630359
+          ],
+          [
+            -122.314149,
+            47.6630355
+          ]
+        ]
+      },
+      "id": "way/475706537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706538",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314365,
+            47.6613763
+          ],
+          [
+            -122.3142677,
+            47.661376
+          ],
+          [
+            -122.314185,
+            47.6613764
+          ]
+        ]
+      },
+      "id": "way/475706538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706539",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141281,
+            47.6630325
+          ],
+          [
+            -122.3141388,
+            47.6630256
+          ],
+          [
+            -122.3141516,
+            47.6630177
+          ],
+          [
+            -122.3141472,
+            47.6621691
+          ],
+          [
+            -122.3141512,
+            47.6620349
+          ],
+          [
+            -122.3141711,
+            47.6613764
+          ],
+          [
+            -122.314185,
+            47.6613764
+          ]
+        ]
+      },
+      "id": "way/475706539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706540",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31323,
+            47.6630422
+          ],
+          [
+            -122.3132308,
+            47.6630295
+          ],
+          [
+            -122.3136805,
+            47.6630263
+          ],
+          [
+            -122.3141281,
+            47.6630325
+          ]
+        ]
+      },
+      "id": "way/475706540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706541",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314133,
+            47.6613476
+          ],
+          [
+            -122.3141312,
+            47.6613655
+          ],
+          [
+            -122.3137144,
+            47.6613635
+          ],
+          [
+            -122.3132649,
+            47.6613541
+          ],
+          [
+            -122.313264,
+            47.661341
+          ]
+        ]
+      },
+      "id": "way/475706541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475706542",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313218,
+            47.6613704
+          ],
+          [
+            -122.3132367,
+            47.6613705
+          ],
+          [
+            -122.3132259,
+            47.6621913
+          ],
+          [
+            -122.3132188,
+            47.6628379
+          ],
+          [
+            -122.3132185,
+            47.6628592
+          ],
+          [
+            -122.3132166,
+            47.6630195
+          ],
+          [
+            -122.313197,
+            47.6630194
+          ]
+        ]
+      },
+      "id": "way/475706542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475710075",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31208,
+            47.663032
+          ],
+          [
+            -122.311967,
+            47.6630137
+          ],
+          [
+            -122.311901,
+            47.6630031
+          ]
+        ]
+      },
+      "id": "way/475710075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715962",
+        "crossing": "uncontrolled;zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312947,
+            47.6648496
+          ],
+          [
+            -122.312947,
+            47.6648979
+          ],
+          [
+            -122.312945,
+            47.6649597
+          ]
+        ]
+      },
+      "id": "way/475715962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715963",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312993,
+            47.6648247
+          ],
+          [
+            -122.3130135,
+            47.6633519
+          ],
+          [
+            -122.3130156,
+            47.6631982
+          ],
+          [
+            -122.313016,
+            47.6631728
+          ],
+          [
+            -122.313035,
+            47.6631729
+          ]
+        ]
+      },
+      "id": "way/475715963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715964",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312092,
+            47.6649574
+          ],
+          [
+            -122.3120961,
+            47.6648937
+          ],
+          [
+            -122.312099,
+            47.6648373
+          ]
+        ]
+      },
+      "id": "way/475715964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715965",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313171,
+            47.6648207
+          ],
+          [
+            -122.3130633,
+            47.6648234
+          ],
+          [
+            -122.313002,
+            47.6648247
+          ]
+        ]
+      },
+      "id": "way/475715965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715966",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3120878,
+            47.6631471
+          ],
+          [
+            -122.3120859,
+            47.6631574
+          ],
+          [
+            -122.312076,
+            47.6638195
+          ]
+        ]
+      },
+      "id": "way/475715966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715967",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3120709,
+            47.6648255
+          ],
+          [
+            -122.3121,
+            47.6648292
+          ],
+          [
+            -122.3125154,
+            47.6648342
+          ],
+          [
+            -122.3129472,
+            47.6648378
+          ],
+          [
+            -122.312993,
+            47.6648247
+          ]
+        ]
+      },
+      "id": "way/475715967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715968",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313002,
+            47.6631518
+          ],
+          [
+            -122.3130028,
+            47.6631608
+          ],
+          [
+            -122.3125393,
+            47.6631581
+          ],
+          [
+            -122.3121649,
+            47.6631554
+          ],
+          [
+            -122.3120878,
+            47.6631471
+          ],
+          [
+            -122.312084,
+            47.6631404
+          ]
+        ]
+      },
+      "id": "way/475715968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475715969",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313193,
+            47.663178
+          ],
+          [
+            -122.3130985,
+            47.6631742
+          ],
+          [
+            -122.313035,
+            47.6631729
+          ]
+        ]
+      },
+      "id": "way/475715969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475722494",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313014,
+            47.6612041
+          ],
+          [
+            -122.313014,
+            47.6612762
+          ],
+          [
+            -122.313013,
+            47.661339
+          ]
+        ]
+      },
+      "id": "way/475722494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475994631",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132367,
+            47.6613705
+          ],
+          [
+            -122.3132649,
+            47.6613541
+          ]
+        ]
+      },
+      "id": "way/475994631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475994633",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141312,
+            47.6613655
+          ],
+          [
+            -122.3141711,
+            47.6613764
+          ]
+        ]
+      },
+      "id": "way/475994633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475994639",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313264,
+            47.661341
+          ],
+          [
+            -122.313266,
+            47.6612784
+          ],
+          [
+            -122.313268,
+            47.6612104
+          ]
+        ]
+      },
+      "id": "way/475994639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475994640",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314133,
+            47.6613476
+          ],
+          [
+            -122.3141505,
+            47.6612859
+          ],
+          [
+            -122.314171,
+            47.6612128
+          ]
+        ]
+      },
+      "id": "way/475994640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995666",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130028,
+            47.6631608
+          ],
+          [
+            -122.313016,
+            47.6631728
+          ]
+        ]
+      },
+      "id": "way/475995666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995667",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132308,
+            47.6630295
+          ],
+          [
+            -122.3132166,
+            47.6630195
+          ]
+        ]
+      },
+      "id": "way/475995667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995669",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31208,
+            47.663032
+          ],
+          [
+            -122.31208,
+            47.6630915
+          ],
+          [
+            -122.312084,
+            47.6631404
+          ]
+        ]
+      },
+      "id": "way/475995669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995671",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312133,
+            47.6613501
+          ],
+          [
+            -122.3121109,
+            47.6613524
+          ]
+        ]
+      },
+      "id": "way/475995671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995673",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313197,
+            47.6630194
+          ],
+          [
+            -122.3131018,
+            47.6630193
+          ],
+          [
+            -122.31304,
+            47.6630192
+          ]
+        ]
+      },
+      "id": "way/475995673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995675",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130132,
+            47.66135
+          ],
+          [
+            -122.3130474,
+            47.6613689
+          ]
+        ]
+      },
+      "id": "way/475995675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995676",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313013,
+            47.661339
+          ],
+          [
+            -122.3130132,
+            47.66135
+          ],
+          [
+            -122.3125666,
+            47.66135
+          ],
+          [
+            -122.312133,
+            47.6613501
+          ],
+          [
+            -122.3121335,
+            47.6613346
+          ]
+        ]
+      },
+      "id": "way/475995676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995678",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313004,
+            47.663057
+          ],
+          [
+            -122.3130035,
+            47.6630957
+          ],
+          [
+            -122.313002,
+            47.6631518
+          ]
+        ]
+      },
+      "id": "way/475995678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995680",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31304,
+            47.6630192
+          ],
+          [
+            -122.3130203,
+            47.6630192
+          ],
+          [
+            -122.3130336,
+            47.6621866
+          ],
+          [
+            -122.3130474,
+            47.6613689
+          ],
+          [
+            -122.313061,
+            47.6613691
+          ]
+        ]
+      },
+      "id": "way/475995680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995682",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.31208,
+            47.663032
+          ],
+          [
+            -122.3125417,
+            47.6630365
+          ],
+          [
+            -122.3130039,
+            47.6630411
+          ],
+          [
+            -122.313004,
+            47.663057
+          ]
+        ]
+      },
+      "id": "way/475995682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995684",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3120944,
+            47.6613522
+          ],
+          [
+            -122.3121109,
+            47.6613524
+          ],
+          [
+            -122.3121087,
+            47.6614757
+          ],
+          [
+            -122.3120923,
+            47.6623916
+          ],
+          [
+            -122.31208,
+            47.663032
+          ]
+        ]
+      },
+      "id": "way/475995684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995685",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130039,
+            47.6630411
+          ],
+          [
+            -122.3130203,
+            47.6630192
+          ]
+        ]
+      },
+      "id": "way/475995685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475995687",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313218,
+            47.6613704
+          ],
+          [
+            -122.313136,
+            47.6613697
+          ],
+          [
+            -122.313061,
+            47.6613691
+          ]
+        ]
+      },
+      "id": "way/475995687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477359734",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141512,
+            47.6620349
+          ],
+          [
+            -122.314181,
+            47.6620354
+          ]
+        ]
+      },
+      "id": "way/477359734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477359735",
+        "crossing": "uncontrolled;zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314181,
+            47.6620354
+          ],
+          [
+            -122.314259,
+            47.6620368
+          ],
+          [
+            -122.31435,
+            47.6620377
+          ]
+        ]
+      },
+      "id": "way/477359735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477359756",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312048,
+            47.6648056
+          ],
+          [
+            -122.3120612,
+            47.6648058
+          ]
+        ]
+      },
+      "id": "way/477359756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477387988",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3129472,
+            47.6648378
+          ],
+          [
+            -122.312947,
+            47.6648496
+          ]
+        ]
+      },
+      "id": "way/477387988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477387989",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313002,
+            47.6648247
+          ],
+          [
+            -122.312993,
+            47.6648247
+          ]
+        ]
+      },
+      "id": "way/477387989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477387990",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312099,
+            47.6648373
+          ],
+          [
+            -122.3121,
+            47.6648292
+          ]
+        ]
+      },
+      "id": "way/477387990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477387996",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141388,
+            47.6630256
+          ],
+          [
+            -122.314149,
+            47.6630355
+          ]
+        ]
+      },
+      "id": "way/477387996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477387998",
+        "crossing": "uncontrolled;zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314337,
+            47.6631808
+          ],
+          [
+            -122.314246,
+            47.6631759
+          ],
+          [
+            -122.314154,
+            47.6631671
+          ]
+        ]
+      },
+      "id": "way/477387998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490786249",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312048,
+            47.6648056
+          ],
+          [
+            -122.3119608,
+            47.6648042
+          ],
+          [
+            -122.31187,
+            47.6648028
+          ]
+        ]
+      },
+      "id": "way/490786249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490786250",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312084,
+            47.6631404
+          ],
+          [
+            -122.3119675,
+            47.6631473
+          ],
+          [
+            -122.311895,
+            47.6631515
+          ]
+        ]
+      },
+      "id": "way/490786250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490961517",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3120756,
+            47.6638475
+          ],
+          [
+            -122.3120612,
+            47.6648058
+          ],
+          [
+            -122.3120709,
+            47.6648255
+          ]
+        ]
+      },
+      "id": "way/490961517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490961518",
+        "covered": "yes",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.312076,
+            47.6638195
+          ],
+          [
+            -122.3120756,
+            47.6638475
+          ]
+        ]
+      },
+      "id": "way/490961518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968845",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132274,
+            47.6631668
+          ],
+          [
+            -122.313227,
+            47.6631533
+          ]
+        ]
+      },
+      "id": "way/490968845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968846",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132132,
+            47.6631776
+          ],
+          [
+            -122.313193,
+            47.663178
+          ]
+        ]
+      },
+      "id": "way/490968846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968847",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3131939,
+            47.6648203
+          ],
+          [
+            -122.313171,
+            47.6648207
+          ]
+        ]
+      },
+      "id": "way/490968847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968848",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132187,
+            47.6648349
+          ],
+          [
+            -122.313217,
+            47.6648507
+          ]
+        ]
+      },
+      "id": "way/490968848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968849",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141123,
+            47.6648333
+          ],
+          [
+            -122.314142,
+            47.6648318
+          ]
+        ]
+      },
+      "id": "way/490968849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968850",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3140853,
+            47.6648348
+          ],
+          [
+            -122.314082,
+            47.6648569
+          ]
+        ]
+      },
+      "id": "way/490968850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968851",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141463,
+            47.6631738
+          ],
+          [
+            -122.314154,
+            47.6631671
+          ]
+        ]
+      },
+      "id": "way/490968851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968852",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313218,
+            47.6649717
+          ],
+          [
+            -122.313218,
+            47.6649004
+          ],
+          [
+            -122.313217,
+            47.6648507
+          ]
+        ]
+      },
+      "id": "way/490968852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968853",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314079,
+            47.6649702
+          ],
+          [
+            -122.314081,
+            47.6649077
+          ],
+          [
+            -122.314082,
+            47.6648569
+          ]
+        ]
+      },
+      "id": "way/490968853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968854",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141123,
+            47.6648333
+          ],
+          [
+            -122.3141155,
+            47.6647491
+          ],
+          [
+            -122.3141204,
+            47.6646245
+          ],
+          [
+            -122.3141214,
+            47.6646036
+          ],
+          [
+            -122.3141293,
+            47.6644203
+          ],
+          [
+            -122.3141309,
+            47.6640327
+          ],
+          [
+            -122.3141315,
+            47.6640035
+          ],
+          [
+            -122.3141316,
+            47.663997
+          ],
+          [
+            -122.3141349,
+            47.6638157
+          ],
+          [
+            -122.3141368,
+            47.6637115
+          ],
+          [
+            -122.3141398,
+            47.6635419
+          ],
+          [
+            -122.3141463,
+            47.6631738
+          ]
+        ]
+      },
+      "id": "way/490968854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968855",
+        "crossing": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.314306,
+            47.6648284
+          ],
+          [
+            -122.3142262,
+            47.6648284
+          ],
+          [
+            -122.314142,
+            47.6648318
+          ]
+        ]
+      },
+      "id": "way/490968855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968856",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141463,
+            47.6631738
+          ],
+          [
+            -122.3139236,
+            47.6631726
+          ],
+          [
+            -122.3136776,
+            47.6631713
+          ],
+          [
+            -122.3132274,
+            47.6631668
+          ],
+          [
+            -122.3132182,
+            47.663172
+          ]
+        ]
+      },
+      "id": "way/490968856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968857",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132182,
+            47.663172
+          ],
+          [
+            -122.3132132,
+            47.6631776
+          ],
+          [
+            -122.3132096,
+            47.6636672
+          ],
+          [
+            -122.3131974,
+            47.6645871
+          ],
+          [
+            -122.3131961,
+            47.6647075
+          ],
+          [
+            -122.3131939,
+            47.6648203
+          ],
+          [
+            -122.3132063,
+            47.6648289
+          ]
+        ]
+      },
+      "id": "way/490968857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490968858",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132063,
+            47.6648289
+          ],
+          [
+            -122.3132187,
+            47.6648349
+          ],
+          [
+            -122.3135813,
+            47.6648364
+          ],
+          [
+            -122.3136326,
+            47.6648366
+          ],
+          [
+            -122.313644,
+            47.6648365
+          ],
+          [
+            -122.3140853,
+            47.6648348
+          ],
+          [
+            -122.3141123,
+            47.6648333
+          ]
+        ]
+      },
+      "id": "way/490968858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/537697029",
+        "alt_name": "The Ave",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "University Way Northeast",
+        "sidewalk": "both",
+        "surface": "concrete",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "University",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Way"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3131512,
+            47.6608214
+          ],
+          [
+            -122.313141,
+            47.6611796
+          ],
+          [
+            -122.3131389,
+            47.6612773
+          ]
+        ]
+      },
+      "id": "way/537697029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565125047",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119711,
+            47.6616477
+          ],
+          [
+            -122.3118697,
+            47.6616455
+          ],
+          [
+            -122.3117422,
+            47.6616446
+          ]
+        ]
+      },
+      "id": "way/565125047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565125050",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3119689,
+            47.6623885
+          ],
+          [
+            -122.3120923,
+            47.6623916
+          ],
+          [
+            -122.3122013,
+            47.6623895
+          ],
+          [
+            -122.3122029,
+            47.6627368
+          ],
+          [
+            -122.3123923,
+            47.6627392
+          ],
+          [
+            -122.3123985,
+            47.662349
+          ],
+          [
+            -122.3122019,
+            47.662349
+          ],
+          [
+            -122.3122013,
+            47.6623895
+          ]
+        ]
+      },
+      "id": "way/565125050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565125054",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142396,
+            47.6637126
+          ],
+          [
+            -122.3141368,
+            47.6637115
+          ],
+          [
+            -122.3141098,
+            47.6637114
+          ],
+          [
+            -122.3139679,
+            47.6636712
+          ],
+          [
+            -122.3136675,
+            47.6636702
+          ]
+        ]
+      },
+      "id": "way/565125054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/600885117",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130135,
+            47.6633519
+          ],
+          [
+            -122.3127792,
+            47.663351
+          ]
+        ]
+      },
+      "id": "way/600885117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621283287",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Brooklyn Avenue Northeast",
+        "sidewalk": "both",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "Brooklyn",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Ave",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142252,
+            47.6649085
+          ],
+          [
+            -122.3142239,
+            47.6650006
+          ],
+          [
+            -122.3142198,
+            47.6652988
+          ],
+          [
+            -122.3142131,
+            47.6657911
+          ],
+          [
+            -122.3142033,
+            47.66638
+          ],
+          [
+            -122.3142021,
+            47.6664322
+          ]
+        ]
+      },
+      "id": "way/621283287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621283290",
+        "alt_name": "The Ave",
+        "bicycle": "designated",
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "University Way Northeast",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "University",
+        "tiger:name_direction_suffix": "NE",
+        "tiger:name_type": "Way",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130509,
+            47.6664287
+          ],
+          [
+            -122.3130515,
+            47.6663518
+          ],
+          [
+            -122.3130503,
+            47.6661152
+          ],
+          [
+            -122.3130613,
+            47.6651843
+          ],
+          [
+            -122.3130616,
+            47.6649947
+          ],
+          [
+            -122.3130618,
+            47.6648984
+          ]
+        ]
+      },
+      "id": "way/621283290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621283291",
+        "highway": "tertiary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northeast 50th Street",
+        "sidewalk": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "50th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142252,
+            47.6649085
+          ],
+          [
+            -122.3143513,
+            47.6649101
+          ],
+          [
+            -122.314677,
+            47.6649142
+          ],
+          [
+            -122.3151577,
+            47.6649202
+          ],
+          [
+            -122.315231,
+            47.6649211
+          ]
+        ]
+      },
+      "id": "way/621283291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621342730",
+        "bicycle": "designated",
+        "cycleway": "shared_lane",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "maxspeed": "30 mph",
+        "name": "Northeast 45th Street",
+        "parking:lane:both": "no_parking",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "45th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St:Street;St",
+        "trolley_wire": "yes",
+        "turn:lanes:backward": "left||"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3142687,
+            47.6612886
+          ],
+          [
+            -122.3141505,
+            47.6612859
+          ],
+          [
+            -122.3138895,
+            47.6612837
+          ]
+        ]
+      },
+      "id": "way/621342730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/638026147",
+        "highway": "service",
+        "oneway": "yes",
+        "service": "drive-through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136465,
+            47.6647101
+          ],
+          [
+            -122.3131961,
+            47.6647075
+          ],
+          [
+            -122.3130659,
+            47.6647067
+          ]
+        ]
+      },
+      "id": "way/638026147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/638028009",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3137923,
+            47.6647465
+          ],
+          [
+            -122.313728,
+            47.6647459
+          ]
+        ]
+      },
+      "id": "way/638028009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376738",
+        "access": "destination",
+        "highway": "service",
+        "maxspeed": "15 mph",
+        "oneway": "no",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313644,
+            47.6648365
+          ],
+          [
+            -122.3136426,
+            47.6649056
+          ]
+        ]
+      },
+      "id": "way/738376738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376739",
+        "highway": "tertiary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northeast 50th Street",
+        "sidewalk": "separate",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "50th",
+        "tiger:name_direction_prefix": "NE",
+        "tiger:name_type": "St",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136426,
+            47.6649056
+          ],
+          [
+            -122.3136897,
+            47.6649058
+          ],
+          [
+            -122.314081,
+            47.6649077
+          ],
+          [
+            -122.3142252,
+            47.6649085
+          ]
+        ]
+      },
+      "id": "way/738376739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376740",
+        "access": "destination",
+        "highway": "service",
+        "maxspeed": "15 mph",
+        "oneway": "no",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136451,
+            47.6647452
+          ],
+          [
+            -122.313644,
+            47.6648365
+          ]
+        ]
+      },
+      "id": "way/738376740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376741",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.313728,
+            47.6647459
+          ],
+          [
+            -122.3136451,
+            47.6647452
+          ]
+        ]
+      },
+      "id": "way/738376741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376742",
+        "access": "destination",
+        "highway": "service",
+        "maxspeed": "15 mph",
+        "oneway": "no",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136465,
+            47.6647101
+          ],
+          [
+            -122.3136451,
+            47.6647452
+          ]
+        ]
+      },
+      "id": "way/738376742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/738376743",
+        "access": "destination",
+        "highway": "service",
+        "maxspeed": "15 mph",
+        "oneway": "no",
+        "service": "alley"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3136481,
+            47.6645918
+          ],
+          [
+            -122.3136465,
+            47.6647101
+          ]
+        ]
+      },
+      "id": "way/738376743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775637658",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132388,
+            47.6628381
+          ],
+          [
+            -122.3132188,
+            47.6628379
+          ]
+        ]
+      },
+      "id": "way/775637658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775637659",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3132385,
+            47.6628593
+          ],
+          [
+            -122.3132185,
+            47.6628592
+          ]
+        ]
+      },
+      "id": "way/775637659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775637660",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3129735,
+            47.663198
+          ],
+          [
+            -122.3130156,
+            47.6631982
+          ]
+        ]
+      },
+      "id": "way/775637660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838478226",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130336,
+            47.6621866
+          ],
+          [
+            -122.3130738,
+            47.6621876
+          ]
+        ]
+      },
+      "id": "way/838478226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838478227",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3131818,
+            47.6621903
+          ],
+          [
+            -122.3132259,
+            47.6621913
+          ]
+        ]
+      },
+      "id": "way/838478227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838478228",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3130738,
+            47.6621876
+          ],
+          [
+            -122.313119,
+            47.6621887
+          ],
+          [
+            -122.3131818,
+            47.6621903
+          ]
+        ]
+      },
+      "id": "way/838478228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838478231",
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141309,
+            47.6640327
+          ],
+          [
+            -122.3141555,
+            47.6640327
+          ]
+        ]
+      },
+      "id": "way/838478231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/838478233",
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3141555,
+            47.6640327
+          ],
+          [
+            -122.314235,
+            47.6640329
+          ],
+          [
+            -122.3143206,
+            47.664033
+          ]
+        ]
+      },
+      "id": "way/838478233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53079365",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131389,
+          47.6612773
+        ]
+      },
+      "id": "node/53079365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53097839",
+        "highway": "stop",
+        "stop": "all"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130509,
+          47.6664287
+        ]
+      },
+      "id": "node/53097839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53136552",
+        "direction": "both",
+        "highway": "stop",
+        "stop": "all"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142469,
+          47.6630996
+        ]
+      },
+      "id": "node/53136552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53136555",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142252,
+          47.6649085
+        ]
+      },
+      "id": "node/53136555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53162660",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.315231,
+          47.6649211
+        ]
+      },
+      "id": "node/53162660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53162661",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130618,
+          47.6648984
+        ]
+      },
+      "id": "node/53162661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53162662",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119594,
+          47.6648936
+        ]
+      },
+      "id": "node/53162662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53193953",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131002,
+          47.6630965
+        ]
+      },
+      "id": "node/53193953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53212697",
+        "highway": "stop",
+        "stop": "all"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3152615,
+          47.6631044
+        ]
+      },
+      "id": "node/53212697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53222752",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119673,
+          47.6630915
+        ]
+      },
+      "id": "node/53222752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/59699521",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119022,
+          47.6707196
+        ]
+      },
+      "id": "node/59699521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/59948458",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119721,
+          47.6612672
+        ]
+      },
+      "id": "node/59948458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470113818",
+        "crossing": "marked",
+        "highway": "crossing",
+        "source": "yahoo_wms;knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313119,
+          47.6621887
+        ]
+      },
+      "id": "node/470113818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470113819",
+        "crossing": "marked",
+        "highway": "crossing",
+        "source": "yahoo_wms;knowledge",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314259,
+          47.6620368
+        ]
+      },
+      "id": "node/470113819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1141488400",
+        "entrance": "main",
+        "source": "bing;survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3132388,
+          47.6628381
+        ]
+      },
+      "id": "node/1141488400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1147704157",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314235,
+          47.6640329
+        ]
+      },
+      "id": "node/1147704157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1147704225",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130837,
+          47.6640027
+        ]
+      },
+      "id": "node/1147704225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2675707216",
+        "entrance": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3129735,
+          47.663198
+        ]
+      },
+      "id": "node/2675707216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976558605",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "both"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142687,
+          47.6612886
+        ]
+      },
+      "id": "node/3976558605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4291702897",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "project": "opensidewalks",
+        "traffic_signals:sound": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3121381,
+          47.6612687
+        ]
+      },
+      "id": "node/4291702897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4291702898",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3121335,
+          47.6613346
+        ]
+      },
+      "id": "node/4291702898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4291702899",
+        "bus": "yes",
+        "gtfs:stop_id": "35820",
+        "name": "15th Ave NE & NE 45th St",
+        "public_transport": "stop_position",
+        "ref": "35820"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311972,
+          47.661465
+        ]
+      },
+      "id": "node/4291702899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4348121481",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3120944,
+          47.6613522
+        ]
+      },
+      "id": "node/4348121481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4531063565",
+        "bus": "yes",
+        "gtfs:stop_id": "10911",
+        "name": "NE 45th St & University Way NE",
+        "public_transport": "stop_position",
+        "ref": "10911",
+        "ref:community_transit": "350",
+        "route_ref": "810;821;855;860;871;880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3134479,
+          47.6612799
+        ]
+      },
+      "id": "node/4531063565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4531063576",
+        "bus": "yes",
+        "gtfs:stop_id": "11354",
+        "name": "NE 45th St & Brooklyn Ave NE",
+        "public_transport": "stop_position",
+        "ref": "11354",
+        "ref:community_transit": "1724",
+        "route_ref": "810;821;855;860;871;880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3138895,
+          47.6612837
+        ]
+      },
+      "id": "node/4531063576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607197853",
+        "bus": "yes",
+        "gtfs:stop_id": "36890",
+        "name": "15th Ave NE & NE 52nd St",
+        "public_transport": "stop_position",
+        "ref": "36890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119116,
+          47.6666409
+        ]
+      },
+      "id": "node/4607197853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607197861",
+        "bus": "yes",
+        "gtfs:stop_id": "37350",
+        "name": "University Way NE & NE 50th St",
+        "public_transport": "stop_position",
+        "ref": "37350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130613,
+          47.6651843
+        ]
+      },
+      "id": "node/4607197861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607197884",
+        "bus": "yes",
+        "gtfs:stop_id": "9132",
+        "name": "University Way NE & NE 50th St",
+        "public_transport": "stop_position",
+        "ref": "9132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130778,
+          47.6641457
+        ]
+      },
+      "id": "node/4607197884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607197887",
+        "bus": "yes",
+        "gtfs:stop_id": "9133",
+        "name": "University Way NE & NE 45th St",
+        "public_transport": "stop_position",
+        "ref": "9133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131172,
+          47.6622966
+        ]
+      },
+      "id": "node/4607197887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607202590",
+        "bus": "yes",
+        "gtfs:stop_id": "36910",
+        "name": "15th Ave NE & NE Ravenna Blvd",
+        "public_transport": "stop_position",
+        "ref": "36910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119001,
+          47.6704388
+        ]
+      },
+      "id": "node/4607202590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607202591",
+        "bus": "yes",
+        "gtfs:stop_id": "35770",
+        "name": "15th Ave NE & NE Ravenna Blvd",
+        "public_transport": "stop_position",
+        "ref": "35770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119,
+          47.670478
+        ]
+      },
+      "id": "node/4607202591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607202597",
+        "bus": "yes",
+        "gtfs:stop_id": "35790",
+        "name": "15th Ave NE & NE 52nd St",
+        "public_transport": "stop_position",
+        "ref": "35790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119156,
+          47.6662364
+        ]
+      },
+      "id": "node/4607202597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607202605",
+        "bus": "yes",
+        "gtfs:stop_id": "9584",
+        "name": "University Way NE & NE 45th St",
+        "public_transport": "stop_position",
+        "ref": "9584"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131222,
+          47.6620611
+        ]
+      },
+      "id": "node/4607202605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293475",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313218,
+          47.6613704
+        ]
+      },
+      "id": "node/4694293475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293476",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314185,
+          47.6613764
+        ]
+      },
+      "id": "node/4694293476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293479",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313264,
+          47.661341
+        ]
+      },
+      "id": "node/4694293479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293482",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314133,
+          47.6613476
+        ]
+      },
+      "id": "node/4694293482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293483",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313197,
+          47.6630194
+        ]
+      },
+      "id": "node/4694293483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293485",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313227,
+          47.6631533
+        ]
+      },
+      "id": "node/4694293485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694293487",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314154,
+          47.6631671
+        ]
+      },
+      "id": "node/4694293487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694297691",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314365,
+          47.6613763
+        ]
+      },
+      "id": "node/4694297691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694327383",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314181,
+          47.6620354
+        ]
+      },
+      "id": "node/4694327383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694327384",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31323,
+          47.6630422
+        ]
+      },
+      "id": "node/4694327384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694343208",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "project": "opensidewalks",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3118527,
+          47.6613709
+        ]
+      },
+      "id": "node/4694343208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694343212",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311901,
+          47.6630031
+        ]
+      },
+      "id": "node/4694343212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694343223",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31208,
+          47.663032
+        ]
+      },
+      "id": "node/4694343223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400569",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312947,
+          47.6648979
+        ]
+      },
+      "id": "node/4694400569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400570",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130633,
+          47.6648234
+        ]
+      },
+      "id": "node/4694400570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400571",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3120961,
+          47.6648937
+        ]
+      },
+      "id": "node/4694400571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400574",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130985,
+          47.6631742
+        ]
+      },
+      "id": "node/4694400574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400583",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313035,
+          47.6631729
+        ]
+      },
+      "id": "node/4694400583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400587",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312048,
+          47.6648056
+        ]
+      },
+      "id": "node/4694400587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400588",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313171,
+          47.6648207
+        ]
+      },
+      "id": "node/4694400588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400689",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312084,
+          47.6631404
+        ]
+      },
+      "id": "node/4694400689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400691",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312945,
+          47.6649597
+        ]
+      },
+      "id": "node/4694400691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400692",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313002,
+          47.6648247
+        ]
+      },
+      "id": "node/4694400692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400693",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312092,
+          47.6649574
+        ]
+      },
+      "id": "node/4694400693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400696",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313193,
+          47.663178
+        ]
+      },
+      "id": "node/4694400696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400697",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312099,
+          47.6648373
+        ]
+      },
+      "id": "node/4694400697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694400698",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313002,
+          47.6631518
+        ]
+      },
+      "id": "node/4694400698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694420642",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142477,
+          47.6630359
+        ]
+      },
+      "id": "node/4694420642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694420645",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31435,
+          47.6630364
+        ]
+      },
+      "id": "node/4694420645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694420647",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3143531,
+          47.6630997
+        ]
+      },
+      "id": "node/4694420647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694420649",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3151616,
+          47.6631052
+        ]
+      },
+      "id": "node/4694420649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694420652",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142677,
+          47.661376
+        ]
+      },
+      "id": "node/4694420652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694462210",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313141,
+          47.6611796
+        ]
+      },
+      "id": "node/4694462210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694462211",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313014,
+          47.6612762
+        ]
+      },
+      "id": "node/4694462211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694462218",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313014,
+          47.6612041
+        ]
+      },
+      "id": "node/4694462218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694462220",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "project": "opensidewalks",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3121415,
+          47.6611894
+        ]
+      },
+      "id": "node/4694462220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694462225",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313013,
+          47.661339
+        ]
+      },
+      "id": "node/4694462225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694710422",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3132287,
+          47.6630966
+        ]
+      },
+      "id": "node/4694710422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694710423",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3141521,
+          47.663099
+        ]
+      },
+      "id": "node/4694710423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694710424",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31187,
+          47.6630911
+        ]
+      },
+      "id": "node/4694710424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694710425",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311967,
+          47.6630137
+        ]
+      },
+      "id": "node/4694710425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694838273",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3109275,
+          47.6630786
+        ]
+      },
+      "id": "node/4694838273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696658401",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313266,
+          47.6612784
+        ]
+      },
+      "id": "node/4696658401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696658404",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3141505,
+          47.6612859
+        ]
+      },
+      "id": "node/4696658404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696658412",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314171,
+          47.6612128
+        ]
+      },
+      "id": "node/4696658412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696658415",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313268,
+          47.6612104
+        ]
+      },
+      "id": "node/4696658415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665478",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131018,
+          47.6630193
+        ]
+      },
+      "id": "node/4696665478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665480",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31208,
+          47.6630915
+        ]
+      },
+      "id": "node/4696665480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665484",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130035,
+          47.6630957
+        ]
+      },
+      "id": "node/4696665484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665486",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313136,
+          47.6613697
+        ]
+      },
+      "id": "node/4696665486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665589",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313004,
+          47.663057
+        ]
+      },
+      "id": "node/4696665589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665590",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313061,
+          47.6613691
+        ]
+      },
+      "id": "node/4696665590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4696665592",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31304,
+          47.6630192
+        ]
+      },
+      "id": "node/4696665592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707278577",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31435,
+          47.6620377
+        ]
+      },
+      "id": "node/4707278577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707530220",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312947,
+          47.6648496
+        ]
+      },
+      "id": "node/4707530220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707530221",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314246,
+          47.6631759
+        ]
+      },
+      "id": "node/4707530221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707530224",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314149,
+          47.6630355
+        ]
+      },
+      "id": "node/4707530224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829576143",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119021,
+          47.669391
+        ]
+      },
+      "id": "node/4829576143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829744981",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119608,
+          47.6648042
+        ]
+      },
+      "id": "node/4829744981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829744982",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119675,
+          47.6631473
+        ]
+      },
+      "id": "node/4829744982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829744984",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3118309,
+          47.6648934
+        ]
+      },
+      "id": "node/4829744984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829744995",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311895,
+          47.6631515
+        ]
+      },
+      "id": "node/4829744995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829745002",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31187,
+          47.6648028
+        ]
+      },
+      "id": "node/4829745002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831297705",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314337,
+          47.6631808
+        ]
+      },
+      "id": "node/4831297705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831297712",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3143513,
+          47.6649101
+        ]
+      },
+      "id": "node/4831297712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831297713",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314306,
+          47.6648284
+        ]
+      },
+      "id": "node/4831297713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831297718",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3151577,
+          47.6649202
+        ]
+      },
+      "id": "node/4831297718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344185",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313218,
+          47.6649004
+        ]
+      },
+      "id": "node/4831344185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344188",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313217,
+          47.6648507
+        ]
+      },
+      "id": "node/4831344188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344190",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314081,
+          47.6649077
+        ]
+      },
+      "id": "node/4831344190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344191",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142262,
+          47.6648284
+        ]
+      },
+      "id": "node/4831344191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344194",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314082,
+          47.6648569
+        ]
+      },
+      "id": "node/4831344194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344195",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314142,
+          47.6648318
+        ]
+      },
+      "id": "node/4831344195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344202",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313218,
+          47.6649717
+        ]
+      },
+      "id": "node/4831344202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831344203",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314079,
+          47.6649702
+        ]
+      },
+      "id": "node/4831344203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831353885",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311903,
+          47.6695103
+        ]
+      },
+      "id": "node/4831353885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831353888",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119019,
+          47.6706871
+        ]
+      },
+      "id": "node/4831353888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154230198",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119578,
+          47.6649888
+        ]
+      },
+      "id": "node/5154230198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154230202",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119134,
+          47.6663638
+        ]
+      },
+      "id": "node/5154230202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154238520",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130616,
+          47.6649947
+        ]
+      },
+      "id": "node/5154238520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154238926",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130515,
+          47.6663518
+        ]
+      },
+      "id": "node/5154238926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154249114",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142239,
+          47.6650006
+        ]
+      },
+      "id": "node/5154249114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5154249123",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3142033,
+          47.66638
+        ]
+      },
+      "id": "node/5154249123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156175463",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.311912,
+          47.6665039
+        ]
+      },
+      "id": "node/5156175463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156175464",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119062,
+          47.6684489
+        ]
+      },
+      "id": "node/5156175464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5156180220",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119059,
+          47.6685769
+        ]
+      },
+      "id": "node/5156180220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6363985067",
+        "bus": "yes",
+        "gtfs:stop_id": "10370",
+        "name": "NE 50th St & University Way NE",
+        "public_transport": "stop_position",
+        "ref": "10370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3126507,
+          47.6648965
+        ]
+      },
+      "id": "node/6363985067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6363985068",
+        "bus": "yes",
+        "gtfs:stop_id": "9586",
+        "name": "NE 50th St & University Way NE",
+        "public_transport": "stop_position",
+        "ref": "9586"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3136897,
+          47.6649058
+        ]
+      },
+      "id": "node/6363985068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6899077599",
+        "bus": "yes",
+        "gtfs:stop_id": "36860",
+        "name": "15th Ave NE & NE 45th St",
+        "public_transport": "stop_position",
+        "ref": "36860"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119726,
+          47.6615105
+        ]
+      },
+      "id": "node/6899077599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6899077602",
+        "bus": "yes",
+        "gtfs:dataset_id": "KCGIS",
+        "gtfs:stop_id": "35820",
+        "highway": "bus_stop",
+        "name": "15th Ave NE & NE 45th St",
+        "public_transport": "platform",
+        "ref": "35820",
+        "source": "King County GIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3121087,
+          47.6614757
+        ]
+      },
+      "id": "node/6899077602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6981609379",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "project": "opensidewalks",
+        "traffic_signals:sound": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119728,
+          47.6613622
+        ]
+      },
+      "id": "node/6981609379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7223836355",
+        "direction": "180",
+        "highway": "stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3119015,
+          47.6706397
+        ]
+      },
+      "id": "node/7223836355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7235982859",
+        "entrance": "main",
+        "source": "bing;survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3132385,
+          47.6628593
+        ]
+      },
+      "id": "node/7235982859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825426316",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3131818,
+          47.6621903
+        ]
+      },
+      "id": "node/7825426316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825426317",
+        "barrier": "kerb",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130738,
+          47.6621876
+        ]
+      },
+      "id": "node/7825426317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825426323",
+        "barrier": "kerb",
+        "kerb": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3141555,
+          47.6640327
+        ]
+      },
+      "id": "node/7825426323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825426324",
+        "barrier": "kerb",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3143206,
+          47.664033
+        ]
+      },
+      "id": "node/7825426324"
+    }
+  ]
+}
