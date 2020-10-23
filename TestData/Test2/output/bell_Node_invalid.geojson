@@ -19,7 +19,7 @@
             "id": "node/7963839403",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "id": "node/7963839402",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -61,7 +61,7 @@
             "id": "node/7963839400",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -82,7 +82,7 @@
             "id": "node/7963839399",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -103,7 +103,7 @@
             "id": "node/7963839398",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -124,7 +124,7 @@
             "id": "node/7963839397",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -145,7 +145,7 @@
             "id": "node/7963839392",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -166,7 +166,7 @@
             "id": "node/7963839390",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -188,7 +188,7 @@
             "id": "node/7963839387",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -208,7 +208,7 @@
             "id": "node/7963839374",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -228,7 +228,7 @@
             "id": "node/7963839359",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -249,7 +249,7 @@
             "id": "node/7963839355",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -269,7 +269,7 @@
             "id": "node/7963839350",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -290,7 +290,7 @@
             "id": "node/7963839333",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -311,7 +311,7 @@
             "id": "node/7963839332",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -332,7 +332,7 @@
             "id": "node/7963839331",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -353,7 +353,7 @@
             "id": "node/7963839330",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -397,7 +397,7 @@
             "id": "node/7963839324",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -418,7 +418,7 @@
             "id": "node/7963839323",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -439,7 +439,7 @@
             "id": "node/7963839321",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -460,7 +460,7 @@
             "id": "node/7963839319",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -481,7 +481,7 @@
             "id": "node/7963839318",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -502,7 +502,7 @@
             "id": "node/7963839317",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -523,7 +523,7 @@
             "id": "node/7963839316",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -544,7 +544,7 @@
             "id": "node/7963839315",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -565,7 +565,7 @@
             "id": "node/7963839313",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -586,7 +586,7 @@
             "id": "node/7963839312",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -607,7 +607,7 @@
             "id": "node/7963839309",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -628,7 +628,7 @@
             "id": "node/7963839308",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -649,7 +649,7 @@
             "id": "node/7963839304",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -670,7 +670,7 @@
             "id": "node/7963839302",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -691,7 +691,7 @@
             "id": "node/7963839300",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -712,7 +712,7 @@
             "id": "node/7963839299",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -733,7 +733,7 @@
             "id": "node/7963839297",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -754,7 +754,7 @@
             "id": "node/7963839296",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -775,7 +775,7 @@
             "id": "node/7963839295",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -796,7 +796,7 @@
             "id": "node/7963839294",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -817,7 +817,7 @@
             "id": "node/7963839293",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -838,7 +838,7 @@
             "id": "node/7963839291",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -859,7 +859,7 @@
             "id": "node/7963751384",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -880,7 +880,7 @@
             "id": "node/7963751383",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -901,7 +901,7 @@
             "id": "node/7963751382",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -922,7 +922,7 @@
             "id": "node/7963751380",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -943,7 +943,7 @@
             "id": "node/7963751377",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -964,7 +964,7 @@
             "id": "node/7963513081",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -985,7 +985,7 @@
             "id": "node/7963513078",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1006,7 +1006,7 @@
             "id": "node/7963513077",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1027,7 +1027,7 @@
             "id": "node/7963513070",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "id": "node/7963513068",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1069,7 +1069,7 @@
             "id": "node/7963513067",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1090,7 +1090,7 @@
             "id": "node/7963513059",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1111,7 +1111,7 @@
             "id": "node/7963513058",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1132,7 +1132,7 @@
             "id": "node/7963513057",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1154,7 +1154,7 @@
             "id": "node/7963513056",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1176,7 +1176,7 @@
             "id": "node/7963513049",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1198,7 +1198,7 @@
             "id": "node/7963513048",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1219,7 +1219,7 @@
             "id": "node/7863434697",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1240,7 +1240,7 @@
             "id": "node/7863434682",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1262,7 +1262,7 @@
             "id": "node/7863434681",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1287,7 +1287,7 @@
             "id": "node/7863434629",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1312,7 +1312,7 @@
             "id": "node/7863434628",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1337,7 +1337,7 @@
             "id": "node/7863434627",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1358,7 +1358,7 @@
             "id": "node/7861664844",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1379,7 +1379,7 @@
             "id": "node/7861664842",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1400,7 +1400,7 @@
             "id": "node/7861664840",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1425,7 +1425,7 @@
             "id": "node/7861268516",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1450,7 +1450,7 @@
             "id": "node/7861268515",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1475,7 +1475,7 @@
             "id": "node/7861268513",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1500,7 +1500,7 @@
             "id": "node/7861268512",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1525,7 +1525,7 @@
             "id": "node/7861268511",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1569,7 +1569,7 @@
             "id": "node/7858259349",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1590,7 +1590,7 @@
             "id": "node/7858259347",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1611,7 +1611,7 @@
             "id": "node/7858259346",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1631,7 +1631,7 @@
             "id": "node/7858259337",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1652,7 +1652,7 @@
             "id": "node/7858259336",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1672,7 +1672,7 @@
             "id": "node/7858259334",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1713,7 +1713,7 @@
             "id": "node/7857809892",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1734,7 +1734,7 @@
             "id": "node/7857809887",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -1759,7 +1759,7 @@
             "id": "node/7857807680",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1784,7 +1784,7 @@
             "id": "node/7857807679",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1809,7 +1809,7 @@
             "id": "node/7857807678",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1834,7 +1834,7 @@
             "id": "node/7857807677",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1859,7 +1859,7 @@
             "id": "node/7857807676",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1884,7 +1884,7 @@
             "id": "node/7857807675",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -1925,7 +1925,7 @@
             "id": "node/7609693699",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -1947,7 +1947,7 @@
             "id": "node/7609693697",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2134,7 +2134,7 @@
             "id": "node/6313223307",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2154,7 +2154,7 @@
             "id": "node/6313223306",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2196,7 +2196,7 @@
             "id": "node/5759923826",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2240,7 +2240,7 @@
             "id": "node/5148407783",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2305,7 +2305,7 @@
             "id": "node/5085018011",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2386,7 +2386,7 @@
             "id": "node/5084998879",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2548,7 +2548,7 @@
             "id": "node/5057086279",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2570,7 +2570,7 @@
             "id": "node/5057086278",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2592,7 +2592,7 @@
             "id": "node/5057086277",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2683,7 +2683,7 @@
             "id": "node/5056940848",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2728,7 +2728,7 @@
             "id": "node/5056940830",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2816,7 +2816,7 @@
             "id": "node/5056913824",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2838,7 +2838,7 @@
             "id": "node/5056835517",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2860,7 +2860,7 @@
             "id": "node/5056835514",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2882,7 +2882,7 @@
             "id": "node/5056835512",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2904,7 +2904,7 @@
             "id": "node/5056835511",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2926,7 +2926,7 @@
             "id": "node/5052344081",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2948,7 +2948,7 @@
             "id": "node/5052344044",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -2970,7 +2970,7 @@
             "id": "node/5052344042",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -3131,7 +3131,7 @@
             "id": "node/3887863740",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -3151,7 +3151,7 @@
             "id": "node/3887863732",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'parking', is not a valid OSW tag",
                 "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity"
             ]
         },
@@ -3174,7 +3174,7 @@
             "id": "node/3887863731",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -3196,7 +3196,7 @@
             "id": "node/3887065808",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -3221,7 +3221,7 @@
             "id": "node/3887065796",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -3246,7 +3246,7 @@
             "id": "node/3887065793",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -3271,7 +3271,7 @@
             "id": "node/3887065789",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -3296,7 +3296,7 @@
             "id": "node/3887065781",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -3315,7 +3315,7 @@
             "id": "node/3646948905",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'noexit', is not a valid OSW tag"
             ]
         },
         {
@@ -3372,7 +3372,7 @@
             "id": "node/3522509250",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'fixme', is not a valid OSW tag"
             ]
         },
         {
@@ -3490,7 +3490,7 @@
             "id": "node/3522508593",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'fixme', is not a valid OSW tag"
             ]
         },
         {
@@ -3554,7 +3554,7 @@
             "id": "node/635760356",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'lit', is not a valid OSW tag"
             ]
         },
         {
@@ -3578,7 +3578,7 @@
             "id": "node/583493597",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'covered', is not a valid OSW tag",
+                "'source', is not a valid OSW tag",
                 "'parking_entrance' is not one of ['bench', 'waste_basket', 'telephone', 'fountain', 'drinking_water', 'manhole', 'street_lamp'] that are allowed for amenity",
                 "'public_transport' is a required property for name"
             ]
@@ -3600,7 +3600,7 @@
             "id": "node/53245533",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
@@ -3678,7 +3678,7 @@
             "id": "node/53156632",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'highway', is not a valid OSW tag"
             ]
         },
         {
