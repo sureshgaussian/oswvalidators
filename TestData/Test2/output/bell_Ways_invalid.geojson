@@ -27,7 +27,7 @@
             "id": "way/853857714",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999278, 47.6124824] is not present in Nodes file"
             ]
         },
@@ -57,7 +57,7 @@
             "id": "way/853857713",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999317, 47.6127182] is not present in Nodes file"
             ]
         },
@@ -87,9 +87,9 @@
             "id": "way/853857712",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990176, 47.6136519] is not present in Nodes file",
-                "Point [-122.199042, 47.6137195] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.199042, 47.6137195] is not present in Nodes file",
+                "Point [-122.1990176, 47.6136519] is not present in Nodes file"
             ]
         },
         {
@@ -118,7 +118,7 @@
             "id": "way/853857711",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990176, 47.6136519] is not present in Nodes file",
                 "Point [-122.1990154, 47.6136085] is not present in Nodes file"
             ]
@@ -148,7 +148,7 @@
             "id": "way/853857710",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -177,7 +177,7 @@
             "id": "way/853857709",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -206,7 +206,7 @@
             "id": "way/853857708",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990176, 47.6136519] is not present in Nodes file"
             ]
         },
@@ -237,7 +237,7 @@
             "id": "way/853857707",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990154, 47.6136085] is not present in Nodes file"
             ]
         },
@@ -268,7 +268,7 @@
             "id": "way/853857706",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -298,7 +298,7 @@
             "id": "way/853857705",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990104, 47.6134721] is not present in Nodes file"
             ]
         },
@@ -326,9 +326,9 @@
             "id": "way/853857704",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.19907, 47.6134529] is not present in Nodes file",
-                "Point [-122.1990702, 47.6133002] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1990702, 47.6133002] is not present in Nodes file",
+                "Point [-122.19907, 47.6134529] is not present in Nodes file"
             ]
         },
         {
@@ -355,7 +355,7 @@
             "id": "way/853857703",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990702, 47.6133002] is not present in Nodes file"
             ]
         },
@@ -383,9 +383,9 @@
             "id": "way/853857702",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990579, 47.6133002] is not present in Nodes file",
-                "Point [-122.1990702, 47.6133002] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1990702, 47.6133002] is not present in Nodes file",
+                "Point [-122.1990579, 47.6133002] is not present in Nodes file"
             ]
         },
         {
@@ -415,10 +415,10 @@
             "id": "way/853857701",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'right' is not one of ['yes', 'no', 'unknown'] that are allowed for handrail",
-                "Point [-122.1990425, 47.6133002] is not present in Nodes file",
-                "Point [-122.1990579, 47.6133002] is not present in Nodes file"
+                "Point [-122.1990579, 47.6133002] is not present in Nodes file",
+                "Point [-122.1990425, 47.6133002] is not present in Nodes file"
             ]
         },
         {
@@ -446,9 +446,9 @@
             "id": "way/853857700",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990425, 47.6133002] is not present in Nodes file",
-                "Point [-122.1990041, 47.6133001] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1990041, 47.6133001] is not present in Nodes file",
+                "Point [-122.1990425, 47.6133002] is not present in Nodes file"
             ]
         },
         {
@@ -482,7 +482,7 @@
             "id": "way/853857699",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1991195, 47.6132312] is not present in Nodes file"
             ]
         },
@@ -511,7 +511,7 @@
             "id": "way/853857698",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990702, 47.6133002] is not present in Nodes file"
             ]
         },
@@ -541,10 +541,10 @@
             "id": "way/853857697",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
-                "Point [-122.1991653, 47.6132005] is not present in Nodes file",
-                "Point [-122.1991195, 47.6132312] is not present in Nodes file"
+                "Point [-122.1991195, 47.6132312] is not present in Nodes file",
+                "Point [-122.1991653, 47.6132005] is not present in Nodes file"
             ]
         },
         {
@@ -574,7 +574,7 @@
             "id": "way/853857696",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/853857696', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.1991952, 47.6123321] is not present in Nodes file"
             ]
@@ -604,9 +604,9 @@
             "id": "way/853857695",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990873, 47.6123317] is not present in Nodes file",
-                "Point [-122.1991952, 47.6123321] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1991952, 47.6123321] is not present in Nodes file",
+                "Point [-122.1990873, 47.6123317] is not present in Nodes file"
             ]
         },
         {
@@ -635,7 +635,7 @@
             "id": "way/853857694",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1989758, 47.6123312] is not present in Nodes file",
                 "Point [-122.1989738, 47.6122362] is not present in Nodes file"
             ]
@@ -666,9 +666,9 @@
             "id": "way/853857693",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1989758, 47.6123312] is not present in Nodes file",
-                "Point [-122.1989767, 47.6123633] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1989767, 47.6123633] is not present in Nodes file",
+                "Point [-122.1989758, 47.6123312] is not present in Nodes file"
             ]
         },
         {
@@ -696,7 +696,7 @@
             "id": "way/853857692",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1989758, 47.6123312] is not present in Nodes file",
                 "Point [-122.1990873, 47.6123317] is not present in Nodes file"
             ]
@@ -731,10 +731,10 @@
             "id": "way/853857691",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
-                "Point [-122.1991953, 47.6123549] is not present in Nodes file",
-                "Point [-122.1991661, 47.6123811] is not present in Nodes file"
+                "Point [-122.1991661, 47.6123811] is not present in Nodes file",
+                "Point [-122.1991953, 47.6123549] is not present in Nodes file"
             ]
         },
         {
@@ -761,7 +761,7 @@
             "id": "way/853857690",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990733, 47.6122378] is not present in Nodes file"
             ]
         },
@@ -797,10 +797,10 @@
             "id": "way/853857689",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990733, 47.6122378] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.199088, 47.6122827] is not present in Nodes file",
                 "Point [-122.1990726, 47.6122582] is not present in Nodes file",
+                "Point [-122.1990733, 47.6122378] is not present in Nodes file",
                 "Point [-122.1990873, 47.6123317] is not present in Nodes file"
             ]
         },
@@ -828,9 +828,9 @@
             "id": "way/853857688",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990733, 47.6122378] is not present in Nodes file",
-                "Point [-122.1990744, 47.612206] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1990744, 47.612206] is not present in Nodes file",
+                "Point [-122.1990733, 47.6122378] is not present in Nodes file"
             ]
         },
         {
@@ -857,9 +857,9 @@
             "id": "way/853857686",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990733, 47.6122378] is not present in Nodes file",
-                "Point [-122.1989738, 47.6122362] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1989738, 47.6122362] is not present in Nodes file",
+                "Point [-122.1990733, 47.6122378] is not present in Nodes file"
             ]
         },
         {
@@ -887,7 +887,7 @@
             "id": "way/853857685",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999317, 47.6127182] is not present in Nodes file",
                 "Point [-122.1999064, 47.6127181] is not present in Nodes file"
             ]
@@ -918,7 +918,7 @@
             "id": "way/853857684",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
                 "Point [-122.2000308, 47.61268] is not present in Nodes file"
             ]
@@ -949,7 +949,7 @@
             "id": "way/853857683",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999317, 47.6127182] is not present in Nodes file",
                 "Point [-122.1999278, 47.6124824] is not present in Nodes file"
             ]
@@ -980,7 +980,7 @@
             "id": "way/853857682",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
                 "Point [-122.2000283, 47.612445] is not present in Nodes file"
             ]
@@ -1011,9 +1011,9 @@
             "id": "way/853857681",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1999278, 47.6124824] is not present in Nodes file",
-                "Point [-122.1999227, 47.6121819] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1999227, 47.6121819] is not present in Nodes file",
+                "Point [-122.1999278, 47.6124824] is not present in Nodes file"
             ]
         },
         {
@@ -1042,9 +1042,9 @@
             "id": "way/853857680",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1998987, 47.6121819] is not present in Nodes file",
-                "Point [-122.1999227, 47.6121819] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1999227, 47.6121819] is not present in Nodes file",
+                "Point [-122.1998987, 47.6121819] is not present in Nodes file"
             ]
         },
         {
@@ -1073,7 +1073,7 @@
             "id": "way/853857679",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999898, 47.6121815] is not present in Nodes file",
                 "Point [-122.1999227, 47.6121819] is not present in Nodes file"
             ]
@@ -1107,11 +1107,11 @@
             "id": "way/853857678",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'both' is not one of ['yes', 'no', 'unknown'] that are allowed for handrail",
                 "'highway':'footway' was expected",
-                "Point [-122.2000386, 47.6121811] is not present in Nodes file",
-                "Point [-122.1999898, 47.6121815] is not present in Nodes file"
+                "Point [-122.1999898, 47.6121815] is not present in Nodes file",
+                "Point [-122.2000386, 47.6121811] is not present in Nodes file"
             ]
         },
         {
@@ -1139,7 +1139,7 @@
             "id": "way/853857677",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2000386, 47.6121811] is not present in Nodes file",
                 "Point [-122.2001134, 47.6121806] is not present in Nodes file"
             ]
@@ -1171,7 +1171,7 @@
             "id": "way/853857675",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'right' is not one of ['yes', 'no', 'unknown'] that are allowed for handrail",
                 "'highway':'steps' was expected",
                 "Point [-122.2000862, 47.6133828] is not present in Nodes file",
@@ -1203,9 +1203,9 @@
             "id": "way/853857674",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1998764, 47.6134695] is not present in Nodes file",
-                "Point [-122.2000868, 47.6134704] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2000868, 47.6134704] is not present in Nodes file",
+                "Point [-122.1998764, 47.6134695] is not present in Nodes file"
             ]
         },
         {
@@ -1232,7 +1232,7 @@
             "id": "way/853857673",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1998764, 47.6134695] is not present in Nodes file"
             ]
         },
@@ -1262,10 +1262,10 @@
             "id": "way/853857672",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
-                "Point [-122.1998764, 47.6134695] is not present in Nodes file",
-                "Point [-122.1998764, 47.6134147] is not present in Nodes file"
+                "Point [-122.1998764, 47.6134147] is not present in Nodes file",
+                "Point [-122.1998764, 47.6134695] is not present in Nodes file"
             ]
         },
         {
@@ -1293,9 +1293,9 @@
             "id": "way/853857671",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2000862, 47.6133828] is not present in Nodes file",
-                "Point [-122.2001494, 47.6133827] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2001494, 47.6133827] is not present in Nodes file",
+                "Point [-122.2000862, 47.6133828] is not present in Nodes file"
             ]
         },
         {
@@ -1332,11 +1332,11 @@
             "id": "way/853857670",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2001079, 47.6137351] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2000482, 47.6137547] is not present in Nodes file",
+                "Point [-122.1999412, 47.6137545] is not present in Nodes file",
                 "Point [-122.200084, 47.6137484] is not present in Nodes file",
-                "Point [-122.1999412, 47.6137545] is not present in Nodes file"
+                "Point [-122.2001079, 47.6137351] is not present in Nodes file"
             ]
         },
         {
@@ -1369,7 +1369,7 @@
             "id": "way/853857669",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999414, 47.6137378] is not present in Nodes file",
                 "Point [-122.199942, 47.6136792] is not present in Nodes file"
             ]
@@ -1403,7 +1403,7 @@
             "id": "way/853857668",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999425, 47.6136311] is not present in Nodes file",
                 "Point [-122.1999154, 47.613631] is not present in Nodes file",
                 "Point [-122.199942, 47.6136792] is not present in Nodes file"
@@ -1438,7 +1438,7 @@
             "id": "way/853857667",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1999154, 47.613631] is not present in Nodes file",
                 "Point [-122.1997664, 47.6136304] is not present in Nodes file"
             ]
@@ -1469,10 +1469,10 @@
             "id": "way/853857666",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
-                "Point [-122.1999154, 47.613631] is not present in Nodes file",
-                "Point [-122.1999148, 47.6136774] is not present in Nodes file"
+                "Point [-122.1999148, 47.6136774] is not present in Nodes file",
+                "Point [-122.1999154, 47.613631] is not present in Nodes file"
             ]
         },
         {
@@ -1499,9 +1499,9 @@
             "id": "way/853857665",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1999412, 47.6137545] is not present in Nodes file",
-                "Point [-122.1999414, 47.6137378] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1999414, 47.6137378] is not present in Nodes file",
+                "Point [-122.1999412, 47.6137545] is not present in Nodes file"
             ]
         },
         {
@@ -1531,7 +1531,7 @@
             "id": "way/853857663",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/853857663', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.1986884, 47.6119065] is not present in Nodes file"
             ]
@@ -1563,7 +1563,7 @@
             "id": "way/853857662",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/853857662', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.1986636, 47.6121151] is not present in Nodes file"
             ]
@@ -1593,7 +1593,7 @@
             "id": "way/853857661",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1986636, 47.6121151] is not present in Nodes file",
                 "Point [-122.1987097, 47.612138] is not present in Nodes file"
             ]
@@ -1627,7 +1627,7 @@
             "id": "way/853857660",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/853857660', 'description': '106th Avenue Northeast (E sidewalk)', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.1987097, 47.612138] is not present in Nodes file"
             ]
@@ -1659,7 +1659,7 @@
             "id": "way/853857659",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1997487, 47.612074] is not present in Nodes file"
             ]
         },
@@ -1698,7 +1698,7 @@
             "id": "way/853857658",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -1735,11 +1735,11 @@
             "id": "way/853857657",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.198981, 47.612083] is not present in Nodes file",
-                "Point [-122.1992975, 47.6120712] is not present in Nodes file",
+                "Point [-122.1990263, 47.6120695] is not present in Nodes file",
                 "Point [-122.1990014, 47.6120723] is not present in Nodes file",
-                "Point [-122.1990263, 47.6120695] is not present in Nodes file"
+                "Point [-122.1992975, 47.6120712] is not present in Nodes file"
             ]
         },
         {
@@ -1769,7 +1769,7 @@
             "id": "way/853857656",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1992975, 47.6120712] is not present in Nodes file"
             ]
         },
@@ -1800,7 +1800,7 @@
             "id": "way/853857655",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1989767, 47.6123633] is not present in Nodes file"
             ]
         },
@@ -1847,7 +1847,7 @@
             "id": "way/853857654",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -1876,9 +1876,9 @@
             "id": "way/853857653",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1990104, 47.6134721] is not present in Nodes file",
-                "Point [-122.1990041, 47.6133001] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1990041, 47.6133001] is not present in Nodes file",
+                "Point [-122.1990104, 47.6134721] is not present in Nodes file"
             ]
         },
         {
@@ -1908,7 +1908,7 @@
             "id": "way/853857652",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1990041, 47.6133001] is not present in Nodes file"
             ]
         },
@@ -1980,8 +1980,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1993896, 47.6138564] is not present in Nodes file",
-                "Point [-122.1993874, 47.6137026] is not present in Nodes file"
+                "Point [-122.1993874, 47.6137026] is not present in Nodes file",
+                "Point [-122.1993896, 47.6138564] is not present in Nodes file"
             ]
         },
         {
@@ -2011,7 +2011,7 @@
             "id": "way/853857649",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1992926, 47.613753] is not present in Nodes file"
             ]
         },
@@ -2050,7 +2050,7 @@
             "id": "way/853857648",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -2079,7 +2079,7 @@
             "id": "way/853857647",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1996491, 47.6137538] is not present in Nodes file",
                 "Point [-122.1999412, 47.6137545] is not present in Nodes file"
             ]
@@ -2111,7 +2111,7 @@
             "id": "way/853857646",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1996491, 47.6137538] is not present in Nodes file"
             ]
         },
@@ -2142,7 +2142,7 @@
             "id": "way/853857645",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.200152, 47.6134956] is not present in Nodes file"
             ]
         },
@@ -2172,7 +2172,7 @@
             "id": "way/853857644",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001494, 47.6133827] is not present in Nodes file",
                 "Point [-122.200152, 47.6134956] is not present in Nodes file"
             ]
@@ -2204,7 +2204,7 @@
             "id": "way/853857643",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001494, 47.6133827] is not present in Nodes file"
             ]
         },
@@ -2280,10 +2280,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2002137, 47.6128645] is not present in Nodes file",
+                "Point [-122.1999632, 47.6128634] is not present in Nodes file",
                 "Point [-122.1999674, 47.6129916] is not present in Nodes file",
                 "Point [-122.2002147, 47.6129911] is not present in Nodes file",
-                "Point [-122.1999632, 47.6128634] is not present in Nodes file"
+                "Point [-122.2002137, 47.6128645] is not present in Nodes file"
             ]
         },
         {
@@ -2341,7 +2341,7 @@
             "id": "way/853857640",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -2371,7 +2371,7 @@
             "id": "way/853857639",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001235, 47.6125188] is not present in Nodes file"
             ]
         },
@@ -2401,7 +2401,7 @@
             "id": "way/853857638",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001235, 47.6125188] is not present in Nodes file",
                 "Point [-122.2001163, 47.6122772] is not present in Nodes file"
             ]
@@ -2440,11 +2440,11 @@
             "id": "way/853857637",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2000904, 47.6121029] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2000654, 47.6120889] is not present in Nodes file",
-                "Point [-122.2001121, 47.6121344] is not present in Nodes file",
-                "Point [-122.2001134, 47.6121806] is not present in Nodes file"
+                "Point [-122.2000904, 47.6121029] is not present in Nodes file",
+                "Point [-122.2001134, 47.6121806] is not present in Nodes file",
+                "Point [-122.2001121, 47.6121344] is not present in Nodes file"
             ]
         },
         {
@@ -2474,7 +2474,7 @@
             "id": "way/853857636",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001134, 47.6121806] is not present in Nodes file"
             ]
         },
@@ -2505,7 +2505,7 @@
             "id": "way/853857635",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001163, 47.6122772] is not present in Nodes file"
             ]
         },
@@ -2540,7 +2540,7 @@
             "id": "way/853857634",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -2568,7 +2568,7 @@
             "id": "way/853857632",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2010428, 47.6129384] is not present in Nodes file",
                 "Point [-122.2010946, 47.6129376] is not present in Nodes file"
             ]
@@ -2599,7 +2599,7 @@
             "id": "way/853857630",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013658, 47.6129617] is not present in Nodes file",
                 "Point [-122.201262, 47.6129629] is not present in Nodes file"
             ]
@@ -2633,10 +2633,10 @@
             "id": "way/853857628",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2013662, 47.6129751] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2012921, 47.6129757] is not present in Nodes file",
-                "Point [-122.201262, 47.6129629] is not present in Nodes file"
+                "Point [-122.201262, 47.6129629] is not present in Nodes file",
+                "Point [-122.2013662, 47.6129751] is not present in Nodes file"
             ]
         },
         {
@@ -2670,7 +2670,7 @@
             "id": "way/853810598",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -2700,7 +2700,7 @@
             "id": "way/853810597",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001476, 47.6135899] is not present in Nodes file"
             ]
         },
@@ -2734,10 +2734,10 @@
             "id": "way/853810596",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1989742, 47.6120967] is not present in Nodes file",
                 "Point [-122.198981, 47.612083] is not present in Nodes file",
-                "Point [-122.1989738, 47.6122362] is not present in Nodes file",
-                "Point [-122.1989742, 47.6120967] is not present in Nodes file"
+                "Point [-122.1989738, 47.6122362] is not present in Nodes file"
             ]
         },
         {
@@ -2769,7 +2769,7 @@
             "id": "way/853810595",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/853810595', 'description': '105th Avenue NE (W sidewalk)', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2003723, 47.613729] is not present in Nodes file"
             ]
@@ -2800,7 +2800,7 @@
             "id": "way/853810594",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2004299, 47.6137465] is not present in Nodes file",
                 "Point [-122.2014023, 47.6137473] is not present in Nodes file"
             ]
@@ -2833,7 +2833,7 @@
             "id": "way/853810593",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2003392, 47.6128399] is not present in Nodes file"
             ]
         },
@@ -2870,7 +2870,7 @@
             "id": "way/853810592",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -2902,7 +2902,7 @@
             "id": "way/853810591",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/853810591', 'description': '105th Avenue NE (W sidewalk)', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'up', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2003439, 47.612966] is not present in Nodes file"
             ]
@@ -2950,13 +2950,13 @@
             "id": "way/853810590",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2003198, 47.6136255] is not present in Nodes file",
-                "Point [-122.2003553, 47.613263] is not present in Nodes file",
-                "Point [-122.2003439, 47.612966] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
+                "Point [-122.2003723, 47.613729] is not present in Nodes file",
                 "Point [-122.2003185, 47.6132861] is not present in Nodes file",
                 "Point [-122.2003675, 47.6136258] is not present in Nodes file",
-                "Point [-122.2003723, 47.613729] is not present in Nodes file"
+                "Point [-122.2003439, 47.612966] is not present in Nodes file",
+                "Point [-122.2003553, 47.613263] is not present in Nodes file",
+                "Point [-122.2003198, 47.6136255] is not present in Nodes file"
             ]
         },
         {
@@ -2988,10 +2988,10 @@
             "id": "way/853810589",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2003923, 47.612958] is not present in Nodes file",
                 "Point [-122.2003439, 47.612966] is not present in Nodes file",
-                "Point [-122.2003773, 47.6129657] is not present in Nodes file",
-                "Point [-122.2003923, 47.612958] is not present in Nodes file"
+                "Point [-122.2003773, 47.6129657] is not present in Nodes file"
             ]
         },
         {
@@ -3021,7 +3021,7 @@
             "id": "way/853810588",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/853810588', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2003923, 47.612958] is not present in Nodes file"
             ]
@@ -3057,7 +3057,7 @@
             "id": "way/853810587",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -3087,7 +3087,7 @@
             "id": "way/853810586",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/853810586', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.200551, 47.6129546] is not present in Nodes file"
             ]
@@ -3118,10 +3118,10 @@
             "id": "way/853810585",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'access_aisle' is not one of ['crossing', 'sidewalk', 'link'] that are allowed for footway",
-                "Point [-122.2010312, 47.6128076] is not present in Nodes file",
-                "Point [-122.2009413, 47.6128081] is not present in Nodes file"
+                "Point [-122.2009413, 47.6128081] is not present in Nodes file",
+                "Point [-122.2010312, 47.6128076] is not present in Nodes file"
             ]
         },
         {
@@ -3163,7 +3163,7 @@
             "id": "way/853810584",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2010342, 47.6128615] is not present in Nodes file",
                 "Point [-122.2010312, 47.6128076] is not present in Nodes file",
                 "Point [-122.2010404, 47.6128665] is not present in Nodes file"
@@ -3198,10 +3198,10 @@
             "id": "way/853810583",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2005898, 47.6129446] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2010428, 47.6129384] is not present in Nodes file",
-                "Point [-122.200551, 47.6129546] is not present in Nodes file"
+                "Point [-122.200551, 47.6129546] is not present in Nodes file",
+                "Point [-122.2005898, 47.6129446] is not present in Nodes file"
             ]
         },
         {
@@ -3230,7 +3230,7 @@
             "id": "way/853810582",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2010428, 47.6129384] is not present in Nodes file"
             ]
         },
@@ -3264,7 +3264,7 @@
             "id": "way/853810581",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2011997, 47.6129363] is not present in Nodes file",
                 "Point [-122.2010946, 47.6129376] is not present in Nodes file",
                 "Point [-122.201262, 47.6129629] is not present in Nodes file"
@@ -3296,9 +3296,9 @@
             "id": "way/853810580",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2014338, 47.6129745] is not present in Nodes file",
-                "Point [-122.2014258, 47.6129611] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2014258, 47.6129611] is not present in Nodes file",
+                "Point [-122.2014338, 47.6129745] is not present in Nodes file"
             ]
         },
         {
@@ -3325,7 +3325,7 @@
             "id": "way/853810579",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2014338, 47.6129745] is not present in Nodes file",
                 "Point [-122.2013662, 47.6129751] is not present in Nodes file"
             ]
@@ -3355,7 +3355,7 @@
             "id": "way/853810578",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013658, 47.6129617] is not present in Nodes file",
                 "Point [-122.2014258, 47.6129611] is not present in Nodes file"
             ]
@@ -3385,9 +3385,9 @@
             "id": "way/853810577",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2010455, 47.6125222] is not present in Nodes file",
-                "Point [-122.2010454, 47.61248] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2010454, 47.61248] is not present in Nodes file",
+                "Point [-122.2010455, 47.6125222] is not present in Nodes file"
             ]
         },
         {
@@ -3423,7 +3423,7 @@
             "id": "way/853810576",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.201043, 47.61239] is not present in Nodes file",
                 "Point [-122.2010454, 47.61248] is not present in Nodes file",
                 "Point [-122.2010827, 47.6123902] is not present in Nodes file",
@@ -3463,11 +3463,11 @@
             "id": "way/853810575",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2011497, 47.61252] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2010454, 47.61248] is not present in Nodes file",
                 "Point [-122.2010942, 47.6125076] is not present in Nodes file",
-                "Point [-122.2010939, 47.6125202] is not present in Nodes file",
-                "Point [-122.2010454, 47.61248] is not present in Nodes file"
+                "Point [-122.2011497, 47.61252] is not present in Nodes file",
+                "Point [-122.2010939, 47.6125202] is not present in Nodes file"
             ]
         },
         {
@@ -3495,7 +3495,7 @@
             "id": "way/853810574",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2011987, 47.6124323] is not present in Nodes file",
                 "Point [-122.2011979, 47.6123946] is not present in Nodes file"
             ]
@@ -3525,9 +3525,9 @@
             "id": "way/853810573",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2011967, 47.6123294] is not present in Nodes file",
-                "Point [-122.2011979, 47.6123946] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2011979, 47.6123946] is not present in Nodes file",
+                "Point [-122.2011967, 47.6123294] is not present in Nodes file"
             ]
         },
         {
@@ -3559,9 +3559,9 @@
             "id": "way/853810572",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2012099, 47.6124759] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2011987, 47.6124323] is not present in Nodes file",
+                "Point [-122.2012099, 47.6124759] is not present in Nodes file",
                 "Point [-122.2011991, 47.6124528] is not present in Nodes file"
             ]
         },
@@ -3589,9 +3589,9 @@
             "id": "way/853810571",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2011987, 47.6124323] is not present in Nodes file",
-                "Point [-122.2012197, 47.6124322] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2012197, 47.6124322] is not present in Nodes file",
+                "Point [-122.2011987, 47.6124323] is not present in Nodes file"
             ]
         },
         {
@@ -3619,7 +3619,7 @@
             "id": "way/853810570",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2012109, 47.6125243] is not present in Nodes file",
                 "Point [-122.2012099, 47.6124759] is not present in Nodes file"
             ]
@@ -3653,10 +3653,10 @@
             "id": "way/853810569",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2012099, 47.6124759] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2010454, 47.61248] is not present in Nodes file",
                 "Point [-122.2011762, 47.6124798] is not present in Nodes file",
-                "Point [-122.2010454, 47.61248] is not present in Nodes file"
+                "Point [-122.2012099, 47.6124759] is not present in Nodes file"
             ]
         },
         {
@@ -3684,9 +3684,9 @@
             "id": "way/853810568",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2013543, 47.612394] is not present in Nodes file",
-                "Point [-122.2011979, 47.6123946] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2011979, 47.6123946] is not present in Nodes file",
+                "Point [-122.2013543, 47.612394] is not present in Nodes file"
             ]
         },
         {
@@ -3714,7 +3714,7 @@
             "id": "way/853810567",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013698, 47.6124746] is not present in Nodes file",
                 "Point [-122.2012099, 47.6124759] is not present in Nodes file"
             ]
@@ -3749,10 +3749,10 @@
             "id": "way/853810566",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2014146, 47.6124322] is not present in Nodes file",
                 "Point [-122.2014046, 47.6121267] is not present in Nodes file",
-                "Point [-122.2014094, 47.6121574] is not present in Nodes file",
-                "Point [-122.2014146, 47.6124322] is not present in Nodes file"
+                "Point [-122.2014094, 47.6121574] is not present in Nodes file"
             ]
         },
         {
@@ -3779,7 +3779,7 @@
             "id": "way/853810565",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013761, 47.6124322] is not present in Nodes file",
                 "Point [-122.2014146, 47.6124322] is not present in Nodes file"
             ]
@@ -3810,10 +3810,10 @@
             "id": "way/853810564",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'both' is not one of ['yes', 'no', 'unknown'] that are allowed for handrail",
-                "Point [-122.2013761, 47.6124322] is not present in Nodes file",
-                "Point [-122.2012197, 47.6124322] is not present in Nodes file"
+                "Point [-122.2012197, 47.6124322] is not present in Nodes file",
+                "Point [-122.2013761, 47.6124322] is not present in Nodes file"
             ]
         },
         {
@@ -3848,7 +3848,7 @@
             "id": "way/842923175",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -3878,7 +3878,7 @@
             "id": "way/842923173",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/842923173', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2004299, 47.6137465] is not present in Nodes file"
             ]
@@ -3909,7 +3909,7 @@
             "id": "way/842923142",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1987857, 47.6137246] is not present in Nodes file",
                 "Point [-122.1987452, 47.6137482] is not present in Nodes file"
             ]
@@ -3941,7 +3941,7 @@
             "id": "way/842923141",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/842923141', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.1987857, 47.6137246] is not present in Nodes file"
             ]
@@ -3972,9 +3972,9 @@
             "id": "way/842923140",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.199083, 47.6137448] is not present in Nodes file",
-                "Point [-122.199042, 47.6137195] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.199042, 47.6137195] is not present in Nodes file",
+                "Point [-122.199083, 47.6137448] is not present in Nodes file"
             ]
         },
         {
@@ -4012,11 +4012,11 @@
             "id": "way/842720883",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2014002, 47.6115519] is not present in Nodes file",
-                "Point [-122.2013985, 47.611904] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2013946, 47.6113042] is not present in Nodes file",
-                "Point [-122.2014102, 47.6118922] is not present in Nodes file"
+                "Point [-122.2014102, 47.6118922] is not present in Nodes file",
+                "Point [-122.2014002, 47.6115519] is not present in Nodes file",
+                "Point [-122.2013985, 47.611904] is not present in Nodes file"
             ]
         },
         {
@@ -4047,7 +4047,7 @@
             "id": "way/842720882",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2013946, 47.6113042] is not present in Nodes file"
             ]
         },
@@ -4079,7 +4079,7 @@
             "id": "way/842720881",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2013922, 47.6111928] is not present in Nodes file"
             ]
         },
@@ -4115,7 +4115,7 @@
             "id": "way/842720880",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -4153,7 +4153,7 @@
             "id": "way/842675951",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2013633, 47.6103116] is not present in Nodes file",
                 "Point [-122.2013891, 47.6110455] is not present in Nodes file",
                 "Point [-122.2013546, 47.6102765] is not present in Nodes file",
@@ -4187,7 +4187,7 @@
             "id": "way/842675948",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/842675948', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2013546, 47.6102765] is not present in Nodes file"
             ]
@@ -4218,7 +4218,7 @@
             "id": "way/842328388",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2014235, 47.6128484] is not present in Nodes file",
                 "Point [-122.2014146, 47.6124322] is not present in Nodes file"
             ]
@@ -4250,7 +4250,7 @@
             "id": "way/842328387",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2014235, 47.6128484] is not present in Nodes file"
             ]
         },
@@ -4285,7 +4285,7 @@
             "id": "way/842328386",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -4315,7 +4315,7 @@
             "id": "way/842328385",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2014258, 47.6129611] is not present in Nodes file"
             ]
         },
@@ -4367,12 +4367,12 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2002143, 47.612896] is not present in Nodes file",
-                "Point [-122.2010938, 47.6128935] is not present in Nodes file",
-                "Point [-122.2010249, 47.6128936] is not present in Nodes file",
+                "Point [-122.2008241, 47.6128942] is not present in Nodes file",
                 "Point [-122.2004615, 47.6128952] is not present in Nodes file",
+                "Point [-122.2002143, 47.612896] is not present in Nodes file",
                 "Point [-122.2010588, 47.6128936] is not present in Nodes file",
-                "Point [-122.2008241, 47.6128942] is not present in Nodes file"
+                "Point [-122.2010938, 47.6128935] is not present in Nodes file",
+                "Point [-122.2010249, 47.6128936] is not present in Nodes file"
             ]
         },
         {
@@ -4399,9 +4399,9 @@
             "id": "way/842328382",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'tunnel', is not a valid OSW tag",
-                "Point [-122.2010938, 47.6128935] is not present in Nodes file",
-                "Point [-122.2013648, 47.6128928] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2013648, 47.6128928] is not present in Nodes file",
+                "Point [-122.2010938, 47.6128935] is not present in Nodes file"
             ]
         },
         {
@@ -4430,9 +4430,9 @@
             "id": "way/842328375",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2014338, 47.6129745] is not present in Nodes file",
-                "Point [-122.201449, 47.6137232] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.201449, 47.6137232] is not present in Nodes file",
+                "Point [-122.2014338, 47.6129745] is not present in Nodes file"
             ]
         },
         {
@@ -4462,7 +4462,7 @@
             "id": "way/842328364",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/842328364', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2014023, 47.6137473] is not present in Nodes file"
             ]
@@ -4501,11 +4501,11 @@
             "id": "way/842273596",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2006765, 47.6120798] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013725, 47.6121136] is not present in Nodes file",
-                "Point [-122.2007323, 47.6121159] is not present in Nodes file",
-                "Point [-122.2003766, 47.6120798] is not present in Nodes file"
+                "Point [-122.2003766, 47.6120798] is not present in Nodes file",
+                "Point [-122.2006765, 47.6120798] is not present in Nodes file",
+                "Point [-122.2007323, 47.6121159] is not present in Nodes file"
             ]
         },
         {
@@ -4541,10 +4541,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2000902, 47.6102357] is not present in Nodes file",
+                "Point [-122.2013367, 47.6102616] is not present in Nodes file",
                 "Point [-122.2008354, 47.6102422] is not present in Nodes file",
                 "Point [-122.2012831, 47.6102462] is not present in Nodes file",
-                "Point [-122.2013367, 47.6102616] is not present in Nodes file"
+                "Point [-122.2000902, 47.6102357] is not present in Nodes file"
             ]
         },
         {
@@ -4582,8 +4582,8 @@
                 "'@id', is not a valid OSW tag",
                 "'drive-through' is not one of ['alley', 'driveway', 'parking_aisle'] that are allowed for service",
                 "Point [-122.1962263, 47.6117263] is not present in Nodes file",
-                "Point [-122.1954657, 47.6117657] is not present in Nodes file",
-                "Point [-122.1955817, 47.611734] is not present in Nodes file"
+                "Point [-122.1955817, 47.611734] is not present in Nodes file",
+                "Point [-122.1954657, 47.6117657] is not present in Nodes file"
             ]
         },
         {
@@ -4612,7 +4612,7 @@
             "id": "way/814644910",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1964335, 47.6137006] is not present in Nodes file",
                 "Point [-122.1963933, 47.6136711] is not present in Nodes file"
             ]
@@ -4646,7 +4646,7 @@
             "id": "way/814644909",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/814644909', 'description': '108th Avenue Northeast (W sidewalk)', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.1963933, 47.6136711] is not present in Nodes file"
             ]
@@ -4710,15 +4710,15 @@
             "id": "way/814644908",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1972507, 47.6137384] is not present in Nodes file",
-                "Point [-122.1965055, 47.6137127] is not present in Nodes file",
-                "Point [-122.1964614, 47.6137099] is not present in Nodes file",
-                "Point [-122.1973733, 47.6137422] is not present in Nodes file",
-                "Point [-122.1982898, 47.6137605] is not present in Nodes file",
-                "Point [-122.1979256, 47.6137624] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1964335, 47.6137006] is not present in Nodes file",
+                "Point [-122.1972507, 47.6137384] is not present in Nodes file",
                 "Point [-122.1975642, 47.613756] is not present in Nodes file",
+                "Point [-122.1965055, 47.6137127] is not present in Nodes file",
+                "Point [-122.1973733, 47.6137422] is not present in Nodes file",
+                "Point [-122.1979256, 47.6137624] is not present in Nodes file",
+                "Point [-122.1982898, 47.6137605] is not present in Nodes file",
+                "Point [-122.1964614, 47.6137099] is not present in Nodes file",
                 "Point [-122.1986934, 47.613756] is not present in Nodes file",
                 "Point [-122.1987452, 47.6137482] is not present in Nodes file"
             ]
@@ -4870,18 +4870,18 @@
             "id": "way/775661734",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'parking:lanes:left', is not a valid OSW tag",
-                "Point [-122.1988945, 47.6128799] is not present in Nodes file",
-                "Point [-122.1988906, 47.612521] is not present in Nodes file",
-                "Point [-122.1988865, 47.6124118] is not present in Nodes file",
-                "Point [-122.1988262, 47.6102348] is not present in Nodes file",
-                "Point [-122.198857, 47.6114302] is not present in Nodes file",
-                "Point [-122.1988447, 47.6109454] is not present in Nodes file",
-                "Point [-122.1988317, 47.6104316] is not present in Nodes file",
-                "Point [-122.1988907, 47.6125268] is not present in Nodes file",
-                "Point [-122.1988373, 47.6106318] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1988359, 47.6105835] is not present in Nodes file",
-                "Point [-122.1988544, 47.6112204] is not present in Nodes file"
+                "Point [-122.1988865, 47.6124118] is not present in Nodes file",
+                "Point [-122.1988447, 47.6109454] is not present in Nodes file",
+                "Point [-122.1988907, 47.6125268] is not present in Nodes file",
+                "Point [-122.1988906, 47.612521] is not present in Nodes file",
+                "Point [-122.1988544, 47.6112204] is not present in Nodes file",
+                "Point [-122.1988317, 47.6104316] is not present in Nodes file",
+                "Point [-122.1988262, 47.6102348] is not present in Nodes file",
+                "Point [-122.1988373, 47.6106318] is not present in Nodes file",
+                "Point [-122.198857, 47.6114302] is not present in Nodes file",
+                "Point [-122.1988945, 47.6128799] is not present in Nodes file"
             ]
         },
         {
@@ -4951,16 +4951,16 @@
             "id": "way/775661733",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'sidewalk', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'shared_lane' is not one of ['lane'] that are allowed for cycleway",
-                "Point [-122.1947231, 47.6119946] is not present in Nodes file",
-                "Point [-122.19611, 47.6119941] is not present in Nodes file",
-                "Point [-122.1937589, 47.611995] is not present in Nodes file",
-                "Point [-122.1953921, 47.6119944] is not present in Nodes file",
-                "Point [-122.195045, 47.6119945] is not present in Nodes file",
-                "Point [-122.1939363, 47.6119949] is not present in Nodes file",
-                "Point [-122.1961204, 47.6119941] is not present in Nodes file",
                 "Point [-122.1954914, 47.6119943] is not present in Nodes file",
+                "Point [-122.19611, 47.6119941] is not present in Nodes file",
+                "Point [-122.1961204, 47.6119941] is not present in Nodes file",
+                "Point [-122.1947231, 47.6119946] is not present in Nodes file",
+                "Point [-122.1953921, 47.6119944] is not present in Nodes file",
+                "Point [-122.1939363, 47.6119949] is not present in Nodes file",
+                "Point [-122.1937589, 47.611995] is not present in Nodes file",
+                "Point [-122.195045, 47.6119945] is not present in Nodes file",
                 "Point [-122.1949436, 47.6119946] is not present in Nodes file"
             ]
         },
@@ -4992,8 +4992,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2002117, 47.6125666] is not present in Nodes file",
-                "Point [-122.2000674, 47.6125619] is not present in Nodes file"
+                "Point [-122.2000674, 47.6125619] is not present in Nodes file",
+                "Point [-122.2002117, 47.6125666] is not present in Nodes file"
             ]
         },
         {
@@ -5027,8 +5027,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2000939, 47.6126889] is not present in Nodes file",
                 "Point [-122.2002126, 47.6126919] is not present in Nodes file",
+                "Point [-122.2000939, 47.6126889] is not present in Nodes file",
                 "Point [-122.2000753, 47.6126746] is not present in Nodes file"
             ]
         },
@@ -5072,10 +5072,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2000797, 47.612241] is not present in Nodes file",
                 "Point [-122.2002087, 47.6122117] is not present in Nodes file",
-                "Point [-122.200062, 47.6122946] is not present in Nodes file",
+                "Point [-122.2000797, 47.612241] is not present in Nodes file",
                 "Point [-122.2000674, 47.6125619] is not present in Nodes file",
+                "Point [-122.200062, 47.6122946] is not present in Nodes file",
                 "Point [-122.2000753, 47.6126746] is not present in Nodes file"
             ]
         },
@@ -5142,8 +5142,8 @@
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
                 "'shared_lane' is not one of ['lane'] that are allowed for cycleway",
-                "Point [-122.2000656, 47.6119926] is not present in Nodes file",
-                "Point [-122.2002069, 47.6119925] is not present in Nodes file"
+                "Point [-122.2002069, 47.6119925] is not present in Nodes file",
+                "Point [-122.2000656, 47.6119926] is not present in Nodes file"
             ]
         },
         {
@@ -5259,18 +5259,18 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.200218, 47.6133461] is not present in Nodes file",
-                "Point [-122.2002143, 47.612896] is not present in Nodes file",
-                "Point [-122.2002137, 47.6128645] is not present in Nodes file",
-                "Point [-122.2002117, 47.6125666] is not present in Nodes file",
-                "Point [-122.2002176, 47.6132956] is not present in Nodes file",
-                "Point [-122.2002126, 47.6126919] is not present in Nodes file",
-                "Point [-122.2002081, 47.6121454] is not present in Nodes file",
-                "Point [-122.2002124, 47.6126665] is not present in Nodes file",
                 "Point [-122.2002087, 47.6122117] is not present in Nodes file",
+                "Point [-122.2002176, 47.6132956] is not present in Nodes file",
+                "Point [-122.200218, 47.6133461] is not present in Nodes file",
+                "Point [-122.2002124, 47.6126665] is not present in Nodes file",
+                "Point [-122.2002126, 47.6126919] is not present in Nodes file",
+                "Point [-122.2002143, 47.612896] is not present in Nodes file",
+                "Point [-122.2002117, 47.6125666] is not present in Nodes file",
                 "Point [-122.2002147, 47.6129911] is not present in Nodes file",
-                "Point [-122.2002159, 47.6131438] is not present in Nodes file",
-                "Point [-122.2002199, 47.6135668] is not present in Nodes file"
+                "Point [-122.2002137, 47.6128645] is not present in Nodes file",
+                "Point [-122.2002199, 47.6135668] is not present in Nodes file",
+                "Point [-122.2002081, 47.6121454] is not present in Nodes file",
+                "Point [-122.2002159, 47.6131438] is not present in Nodes file"
             ]
         },
         {
@@ -5309,8 +5309,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2006726, 47.6101282] is not present in Nodes file",
                 "Point [-122.2008193, 47.6101027] is not present in Nodes file",
+                "Point [-122.2006726, 47.6101282] is not present in Nodes file",
                 "Point [-122.2008833, 47.6100991] is not present in Nodes file"
             ]
         },
@@ -5347,8 +5347,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2008289, 47.6101705] is not present in Nodes file",
-                "Point [-122.2009438, 47.6101855] is not present in Nodes file"
+                "Point [-122.2009438, 47.6101855] is not present in Nodes file",
+                "Point [-122.2008289, 47.6101705] is not present in Nodes file"
             ]
         },
         {
@@ -5384,10 +5384,10 @@
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
                 "'secondary_link' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
-                "Point [-122.2015546, 47.6111431] is not present in Nodes file",
                 "Point [-122.2015489, 47.6109392] is not present in Nodes file",
-                "Point [-122.2014602, 47.6108073] is not present in Nodes file",
-                "Point [-122.2016224, 47.6111961] is not present in Nodes file"
+                "Point [-122.2016224, 47.6111961] is not present in Nodes file",
+                "Point [-122.2015546, 47.6111431] is not present in Nodes file",
+                "Point [-122.2014602, 47.6108073] is not present in Nodes file"
             ]
         },
         {
@@ -5421,8 +5421,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2014822, 47.6115819] is not present in Nodes file",
-                "Point [-122.2014732, 47.6112501] is not present in Nodes file"
+                "Point [-122.2014732, 47.6112501] is not present in Nodes file",
+                "Point [-122.2014822, 47.6115819] is not present in Nodes file"
             ]
         },
         {
@@ -5461,9 +5461,9 @@
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
                 "Point [-122.1993967, 47.612525] is not present in Nodes file",
+                "Point [-122.1988907, 47.6125268] is not present in Nodes file",
                 "Point [-122.1994346, 47.6125501] is not present in Nodes file",
-                "Point [-122.1995321, 47.6125649] is not present in Nodes file",
-                "Point [-122.1988907, 47.6125268] is not present in Nodes file"
+                "Point [-122.1995321, 47.6125649] is not present in Nodes file"
             ]
         },
         {
@@ -5496,8 +5496,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
                 "Point [-122.1962303, 47.6119051] is not present in Nodes file",
-                "Point [-122.1961083, 47.6119023] is not present in Nodes file",
-                "Point [-122.1963741, 47.6119014] is not present in Nodes file"
+                "Point [-122.1963741, 47.6119014] is not present in Nodes file",
+                "Point [-122.1961083, 47.6119023] is not present in Nodes file"
             ]
         },
         {
@@ -5554,8 +5554,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1971437, 47.6118479] is not present in Nodes file",
                 "Point [-122.197167, 47.6118265] is not present in Nodes file",
+                "Point [-122.1971437, 47.6118479] is not present in Nodes file",
                 "Point [-122.197217, 47.6117806] is not present in Nodes file"
             ]
         },
@@ -5586,9 +5586,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.1964228, 47.6115164] is not present in Nodes file",
                 "Point [-122.196841, 47.6115199] is not present in Nodes file",
-                "Point [-122.1971202, 47.6117062] is not present in Nodes file",
-                "Point [-122.1964228, 47.6115164] is not present in Nodes file"
+                "Point [-122.1971202, 47.6117062] is not present in Nodes file"
             ]
         },
         {
@@ -5645,8 +5645,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1971805, 47.6117517] is not present in Nodes file",
                 "Point [-122.1972907, 47.6118389] is not present in Nodes file",
+                "Point [-122.1971805, 47.6117517] is not present in Nodes file",
                 "Point [-122.197217, 47.6117806] is not present in Nodes file"
             ]
         },
@@ -5673,8 +5673,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1972907, 47.6118389] is not present in Nodes file",
-                "Point [-122.1973113, 47.6118701] is not present in Nodes file"
+                "Point [-122.1973113, 47.6118701] is not present in Nodes file",
+                "Point [-122.1972907, 47.6118389] is not present in Nodes file"
             ]
         },
         {
@@ -5700,8 +5700,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1974301, 47.6118484] is not present in Nodes file",
-                "Point [-122.1973113, 47.6118701] is not present in Nodes file"
+                "Point [-122.1973113, 47.6118701] is not present in Nodes file",
+                "Point [-122.1974301, 47.6118484] is not present in Nodes file"
             ]
         },
         {
@@ -5727,8 +5727,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.197215, 47.611932] is not present in Nodes file",
-                "Point [-122.1973113, 47.6118701] is not present in Nodes file"
+                "Point [-122.1973113, 47.6118701] is not present in Nodes file",
+                "Point [-122.197215, 47.611932] is not present in Nodes file"
             ]
         },
         {
@@ -5754,8 +5754,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1970423, 47.6119299] is not present in Nodes file",
-                "Point [-122.1971114, 47.6118761] is not present in Nodes file"
+                "Point [-122.1971114, 47.6118761] is not present in Nodes file",
+                "Point [-122.1970423, 47.6119299] is not present in Nodes file"
             ]
         },
         {
@@ -5785,9 +5785,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.197167, 47.6118265] is not present in Nodes file",
+                "Point [-122.1971204, 47.6118308] is not present in Nodes file",
                 "Point [-122.1969695, 47.611929] is not present in Nodes file",
-                "Point [-122.1971204, 47.6118308] is not present in Nodes file"
+                "Point [-122.197167, 47.6118265] is not present in Nodes file"
             ]
         },
         {
@@ -5813,8 +5813,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1971437, 47.6118479] is not present in Nodes file",
-                "Point [-122.1971114, 47.6118761] is not present in Nodes file"
+                "Point [-122.1971114, 47.6118761] is not present in Nodes file",
+                "Point [-122.1971437, 47.6118479] is not present in Nodes file"
             ]
         },
         {
@@ -5872,15 +5872,15 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1995319, 47.6125599] is not present in Nodes file",
-                "Point [-122.1995626, 47.6132497] is not present in Nodes file",
-                "Point [-122.1995628, 47.6132119] is not present in Nodes file",
-                "Point [-122.1995645, 47.6133721] is not present in Nodes file",
                 "Point [-122.1995681, 47.6137023] is not present in Nodes file",
-                "Point [-122.1995321, 47.6125649] is not present in Nodes file",
-                "Point [-122.1995588, 47.6131269] is not present in Nodes file",
+                "Point [-122.1995626, 47.6132497] is not present in Nodes file",
+                "Point [-122.1995645, 47.6133721] is not present in Nodes file",
                 "Point [-122.1995635, 47.6132803] is not present in Nodes file",
-                "Point [-122.1995088, 47.6119928] is not present in Nodes file"
+                "Point [-122.1995319, 47.6125599] is not present in Nodes file",
+                "Point [-122.1995628, 47.6132119] is not present in Nodes file",
+                "Point [-122.1995588, 47.6131269] is not present in Nodes file",
+                "Point [-122.1995088, 47.6119928] is not present in Nodes file",
+                "Point [-122.1995321, 47.6125649] is not present in Nodes file"
             ]
         },
         {
@@ -5951,14 +5951,14 @@
             "id": "way/623957744",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'sidewalk', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'shared_lane' is not one of ['lane'] that are allowed for cycleway",
-                "Point [-122.1993787, 47.6119929] is not present in Nodes file",
-                "Point [-122.1971563, 47.6119937] is not present in Nodes file",
-                "Point [-122.1982284, 47.6119933] is not present in Nodes file",
-                "Point [-122.2000656, 47.6119926] is not present in Nodes file",
                 "Point [-122.1963721, 47.611994] is not present in Nodes file",
+                "Point [-122.1971563, 47.6119937] is not present in Nodes file",
+                "Point [-122.1993787, 47.6119929] is not present in Nodes file",
+                "Point [-122.1982284, 47.6119933] is not present in Nodes file",
                 "Point [-122.1975439, 47.6119936] is not present in Nodes file",
+                "Point [-122.2000656, 47.6119926] is not present in Nodes file",
                 "Point [-122.1995088, 47.6119928] is not present in Nodes file"
             ]
         },
@@ -6003,11 +6003,11 @@
             "id": "way/622484163",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'parking:lanes:both', is not a valid OSW tag",
-                "Point [-122.1988945, 47.6128799] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1989027, 47.613123] is not present in Nodes file",
+                "Point [-122.1989024, 47.6131097] is not present in Nodes file",
                 "Point [-122.198905, 47.6132246] is not present in Nodes file",
-                "Point [-122.1989024, 47.6131097] is not present in Nodes file"
+                "Point [-122.1988945, 47.6128799] is not present in Nodes file"
             ]
         },
         {
@@ -6047,10 +6047,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.1962289, 47.6128067] is not present in Nodes file",
-                "Point [-122.1962391, 47.6132255] is not present in Nodes file",
                 "Point [-122.1962353, 47.6130626] is not present in Nodes file",
-                "Point [-122.1962306, 47.6128638] is not present in Nodes file"
+                "Point [-122.1962289, 47.6128067] is not present in Nodes file",
+                "Point [-122.1962306, 47.6128638] is not present in Nodes file",
+                "Point [-122.1962391, 47.6132255] is not present in Nodes file"
             ]
         },
         {
@@ -6114,8 +6114,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2008207, 47.6127449] is not present in Nodes file",
-                "Point [-122.2004432, 47.6127485] is not present in Nodes file"
+                "Point [-122.2004432, 47.6127485] is not present in Nodes file",
+                "Point [-122.2008207, 47.6127449] is not present in Nodes file"
             ]
         },
         {
@@ -6147,8 +6147,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2008207, 47.6127449] is not present in Nodes file",
-                "Point [-122.2008241, 47.6128942] is not present in Nodes file"
+                "Point [-122.2008241, 47.6128942] is not present in Nodes file",
+                "Point [-122.2008207, 47.6127449] is not present in Nodes file"
             ]
         },
         {
@@ -6220,12 +6220,12 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.1964894, 47.6126917] is not present in Nodes file",
-                "Point [-122.1963657, 47.6125839] is not present in Nodes file",
-                "Point [-122.1964626, 47.6126212] is not present in Nodes file",
-                "Point [-122.1963808, 47.6125841] is not present in Nodes file",
+                "Point [-122.1964934, 47.6128641] is not present in Nodes file",
                 "Point [-122.196224, 47.6125823] is not present in Nodes file",
-                "Point [-122.1964934, 47.6128641] is not present in Nodes file"
+                "Point [-122.1964626, 47.6126212] is not present in Nodes file",
+                "Point [-122.1964894, 47.6126917] is not present in Nodes file",
+                "Point [-122.1963808, 47.6125841] is not present in Nodes file",
+                "Point [-122.1963657, 47.6125839] is not present in Nodes file"
             ]
         },
         {
@@ -6255,7 +6255,7 @@
             "id": "way/607868041",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/607868041', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2013367, 47.6102616] is not present in Nodes file"
             ]
@@ -6300,7 +6300,7 @@
             "id": "way/607867106",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -6330,7 +6330,7 @@
             "id": "way/607865955",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/607865955', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.2013985, 47.611904] is not present in Nodes file"
             ]
@@ -6363,9 +6363,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2002081, 47.6121454] is not present in Nodes file",
                 "Point [-122.2005334, 47.6121404] is not present in Nodes file",
-                "Point [-122.2005286, 47.6119924] is not present in Nodes file"
+                "Point [-122.2005286, 47.6119924] is not present in Nodes file",
+                "Point [-122.2002081, 47.6121454] is not present in Nodes file"
             ]
         },
         {
@@ -6456,9 +6456,9 @@
             "id": "way/530098512",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2013546, 47.6102765] is not present in Nodes file",
-                "Point [-122.2013367, 47.6102616] is not present in Nodes file"
+                "'wheelchair', is not a valid OSW tag",
+                "Point [-122.2013367, 47.6102616] is not present in Nodes file",
+                "Point [-122.2013546, 47.6102765] is not present in Nodes file"
             ]
         },
         {
@@ -6498,7 +6498,7 @@
             "id": "way/530098510",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -6541,7 +6541,7 @@
             "id": "way/530098509",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'project', is not a valid OSW tag"
             ]
         },
         {
@@ -6588,12 +6588,12 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1970845, 47.6128533] is not present in Nodes file",
-                "Point [-122.1963686, 47.612864] is not present in Nodes file",
                 "Point [-122.1971086, 47.6128383] is not present in Nodes file",
-                "Point [-122.1970252, 47.6128647] is not present in Nodes file",
+                "Point [-122.1964934, 47.6128641] is not present in Nodes file",
+                "Point [-122.1970845, 47.6128533] is not present in Nodes file",
                 "Point [-122.1962306, 47.6128638] is not present in Nodes file",
-                "Point [-122.1964934, 47.6128641] is not present in Nodes file"
+                "Point [-122.1963686, 47.612864] is not present in Nodes file",
+                "Point [-122.1970252, 47.6128647] is not present in Nodes file"
             ]
         },
         {
@@ -6635,7 +6635,7 @@
             "id": "way/521970793",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1961119, 47.6120738] is not present in Nodes file",
                 "Point [-122.1963741, 47.6119014] is not present in Nodes file"
             ]
@@ -6673,7 +6673,7 @@
             "id": "way/521970792",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "'pedestrian_signals' is not one of ['marked', 'unmarked'] that are allowed for crossing",
                 "Point [-122.1960952, 47.6127154] is not present in Nodes file"
             ]
@@ -6715,7 +6715,7 @@
             "id": "way/521970791",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -6747,7 +6747,7 @@
             "id": "way/521970787",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/521970787', 'description': 'Northeast 4th Street (S sidewalk)', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.1964335, 47.6137006] is not present in Nodes file"
             ]
@@ -6819,17 +6819,17 @@
             "id": "way/521970785",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1963861, 47.6136452] is not present in Nodes file",
-                "Point [-122.196368, 47.612757] is not present in Nodes file",
-                "Point [-122.1963715, 47.6133214] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1963709, 47.6132814] is not present in Nodes file",
-                "Point [-122.1963657, 47.6125839] is not present in Nodes file",
+                "Point [-122.196368, 47.612757] is not present in Nodes file",
+                "Point [-122.1963687, 47.6126932] is not present in Nodes file",
+                "Point [-122.1963715, 47.6133214] is not present in Nodes file",
                 "Point [-122.1963686, 47.612864] is not present in Nodes file",
+                "Point [-122.1963589, 47.6121181] is not present in Nodes file",
                 "Point [-122.1963539, 47.6121499] is not present in Nodes file",
                 "Point [-122.1963933, 47.6136711] is not present in Nodes file",
-                "Point [-122.1963589, 47.6121181] is not present in Nodes file",
-                "Point [-122.1963687, 47.6126932] is not present in Nodes file"
+                "Point [-122.1963861, 47.6136452] is not present in Nodes file",
+                "Point [-122.1963657, 47.6125839] is not present in Nodes file"
             ]
         },
         {
@@ -6869,7 +6869,7 @@
             "id": "way/521968488",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -6904,8 +6904,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1964066, 47.6102207] is not present in Nodes file",
-                "Point [-122.1973577, 47.6102291] is not present in Nodes file"
+                "Point [-122.1973577, 47.6102291] is not present in Nodes file",
+                "Point [-122.1964066, 47.6102207] is not present in Nodes file"
             ]
         },
         {
@@ -6965,7 +6965,7 @@
             "id": "way/518448602",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'traffic_signals', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1988262, 47.6102348] is not present in Nodes file"
             ]
         },
@@ -7039,19 +7039,19 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.1987189, 47.6116124] is not present in Nodes file",
                 "Point [-122.1987292, 47.6109438] is not present in Nodes file",
                 "Point [-122.1987417, 47.6112752] is not present in Nodes file",
                 "Point [-122.1987109, 47.6103213] is not present in Nodes file",
                 "Point [-122.1987414, 47.6112204] is not present in Nodes file",
-                "Point [-122.1987189, 47.6116124] is not present in Nodes file",
-                "Point [-122.1987122, 47.610437] is not present in Nodes file",
-                "Point [-122.1987186, 47.6106313] is not present in Nodes file",
-                "Point [-122.1987283, 47.6109235] is not present in Nodes file",
+                "Point [-122.1987431, 47.611258] is not present in Nodes file",
                 "Point [-122.1987176, 47.61188] is not present in Nodes file",
+                "Point [-122.1987122, 47.610437] is not present in Nodes file",
+                "Point [-122.1987283, 47.6109235] is not present in Nodes file",
+                "Point [-122.1987186, 47.6106313] is not present in Nodes file",
                 "Point [-122.1987055, 47.6102535] is not present in Nodes file",
                 "Point [-122.1987028, 47.6112914] is not present in Nodes file",
-                "Point [-122.1986887, 47.6102331] is not present in Nodes file",
-                "Point [-122.1987431, 47.611258] is not present in Nodes file"
+                "Point [-122.1986887, 47.6102331] is not present in Nodes file"
             ]
         },
         {
@@ -7100,14 +7100,14 @@
             "id": "way/518448600",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1986626, 47.6119153] is not present in Nodes file",
-                "Point [-122.1986884, 47.6119065] is not present in Nodes file",
-                "Point [-122.1977399, 47.6119144] is not present in Nodes file",
-                "Point [-122.198039, 47.611918] is not present in Nodes file",
-                "Point [-122.1987176, 47.61188] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1976903, 47.6118945] is not present in Nodes file",
-                "Point [-122.1984199, 47.6119144] is not present in Nodes file"
+                "Point [-122.1986626, 47.6119153] is not present in Nodes file",
+                "Point [-122.1987176, 47.61188] is not present in Nodes file",
+                "Point [-122.1984199, 47.6119144] is not present in Nodes file",
+                "Point [-122.1986884, 47.6119065] is not present in Nodes file",
+                "Point [-122.198039, 47.611918] is not present in Nodes file",
+                "Point [-122.1977399, 47.6119144] is not present in Nodes file"
             ]
         },
         {
@@ -7144,11 +7144,11 @@
             "id": "way/518448599",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1976447, 47.6115346] is not present in Nodes file",
-                "Point [-122.197642, 47.6118393] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1976903, 47.6118945] is not present in Nodes file",
-                "Point [-122.1976474, 47.6115039] is not present in Nodes file"
+                "Point [-122.1976447, 47.6115346] is not present in Nodes file",
+                "Point [-122.1976474, 47.6115039] is not present in Nodes file",
+                "Point [-122.197642, 47.6118393] is not present in Nodes file"
             ]
         },
         {
@@ -7176,7 +7176,7 @@
             "id": "way/518448598",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1976903, 47.6118945] is not present in Nodes file"
             ]
         },
@@ -7209,7 +7209,7 @@
             "id": "way/518448597",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1975389, 47.6119067] is not present in Nodes file"
             ]
         },
@@ -7255,12 +7255,12 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1975216, 47.6102129] is not present in Nodes file",
                 "Point [-122.1985604, 47.6102214] is not present in Nodes file",
-                "Point [-122.1980242, 47.6102101] is not present in Nodes file",
-                "Point [-122.1976809, 47.6102065] is not present in Nodes file",
                 "Point [-122.1986223, 47.6102227] is not present in Nodes file",
-                "Point [-122.1981861, 47.6102135] is not present in Nodes file"
+                "Point [-122.1980242, 47.6102101] is not present in Nodes file",
+                "Point [-122.1975216, 47.6102129] is not present in Nodes file",
+                "Point [-122.1981861, 47.6102135] is not present in Nodes file",
+                "Point [-122.1976809, 47.6102065] is not present in Nodes file"
             ]
         },
         {
@@ -7292,7 +7292,7 @@
             "id": "way/518448595",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'traffic_signals', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -7319,7 +7319,7 @@
             "id": "way/518448594",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1973577, 47.6102291] is not present in Nodes file"
             ]
         },
@@ -7348,7 +7348,7 @@
             "id": "way/518448593",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1975216, 47.6102129] is not present in Nodes file"
             ]
         },
@@ -7376,7 +7376,7 @@
             "id": "way/518448592",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1989643, 47.6102444] is not present in Nodes file"
             ]
         },
@@ -7404,7 +7404,7 @@
             "id": "way/518448591",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1989643, 47.6102444] is not present in Nodes file"
             ]
         },
@@ -7432,7 +7432,7 @@
             "id": "way/518448589",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1986887, 47.6102331] is not present in Nodes file"
             ]
         },
@@ -7460,7 +7460,7 @@
             "id": "way/518448587",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1986887, 47.6102331] is not present in Nodes file"
             ]
         },
@@ -7491,9 +7491,9 @@
             "id": "way/518430162",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2003339, 47.6126647] is not present in Nodes file",
-                "Point [-122.2003392, 47.6128399] is not present in Nodes file"
+                "'wheelchair', is not a valid OSW tag",
+                "Point [-122.2003392, 47.6128399] is not present in Nodes file",
+                "Point [-122.2003339, 47.6126647] is not present in Nodes file"
             ]
         },
         {
@@ -7522,7 +7522,7 @@
             "id": "way/518430159",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.201449, 47.6137232] is not present in Nodes file",
                 "Point [-122.2014023, 47.6137473] is not present in Nodes file"
             ]
@@ -7555,7 +7555,7 @@
             "id": "way/518430154",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518430154', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2014046, 47.6121267] is not present in Nodes file"
             ]
@@ -7588,7 +7588,7 @@
             "id": "way/518430151",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518430151', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'opensidewalks'} missing required supporting tags",
                 "Point [-122.2013725, 47.6121136] is not present in Nodes file"
             ]
@@ -7619,7 +7619,7 @@
             "id": "way/518430149",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2004299, 47.6137465] is not present in Nodes file",
                 "Point [-122.2003723, 47.613729] is not present in Nodes file"
             ]
@@ -7661,7 +7661,7 @@
             "id": "way/518430145",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -7692,7 +7692,7 @@
             "id": "way/518430135",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518430135', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.201449, 47.6137232] is not present in Nodes file"
             ]
@@ -7761,9 +7761,9 @@
             "id": "way/518412163",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'traffic_signals', is not a valid OSW tag",
-                "Point [-122.1986787, 47.6101387] is not present in Nodes file",
-                "Point [-122.1986776, 47.6101173] is not present in Nodes file"
+                "'@id', is not a valid OSW tag",
+                "Point [-122.1986776, 47.6101173] is not present in Nodes file",
+                "Point [-122.1986787, 47.6101387] is not present in Nodes file"
             ]
         },
         {
@@ -7795,7 +7795,7 @@
             "id": "way/518412161",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'traffic_signals', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.198967, 47.6101189] is not present in Nodes file"
             ]
         },
@@ -7836,7 +7836,7 @@
             "id": "way/518410432",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -7894,16 +7894,16 @@
             "id": "way/518410430",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1987959, 47.613225] is not present in Nodes file",
-                "Point [-122.1988034, 47.6136548] is not present in Nodes file",
-                "Point [-122.1987877, 47.6129307] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
+                "Point [-122.1988047, 47.6137036] is not present in Nodes file",
+                "Point [-122.1987097, 47.612138] is not present in Nodes file",
                 "Point [-122.1987219, 47.6127692] is not present in Nodes file",
                 "Point [-122.1988054, 47.6136032] is not present in Nodes file",
+                "Point [-122.1987959, 47.613225] is not present in Nodes file",
                 "Point [-122.1987857, 47.6137246] is not present in Nodes file",
-                "Point [-122.1988047, 47.6137036] is not present in Nodes file",
+                "Point [-122.1988034, 47.6136548] is not present in Nodes file",
                 "Point [-122.1988061, 47.6135539] is not present in Nodes file",
-                "Point [-122.1987097, 47.612138] is not present in Nodes file"
+                "Point [-122.1987877, 47.6129307] is not present in Nodes file"
             ]
         },
         {
@@ -7933,7 +7933,7 @@
             "id": "way/518410429",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/518410429', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.1987452, 47.6137482] is not present in Nodes file"
             ]
@@ -7968,10 +7968,10 @@
             "id": "way/518410428",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.199083, 47.6137448] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.199126, 47.6137526] is not present in Nodes file",
-                "Point [-122.1992926, 47.613753] is not present in Nodes file"
+                "Point [-122.1992926, 47.613753] is not present in Nodes file",
+                "Point [-122.199083, 47.6137448] is not present in Nodes file"
             ]
         },
         {
@@ -8002,7 +8002,7 @@
             "id": "way/518410427",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518410427', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.199083, 47.6137448] is not present in Nodes file"
             ]
@@ -8034,7 +8034,7 @@
             "id": "way/518410426",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "{'@id': 'way/518410426', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes'} missing required supporting tags",
                 "Point [-122.199042, 47.6137195] is not present in Nodes file"
             ]
@@ -8067,7 +8067,7 @@
             "id": "way/518410425",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518410425', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.198981, 47.612083] is not present in Nodes file"
             ]
@@ -8109,7 +8109,7 @@
             "id": "way/518410424",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -8153,7 +8153,7 @@
             "id": "way/518410423",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1989792, 47.6120528] is not present in Nodes file"
             ]
         },
@@ -8194,7 +8194,7 @@
             "id": "way/518410419",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -8238,7 +8238,7 @@
             "id": "way/518406831",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -8275,10 +8275,10 @@
             "id": "way/518399120",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.2001476, 47.6135899] is not present in Nodes file",
-                "Point [-122.200138, 47.6136991] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2001292, 47.6137165] is not present in Nodes file",
+                "Point [-122.200138, 47.6136991] is not present in Nodes file",
+                "Point [-122.2001476, 47.6135899] is not present in Nodes file",
                 "Point [-122.2001079, 47.6137351] is not present in Nodes file"
             ]
         },
@@ -8316,11 +8316,11 @@
             "id": "way/518399118",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1997487, 47.612074] is not present in Nodes file",
+                "'@id', is not a valid OSW tag",
+                "Point [-122.2000654, 47.6120889] is not present in Nodes file",
                 "Point [-122.1999965, 47.6120755] is not present in Nodes file",
                 "Point [-122.2000393, 47.6120782] is not present in Nodes file",
-                "Point [-122.2000654, 47.6120889] is not present in Nodes file"
+                "Point [-122.1997487, 47.612074] is not present in Nodes file"
             ]
         },
         {
@@ -8351,7 +8351,7 @@
             "id": "way/518399116",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518399116', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2003766, 47.6120798] is not present in Nodes file"
             ]
@@ -8384,7 +8384,7 @@
             "id": "way/518399115",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518399115', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2000654, 47.6120889] is not present in Nodes file"
             ]
@@ -8421,7 +8421,7 @@
             "id": "way/518399113",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -8450,7 +8450,7 @@
             "id": "way/518399112",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.2013725, 47.6121136] is not present in Nodes file",
                 "Point [-122.2014046, 47.6121267] is not present in Nodes file"
             ]
@@ -8483,7 +8483,7 @@
             "id": "way/518399111",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "{'@id': 'way/518399111', 'footway': 'sidewalk', 'highway': 'footway', 'incline': 'down', 'project': 'opensidewalks', 'surface': 'concrete', 'tactile_paving': 'yes', 'wheelchair': 'yes'} missing required supporting tags",
                 "Point [-122.2001079, 47.6137351] is not present in Nodes file"
             ]
@@ -8520,7 +8520,7 @@
             "id": "way/518399110",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag"
+                "'@id', is not a valid OSW tag"
             ]
         },
         {
@@ -8560,7 +8560,7 @@
             "id": "way/517798600",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -8608,7 +8608,7 @@
             "id": "way/517798597",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.2017055, 47.6119223] is not present in Nodes file"
             ]
         },
@@ -8716,7 +8716,7 @@
             "id": "way/479656684",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -8751,9 +8751,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2015294, 47.6131968] is not present in Nodes file",
+                "Point [-122.2021867, 47.6131956] is not present in Nodes file",
                 "Point [-122.2016687, 47.6131971] is not present in Nodes file",
-                "Point [-122.2021867, 47.6131956] is not present in Nodes file"
+                "Point [-122.2015294, 47.6131968] is not present in Nodes file"
             ]
         },
         {
@@ -8884,33 +8884,33 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1974301, 47.6118484] is not present in Nodes file",
-                "Point [-122.1962918, 47.6103023] is not present in Nodes file",
-                "Point [-122.1974194, 47.6112417] is not present in Nodes file",
-                "Point [-122.1974301, 47.6116278] is not present in Nodes file",
-                "Point [-122.1963541, 47.6118737] is not present in Nodes file",
-                "Point [-122.197414, 47.6110735] is not present in Nodes file",
-                "Point [-122.196347, 47.6118391] is not present in Nodes file",
-                "Point [-122.1964334, 47.6119224] is not present in Nodes file",
-                "Point [-122.197406, 47.6104642] is not present in Nodes file",
-                "Point [-122.1962999, 47.6102712] is not present in Nodes file",
-                "Point [-122.1969695, 47.611929] is not present in Nodes file",
-                "Point [-122.1974529, 47.6114903] is not present in Nodes file",
-                "Point [-122.1974331, 47.6113932] is not present in Nodes file",
-                "Point [-122.1973912, 47.6102644] is not present in Nodes file",
-                "Point [-122.1973795, 47.6119117] is not present in Nodes file",
-                "Point [-122.1974246, 47.6112995] is not present in Nodes file",
-                "Point [-122.197215, 47.611932] is not present in Nodes file",
-                "Point [-122.1970423, 47.6119299] is not present in Nodes file",
-                "Point [-122.1974344, 47.6114072] is not present in Nodes file",
-                "Point [-122.1963741, 47.6119014] is not present in Nodes file",
-                "Point [-122.1974141, 47.6110622] is not present in Nodes file",
-                "Point [-122.1973577, 47.6102291] is not present in Nodes file",
-                "Point [-122.1974174, 47.6111788] is not present in Nodes file",
-                "Point [-122.1973197, 47.6119333] is not present in Nodes file",
                 "Point [-122.1974167, 47.6108547] is not present in Nodes file",
+                "Point [-122.1963541, 47.6118737] is not present in Nodes file",
+                "Point [-122.1973795, 47.6119117] is not present in Nodes file",
+                "Point [-122.1974141, 47.6110622] is not present in Nodes file",
+                "Point [-122.1973197, 47.6119333] is not present in Nodes file",
+                "Point [-122.1969695, 47.611929] is not present in Nodes file",
+                "Point [-122.197414, 47.6110735] is not present in Nodes file",
+                "Point [-122.1974344, 47.6114072] is not present in Nodes file",
+                "Point [-122.1974194, 47.6112417] is not present in Nodes file",
+                "Point [-122.1970423, 47.6119299] is not present in Nodes file",
+                "Point [-122.1974529, 47.6114903] is not present in Nodes file",
+                "Point [-122.1973577, 47.6102291] is not present in Nodes file",
+                "Point [-122.1964334, 47.6119224] is not present in Nodes file",
+                "Point [-122.1973912, 47.6102644] is not present in Nodes file",
                 "Point [-122.1973554, 47.6119246] is not present in Nodes file",
-                "Point [-122.1964012, 47.6119163] is not present in Nodes file"
+                "Point [-122.1974246, 47.6112995] is not present in Nodes file",
+                "Point [-122.1962999, 47.6102712] is not present in Nodes file",
+                "Point [-122.196347, 47.6118391] is not present in Nodes file",
+                "Point [-122.1974301, 47.6118484] is not present in Nodes file",
+                "Point [-122.197406, 47.6104642] is not present in Nodes file",
+                "Point [-122.1963741, 47.6119014] is not present in Nodes file",
+                "Point [-122.1974301, 47.6116278] is not present in Nodes file",
+                "Point [-122.1964012, 47.6119163] is not present in Nodes file",
+                "Point [-122.197215, 47.611932] is not present in Nodes file",
+                "Point [-122.1962918, 47.6103023] is not present in Nodes file",
+                "Point [-122.1974331, 47.6113932] is not present in Nodes file",
+                "Point [-122.1974174, 47.6111788] is not present in Nodes file"
             ]
         },
         {
@@ -8936,8 +8936,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.197512, 47.6114601] is not present in Nodes file",
-                "Point [-122.1979558, 47.6114596] is not present in Nodes file"
+                "Point [-122.1979558, 47.6114596] is not present in Nodes file",
+                "Point [-122.197512, 47.6114601] is not present in Nodes file"
             ]
         },
         {
@@ -9023,23 +9023,23 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1980755, 47.611423] is not present in Nodes file",
-                "Point [-122.1980519, 47.6114131] is not present in Nodes file",
-                "Point [-122.197975, 47.6114252] is not present in Nodes file",
-                "Point [-122.1980935, 47.6114749] is not present in Nodes file",
-                "Point [-122.1980019, 47.6115029] is not present in Nodes file",
                 "Point [-122.1980917, 47.6114382] is not present in Nodes file",
-                "Point [-122.1980246, 47.6114101] is not present in Nodes file",
-                "Point [-122.1980563, 47.6115017] is not present in Nodes file",
                 "Point [-122.1979621, 47.6114778] is not present in Nodes file",
-                "Point [-122.1980292, 47.6115059] is not present in Nodes file",
-                "Point [-122.1979558, 47.6114596] is not present in Nodes file",
-                "Point [-122.1979783, 47.611493] is not present in Nodes file",
-                "Point [-122.198098, 47.6114564] is not present in Nodes file",
-                "Point [-122.198098, 47.6114564] is not present in Nodes file",
+                "Point [-122.1980935, 47.6114749] is not present in Nodes file",
+                "Point [-122.197975, 47.6114252] is not present in Nodes file",
                 "Point [-122.1980788, 47.6114908] is not present in Nodes file",
                 "Point [-122.1979603, 47.6114411] is not present in Nodes file",
-                "Point [-122.1979975, 47.6114143] is not present in Nodes file"
+                "Point [-122.1980292, 47.6115059] is not present in Nodes file",
+                "Point [-122.1980519, 47.6114131] is not present in Nodes file",
+                "Point [-122.1980246, 47.6114101] is not present in Nodes file",
+                "Point [-122.198098, 47.6114564] is not present in Nodes file",
+                "Point [-122.198098, 47.6114564] is not present in Nodes file",
+                "Point [-122.1979558, 47.6114596] is not present in Nodes file",
+                "Point [-122.1980019, 47.6115029] is not present in Nodes file",
+                "Point [-122.1980563, 47.6115017] is not present in Nodes file",
+                "Point [-122.1980755, 47.611423] is not present in Nodes file",
+                "Point [-122.1979975, 47.6114143] is not present in Nodes file",
+                "Point [-122.1979783, 47.611493] is not present in Nodes file"
             ]
         },
         {
@@ -9125,9 +9125,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1982953, 47.6138507] is not present in Nodes file",
-                "Point [-122.1967743, 47.6138234] is not present in Nodes file",
                 "Point [-122.1974018, 47.613846] is not present in Nodes file",
+                "Point [-122.1967743, 47.6138234] is not present in Nodes file",
+                "Point [-122.1982953, 47.6138507] is not present in Nodes file",
                 "Point [-122.1972494, 47.6138405] is not present in Nodes file"
             ]
         },
@@ -9165,7 +9165,7 @@
             "id": "way/427906891",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'lanes:backward', is not a valid OSW tag",
+                "'turn:lanes:backward', is not a valid OSW tag",
                 "Point [-122.1967743, 47.6138234] is not present in Nodes file"
             ]
         },
@@ -9207,8 +9207,8 @@
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
                 "Point [-122.2006726, 47.6101282] is not present in Nodes file",
-                "Point [-122.1997786, 47.6101246] is not present in Nodes file",
-                "Point [-122.2001575, 47.6101293] is not present in Nodes file"
+                "Point [-122.2001575, 47.6101293] is not present in Nodes file",
+                "Point [-122.1997786, 47.6101246] is not present in Nodes file"
             ]
         },
         {
@@ -9288,8 +9288,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2015294, 47.6131968] is not present in Nodes file",
-                "Point [-122.2015276, 47.6130499] is not present in Nodes file"
+                "Point [-122.2015276, 47.6130499] is not present in Nodes file",
+                "Point [-122.2015294, 47.6131968] is not present in Nodes file"
             ]
         },
         {
@@ -9358,8 +9358,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2014822, 47.6115819] is not present in Nodes file",
-                "Point [-122.2014838, 47.6116469] is not present in Nodes file"
+                "Point [-122.2014838, 47.6116469] is not present in Nodes file",
+                "Point [-122.2014822, 47.6115819] is not present in Nodes file"
             ]
         },
         {
@@ -9434,9 +9434,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.1962245, 47.6122564] is not present in Nodes file",
+                "Point [-122.196224, 47.6125823] is not present in Nodes file",
                 "Point [-122.19622, 47.6124085] is not present in Nodes file",
-                "Point [-122.196224, 47.6125823] is not present in Nodes file"
+                "Point [-122.1962245, 47.6122564] is not present in Nodes file"
             ]
         },
         {
@@ -9520,8 +9520,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.1962281, 47.6118076] is not present in Nodes file",
-                "Point [-122.1962303, 47.6119051] is not present in Nodes file"
+                "Point [-122.1962303, 47.6119051] is not present in Nodes file",
+                "Point [-122.1962281, 47.6118076] is not present in Nodes file"
             ]
         },
         {
@@ -9686,8 +9686,8 @@
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
                 "'shared_lane' is not one of ['lane'] that are allowed for cycleway:right",
-                "Point [-122.196209, 47.6109488] is not present in Nodes file",
-                "Point [-122.1961966, 47.6103883] is not present in Nodes file"
+                "Point [-122.1961966, 47.6103883] is not present in Nodes file",
+                "Point [-122.196209, 47.6109488] is not present in Nodes file"
             ]
         },
         {
@@ -9715,8 +9715,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
                 "'secondary_link' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
-                "Point [-122.2016188, 47.6113494] is not present in Nodes file",
-                "Point [-122.2014732, 47.6112501] is not present in Nodes file"
+                "Point [-122.2014732, 47.6112501] is not present in Nodes file",
+                "Point [-122.2016188, 47.6113494] is not present in Nodes file"
             ]
         },
         {
@@ -9762,9 +9762,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2015104, 47.6124751] is not present in Nodes file",
+                "Point [-122.2015256, 47.6128923] is not present in Nodes file",
                 "Point [-122.2015276, 47.6130499] is not present in Nodes file",
-                "Point [-122.2015256, 47.6128923] is not present in Nodes file"
+                "Point [-122.2015104, 47.6124751] is not present in Nodes file"
             ]
         },
         {
@@ -9914,8 +9914,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2014602, 47.6108073] is not present in Nodes file",
                 "Point [-122.2014315, 47.6100786] is not present in Nodes file",
+                "Point [-122.2014602, 47.6108073] is not present in Nodes file",
                 "Point [-122.201472, 47.611184] is not present in Nodes file"
             ]
         },
@@ -9987,7 +9987,7 @@
             "id": "way/385440219",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag"
+                "'wheelchair', is not a valid OSW tag"
             ]
         },
         {
@@ -10031,7 +10031,7 @@
             "id": "way/385354675",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'@id', is not a valid OSW tag",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1964065, 47.6138894] is not present in Nodes file"
             ]
         },
@@ -10063,8 +10063,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1982289, 47.6126535] is not present in Nodes file",
                 "Point [-122.1976976, 47.6126577] is not present in Nodes file",
+                "Point [-122.1982289, 47.6126535] is not present in Nodes file",
                 "Point [-122.1976045, 47.6126585] is not present in Nodes file"
             ]
         },
@@ -10096,9 +10096,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1976981, 47.6128188] is not present in Nodes file",
+                "Point [-122.1976976, 47.6126577] is not present in Nodes file",
                 "Point [-122.1982327, 47.612819] is not present in Nodes file",
-                "Point [-122.1976976, 47.6126577] is not present in Nodes file"
+                "Point [-122.1976981, 47.6128188] is not present in Nodes file"
             ]
         },
         {
@@ -10161,8 +10161,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1987959, 47.613225] is not present in Nodes file",
                 "Point [-122.1983993, 47.6132264] is not present in Nodes file",
+                "Point [-122.1987959, 47.613225] is not present in Nodes file",
                 "Point [-122.198905, 47.6132246] is not present in Nodes file"
             ]
         },
@@ -10211,11 +10211,11 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.199321, 47.6124152] is not present in Nodes file",
-                "Point [-122.1993787, 47.6119929] is not present in Nodes file",
                 "Point [-122.1988865, 47.6124118] is not present in Nodes file",
                 "Point [-122.1993657, 47.6123926] is not present in Nodes file",
-                "Point [-122.1993676, 47.612026] is not present in Nodes file"
+                "Point [-122.199321, 47.6124152] is not present in Nodes file",
+                "Point [-122.1993676, 47.612026] is not present in Nodes file",
+                "Point [-122.1993787, 47.6119929] is not present in Nodes file"
             ]
         },
         {
@@ -10274,9 +10274,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.1985566, 47.6101166] is not present in Nodes file",
                 "Point [-122.1985604, 47.6102214] is not present in Nodes file",
-                "Point [-122.1985666, 47.6103945] is not present in Nodes file",
-                "Point [-122.1985566, 47.6101166] is not present in Nodes file"
+                "Point [-122.1985666, 47.6103945] is not present in Nodes file"
             ]
         },
         {
@@ -10349,10 +10349,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.1986087, 47.6112204] is not present in Nodes file",
-                "Point [-122.1983788, 47.6112203] is not present in Nodes file",
                 "Point [-122.1987414, 47.6112204] is not present in Nodes file",
-                "Point [-122.1988544, 47.6112204] is not present in Nodes file"
+                "Point [-122.1988544, 47.6112204] is not present in Nodes file",
+                "Point [-122.1986087, 47.6112204] is not present in Nodes file",
+                "Point [-122.1983788, 47.6112203] is not present in Nodes file"
             ]
         },
         {
@@ -10393,8 +10393,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
                 "Point [-122.200218, 47.6133461] is not present in Nodes file",
-                "Point [-122.1995645, 47.6133721] is not present in Nodes file",
                 "Point [-122.2000111, 47.6133749] is not present in Nodes file",
+                "Point [-122.1995645, 47.6133721] is not present in Nodes file",
                 "Point [-122.2000629, 47.6133481] is not present in Nodes file"
             ]
         },
@@ -10435,10 +10435,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.2000639, 47.6132968] is not present in Nodes file",
                 "Point [-122.2002176, 47.6132956] is not present in Nodes file",
                 "Point [-122.200004, 47.613281] is not present in Nodes file",
-                "Point [-122.1995635, 47.6132803] is not present in Nodes file"
+                "Point [-122.1995635, 47.6132803] is not present in Nodes file",
+                "Point [-122.2000639, 47.6132968] is not present in Nodes file"
             ]
         },
         {
@@ -10511,16 +10511,16 @@
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
                 "Point [-122.1995681, 47.6137023] is not present in Nodes file",
-                "Point [-122.1999224, 47.6137031] is not present in Nodes file",
                 "Point [-122.200066, 47.613648] is not present in Nodes file",
-                "Point [-122.2000286, 47.6136897] is not present in Nodes file",
-                "Point [-122.2000741, 47.6135795] is not present in Nodes file",
                 "Point [-122.1999994, 47.6136991] is not present in Nodes file",
-                "Point [-122.200091, 47.6135651] is not present in Nodes file",
                 "Point [-122.2000531, 47.6136739] is not present in Nodes file",
-                "Point [-122.2000706, 47.6136063] is not present in Nodes file",
+                "Point [-122.1999224, 47.6137031] is not present in Nodes file",
+                "Point [-122.2000741, 47.6135795] is not present in Nodes file",
+                "Point [-122.200091, 47.6135651] is not present in Nodes file",
+                "Point [-122.2002199, 47.6135668] is not present in Nodes file",
+                "Point [-122.2000286, 47.6136897] is not present in Nodes file",
                 "Point [-122.1999644, 47.6137023] is not present in Nodes file",
-                "Point [-122.2002199, 47.6135668] is not present in Nodes file"
+                "Point [-122.2000706, 47.6136063] is not present in Nodes file"
             ]
         },
         {
@@ -10609,15 +10609,15 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1947231, 47.6119946] is not present in Nodes file",
                 "Point [-122.1959257, 47.6116603] is not present in Nodes file",
-                "Point [-122.1962245, 47.6116619] is not present in Nodes file",
+                "Point [-122.1955993, 47.6116582] is not present in Nodes file",
                 "Point [-122.1961028, 47.6116606] is not present in Nodes file",
                 "Point [-122.1961217, 47.6116608] is not present in Nodes file",
+                "Point [-122.1947231, 47.6119946] is not present in Nodes file",
                 "Point [-122.1948504, 47.6116618] is not present in Nodes file",
-                "Point [-122.1955993, 47.6116582] is not present in Nodes file",
-                "Point [-122.194723, 47.611927] is not present in Nodes file",
                 "Point [-122.194723, 47.6119203] is not present in Nodes file",
+                "Point [-122.1962245, 47.6116619] is not present in Nodes file",
+                "Point [-122.194723, 47.611927] is not present in Nodes file",
                 "Point [-122.1947227, 47.6116609] is not present in Nodes file"
             ]
         },
@@ -10724,28 +10724,28 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1953646, 47.610958] is not present in Nodes file",
-                "Point [-122.195873, 47.6109843] is not present in Nodes file",
-                "Point [-122.1955406, 47.6109845] is not present in Nodes file",
-                "Point [-122.1957707, 47.6109844] is not present in Nodes file",
-                "Point [-122.1962098, 47.6109841] is not present in Nodes file",
-                "Point [-122.1947663, 47.6105745] is not present in Nodes file",
-                "Point [-122.1956621, 47.6109844] is not present in Nodes file",
-                "Point [-122.1938692, 47.610575] is not present in Nodes file",
-                "Point [-122.1960963, 47.6109842] is not present in Nodes file",
-                "Point [-122.1961066, 47.6109842] is not present in Nodes file",
-                "Point [-122.1952401, 47.6108897] is not present in Nodes file",
                 "Point [-122.1947667, 47.6108899] is not present in Nodes file",
-                "Point [-122.1940792, 47.6105749] is not present in Nodes file",
-                "Point [-122.1942892, 47.6105747] is not present in Nodes file",
-                "Point [-122.1954511, 47.6109752] is not present in Nodes file",
-                "Point [-122.1938169, 47.610575] is not present in Nodes file",
                 "Point [-122.1937417, 47.610575] is not present in Nodes file",
+                "Point [-122.1955406, 47.6109845] is not present in Nodes file",
+                "Point [-122.1947663, 47.6105745] is not present in Nodes file",
                 "Point [-122.1936026, 47.6105751] is not present in Nodes file",
-                "Point [-122.1947665, 47.6107451] is not present in Nodes file",
+                "Point [-122.1952995, 47.6109301] is not present in Nodes file",
                 "Point [-122.1944991, 47.6105746] is not present in Nodes file",
+                "Point [-122.1954511, 47.6109752] is not present in Nodes file",
+                "Point [-122.1956621, 47.6109844] is not present in Nodes file",
+                "Point [-122.1938169, 47.610575] is not present in Nodes file",
+                "Point [-122.1961066, 47.6109842] is not present in Nodes file",
                 "Point [-122.1947663, 47.6106003] is not present in Nodes file",
-                "Point [-122.1952995, 47.6109301] is not present in Nodes file"
+                "Point [-122.1940792, 47.6105749] is not present in Nodes file",
+                "Point [-122.1957707, 47.6109844] is not present in Nodes file",
+                "Point [-122.1960963, 47.6109842] is not present in Nodes file",
+                "Point [-122.1947665, 47.6107451] is not present in Nodes file",
+                "Point [-122.1962098, 47.6109841] is not present in Nodes file",
+                "Point [-122.1952401, 47.6108897] is not present in Nodes file",
+                "Point [-122.1953646, 47.610958] is not present in Nodes file",
+                "Point [-122.1942892, 47.6105747] is not present in Nodes file",
+                "Point [-122.195873, 47.6109843] is not present in Nodes file",
+                "Point [-122.1938692, 47.610575] is not present in Nodes file"
             ]
         },
         {
@@ -10831,21 +10831,21 @@
             "id": "way/345607346",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'project', is not a valid OSW tag",
-                "Point [-122.1966566, 47.61211] is not present in Nodes file",
-                "Point [-122.1982285, 47.6120666] is not present in Nodes file",
-                "Point [-122.1976722, 47.6120613] is not present in Nodes file",
-                "Point [-122.1974751, 47.6120925] is not present in Nodes file",
-                "Point [-122.1966084, 47.6121014] is not present in Nodes file",
+                "'wheelchair', is not a valid OSW tag",
                 "Point [-122.1986636, 47.6121151] is not present in Nodes file",
-                "Point [-122.1964041, 47.6120748] is not present in Nodes file",
-                "Point [-122.1965686, 47.6120851] is not present in Nodes file",
-                "Point [-122.1964453, 47.612064] is not present in Nodes file",
                 "Point [-122.198334, 47.6120676] is not present in Nodes file",
-                "Point [-122.1965336, 47.6120687] is not present in Nodes file",
-                "Point [-122.1964924, 47.6120633] is not present in Nodes file",
+                "Point [-122.1964041, 47.6120748] is not present in Nodes file",
+                "Point [-122.1982285, 47.6120666] is not present in Nodes file",
                 "Point [-122.1975207, 47.6120649] is not present in Nodes file",
-                "Point [-122.197583, 47.6120617] is not present in Nodes file"
+                "Point [-122.1965336, 47.6120687] is not present in Nodes file",
+                "Point [-122.1976722, 47.6120613] is not present in Nodes file",
+                "Point [-122.1964453, 47.612064] is not present in Nodes file",
+                "Point [-122.1974751, 47.6120925] is not present in Nodes file",
+                "Point [-122.1964924, 47.6120633] is not present in Nodes file",
+                "Point [-122.1965686, 47.6120851] is not present in Nodes file",
+                "Point [-122.1966084, 47.6121014] is not present in Nodes file",
+                "Point [-122.197583, 47.6120617] is not present in Nodes file",
+                "Point [-122.1966566, 47.61211] is not present in Nodes file"
             ]
         },
         {
@@ -10899,8 +10899,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1980206, 47.6103933] is not present in Nodes file",
-                "Point [-122.1980178, 47.6102872] is not present in Nodes file"
+                "Point [-122.1980178, 47.6102872] is not present in Nodes file",
+                "Point [-122.1980206, 47.6103933] is not present in Nodes file"
             ]
         },
         {
@@ -10967,11 +10967,11 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1975984, 47.6106352] is not present in Nodes file",
                 "Point [-122.1980178, 47.6102872] is not present in Nodes file",
                 "Point [-122.1975956, 47.6102858] is not present in Nodes file",
-                "Point [-122.1981885, 47.6102875] is not present in Nodes file",
-                "Point [-122.1975917, 47.6103631] is not present in Nodes file"
+                "Point [-122.1975984, 47.6106352] is not present in Nodes file",
+                "Point [-122.1975917, 47.6103631] is not present in Nodes file",
+                "Point [-122.1981885, 47.6102875] is not present in Nodes file"
             ]
         },
         {
@@ -11018,13 +11018,13 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.1976405, 47.6106352] is not present in Nodes file",
+                "Point [-122.1976477, 47.6111586] is not present in Nodes file",
+                "Point [-122.1976476, 47.6111711] is not present in Nodes file",
+                "Point [-122.1976482, 47.6112203] is not present in Nodes file",
                 "Point [-122.1975984, 47.6106352] is not present in Nodes file",
                 "Point [-122.1976473, 47.6111486] is not present in Nodes file",
-                "Point [-122.1976482, 47.6112203] is not present in Nodes file",
-                "Point [-122.1974754, 47.6106352] is not present in Nodes file",
-                "Point [-122.1976405, 47.6106352] is not present in Nodes file",
-                "Point [-122.1976476, 47.6111711] is not present in Nodes file",
-                "Point [-122.1976477, 47.6111586] is not present in Nodes file"
+                "Point [-122.1974754, 47.6106352] is not present in Nodes file"
             ]
         },
         {
@@ -11055,8 +11055,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
                 "Point [-122.1974964, 47.6112203] is not present in Nodes file",
-                "Point [-122.1983788, 47.6112203] is not present in Nodes file",
-                "Point [-122.1976482, 47.6112203] is not present in Nodes file"
+                "Point [-122.1976482, 47.6112203] is not present in Nodes file",
+                "Point [-122.1983788, 47.6112203] is not present in Nodes file"
             ]
         },
         {
@@ -11087,9 +11087,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.1986087, 47.6112204] is not present in Nodes file",
+                "Point [-122.1986048, 47.6106307] is not present in Nodes file",
                 "Point [-122.1986069, 47.6109422] is not present in Nodes file",
-                "Point [-122.1986048, 47.6106307] is not present in Nodes file"
+                "Point [-122.1986087, 47.6112204] is not present in Nodes file"
             ]
         },
         {
@@ -11137,13 +11137,13 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
+                "Point [-122.1983818, 47.6109392] is not present in Nodes file",
+                "Point [-122.1986048, 47.6106307] is not present in Nodes file",
                 "Point [-122.1986421, 47.6106309] is not present in Nodes file",
                 "Point [-122.1983788, 47.6112203] is not present in Nodes file",
-                "Point [-122.1983818, 47.6109392] is not present in Nodes file",
-                "Point [-122.198385, 47.6106297] is not present in Nodes file",
-                "Point [-122.1987186, 47.6106313] is not present in Nodes file",
                 "Point [-122.1988373, 47.6106318] is not present in Nodes file",
-                "Point [-122.1986048, 47.6106307] is not present in Nodes file"
+                "Point [-122.198385, 47.6106297] is not present in Nodes file",
+                "Point [-122.1987186, 47.6106313] is not present in Nodes file"
             ]
         },
         {
@@ -11182,11 +11182,11 @@
             "id": "way/55480143",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'emergency', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [-122.1987292, 47.6109438] is not present in Nodes file",
-                "Point [-122.1982635, 47.6109376] is not present in Nodes file",
-                "Point [-122.1983818, 47.6109392] is not present in Nodes file",
                 "Point [-122.1988447, 47.6109454] is not present in Nodes file",
+                "Point [-122.1983818, 47.6109392] is not present in Nodes file",
+                "Point [-122.1982635, 47.6109376] is not present in Nodes file",
                 "Point [-122.1986069, 47.6109422] is not present in Nodes file"
             ]
         },
@@ -11286,10 +11286,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.2009172, 47.610605] is not present in Nodes file",
                 "Point [-122.2009172, 47.6103504] is not present in Nodes file",
                 "Point [-122.2011833, 47.610605] is not present in Nodes file",
-                "Point [-122.2011833, 47.6103504] is not present in Nodes file",
-                "Point [-122.2009172, 47.610605] is not present in Nodes file"
+                "Point [-122.2011833, 47.6103504] is not present in Nodes file"
             ]
         },
         {
@@ -11336,13 +11336,13 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2009172, 47.6103504] is not present in Nodes file",
-                "Point [-122.2008289, 47.6101705] is not present in Nodes file",
+                "Point [-122.2009172, 47.610605] is not present in Nodes file",
                 "Point [-122.2008354, 47.6102422] is not present in Nodes file",
+                "Point [-122.2009172, 47.6103504] is not present in Nodes file",
                 "Point [-122.2009172, 47.6112531] is not present in Nodes file",
+                "Point [-122.2008289, 47.6101705] is not present in Nodes file",
                 "Point [-122.2009172, 47.6109464] is not present in Nodes file",
-                "Point [-122.20084, 47.6102926] is not present in Nodes file",
-                "Point [-122.2009172, 47.610605] is not present in Nodes file"
+                "Point [-122.20084, 47.6102926] is not present in Nodes file"
             ]
         },
         {
@@ -11385,11 +11385,11 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
-                "Point [-122.2008571, 47.6113746] is not present in Nodes file",
-                "Point [-122.2009172, 47.6112531] is not present in Nodes file",
                 "Point [-122.2014732, 47.6112501] is not present in Nodes file",
                 "Point [-122.2002392, 47.6113746] is not present in Nodes file",
-                "Point [-122.2012011, 47.6112506] is not present in Nodes file"
+                "Point [-122.2008571, 47.6113746] is not present in Nodes file",
+                "Point [-122.2012011, 47.6112506] is not present in Nodes file",
+                "Point [-122.2009172, 47.6112531] is not present in Nodes file"
             ]
         },
         {
@@ -11421,8 +11421,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
                 "Point [-122.2012005, 47.6109464] is not present in Nodes file",
-                "Point [-122.2009172, 47.6109464] is not present in Nodes file",
-                "Point [-122.2012011, 47.6112506] is not present in Nodes file"
+                "Point [-122.2012011, 47.6112506] is not present in Nodes file",
+                "Point [-122.2009172, 47.6109464] is not present in Nodes file"
             ]
         },
         {
@@ -11454,8 +11454,8 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
                 "Point [-122.1974949, 47.6111779] is not present in Nodes file",
+                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
                 "Point [-122.1974174, 47.6111788] is not present in Nodes file"
             ]
         },
@@ -11496,11 +11496,11 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
-                "Point [-122.1974246, 47.6112995] is not present in Nodes file",
-                "Point [-122.1970101, 47.6112995] is not present in Nodes file",
                 "Point [-122.1969672, 47.6112705] is not present in Nodes file",
-                "Point [-122.1974993, 47.6112995] is not present in Nodes file"
+                "Point [-122.1974993, 47.6112995] is not present in Nodes file",
+                "Point [-122.1970101, 47.6112995] is not present in Nodes file",
+                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
+                "Point [-122.1974246, 47.6112995] is not present in Nodes file"
             ]
         },
         {
@@ -11540,11 +11540,11 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id', is not a valid OSW tag",
-                "Point [-122.1970358, 47.6110622] is not present in Nodes file",
-                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
                 "Point [-122.1974907, 47.6110622] is not present in Nodes file",
                 "Point [-122.1974141, 47.6110622] is not present in Nodes file",
-                "Point [-122.1969758, 47.6111027] is not present in Nodes file"
+                "Point [-122.1969758, 47.6111027] is not present in Nodes file",
+                "Point [-122.1969672, 47.6111837] is not present in Nodes file",
+                "Point [-122.1970358, 47.6110622] is not present in Nodes file"
             ]
         },
         {
@@ -11575,9 +11575,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
+                "Point [-122.1971302, 47.6113978] is not present in Nodes file",
                 "Point [-122.1975079, 47.6113921] is not present in Nodes file",
-                "Point [-122.1974331, 47.6113932] is not present in Nodes file",
-                "Point [-122.1971302, 47.6113978] is not present in Nodes file"
+                "Point [-122.1974331, 47.6113932] is not present in Nodes file"
             ]
         },
         {
@@ -11627,10 +11627,10 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2014943, 47.6101997] is not present in Nodes file",
                 "Point [-122.2017318, 47.6102191] is not present in Nodes file",
                 "Point [-122.2022271, 47.6101949] is not present in Nodes file",
-                "Point [-122.2020238, 47.6102189] is not present in Nodes file"
+                "Point [-122.2020238, 47.6102189] is not present in Nodes file",
+                "Point [-122.2014943, 47.6101997] is not present in Nodes file"
             ]
         },
         {
@@ -11678,9 +11678,9 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.2014943, 47.6101997] is not present in Nodes file",
+                "Point [-122.2009438, 47.6101855] is not present in Nodes file",
                 "Point [-122.2012756, 47.6101894] is not present in Nodes file",
-                "Point [-122.2009438, 47.6101855] is not present in Nodes file"
+                "Point [-122.2014943, 47.6101997] is not present in Nodes file"
             ]
         },
         {
@@ -11715,8 +11715,8 @@
                 "'id' is not a valid OSW tag",
                 "'@id' is not a valid OSW tag",
                 "Point [-122.2018969, 47.6124764] is not present in Nodes file",
-                "Point [-122.2015104, 47.6124751] is not present in Nodes file",
-                "Point [-122.2016368, 47.6124749] is not present in Nodes file"
+                "Point [-122.2016368, 47.6124749] is not present in Nodes file",
+                "Point [-122.2015104, 47.6124751] is not present in Nodes file"
             ]
         },
         {
@@ -11803,12 +11803,12 @@
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
                 "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
-                "Point [-122.1982953, 47.6138507] is not present in Nodes file",
-                "Point [-122.1982898, 47.6137605] is not present in Nodes file",
                 "Point [-122.1982285, 47.6120666] is not present in Nodes file",
-                "Point [-122.1982284, 47.6119933] is not present in Nodes file",
                 "Point [-122.1982289, 47.6126535] is not present in Nodes file",
-                "Point [-122.1982327, 47.612819] is not present in Nodes file"
+                "Point [-122.1982327, 47.612819] is not present in Nodes file",
+                "Point [-122.1982953, 47.6138507] is not present in Nodes file",
+                "Point [-122.1982284, 47.6119933] is not present in Nodes file",
+                "Point [-122.1982898, 47.6137605] is not present in Nodes file"
             ]
         },
         {
@@ -11861,13 +11861,13 @@
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
                 "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
-                "Point [-122.2001599, 47.610041] is not present in Nodes file",
-                "Point [-122.2001362, 47.6083854] is not present in Nodes file",
-                "Point [-122.200154, 47.6094079] is not present in Nodes file",
                 "Point [-122.2001428, 47.6087652] is not present in Nodes file",
-                "Point [-122.2001479, 47.6090589] is not present in Nodes file",
+                "Point [-122.2001362, 47.6083854] is not present in Nodes file",
                 "Point [-122.2001575, 47.6101293] is not present in Nodes file",
-                "Point [-122.200163, 47.6099266] is not present in Nodes file"
+                "Point [-122.200154, 47.6094079] is not present in Nodes file",
+                "Point [-122.2001599, 47.610041] is not present in Nodes file",
+                "Point [-122.200163, 47.6099266] is not present in Nodes file",
+                "Point [-122.2001479, 47.6090589] is not present in Nodes file"
             ]
         },
         {
@@ -11947,19 +11947,19 @@
             "fixme": [
                 "'id' is not a valid OSW tag",
                 "'tiger:name_base', is not a valid OSW tag",
-                "Point [-122.1974964, 47.6112203] is not present in Nodes file",
                 "Point [-122.1975079, 47.6113921] is not present in Nodes file",
-                "Point [-122.197512, 47.6114601] is not present in Nodes file",
-                "Point [-122.1974655, 47.6103593] is not present in Nodes file",
-                "Point [-122.197494, 47.6111525] is not present in Nodes file",
-                "Point [-122.1974754, 47.6106352] is not present in Nodes file",
-                "Point [-122.1974736, 47.6105846] is not present in Nodes file",
-                "Point [-122.1974907, 47.6110622] is not present in Nodes file",
-                "Point [-122.1975389, 47.6119067] is not present in Nodes file",
-                "Point [-122.1975439, 47.6119936] is not present in Nodes file",
-                "Point [-122.1974566, 47.6101107] is not present in Nodes file",
                 "Point [-122.1974949, 47.6111779] is not present in Nodes file",
-                "Point [-122.1974993, 47.6112995] is not present in Nodes file"
+                "Point [-122.1974907, 47.6110622] is not present in Nodes file",
+                "Point [-122.1974993, 47.6112995] is not present in Nodes file",
+                "Point [-122.1974964, 47.6112203] is not present in Nodes file",
+                "Point [-122.1975389, 47.6119067] is not present in Nodes file",
+                "Point [-122.197494, 47.6111525] is not present in Nodes file",
+                "Point [-122.1974566, 47.6101107] is not present in Nodes file",
+                "Point [-122.1975439, 47.6119936] is not present in Nodes file",
+                "Point [-122.1974655, 47.6103593] is not present in Nodes file",
+                "Point [-122.197512, 47.6114601] is not present in Nodes file",
+                "Point [-122.1974754, 47.6106352] is not present in Nodes file",
+                "Point [-122.1974736, 47.6105846] is not present in Nodes file"
             ]
         },
         {
@@ -12002,11 +12002,11 @@
             "id": "way/6344733",
             "fixme": [
                 "'id' is not a valid OSW tag",
-                "'parking:lanes:both', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "'unclassified' is not one of ['footway', 'cycleway', 'path', 'pedestrian', 'steps', 'secondary', 'tertiary', 'residential', 'service'] that are allowed for highway",
                 "Point [-122.1944294, 47.6124036] is not present in Nodes file",
-                "Point [-122.19622, 47.6124085] is not present in Nodes file",
                 "Point [-122.1936367, 47.6124013] is not present in Nodes file",
+                "Point [-122.19622, 47.6124085] is not present in Nodes file",
                 "Point [-122.1953809, 47.6124062] is not present in Nodes file"
             ]
         },
@@ -12061,7 +12061,7 @@
                 "'id' is not a valid OSW tag",
                 "'Polygon' is not one of ['LineString'] that are allowed for type",
                 "[[[-122.1972643, 47.6117121], [-122.1972084, 47.6117121], [-122.197137, 47.6117613], [-122.1971536, 47.6117763], [-122.1970666, 47.6118439], [-122.1971974, 47.6118761], [-122.1973569, 47.611779], [-122.1972643, 47.6117121]]]. LineString(Way) Geometry should contain atleast 2 coordinates",
-                "'area', is not a valid OSW tag",
+                "'@id', is not a valid OSW tag",
                 "Point [[-122.1972643, 47.6117121], [-122.1972084, 47.6117121], [-122.197137, 47.6117613], [-122.1971536, 47.6117763], [-122.1970666, 47.6118439], [-122.1971974, 47.6118761], [-122.1973569, 47.611779], [-122.1972643, 47.6117121]] is not present in Nodes file"
             ]
         }
