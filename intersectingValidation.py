@@ -38,10 +38,7 @@ def geometryFormat(geometryDatarow):
         except:
             return "invalid"
     if (geometryDatarow[0]["type"] == "Polygon"):
-        try:
-            return Polygon(geometryDatarow[0]["coordinates"])
-        except:
-            return "invalid"
+        return "invalid"
 
 
 def indexInvalidGeometryType(geometryData):
@@ -61,7 +58,7 @@ def brunnelcheck(x, skipTag):
         return False
 
 
-def geojsonWrite(path, invalidWays, originalGeoJsonFile,fileName):
+def geojsonWrite(path, invalidWays, originalGeoJsonFile, fileName):
     '''
     To write the given invalid ways in the GeoJson format
 
@@ -81,12 +78,12 @@ def geojsonWrite(path, invalidWays, originalGeoJsonFile,fileName):
     '''
     invalidPaths = originalGeoJsonFile.copy()
     invalidPaths['features'] = invalidWays
-    path = os.path.join(path,fileName)
-    with open(path+'.geojson', 'w') as fp:
+    path = os.path.join(path, fileName)
+    with open(path + '.geojson', 'w') as fp:
         json.dump(invalidPaths, fp, indent=4)
 
 
-def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
+def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf, fileName):
     featuresData = pd.DataFrame(geoJSONdata["features"])
     geometryData = pd.DataFrame(featuresData["geometry"])
     propertyData = pd.DataFrame(featuresData["properties"])
@@ -114,7 +111,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
     prog.update()
 
     for rowIdI, wayI in geometryDataFormat.iteritems():
-        prog.set_stat(rowIdI+1)
+        prog.set_stat(rowIdI + 1)
         # Update Progress Bar again
         prog.update()
         if (wayI == "invalid" or rowIdI in brunnelExist):
@@ -144,13 +141,11 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
                     if (len(appendPoints) > 1):
                         intersectingNodeGeoJSON.append(
                             {"type": "Feature", "geometry": {"type": "MultiPoint", "coordinates": appendPoints}})
+                    elif (len(appendPoints) == 0):
+                        continue
                     else:
                         intersectingNodeGeoJSON.append(
                             {"type": "Feature", "geometry": {"type": "Point", "coordinates": appendPoints[0]}})
-
-                else:
-                    print("Invalid format Support not given yet")
-                    exit(0)
 
                 if (len(violatingWayFeatures) == 0):
                     violatingWayFeatures = [geoJSONdata["features"][rowIdI]]
@@ -160,7 +155,7 @@ def intersectLineStringInValidFormat(geoJSONdata, skipTag, cf,fileName):
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdI])
                     violatingWayFeatures.append(geoJSONdata["features"][rowIdJ])
     fileName = fileName.split('.')[0]
-    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata,fileName+"_Missing_Intersection")
-    geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata,fileName+"_recommended_Intersections")
+    geojsonWrite(cf.writePath, violatingWayFeatures, geoJSONdata, fileName + "_Missing_Intersection")
+    geojsonWrite(cf.writePath, intersectingNodeGeoJSON, geoJSONdata, fileName + "_recommended_Intersections")
     prog.end()
 # return intersectingNodeGeoJSON, invalidWayGeoJSONFormat, violatingWayFeatures
